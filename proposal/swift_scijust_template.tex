@@ -1,0 +1,136 @@
+% TEMPLATE FROM:
+% NAME:		swift_scijust_template.tex
+% LANGUAGE:	LaTeX
+% AUTHOR:	Eleonora Troja, eleonora.troja@nasa.gov
+% CREATED:	2014-08-01
+% MODIFIED:	2015-08-01
+
+
+\documentclass[letterpaper,11pt]{article}
+%\documentclass[letterpaper,11pt,twocolumn]{article
+
+\usepackage{graphics,graphicx}
+%\usepackage{psfig}
+\usepackage{times}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% Page dimensions                       %%%%%
+%%%%% DO NOT CHANGE THE FOLLOWING 9 LINES!  %%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\setlength{\textwidth}{7in} 
+\setlength{\textheight}{9.5in}
+\setlength{\topmargin}{-0.2in} 
+\setlength{\oddsidemargin}{-0.2in}
+\setlength{\evensidemargin}{-0.2in} 
+\setlength{\headheight}{0in}
+\setlength{\headsep}{0in} 
+\setlength{\hoffset}{0in}
+\setlength{\voffset}{0in}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% Section heading format %%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\makeatletter
+\renewcommand{\section}{\@startsection%
+{section}{1}{0mm}{-\baselineskip}%
+{0.5\baselineskip}{\normalfont\Large\bfseries}}%
+\makeatother
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  NOTES:
+% 
+%  - THE SCIENTIFIC JUSTIFICATION MUST NOT EXCEED 4 PAGES!
+%     (The only exception are “Key Projects” and proposals in the "high redshift GRB" category which can have up to 6 pages)
+%
+%  - THE "BUDGET NARRATIVE" MUST BE LESS THAN 1 PAGE AND DOES  NOT  COUNT TOWARD THE ABOVE PAGE LIMIT
+%
+%  - IT IS STRONGLY RECOMMENDED TO USE A FONT SIZE OF 11pt OR LARGER.
+%
+%  - Do NOT include a CV, current and pending support, or any other supporting information 
+%
+%  - THE PROPOSAL MUST BE SUBMITTED AS A PDF  FILE:
+%
+%  latex swift_scijust_template.tex
+%  dvips swift_scijust_template -o swift_scijust_template.ps
+%  ps2pdf swift_scijust_template.ps swift_scijust_template.pdf
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\pagestyle{plain}
+\pagenumbering{arabic}
+
+\begin{center} 
+\bfseries\uppercase{Measuring the Milky Way}
+\end{center}
+\vspace{-0.3cm}
+\centerline{\bf Names: {A. Author} \& {C. Mutnik}}
+ 
+\noindent {\bf 1. Abstract}
+\smallskip\\
+Your concise abstract goes here. Please use the same abstract as in the Remote Proposal System (RPS) form. \\
+
+
+
+
+
+\noindent {\bf 2. Description of the Proposed Program}
+\smallskip\\
+\noindent {\it A) Scientific Rationale:}
+\smallskip\\
+Give the scientific background of your proposed study.
+
+\noindent {\it B) Immediate Objective:}
+\smallskip\\
+State what you are proposing to observe and what the goals of the proposed study are. \\
+
+\noindent {\bf 3. Scientific Justification of Requested Observing Time, Feasibility, and Visibility}
+\smallskip\\
+~[TEXT]\\
+
+\noindent {\bf 4. Technical Justification of Duplication} %Only for observing proposals
+\smallskip\\
+It is the responsibility of the proposers to check the proposed observations against 
+the catalog of previously executed observations or accepted programs. 
+If any duplication exists, it must be identified and justified in the proposal.\\
+
+\noindent {\bf 5. Report on Previous Swift and Related Programs}
+\smallskip\\
+Here you can report on previous studies (with Swift or non-Swift) that are related to this proposal. \\
+If you had a proposal accepted during the past 3 Swift Cycles (Cycle 9, 10, 11), you MUST give results here. \\
+
+\noindent {\bf 6. References}
+\smallskip\\
+{\small
+Author1 A.\ et al., YYYY, Journal, Vol., page \\
+}
+
+\noindent {\bf 7. Budget Narrative} % Only for funding proposal
+\smallskip\\
+If you request funds, give a description of how the funds will be used and the scale of workforce needed 
+to carry out the investigation. Give sufficient details and actual numbers to allow us to judge your effort. 
+The page limit of the Budget Narrative section is 1-page, which will NOT count toward the overall page limit of your proposal. 
+
+
+%-----------------------------Figure Start------------------------------
+\begin{figure}[htp!]
+\begin{center}
+\hbox{
+%%uncomment the following line to include your fig1a.ps postscript file:
+%\psfig{figure=fig1a.ps,height=4.0cm,width=8.0cm,angle=0}
+\hspace{0.5cm}
+% un-comment the following line to include your fig1b.ps postscript file:
+%\psfig{figure=fig1b.ps,height=4.0cm,width=7.0cm,angle=0}
+}
+\end{center}
+\caption{\footnotesize
+{{\it Left panel}: here you see...
+{\it Right panel}: here you see...}}
+\label{fig1}
+\end{figure}
+%-----------------------------Figure End--------------------------------
+
+\end{document}
