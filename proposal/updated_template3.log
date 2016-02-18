@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  18 FEB 2016 08:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  18 FEB 2016 08:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -202,16 +202,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 133--134
 
  []
 
+[1
+
+{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 170.
+
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 170.
- [1
 
-{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 <figures/PL_relation.png, id=11, 377.41pt x 431.6125pt>
 File: figures/PL_relation.png Graphic file (type png)
 
@@ -246,12 +248,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 240--242
 
  []
 
-
+[2]
 Underfull \hbox (badness 10000) in paragraph at lines 243--245
 
  []
 
-[2]
+
 Underfull \hbox (badness 10000) in paragraph at lines 246--248
 
  []
@@ -304,7 +306,7 @@ s/cm/cmsy6.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmsy8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmb8a.p
 fb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/l
 ocal/texlive/2014/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on updated_template3.pdf (4 pages, 544247 bytes).
+Output written on updated_template3.pdf (4 pages, 544268 bytes).
 PDF statistics:
  81 PDF objects out of 1000 (max. 8388607)
  54 compressed objects within 1 object stream
