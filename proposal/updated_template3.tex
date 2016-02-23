@@ -8,10 +8,21 @@
 \usepackage{graphics,graphicx}
 %\usepackage{psfig}
 \usepackage{times}
-\usepackage{float}	% allows use of 'H' command
+\usepackage{float}		% allows use of 'H' command
 %\usepackage[demo]{graphicx}
 %\usepackage{caption}
 \usepackage{subcaption}
+
+
+\usepackage{hyperref}	% needed to add hyperlinks
+\usepackage{url}		% for tilda symbol
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue,
+  filecolor=magenta,
+  urlcolor=cyan,
+  %pdfnewwindow=true,
+}
 
 
 
@@ -142,11 +153,34 @@
 
 Using various data reduction techniques, we will measure the size, shape, and age of the Milky Way galaxy's spiral arms.
 % can report variable stars to AAVSO:
-% https://www.aavso.org/how-report-new-variable-star-discoveries
+% \url{https://www.aavso.org/how-report-new-variable-star-discoveries}
 
 \end{Frame}
 ~\\
+
+
 \section*{TELESCOPE TIME REQUESTED}
+
+\begin{table}[H]\label{tab:request-telescope-time}
+	\begin{center}
+		%\caption{\it \small{[title]}}
+		\resizebox{\columnwidth}{!}{%
+	\begin{tabular}{ | c | c | c | c | c | c | } \hline
+		Run & Program & Telescope & Instrument & Nights (n) or hours (h) & Observers' initials \\ \hline
+		1 & A & Pathfinder & & 10.3~h & DH \& CM \\ \hline
+		%2 & ~ & ~ & ~ & ~ \\ \hline
+		%3 & ~ & ~ & ~ & ~ \\ \hline
+		%4 & ~ & ~ & ~ & ~ \\ \hline
+		%5 & ~ & ~ & ~ & ~ \\ \hline
+		%6 & ~ & ~ & ~ & ~ \\ \hline
+		%7 & ~ & ~ & ~ & ~ \\ \hline
+		%8 & ~ & ~ & ~ & ~ \\ \hline
+		%9 & ~ & ~ & ~ & ~ \\ \hline
+	\end{tabular}
+	}
+	\end{center}
+\end{table}
+
 
 \section*{COLLABORATORS}
 \begin{table}[H]\label{tab:collabs}
@@ -157,7 +191,7 @@ Using various data reduction techniques, we will measure the size, shape, and ag
 		Name & Institution & E-mail & Program(s) \\ \hline
 		 John L. Tonry & IfA & jt@ifa.hawaii.edu & A \\ \hline
 		 Conor McPartland & IfA & conormcp@ifa.hawaii.edu & A \\ \hline
-		 Marielle & UH & msdelacr@hawaii.edu & A \\ \hline
+		 Marielle Dela Cruz & UH & msdelacr@hawaii.edu & A \\ \hline
 		 Jeff Kleyner & UH & jeff2012@hawaii.edu & A \\ \hline
 		 & & & \\ \hline
 		 & & & \\ \hline
@@ -178,7 +212,7 @@ To determine the size and shape of particular spiral arms, variable star distrib
 %Distributions of variable stars allows for the determination of both size and shape of 
 In observed regions, the density of variable stars will give insight into the age (\textit{and star formation epoch?}) of our galaxy.  The distance to each star will be calculated using the distance modulus,
 \begin{center}
-$d = 10^{(m - M + 5)/5}$
+$d = 10^{(m - M + 5)/5},$
 \end{center}
 where d is the distance in $parsecs$, m is the apparent magnitude, and M is the absolute magnitude.
 
@@ -200,12 +234,12 @@ Variable stars comprising less than 1\% of all observable stars Allen et al. (20
 \subsection{Scientific Rationale}
 %~\\ Data Processing
 %\begin{itemize}
-	%\item{} how we pick variable stars (RR Lyrae, Type 1 Cephedis, and Type 2 Cephedis) from gri data
+	%\item{} how we pick variable stars (RR Lyrae, Type 1 Cepheid, and Type 2 Cepheid) from gri data
 	%\item{} distinguished by unique light curves
 	%\item{} \# var stars is less than 1\% of total stars - this is how we will deal with vast amount of data
 	%\item{} ref - `stellar classifications' on wikipedia
 %\end{itemize}
-Of the different types of variable stars, we will focus on RR Lyrae, Type 1 Cephedis, and Type 2 Cephedis.  These pulsating variables have well established absolute magnitudes B. et al. (2012).  From this the luminosity is known, permitting the distance to each star to be calculated using Period-Luminosity (PL) relationship.
+Of the different types of variable stars, we will focus on RR Lyrae, Type 1 Cepheid, and Type 2 Cepheid.  These pulsating variables have well established absolute magnitudes B. et al. (2012).  From this the luminosity is known, permitting the distance to each star to be calculated using Period-Luminosity (PL) relationship.
 
 \subsubsection{RR Lyrae}
 RR Lyrae have short periods, $1.5 - 24$ hours, and are generally classified as stars with spectral type A.  On average, absolute magnitudes of RR Lyrae stars fall between 0.6-0.7 Tsujimoto et al. (1998). Using the distance modulus assuming no ISM extinction yields the upper limit on RR Lyrae distance measurements of $7.9$ kpc with $m=15$ (photometric accuracy of $4\%$). Figure~\ref{fig:plrelationrrlyrae} shows the PL relationship for variable stars classified as RR Lyrae Ngeow et al. (1998) (\textit{how do we calibrate different band passes?}). Since the typical age of RR Lyrae is 10 Gyr, it can be used as the lower limit of the age of spiral arms.  
@@ -217,9 +251,9 @@ RR Lyrae have short periods, $1.5 - 24$ hours, and are generally classified as s
 \end{figure}
 
 
-\subsubsection{Cephedis}
+\subsubsection{Cepheid}
 
-Other variable stars that will be identified are Cephedis Type 1 and Cephedis Type 2.  A typical pulsation period of Cephedis star is $1 - 50$ days Ryden et al. (2010).  These sugergiants span the F, G, and K spectral classes, with average absolute magnitudes between $M=-0.5$ and $M=-6$ Ryden et al. (2010).  The PL relation of Cephedis Type 1 and Cephedis Type 2 is shown in Figure~\ref{fig:cephPL}. From the PL relation we can extract distances Ngeow et al. (2013). Using $m=15$, 30 $s$ exposures will allow for photometric accuracy of 4\%.  A Hertzsprung-Russell diagram of pulsating variable stars is shown by Figure~\ref{fig:var-star-hr} Turner et al. (2012). \textit{Relatively young, star formation epoch?}
+Other variable stars that will be identified are Cepheid Type 1 and Cepheid Type 2.  A typical pulsation period of Cepheid star is $1 - 50$ days Ryden et al. (2010).  These sugergiants span the F, G, and K spectral classes, with average absolute magnitudes between $M=-0.5$ and $M=-6$ Ryden et al. (2010).  The PL relation of Cepheid Type 1 and Cepheid Type 2 is shown in Figure~\ref{fig:cephPL}. From the PL relation we can extract distances Ngeow et al. (2013). Using $m=15$, 30 $s$ exposures will allow for photometric accuracy of 4\%.  A Hertzsprung-Russell diagram of pulsating variable stars is shown by Figure~\ref{fig:var-star-hr} Turner et al. (2012). \textit{Relatively young, star formation epoch?}
 
 
 %\begin{itemize}
@@ -243,17 +277,17 @@ Other variable stars that will be identified are Cephedis Type 1 and Cephedis Ty
 \centering
 \begin{subfigure}{.5\textwidth}
   \centering
-  \includegraphics[width=.4\linewidth]{figures/Ngeow1_fig}
+  \includegraphics[width=.9\linewidth]{figures/Ngeow1_fig}
   \caption{Period-Luminosity relationship.}
-  \label{fig:plrelationrrlyrae}
+  \label{fig:cephPL}
 \end{subfigure}%
 \begin{subfigure}{.5\textwidth}
   \centering
-  \includegraphics[width=.4\linewidth]{figures/var_star_HR.png}
+  \includegraphics[width=.9\linewidth]{figures/var_star_HR.png}
   \caption{HR-Diagram of pulsating variable stars.}
   \label{fig:var-star-hr}
 \end{subfigure}
-\caption{Cephedis Type 1 and Cephedis Type 2 stars.}
+\caption{Cepheid Type 1 and Cepheid Type 2 stars.}
 \label{fig:test}
 \end{figure}
 
@@ -261,7 +295,7 @@ Other variable stars that will be identified are Cephedis Type 1 and Cephedis Ty
 \begin{figure}[H]%[htb!]
   \begin{center}
 \centerline{\includegraphics[width=3in]{figures/Ngeow1_fig}}
-\caption{\it \small{Period to Luminosity relations of Cephedis stars. \label{fig:cephPL}}}
+\caption{\it \small{Period to Luminosity relations of Cepheid stars. \label{fig:cephPL}}}
   \end{center}
 \end{figure}
 
@@ -284,14 +318,14 @@ Near the galactic center, ISM is dense, and the number density of stars is high,
 \end{figure}
 
 
-
+\clearpage
 \section*{References}
 
 \noindent\smallskip{\small
-Allen, S.\ et al., 2016. (n.d.). The Classification of Stellar Spectra. Retrieved February 15, 2016, from $http://www.star.ucl.ac.uk/~pac/spectral_classification.html$ \\}
+Allen, S.\ et al., 2016. (n.d.). The Classification of Stellar Spectra. Retrieved February 15, 2016, from \url{http://www.star.ucl.ac.uk/~pac/spectral_classification.html} \\}
 
 \noindent\smallskip{\small
-B.\ et al., 2012. Types of Variables | AAVSO. Retrieved February 16, 2016, from https://www.aavso.org/types-variables \\}
+B.\ et al., 2012. Types of Variables | AAVSO. Retrieved February 16, 2016, from \url{https://www.aavso.org/types-variables} \\}
 
 \noindent\smallskip{\small
 Nakanishi, H. and Sofue, Y., 2015. Three-Dimensional Distribution of the ISM in the Milky Way Galaxy: III. The Total Neutral Gas Disk. \textit{Publ. Astron. Soc. Japan (2014) 00(0), 1–14}. Retrieved February 15, 2016. \\}
@@ -308,10 +342,10 @@ Ryden, B.\  et al., 2010. Foundations of astrophysics. San Francisco: Addison-We
 Tsujimoto\ et al., 1998. The Absolute Magnitude of RR Lyrae Stars Derived from the [ITAL]Hipparcos[/ITAL] Catalogue. \textit{The Astrophysical Journal, 492}(1). Retrieved February 15, 2016. \\}
 
 \noindent\smallskip{\small
-Turner, R.\ et al., 2012. H-R Diagram Education Materials | AAVSO. Retrieved February 14, 2016, from https://www.aavso.org/hr-diagram-education-materials \\}
+Turner, R.\ et al., 2012. H-R Diagram Education Materials | AAVSO. Retrieved February 14, 2016, from \url{https://www.aavso.org/hr-diagram-education-materials} \\}
 
 
-
+\clearpage
 \section*{TECHNICAL JUSTIFICATION}
 
 
