@@ -1,10 +1,10 @@
 # Fdb version 3
-["pdflatex"] 1456227833 "updated_template3.tex" "updated_template3.pdf" "updated_template3" 1456227834
+["pdflatex"] 1456264585 "proposal_measure_milky_way_draft1.tex" "proposal_measure_milky_way_draft1.pdf" "proposal_measure_milky_way_draft1" 1456264585
   "./figures/Gas.png" 1455830842 168310 64e0ecfd50e1af97a30fa375d760ff74 ""
   "./figures/Ngeow1_fig.png" 1455842765 70647 fec0ff92216e58b7b7bfc050dcd86120 ""
   "./figures/PL_relation.png" 1455830842 115966 73c5f3495a41678da14fb155fa8fafb5 ""
   "./figures/var_star_HR.png" 1455830842 187981 2c405807518cc8ae51faa24901440de7 ""
-  "./updated_template3.out" 1456227834 329 cca0f7505d4dcbfa50a36d9113bb8c1a ""
+  "./proposal_measure_milky_way_draft1.out" 1456264585 329 cca0f7505d4dcbfa50a36d9113bb8c1a ""
   "/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2015/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm" 1136768653 960 379cc0019370a9e0208a0a3f949f847a ""
@@ -89,11 +89,11 @@
   "figures/Ngeow1_fig.png" 1455842765 70647 fec0ff92216e58b7b7bfc050dcd86120 ""
   "figures/PL_relation.png" 1455830842 115966 73c5f3495a41678da14fb155fa8fafb5 ""
   "figures/var_star_HR.png" 1455830842 187981 2c405807518cc8ae51faa24901440de7 ""
-  "updated_template3.aux" 1456227834 3661 fcd25dbc63d85c7c232447db0fc3281a ""
-  "updated_template3.out" 1456227834 329 cca0f7505d4dcbfa50a36d9113bb8c1a ""
-  "updated_template3.tex" 1456227832 15371 f03cddbc65e48de9721c502561e5fd80 ""
+  "proposal_measure_milky_way_draft1.aux" 1456264585 3661 fcd25dbc63d85c7c232447db0fc3281a ""
+  "proposal_measure_milky_way_draft1.out" 1456264585 329 cca0f7505d4dcbfa50a36d9113bb8c1a ""
+  "proposal_measure_milky_way_draft1.tex" 1456227832 15371 f03cddbc65e48de9721c502561e5fd80 ""
   (generated)
-  "updated_template3.aux"
-  "updated_template3.pdf"
-  "updated_template3.log"
-  "updated_template3.out"
+  "proposal_measure_milky_way_draft1.out"
+  "proposal_measure_milky_way_draft1.pdf"
+  "proposal_measure_milky_way_draft1.log"
+  "proposal_measure_milky_way_draft1.aux"
