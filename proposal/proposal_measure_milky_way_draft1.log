@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  23 FEB 2016 11:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  24 FEB 2016 16:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -364,51 +364,60 @@ Underfull \hbox (badness 10000) in paragraph at lines 159--160
 File: figures/PL_relation.png Graphic file (type png)
 
 <use figures/PL_relation.png>
-Package pdftex.def Info: figures/PL_relation.png used on input line 248.
+Package pdftex.def Info: figures/PL_relation.png used on input line 252.
 (pdftex.def)             Requested size: 216.81pt x 247.94475pt.
- [2 <./figures/PL_relation.png>]
-<figures/Ngeow1_fig.png, id=56, 424.58624pt x 354.32375pt>
+ [2
+
+]
+<figures/Ngeow1_fig.png, id=55, 424.58624pt x 354.32375pt>
 File: figures/Ngeow1_fig.png Graphic file (type png)
 
 <use figures/Ngeow1_fig.png>
-Package pdftex.def Info: figures/Ngeow1_fig.png used on input line 280.
+Package pdftex.def Info: figures/Ngeow1_fig.png used on input line 284.
 (pdftex.def)             Requested size: 227.64894pt x 189.97493pt.
 
-<figures/var_star_HR.png, id=57, 794.97pt x 614.295pt>
+<figures/var_star_HR.png, id=56, 794.97pt x 614.295pt>
 File: figures/var_star_HR.png Graphic file (type png)
 
 <use figures/var_star_HR.png>
-Package pdftex.def Info: figures/var_star_HR.png used on input line 286.
+Package pdftex.def Info: figures/var_star_HR.png used on input line 290.
 (pdftex.def)             Requested size: 227.64894pt x 175.91011pt.
-
-<figures/Gas.png, id=59, 653.44125pt x 559.08875pt>
+ [3 <./figures/PL_relation.png> <./figures/Ngeow1_fig.png> <./figures/var_star_
+HR.png>]
+<figures/Gas.png, id=66, 653.44125pt x 559.08875pt>
 File: figures/Gas.png Graphic file (type png)
  <use figures/Gas.png>
-Package pdftex.def Info: figures/Gas.png used on input line 315.
+Package pdftex.def Info: figures/Gas.png used on input line 319.
 (pdftex.def)             Requested size: 216.81pt x 185.49797pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 316.
+(Font)              <5> on input line 320.
 
-[3 <./figures/Ngeow1_fig.png> <./figures/var_star_HR.png> <./figures/Gas.png>]
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 325.
+[4 <./figures/Gas.png>]
+Missing character: There is no Ì in font ptmr7t!
+Missing character: There is no ˆ in font ptmr7t!
 
+Underfull \hbox (badness 10000) in paragraph at lines 328--330
+
+ []
+
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 332.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 324--326
+Underfull \hbox (badness 10000) in paragraph at lines 331--333
 
  []
 
 
-Overfull \hbox (39.4681pt too wide) in paragraph at lines 327--329
+Overfull \hbox (39.4681pt too wide) in paragraph at lines 334--336
 \OT1/ptm/m/n/10 B. et al., 2012. Types of Vari-ables | AAVSO. Re-trieved Febru-
 ary 16, 2016, from [][]$\OT1/pcr/m/n/10 https : / / www . aavso . org / types-[
 ]variables$[][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 327--329
+Underfull \hbox (badness 10000) in paragraph at lines 334--336
 
  []
 
@@ -416,57 +425,62 @@ Missing character: There is no â in font ptmri7t!
 Missing character: There is no € in font ptmri7t!
 Missing character: There is no “ in font ptmri7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 330--332
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 333--335
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 337--339
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 341--343
+Underfull \hbox (badness 10000) in paragraph at lines 340--342
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 344--346
+Underfull \hbox (badness 10000) in paragraph at lines 345--347
 
  []
 
-[4
+
+Underfull \hbox (badness 10000) in paragraph at lines 348--350
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--353
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--356
+
+ []
+
+[5
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 370.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 380.
 
  (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 370.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 379.
- [5
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 380.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 399.
+ [6
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 379.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 399.
 
 (./proposal_measure_milky_way_draft1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 379.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 379.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 399.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 399.
 Package rerunfilecheck Info: File `proposal_measure_milky_way_draft1.out' has n
 ot changed.
 (rerunfilecheck)             Checksum: CCA0F7505D4DCBFA50A36D9113BB8C1A;329.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 379.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 399.
  ) 
 Here is how much of TeX's memory you used:
- 6386 strings out of 493089
- 99450 string characters out of 6134842
+ 6387 strings out of 493089
+ 99456 string characters out of 6134842
  188053 words of memory out of 5000000
  9791 multiletter control sequences out of 15000+600000
  21150 words of font info for 47 fonts, out of 8000000 for 9000
@@ -487,11 +501,11 @@ t/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/
 type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/
 times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr
 i8a.pfb>
-Output written on proposal_measure_milky_way_draft1.pdf (5 pages, 590533 bytes)
+Output written on proposal_measure_milky_way_draft1.pdf (6 pages, 591851 bytes)
 .
 PDF statistics:
- 143 PDF objects out of 1000 (max. 8388607)
- 112 compressed objects within 2 object streams
- 24 named destinations out of 1000 (max. 500000)
+ 148 PDF objects out of 1000 (max. 8388607)
+ 116 compressed objects within 2 object streams
+ 25 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
