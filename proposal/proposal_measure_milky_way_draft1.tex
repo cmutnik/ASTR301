@@ -167,7 +167,7 @@ Using various data reduction techniques, we will measure the size, shape, and ag
 		\resizebox{\columnwidth}{!}{%
 	\begin{tabular}{ | c | c | c | c | c | c | } \hline
 		Run & Program & Telescope & Instrument & Nights (n) or hours (h) & Observers' initials \\ \hline
-		1 & A & Pathfinder & & 10.3~h & DH \& CM \\ \hline
+		1 & A & Pathfinder & & 22.5~h & DH \& CM \\ \hline
 		%2 & ~ & ~ & ~ & ~ \\ \hline
 		%3 & ~ & ~ & ~ & ~ \\ \hline
 		%4 & ~ & ~ & ~ & ~ \\ \hline
@@ -312,7 +312,7 @@ Other variable stars that will be identified are Cepheid Type 1 and Cepheid Type
 \end{figure}
 \fi
 
-Near the galactic center, ISM is dense, and the number density of stars is high, which makes optical investigations quite difficult. Figure ~ \ref{fig:gas} shows the distribution of gasses in the Milky Way (Nakanishi and Sofue 2015). In order to determine the spiral arm structure of the Milky Way galaxy, we will avoid the galactic center. To take into account for the ISM extinction, we will use the ratio of total to selective extinction $R = \frac{1}{(\tau_{1} / \tau_{2}) -1} = \frac{1}{(\lambda_{eff,1} / \lambda_{eff,2})^{-1} \, -1}$ assuming the optical depth $\tau \propto \lambda^{-1}$ according to the Mie scattering. 
+Near the galactic center, ISM is dense, and the number density of stars is high, which makes optical investigations quite difficult. Figure ~ \ref{fig:gas} shows the distribution of gasses in the Milky Way (Nakanishi and Sofue 2015). In order to determine the spiral arm structure of the Milky Way galaxy, we will avoid the galactic center. To take into account for the ISM extinction, we will use the ratio of total to selective extinction $R = \frac{1}{(\tau_{1} / \tau_{2}) -1} = \frac{1}{(\lambda_{eff,2} / \lambda_{eff,1}) \, -1}$ assuming the optical depth $\tau \propto \lambda^{-1}$ according to the Mie scattering for $\lambda < D$ where the $D$ is the dimension of a dust grain (Ryden et al. 2010 $\&$ Carroll et al. 2007). 
 
 \begin{figure}[H]
   \begin{center}
@@ -354,20 +354,61 @@ Tsujimoto\ et al., 1998. The Absolute Magnitude of RR Lyrae Stars Derived from t
 \noindent\smallskip{\small
 Turner, R.\ et al., 2012. H-R Diagram Education Materials | AAVSO. Retrieved February 14, 2016, from \url{https://www.aavso.org/hr-diagram-education-materials} \\}
 
+\noindent\smallskip{\small
+Carroll, B.\  et al., 2007. An Introduction to Modern Astrophysics. San Francisco: Pearson Addison-Wesley. \\}
+
+\noindent\smallskip{\small
+Molnár, L.\  et al., 2015. Pushing the limits, episode 2: K2 observations of extragalactic RR Lyrae stars in the dwarf galaxy Leo IV 
+ApJ, 812, 2, 2015, arXiv:1508.05587  \\}
+
 
 \clearpage
 \section*{TECHNICAL JUSTIFICATION}
 
 
-We request $10.3$ hours using Pathfinder to obtain g, r, and i imaging for variable stars in the galactic plane.
+We request $22.5$ hours using Pathfinder to obtain g, r, and i imaging for variable stars in the galactic plane.
 
 \vspace{3mm} %3mm vertical space
 
-\noindent The typical pulsation period of RR Lyrae is in a range of $1.5$ hours to $24$ hours. To sample a $1.5$ hours period, we need to image a RR Lyrae at least twice in one period according to the sampling theorem (\textit{sampling rate vs error?}). With the exposure time of $30$ seconds and readout time of $8$ seconds, the sky coverage rate is $948$ deg$^2$/hour. To cover the galactic plane and avoid the galactic center, we choose a region with galactic latitude of $\pm 2 ^\circ$ and galactic longitude of $70 ^\circ$ to $290 ^\circ$ (\textit{from the gri project, we should be able to choose smaller patches with variable stars on the galactic plane; more points in one period}). The coverage rate and angular size of the field yield the one observation time of $1.14$ hours. We want $3$ band passes with $3$ pulsation periods each to take into account the ISM extinction (\textit{number of periods vs error?}), so we request the total observational time of $10.3$ hours. Since Cepheid stars have longer pulsation periods, we should be able to sample data points well.
+\noindent To calculate an appropriate sampling frequency, a typical RR Lyrae star, EPIC ID 210282474, was used (Molnár et al. 2015) with artificially introduced gaps following the Gaussian distribution. Since sampling in astronomy is always uneven, we used the Lomb-Scargle analysis. The light curve of 210282474 is shown in Figure ~ \ref{fig:Lcurve}, and Lomb-Scargle power plots with various sampling conditions are shown in Figures ~ \ref{fig:1510}, ~ \ref{fig:1010}, and ~ \ref{fig:1505}. We want a distinguishable and narrow peak in power plots. To determine distances from the PL relations with $\simeq5\%$ accuracy, we need peaks with FWHM $ \simeq 0.01$ days. From this condition, it is reasonable to choose 15 nights with 10 observations/night as it can be seen in Figures ~ \ref{EPIC}. The uncertainty in magnitude was taken to be $10\%$, and the changes, $1\% - 10\%$, in the uncertainty did not affect the period determinations significantly; we only need $10\%$ photometry.
+
+\begin{figure}[H]
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=.9\linewidth]{figures/EPICID.png}
+  \caption{Light curve of 210282474.}
+  \label{fig:Lcurve}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=.9\linewidth]{figures/1510Actual.png}
+  \caption{Power plot with 15 nights with 10 observations/night.}
+  \label{fig:1510}
+\end{subfigure}
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=.9\linewidth]{figures/1010Actual.png}
+  \caption{Power plot with 10 nights with 10 observations/night.}
+  \label{fig:1010}
+  \end{subfigure}%
+  \begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=.9\linewidth]{figures/1505Actual.png}
+  \caption{Power plot with 15 nights with 5 observations/night.}
+  \label{fig:1505}
+\end{subfigure}
+\caption{EPIC ID 210282474.}
+\label{fig:EPIC}
+\end{figure}
+
+\noindent For $m_g = m_r = 16$ and $m_i = 15.7$, an exposure time of $20$ sec yields $10\%$ photometry. We want to cover the galactic plane, $90\deg < l <330\deg$ and $-2 \deg < b < 2 \deg$ avoiding the galactic center and the sun. With the magnitudes, exposure time, and size of the field, we request $1.5$ hr/night for $15$ nights, resulting the total observational time of $22.5$ hr.  
+
 
 \vspace{3mm} %3mm vertical space
 
-\noindent The SNRs of g, r, and i bands with $m_g = m_r = m_i = 15$ are $26.11$, $26.31$, and $20.67$, respectively. We use relative intensity to measure pulsation periods, so this photometric accuracy of $4 \%$ should be enough (\textit{photometric accuracy vs error?}).
+
+\noindent Since typical pulsation periods of Cepheid variables are longer than that of RR Lyrae stars, we would be able to sample Cepheid light curves as well by using the sampling rate discussed above. 
 
 
 \section*{Things to Discuss Further}
