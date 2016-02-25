@@ -138,7 +138,7 @@
 \noindent\fbox{\linespread{1.5}
 	\parbox{\textwidth}{\bf{
 			Program Title\\
-			A. Measuring the Milky Way\\
+			A. Measuring the structure of the Milky Way spiral arms and testing a new method of distance measurement using ISM\\
 			B.\\
 			C.
 		}
@@ -148,10 +148,8 @@
 ~\\~\\ % for gap between frames
 
 \begin{Frame}
-\noindent {\bf \\Abstract}
-\smallskip%\\
-
-Using various data reduction techniques, we will measure the size, shape, and age of the Milky Way galaxy's spiral arms.
+\noindent {\bf \\Abstract:}
+Using various data reduction techniques, we will measure the structure and age of the Milky Way galaxy's spiral arms and test a new method of distance measurement using ISM. We request $22.5$ hours using Pathfinder to obtain g, r, and i imaging for variable stars in the galactic plane. From the spatial distribution of variable stars, we will determine the structure and age of spiral arms. From estimating amount of ISM near variable stars, we will test a distance measurement method to stars near variable stars.
 % can report variable stars to AAVSO:
 % \url{https://www.aavso.org/how-report-new-variable-star-discoveries}
 
@@ -246,8 +244,9 @@ Variable stars comprising less than 1\% of all observable stars Allen et al. (20
 Of the different types of variable stars, we will focus on RR Lyrae, Type 1 Cepheid, and Type 2 Cepheid.  These pulsating variables have well established absolute magnitudes B. et al. (2012).  From this the luminosity is known, permitting the distance to each star to be calculated using Period-Luminosity (PL) relationship.
 
 \subsubsection{RR Lyrae}
-RR Lyrae have short periods, $1.5 - 24$ hours, and are generally classified as stars with spectral type A.  On average, absolute magnitudes of RR Lyrae stars fall between 0.6-0.7 Tsujimoto et al. (1998). Using the distance modulus assuming no ISM extinction yields the upper limit on RR Lyrae distance measurements of $7.9$ kpc with $m=15$ (photometric accuracy of $4\%$). Figure~\ref{fig:plrelationrrlyrae} shows the PL relationship for variable stars classified as RR Lyrae Ngeow et al. (1998) (\textit{how do we calibrate different band passes?}). Since the typical age of RR Lyrae is 10 Gyr, it can be used as the lower limit of the age of spiral arms.  
-\begin{figure}[H]%[htb!]
+RR Lyrae have short periods, $1.5 - 24$ hours, and are generally classified as stars with spectral type A or F.  On average, absolute magnitudes of RR Lyrae stars fall between 0.6-0.7 Tsujimoto et al. (1998). Using the distance modulus assuming no ISM extinction yields the upper limit on RR Lyrae distance measurements of $12.6$ kpc with $m=16$ (photometric accuracy of $10\%$). Figure~\ref{fig:plrelationrrlyrae} shows the PL relationship for variable stars classified as RR Lyrae Ngeow et al. (1998) (\textit{how do we calibrate different band passes?}). Since the typical age of RR Lyrae is 10 Gyr, it can be used as the lower limit of the age of spiral arms.
+
+\begin{figure}[]%[htb!]
   \begin{center}
 \centerline{\includegraphics[width=3in]{figures/PL_relation}}
 \caption{\it \small{Period-Luminosity relationship of RR Lyrae variable stars. \label{fig:plrelationrrlyrae}}}
@@ -257,8 +256,14 @@ RR Lyrae have short periods, $1.5 - 24$ hours, and are generally classified as s
 
 \subsubsection{Cepheid}
 
-Other variable stars that will be identified are Cepheid Type 1 and Cepheid Type 2.  A typical pulsation period of Cepheid star is $1 - 50$ days Ryden et al. (2010).  These sugergiants span the F, G, and K spectral classes, with average absolute magnitudes between $M=-0.5$ and $M=-6$ Ryden et al. (2010).  The PL relation of Cepheid Type 1 and Cepheid Type 2 is shown in Figure~\ref{fig:cephPL}. From the PL relation we can extract distances Ngeow et al. (2013). Using $m=15$, 30 $s$ exposures will allow for photometric accuracy of 4\%.  A Hertzsprung-Russell diagram of pulsating variable stars is shown by Figure~\ref{fig:var-star-hr} Turner et al. (2012). \textit{Relatively young, star formation epoch?}
+Other variable stars that will be identified are Cepheid Type 1 and Cepheid Type 2.  A typical pulsation period of Cepheid star is $1 - 50$ days Ryden et al. (2010).  These sugergiants span the F, G, and K spectral classes, with average absolute magnitudes between $M=-0.5$ and $M=-6$ Ryden et al. (2010).  The PL relation of Cepheid Type 1 and Cepheid Type 2 is shown in Figure~\ref{fig:cephPL}. From the PL relation we can extract distances Ngeow et al. (2013). Using $m=16$, 20 s exposures will allow for photometric accuracy of $10\%$.  A Hertzsprung-Russell diagram of pulsating variable stars is shown by Figure~\ref{fig:var-star-hr} Turner et al. (2012). (\textit{Relatively young, star formation epoch?}). Cepheid variables are relatively young, a few million years, which indicates star formation regions.
 
+
+
+
+\subsubsection{Spatial Distribution of Variable Stars}
+
+Since Cepheid variables are young, it stays near star formation regions, while RR Lyrae stars are old and may move away from star formation regions. The spatial deviations of RR Lyrae stars from star formation regions indicate the structure history and dynamics of spiral arms.
 
 %\begin{itemize}
 %	\item{} Typical pulsation periods of 1-50 days - need CITATION
@@ -312,6 +317,10 @@ Other variable stars that will be identified are Cepheid Type 1 and Cepheid Type
 \end{figure}
 \fi
 
+
+
+\subsubsection{ISM}
+
 Near the galactic center, ISM is dense, and the number density of stars is high, which makes optical investigations quite difficult. Figure ~ \ref{fig:gas} shows the distribution of gasses in the Milky Way (Nakanishi and Sofue 2015). In order to determine the spiral arm structure of the Milky Way galaxy, we will avoid the galactic center. To take into account for the ISM extinction, we will use the ratio of total to selective extinction $R = \frac{1}{(\tau_{1} / \tau_{2}) -1} = \frac{1}{(\lambda_{eff,2} / \lambda_{eff,1}) \, -1}$ assuming the optical depth $\tau \propto \lambda^{-1}$ according to the Mie scattering for $\lambda < D$ where the $D$ is the dimension of a dust grain (Ryden et al. 2010 $\&$ Carroll et al. 2007). 
 
 \begin{figure}[H]
@@ -320,6 +329,8 @@ Near the galactic center, ISM is dense, and the number density of stars is high,
 \caption{\it \small{Column density distribution of the sum of HI and H$_2$ gases. \label{fig:gas}}}
   \end{center}
 \end{figure}
+
+\noindent To test a distance measuring method using ISM, we will use observed raw data without using the ratio of total to selective extinction. From observed periods of variable stars, the absolute magnitudes can be calculated. From the calculated absolute magnitude and catalog distances, obtained by parallax, the absolute magnitudes at g,r, and i can be estimated. By comparing the estimated absolute magnitudes and calculated absolute magnitudes from the raw data, we can estimate the amount of ISM. Assuming the amount of ISM near the variable stars are similar, the distances to star near variable stars can be determined.
 
 
 \clearpage
@@ -361,6 +372,14 @@ Carroll, B.\  et al., 2007. An Introduction to Modern Astrophysics. San Francisc
 Molnár, L.\  et al., 2015. Pushing the limits, episode 2: K2 observations of extragalactic RR Lyrae stars in the dwarf galaxy Leo IV 
 ApJ, 812, 2, 2015, arXiv:1508.05587  \\}
 
+\noindent\smallskip{\small
+Lomb, N.R. 1976. Least-Squares Frequency Analysis of Unequally Spaced Data, Astrophysics and Space Science, vol. 39, pp. 447–462.  \\}
+
+\noindent\smallskip{\small
+Scargle, J.D. 1982 Studies in Astronomical Time Series Analysis II. Statistical Aspects of Spectral Analysis of Unevenly Sampled Data, Astrophysical Journal, vol. 263, pp. 835–853. \\}
+
+
+
 
 \clearpage
 \section*{TECHNICAL JUSTIFICATION}
@@ -370,7 +389,7 @@ We request $22.5$ hours using Pathfinder to obtain g, r, and i imaging for varia
 
 \vspace{3mm} %3mm vertical space
 
-\noindent To calculate an appropriate sampling frequency, a typical RR Lyrae star, EPIC ID 210282474, was used (Molnár et al. 2015) with artificially introduced gaps following the Gaussian distribution. Since sampling in astronomy is always uneven, we used the Lomb-Scargle analysis. The light curve of 210282474 is shown in Figure ~ \ref{fig:Lcurve}, and Lomb-Scargle power plots with various sampling conditions are shown in Figures ~ \ref{fig:1510}, ~ \ref{fig:1010}, and ~ \ref{fig:1505}. We want a distinguishable and narrow peak in power plots. To determine distances from the PL relations with $\simeq5\%$ accuracy, we need peaks with FWHM $ \simeq 0.01$ days. From this condition, it is reasonable to choose 15 nights with 10 observations/night as it can be seen in Figures ~ \ref{EPIC}. The uncertainty in magnitude was taken to be $10\%$, and the changes, $1\% - 10\%$, in the uncertainty did not affect the period determinations significantly; we only need $10\%$ photometry.
+\noindent To calculate an appropriate sampling frequency, a typical RR Lyrae star, EPIC ID 210282474, was used (Molnár et al. 2015) with artificially introduced gaps following the Gaussian distribution. Since sampling in astronomy is always uneven, we used the Lomb-Scargle analysis (Lomb 1976 $\&$ Scargle 1982). The light curve of 210282474 is shown in Figure ~ \ref{fig:Lcurve}, and Lomb-Scargle power plots with various sampling conditions are shown in Figures ~ \ref{fig:1510}, ~ \ref{fig:1010}, and ~ \ref{fig:1505}. We want a distinguishable and narrow peak in power plots. To determine distances from the PL relations with $\simeq5\%$ accuracy, we need peaks with FWHM $ \simeq 0.02$ days. From this condition, it looks like 15 nights with 10 observations/night is the lower limit sampling rate. The uncertainty in magnitude was taken to be $10\%$, and the changes, $1\% - 10\%$, in the uncertainty did not affect the period determinations significantly; we only need $10\%$ photometry.
 
 \begin{figure}[H]
 \centering
@@ -402,6 +421,7 @@ We request $22.5$ hours using Pathfinder to obtain g, r, and i imaging for varia
 \label{fig:EPIC}
 \end{figure}
 
+
 \noindent For $m_g = m_r = 16$ and $m_i = 15.7$, an exposure time of $20$ sec yields $10\%$ photometry. We want to cover the galactic plane, $90\deg < l <330\deg$ and $-2 \deg < b < 2 \deg$ avoiding the galactic center and the sun. With the magnitudes, exposure time, and size of the field, we request $1.5$ hr/night for $15$ nights, resulting the total observational time of $22.5$ hr.  
 
 
@@ -409,6 +429,8 @@ We request $22.5$ hours using Pathfinder to obtain g, r, and i imaging for varia
 
 
 \noindent Since typical pulsation periods of Cepheid variables are longer than that of RR Lyrae stars, we would be able to sample Cepheid light curves as well by using the sampling rate discussed above. 
+
+
 
 
 \section*{Things to Discuss Further}
