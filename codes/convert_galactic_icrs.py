@@ -4,12 +4,8 @@
 from astropy.coordinates import SkyCoord
 from astropy import units as u
 
-# lists of l and b (galactic coors) to convert
-l_list = [165, 168, 171, 174, 177, 180, 183, 186, 189, 192, 195]
-bp5 = [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5]
+l_list = [220, 223, 226, 229, 232, 235, 238, 241, 244, 247, 250, 250, 247, 244, 241, 238, 235, 232, 229, 226, 223, 220]
+b_list = [-5, -5, -5, -5, -5, -5, -5, -5, -5, -5, -5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5]
 
-
-trans = SkyCoord(l=l_list, b=bp5, unit=(u.degree, u.degree), frame='galactic')
-
-# prints out the coordinates in RA & Dec [deg]
+trans = SkyCoord(l=l_list, b=b_list, unit=(u.degree, u.degree), frame='galactic')
 trans.icrs
