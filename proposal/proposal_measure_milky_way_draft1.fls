@@ -155,8 +155,9 @@ INPUT ./figures/1010Actual.png
 INPUT figures/1505Actual.png
 INPUT ./figures/1505Actual.png
 INPUT ./figures/1505Actual.png
-INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omsptm.fd
-INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omsptm.fd
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/times/ptmbi7t.tfm
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/vf/adobe/times/ptmbi7t.vf
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/adobe/times/ptmbi8r.tfm
 INPUT proposal_measure_milky_way_draft1.aux
 INPUT ./proposal_measure_milky_way_draft1.out
 INPUT ./proposal_measure_milky_way_draft1.out
@@ -172,5 +173,6 @@ INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr8a.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb
