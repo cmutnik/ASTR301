@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1457055455 "proposal_measure_milky_way_draft1.tex" "proposal_measure_milky_way_draft1.pdf" "proposal_measure_milky_way_draft1" 1457055457
+["pdflatex"] 1457055455 "proposal_measure_milky_way_draft1.tex" "proposal_measure_milky_way_draft1.pdf" "proposal_measure_milky_way_draft1" 1457061321
   "./figures/1010Actual.png" 1456880970 70368 5bb8929b484064c81db5ea897c2b22df ""
   "./figures/1505Actual.png" 1456880970 67704 5d0b3f03ca128a4a8c9099f64f2e96a9 ""
   "./figures/1510Actual.png" 1456880970 68922 0fb43a062fa89e0941be7ace891aabb3 ""
@@ -103,7 +103,7 @@
   "proposal_measure_milky_way_draft1.out" 1457055457 544 c08f9567ad1a62389d7b073698833bd0 ""
   "proposal_measure_milky_way_draft1.tex" 1457055455 23872 f4a0b10d3a0a6eeef8db83bc10de80e2 ""
   (generated)
-  "proposal_measure_milky_way_draft1.aux"
-  "proposal_measure_milky_way_draft1.out"
-  "proposal_measure_milky_way_draft1.log"
   "proposal_measure_milky_way_draft1.pdf"
+  "proposal_measure_milky_way_draft1.aux"
+  "proposal_measure_milky_way_draft1.log"
+  "proposal_measure_milky_way_draft1.out"
