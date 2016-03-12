@@ -36,7 +36,7 @@
 
   mkdir /home/cmutnik/data/RR_data_160306/fulldata/RR_sortfilt ; cd /home/cmutnik/data/RR_data_160306/fulldata/RR_sortfilt
   for m in {57452..57455} ; do
-    awk '$5>=20 && $8<3 && $9>500 && $10>15 && $11!=0 && $12!=0{print $0}' /atlas/red/01p/$m/$m.log
+    awk '$5==20 && $8<3 && $9>500 && $10>15 && $11!=0 && $12!=0{print $0}' /atlas/red/01p/$m/$m.log
   done > logs_57452_57455.log
 
   RA0=97.5 DEC0=-0.5 RAD=1
