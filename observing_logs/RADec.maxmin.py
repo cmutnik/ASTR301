@@ -40,11 +40,17 @@ min_Dec_offset 		# -19.231548220000001
 
 
 upper_RA_limit = max_RA_offset + 3. # FOV is 5[deg], r=2.5[deg], so add 3[deg] to account for mispointings and the like
-#>> 119.4583940353
+#>> 119.4583940353 
+#~= 120
 lower_RA_limit = min_RA_no_offset - 3.
-#>> 90.357665409999996
+#>> 90.357665409999996 
+#~= 90
 upper_Dec_limit = max_Dec_offset + 3.
 #>> 14.998083230000001
+#~= 15
 lower_Dec_limit = min_Dec_no_offset - 3.
 #>> -22.231548220000001
+#~= -23
+
+
 
