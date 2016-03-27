@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex paper_2col"] 1458262792 "paper_2col.aux" "paper_2col.bbl" "paper_2col" 1458262793
+["bibtex paper_2col"] 1459047374 "paper_2col.aux" "paper_2col.bbl" "paper_2col" 1459048304
   "/usr/local/texlive/2015/texmf-dist/bibtex/bst/revtex4/apsrev.bst" 1261594643 44155 dc7233506a001aedcd59cfd90f9fe8d7 ""
-  "paper_2col.aux" 1458262793 635 5b2721f31042fb231aea81746dda9ed6 ""
+  "paper_2col.aux" 1459048304 650 6607685172b2e801b7945f04250fb585 ""
   "paper_2col.bcf" 0 -1 0 ""
-  "paper_2colNotes.bib" 1458262793 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "paper_2colNotes.bib" 1459048304 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
   "paper_2col.blg"
   "paper_2col.bbl"
-["pdflatex"] 1458262792 "paper_2col.tex" "paper_2col.pdf" "paper_2col" 1458262793
+["pdflatex"] 1459048303 "paper_2col.tex" "paper_2col.pdf" "paper_2col" 1459048304
   "/usr/local/texlive/2015/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex9.tfm" 1246382020 996 a18840b13b499c08ac2de96a99eda4bc ""
@@ -29,6 +29,9 @@
   "/usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmti9.tfm" 1136768653 1476 cccc6cc4935c18ec3d5623b77ecb8b74 ""
   "/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
   "/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb" 1248133631 32298 c6d25bb16d1eac01ebdc6d7084126a1e ""
+  "/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1248133631 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
+  "/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1248133631 36281 c355509802a035cadc5f15869451dcee ""
+  "/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb" 1248133631 36094 798f80770b3b148ceedd006d487db67c ""
   "/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb" 1248133631 32734 69e00a6b65cedb993666e42eedb3d48f ""
   "/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1248133631 32762 224316ccc9ad3ca0423a14971cfa7fc1 ""
@@ -76,11 +79,11 @@
   "/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1432479641 1764542 91654ba72bdb667e84ea24f076ae16d8 ""
   "/usr/local/texlive/2015/texmf-var/web2c/pdftex/pdflatex.fmt" 1432479681 3849859 39a7d258195bde2394e244961601fbc5 ""
   "/usr/local/texlive/2015/texmf.cnf" 1432479636 577 0d611272082f3cdb8e80e09a3c69cf07 ""
-  "paper_2col.aux" 1458262793 635 5b2721f31042fb231aea81746dda9ed6 ""
-  "paper_2col.bbl" 1458262792 584 9411fe63aa1c4dcc3282b86a381435fa "bibtex paper_2col"
-  "paper_2col.tex" 1458262791 2853 880c0e1853a7ccd0750a5213b63a8f39 ""
+  "paper_2col.aux" 1459048304 650 6607685172b2e801b7945f04250fb585 ""
+  "paper_2col.bbl" 1459047374 584 9411fe63aa1c4dcc3282b86a381435fa "bibtex paper_2col"
+  "paper_2col.tex" 1459048303 3455 f1e079c24c1f02018ef16c1068cd6450 ""
   (generated)
-  "paper_2col.pdf"
-  "paper_2col.aux"
-  "paper_2col.log"
   "paper_2colNotes.bib"
+  "paper_2col.pdf"
+  "paper_2col.log"
+  "paper_2col.aux"
