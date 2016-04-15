@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  14 APR 2016 15:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  14 APR 2016 20:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -326,7 +326,7 @@ Overfull \hbox (16.22745pt too wide) in paragraph at lines 83--84
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--96
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
  []$\OMS/cmsy/m/n/10 ^^@^^@$ \OT1/cmr/m/n/10 log(average(upper quar-tile)) -
  []
 
@@ -336,10 +336,10 @@ ures/fromJT/sortedFOV.png>]
 File: figures/fromJT/probf.png Graphic file (type png)
 
 <use figures/fromJT/probf.png>
-Package pdftex.def Info: figures/fromJT/probf.png used on input line 116.
+Package pdftex.def Info: figures/fromJT/probf.png used on input line 118.
 (pdftex.def)             Requested size: 242.10493pt x 181.57697pt.
 
-Overfull \hbox (16.22745pt too wide) in paragraph at lines 116--117
+Overfull \hbox (16.22745pt too wide) in paragraph at lines 118--119
  [][] 
  []
 
@@ -348,10 +348,10 @@ File: figures/aitoff/Obs_PS_lsum_aitoff_map.png Graphic file (type png)
 
 <use figures/aitoff/Obs_PS_lsum_aitoff_map.png>
 Package pdftex.def Info: figures/aitoff/Obs_PS_lsum_aitoff_map.png used on inpu
-t line 136.
+t line 138.
 (pdftex.def)             Requested size: 242.10493pt x 181.5766pt.
 
-Overfull \hbox (16.22745pt too wide) in paragraph at lines 136--137
+Overfull \hbox (16.22745pt too wide) in paragraph at lines 138--139
  [][] 
  []
 
@@ -360,7 +360,7 @@ File: figures/aitoff/simbad_alpha_is_1.png Graphic file (type png)
 
 <use figures/aitoff/simbad_alpha_is_1.png>
 Package pdftex.def Info: figures/aitoff/simbad_alpha_is_1.png used on input lin
-e 173.
+e 175.
 (pdftex.def)             Requested size: 234.87749pt x 176.15768pt.
 
 <figures/aitoff/Obs_PS_sim_lsum_aitoff_map.png, id=25, 578.16pt x 433.62pt>
@@ -368,10 +368,10 @@ File: figures/aitoff/Obs_PS_sim_lsum_aitoff_map.png Graphic file (type png)
 
 <use figures/aitoff/Obs_PS_sim_lsum_aitoff_map.png>
 Package pdftex.def Info: figures/aitoff/Obs_PS_sim_lsum_aitoff_map.png used on 
-input line 179.
+input line 181.
 (pdftex.def)             Requested size: 234.87749pt x 176.15768pt.
 
-Overfull \hbox (243.87749pt too wide) in paragraph at lines 171--183
+Overfull \hbox (243.87749pt too wide) in paragraph at lines 173--185
  []$[]$$[]$ 
  []
 
@@ -381,7 +381,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [2 <./figures/fromJT/probf.png> <./figures/aitoff/Obs_PS_lsum_aitoff_map.png>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 207.
+ on input line 209.
 
 (./RRLyrae_2016.bbl) [3 <./figures/aitoff/simbad_alpha_is_1.png> <./figures/ait
 off/Obs_PS_sim_lsum_aitoff_map.png>] (./RRLyrae_2016.aux) ) 
@@ -407,7 +407,7 @@ ts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/font
 s/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2015/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmti9.pfb>
-Output written on RRLyrae_2016.pdf (3 pages, 950360 bytes).
+Output written on RRLyrae_2016.pdf (3 pages, 950542 bytes).
 PDF statistics:
  76 PDF objects out of 1000 (max. 8388607)
  48 compressed objects within 1 object stream

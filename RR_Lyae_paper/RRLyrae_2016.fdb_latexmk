@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex RRLyrae_2016"] 1460684075 "RRLyrae_2016.aux" "RRLyrae_2016.bbl" "RRLyrae_2016" 1460684075
+["bibtex RRLyrae_2016"] 1460684075 "RRLyrae_2016.aux" "RRLyrae_2016.bbl" "RRLyrae_2016" 1460702636
   "/usr/local/texlive/2015/texmf-dist/bibtex/bst/revtex4/apsrev.bst" 1261594643 44155 dc7233506a001aedcd59cfd90f9fe8d7 ""
-  "RRLyrae_2016.aux" 1460684075 4012 8f7de92b17f13eb32e9a9f0fe2c0eb9a ""
+  "RRLyrae_2016.aux" 1460702636 4012 8f7de92b17f13eb32e9a9f0fe2c0eb9a ""
   "RRLyrae_2016.bcf" 0 -1 0 ""
-  "RRLyrae_2016Notes.bib" 1460684075 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "RRLyrae_2016Notes.bib" 1460702635 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
   "RRLyrae_2016.blg"
   "RRLyrae_2016.bbl"
-["pdflatex"] 1460684075 "RRLyrae_2016.tex" "RRLyrae_2016.pdf" "RRLyrae_2016" 1460684075
+["pdflatex"] 1460702635 "RRLyrae_2016.tex" "RRLyrae_2016.pdf" "RRLyrae_2016" 1460702636
   "./figures/aitoff/Obs_PS_lsum_aitoff_map.png" 1460682024 316998 86c9f2a81af8090088ec8a184bab0f6e ""
   "./figures/aitoff/Obs_PS_sim_lsum_aitoff_map.png" 1460682024 296940 b412aa16f08e2790f0e4e19cfb729b32 ""
   "./figures/aitoff/simbad_alpha_is_1.png" 1460682024 257637 59e1c3d991227aaa5bc587e45fdb37c6 ""
@@ -88,16 +88,16 @@
   "/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1432479641 1764542 91654ba72bdb667e84ea24f076ae16d8 ""
   "/usr/local/texlive/2015/texmf-var/web2c/pdftex/pdflatex.fmt" 1432479681 3849859 39a7d258195bde2394e244961601fbc5 ""
   "/usr/local/texlive/2015/texmf.cnf" 1432479636 577 0d611272082f3cdb8e80e09a3c69cf07 ""
-  "RRLyrae_2016.aux" 1460684075 4012 8f7de92b17f13eb32e9a9f0fe2c0eb9a ""
+  "RRLyrae_2016.aux" 1460702636 4012 8f7de92b17f13eb32e9a9f0fe2c0eb9a ""
   "RRLyrae_2016.bbl" 1460684075 584 9411fe63aa1c4dcc3282b86a381435fa "bibtex RRLyrae_2016"
-  "RRLyrae_2016.tex" 1460684074 7683 3ded337602fe2cbde8bd8c5076bd00a4 ""
+  "RRLyrae_2016.tex" 1460702635 7743 870bcecb54f030213ac41513b3dbce0f ""
   "figures/aitoff/Obs_PS_lsum_aitoff_map.png" 1460682024 316998 86c9f2a81af8090088ec8a184bab0f6e ""
   "figures/aitoff/Obs_PS_sim_lsum_aitoff_map.png" 1460682024 296940 b412aa16f08e2790f0e4e19cfb729b32 ""
   "figures/aitoff/simbad_alpha_is_1.png" 1460682024 257637 59e1c3d991227aaa5bc587e45fdb37c6 ""
   "figures/fromJT/probf.png" 1460683353 14303 229d9fbf3b201c30d80bb9447e1efc58 ""
   "figures/fromJT/sortedFOV.png" 1460683288 12678 b064ea46891b8bc9bdb1fcdc43abad14 ""
   (generated)
-  "RRLyrae_2016Notes.bib"
   "RRLyrae_2016.aux"
-  "RRLyrae_2016.log"
   "RRLyrae_2016.pdf"
+  "RRLyrae_2016Notes.bib"
+  "RRLyrae_2016.log"
