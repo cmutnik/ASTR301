@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  9 APR 2016 20:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  14 APR 2016 15:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**paper_2col.tex
-(./paper_2col.tex
+**RRLyrae_2016.tex
+(./RRLyrae_2016.tex
 LaTeX2e <2015/01/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/revtex/revtex4-1.cls
@@ -214,8 +214,8 @@ Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 27.
 Class revtex4-1 Info: cite was not loaded (OK!) on input line 27.
 Class revtex4-1 Info: mcite was not loaded (OK!) on input line 27.
 Class revtex4-1 Info: multicol was not loaded (OK!) on input line 27.
-(./paper_2col.aux)
-\openout1 = `paper_2col.aux'.
+(./RRLyrae_2016.aux)
+\openout1 = `RRLyrae_2016.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
 LaTeX Font Info:    ... okay on input line 27.
@@ -294,7 +294,7 @@ e
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\openout3 = `paper_2colNotes.bib'.
+\openout3 = `RRLyrae_2016Notes.bib'.
 
 LaTeX Font Info:    Try loading font information for U+msa on input line 50.
 
@@ -314,75 +314,103 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 70.
 
-<figures/aitoff/Obs_PS_lsum_aitoff_map.png, id=1, 578.16pt x 433.62pt>
+<figures/fromJT/sortedFOV.png, id=1, 803.0pt x 602.25pt>
+File: figures/fromJT/sortedFOV.png Graphic file (type png)
+
+<use figures/fromJT/sortedFOV.png>
+Package pdftex.def Info: figures/fromJT/sortedFOV.png used on input line 83.
+(pdftex.def)             Requested size: 242.10493pt x 181.57697pt.
+
+Overfull \hbox (16.22745pt too wide) in paragraph at lines 83--84
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
+ []$\OMS/cmsy/m/n/10 ^^@^^@$ \OT1/cmr/m/n/10 log(average(upper quar-tile)) -
+ []
+
+[1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./fig
+ures/fromJT/sortedFOV.png>]
+<figures/fromJT/probf.png, id=21, 803.0pt x 602.25pt>
+File: figures/fromJT/probf.png Graphic file (type png)
+
+<use figures/fromJT/probf.png>
+Package pdftex.def Info: figures/fromJT/probf.png used on input line 116.
+(pdftex.def)             Requested size: 242.10493pt x 181.57697pt.
+
+Overfull \hbox (16.22745pt too wide) in paragraph at lines 116--117
+ [][] 
+ []
+
+<figures/aitoff/Obs_PS_lsum_aitoff_map.png, id=22, 578.16pt x 433.62pt>
 File: figures/aitoff/Obs_PS_lsum_aitoff_map.png Graphic file (type png)
 
 <use figures/aitoff/Obs_PS_lsum_aitoff_map.png>
 Package pdftex.def Info: figures/aitoff/Obs_PS_lsum_aitoff_map.png used on inpu
-t line 91.
+t line 136.
 (pdftex.def)             Requested size: 242.10493pt x 181.5766pt.
 
-Overfull \hbox (16.22745pt too wide) in paragraph at lines 91--92
+Overfull \hbox (16.22745pt too wide) in paragraph at lines 136--137
  [][] 
  []
 
-<figures/aitoff/simbad_alpha_is_1.png, id=3, 578.16pt x 433.62pt>
+<figures/aitoff/simbad_alpha_is_1.png, id=24, 578.16pt x 433.62pt>
 File: figures/aitoff/simbad_alpha_is_1.png Graphic file (type png)
 
 <use figures/aitoff/simbad_alpha_is_1.png>
 Package pdftex.def Info: figures/aitoff/simbad_alpha_is_1.png used on input lin
-e 128.
+e 173.
 (pdftex.def)             Requested size: 234.87749pt x 176.15768pt.
 
-<figures/aitoff/Obs_PS_sim_lsum_aitoff_map.png, id=4, 578.16pt x 433.62pt>
+<figures/aitoff/Obs_PS_sim_lsum_aitoff_map.png, id=25, 578.16pt x 433.62pt>
 File: figures/aitoff/Obs_PS_sim_lsum_aitoff_map.png Graphic file (type png)
 
 <use figures/aitoff/Obs_PS_sim_lsum_aitoff_map.png>
 Package pdftex.def Info: figures/aitoff/Obs_PS_sim_lsum_aitoff_map.png used on 
-input line 134.
+input line 179.
 (pdftex.def)             Requested size: 234.87749pt x 176.15768pt.
 
-Overfull \hbox (243.87749pt too wide) in paragraph at lines 126--138
+Overfull \hbox (243.87749pt too wide) in paragraph at lines 171--183
  []$[]$$[]$ 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./fig
-ures/aitoff/Obs_PS_lsum_aitoff_map.png>]
+[2 <./figures/fromJT/probf.png> <./figures/aitoff/Obs_PS_lsum_aitoff_map.png>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 152.
+ on input line 207.
 
-(./paper_2col.bbl) [2 <./figures/aitoff/simbad_alpha_is_1.png> <./figures/aitof
-f/Obs_PS_sim_lsum_aitoff_map.png>] (./paper_2col.aux) ) 
+(./RRLyrae_2016.bbl) [3 <./figures/aitoff/simbad_alpha_is_1.png> <./figures/ait
+off/Obs_PS_sim_lsum_aitoff_map.png>] (./RRLyrae_2016.aux) ) 
 Here is how much of TeX's memory you used:
- 5001 strings out of 493089
- 73203 string characters out of 6134842
- 150528 words of memory out of 5000000
- 8422 multiletter control sequences out of 15000+600000
+ 5016 strings out of 493089
+ 73567 string characters out of 6134842
+ 148556 words of memory out of 5000000
+ 8434 multiletter control sequences out of 15000+600000
  10045 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,10n,40p,726b,521s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2015/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2015/texmf
--dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2015/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2015/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2015/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmti9.pfb>
-Output written on paper_2col.pdf (2 pages, 917612 bytes).
+ 42i,10n,40p,728b,521s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/
+2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2
+015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/201
+5/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2015/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2015/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2015/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2015/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/font
+s/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2015/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmti9.pfb>
+Output written on RRLyrae_2016.pdf (3 pages, 950360 bytes).
 PDF statistics:
- 70 PDF objects out of 1000 (max. 8388607)
- 46 compressed objects within 1 object stream
+ 76 PDF objects out of 1000 (max. 8388607)
+ 48 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

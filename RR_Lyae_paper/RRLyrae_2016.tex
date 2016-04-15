@@ -74,6 +74,51 @@ $b^{II}=\pm5$
 	\item{} How are we going to determine distance - discuss PL-relation
 \end{itemize}
 
+\subsection{What JT Did For Newly Sorted/Reduced Data}
+
+\begin{figure}[H]
+ \centering
+ %\caption{prob(f)}
+ \textbf{Sorting Pattern}\par\medskip
+ 	\includegraphics[width=3.35in]{figures/fromJT/sortedFOV.png}
+ \caption{\it \small{Stars were grouped in the pattern shown (down the collected observations)}}
+ \label{fig:sortpat}
+\end{figure}
+
+\begin{itemize}
+ \item{} split observations into 1 $deg^2$ chunks
+ \item{} isolated groups s.t. each one is a star with 12 or more obs
+ \item{} $--$ more than 12 detections to be a star
+ \item{} $--$ any sq deg that has more than one star
+ \item{} this reduced 1300 $deg^2$ observation data down to ~300
+ \item{} for variability parameters
+ \item{} $--$ log(average(upper quartile)) - log(average(lower quartile))
+ \item{} $--$ expect variation to go at .2* mag (from sqrt noise)...so subtract .2mag to get the logritmic statistic
+ \item{} sorted biggest (most variable?) to smallest (least variable?)
+ \item{} ran LS on 80,000 most variable stars, rather than full star groupings (over 1million)
+\end{itemize}
+
+
+
+\subsection{LS}
+\begin{itemize}
+ \item{} major aliasing at 1 day and 0.5 day periods
+ \item{} things that fall at at -50 (in Figure~\ref{fig:quartiles}) means that those are VERY probably variable stars
+ \item{} roughly \_\_\_\_\_ stars fell at -50 in Figure~\ref{fig:quartiles}
+ \item{} 80,000 stars tested for variability
+ \item{} other stars (outside of 80000) are statistically unlikely to be variable
+\end{itemize}
+
+\begin{figure}[H]
+ \centering
+ %\caption{prob(f)}
+ \textbf{prob(f)}\par\medskip
+ 	\includegraphics[width=3.35in]{figures/fromJT/probf.png}
+ \caption{\it \small{prob(f) of 80,000, most variable, stars LS was run on}}
+ \label{fig:quartiles}
+\end{figure}
+
+
 
 
 \section{Analysis}
