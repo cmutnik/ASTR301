@@ -119,6 +119,9 @@ INPUT /usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT figures/fromJT/probf.png
 INPUT ./figures/fromJT/probf.png
 INPUT ./figures/fromJT/probf.png
+INPUT figures/simbadoverlap.png
+INPUT ./figures/simbadoverlap.png
+INPUT ./figures/simbadoverlap.png
 INPUT figures/aitoff/Obs_PS_lsum_aitoff_map.png
 INPUT ./figures/aitoff/Obs_PS_lsum_aitoff_map.png
 INPUT ./figures/aitoff/Obs_PS_lsum_aitoff_map.png
