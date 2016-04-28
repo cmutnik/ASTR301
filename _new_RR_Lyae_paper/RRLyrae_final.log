@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  28 APR 2016 09:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  28 APR 2016 09:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -214,7 +214,14 @@ Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 27.
 Class revtex4-1 Info: cite was not loaded (OK!) on input line 27.
 Class revtex4-1 Info: mcite was not loaded (OK!) on input line 27.
 Class revtex4-1 Info: multicol was not loaded (OK!) on input line 27.
-(./RRLyrae_final.aux)
+(./RRLyrae_final.aux
+
+LaTeX Warning: Label `fig:quartiles' multiply defined.
+
+
+LaTeX Warning: Label `fig:quartiles' multiply defined.
+
+)
 \openout1 = `RRLyrae_final.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
@@ -229,8 +236,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
 LaTeX Font Info:    ... okay on input line 27.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
 LaTeX Font Info:    ... okay on input line 27.
-
-(/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
+ (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count100
 \scratchdimen=\dimen111
@@ -351,97 +357,121 @@ Overfull \hbox (16.22745pt too wide) in paragraph at lines 158--159
  [][] 
  []
 
-<figures/simbadoverlap.png, id=21, 803.0pt x 985.6825pt>
-File: figures/simbadoverlap.png Graphic file (type png)
+<figures/FSP1_g_LC_rrrtest_p5_grp19.png, id=21, 578.16pt x 433.62pt>
+File: figures/FSP1_g_LC_rrrtest_p5_grp19.png Graphic file (type png)
 
-<use figures/simbadoverlap.png>
-Package pdftex.def Info: figures/simbadoverlap.png used on input line 193.
-(pdftex.def)             Requested size: 242.10493pt x 297.18097pt.
+<use figures/FSP1_g_LC_rrrtest_p5_grp19.png>
+Package pdftex.def Info: figures/FSP1_g_LC_rrrtest_p5_grp19.png used on input l
+ine 172.
+(pdftex.def)             Requested size: 242.10493pt x 181.5766pt.
 
-Overfull \hbox (16.22745pt too wide) in paragraph at lines 193--194
+Overfull \hbox (16.22745pt too wide) in paragraph at lines 172--173
  [][] 
  []
 
-<figures/aitoff/Obs_PS_lsum_aitoff_map.png, id=22, 578.16pt x 433.62pt>
+<figures/FSP1_g_LC_rrrtest_p5_grp7.png, id=23, 578.16pt x 433.62pt>
+File: figures/FSP1_g_LC_rrrtest_p5_grp7.png Graphic file (type png)
+
+<use figures/FSP1_g_LC_rrrtest_p5_grp7.png>
+Package pdftex.def Info: figures/FSP1_g_LC_rrrtest_p5_grp7.png used on input li
+ne 180.
+(pdftex.def)             Requested size: 242.10493pt x 181.5766pt.
+
+Overfull \hbox (16.22745pt too wide) in paragraph at lines 180--181
+ [][] 
+ []
+
+[2 <./figures/fromJT/probf.png> <./figures/FSP1_g_LC_rrrtest_p5_grp19.png> <./f
+igures/FSP1_g_LC_rrrtest_p5_grp7.png>]
+<figures/simbadoverlap.png, id=29, 803.0pt x 985.6825pt>
+File: figures/simbadoverlap.png Graphic file (type png)
+
+<use figures/simbadoverlap.png>
+Package pdftex.def Info: figures/simbadoverlap.png used on input line 208.
+(pdftex.def)             Requested size: 242.10493pt x 297.18097pt.
+
+Overfull \hbox (16.22745pt too wide) in paragraph at lines 208--209
+ [][] 
+ []
+
+<figures/aitoff/Obs_PS_lsum_aitoff_map.png, id=30, 578.16pt x 433.62pt>
 File: figures/aitoff/Obs_PS_lsum_aitoff_map.png Graphic file (type png)
 
 <use figures/aitoff/Obs_PS_lsum_aitoff_map.png>
 Package pdftex.def Info: figures/aitoff/Obs_PS_lsum_aitoff_map.png used on inpu
-t line 202.
+t line 217.
 (pdftex.def)             Requested size: 242.10493pt x 181.5766pt.
 
-Overfull \hbox (16.22745pt too wide) in paragraph at lines 202--203
+Overfull \hbox (16.22745pt too wide) in paragraph at lines 217--218
  [][] 
  []
 
-[2 <./figures/fromJT/probf.png> <./figures/simbadoverlap.png>]
-<figures/aitoff/simbad_alpha_is_1.png, id=28, 578.16pt x 433.62pt>
+<figures/aitoff/simbad_alpha_is_1.png, id=31, 578.16pt x 433.62pt>
 File: figures/aitoff/simbad_alpha_is_1.png Graphic file (type png)
 
 <use figures/aitoff/simbad_alpha_is_1.png>
 Package pdftex.def Info: figures/aitoff/simbad_alpha_is_1.png used on input lin
-e 223.
+e 238.
 (pdftex.def)             Requested size: 234.87749pt x 176.15768pt.
 
-<figures/aitoff/Obs_PS_sim_lsum_aitoff_map.png, id=29, 578.16pt x 433.62pt>
+<figures/aitoff/Obs_PS_sim_lsum_aitoff_map.png, id=32, 578.16pt x 433.62pt>
 File: figures/aitoff/Obs_PS_sim_lsum_aitoff_map.png Graphic file (type png)
 
 <use figures/aitoff/Obs_PS_sim_lsum_aitoff_map.png>
 Package pdftex.def Info: figures/aitoff/Obs_PS_sim_lsum_aitoff_map.png used on 
-input line 229.
+input line 244.
 (pdftex.def)             Requested size: 234.87749pt x 176.15768pt.
 
-Overfull \hbox (243.87749pt too wide) in paragraph at lines 221--233
+Overfull \hbox (243.87749pt too wide) in paragraph at lines 236--248
  []$[]$$[]$ 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 245--246
+[3 <./figures/simbadoverlap.png> <./figures/aitoff/Obs_PS_lsum_aitoff_map.png> 
+<./figures/aitoff/simbad_alpha_is_1.png> <./figures/aitoff/Obs_PS_sim_lsum_aito
+ff_map.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 260--261
  []$\OML/cmm/m/it/10 =ay\OT1/cmr/m/n/10 301\OML/cmm/m/it/10 =atlas \OT1/cmr/m/n
 /10 =
  []
 
 
-Overfull \hbox (3.26852pt too wide) in paragraph at lines 245--246
+Overfull \hbox (3.26852pt too wide) in paragraph at lines 260--261
  \OML/cmm/m/it/10 locationforallthegriProjectdataandprograms$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--247
+Underfull \hbox (badness 10000) in paragraph at lines 261--262
  []$\OML/cmm/m/it/10 =ay\OT1/cmr/m/n/10 301\OML/cmm/m/it/10 =script \OT1/cmr/m/
 n/10 =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 249--250
+Underfull \hbox (badness 10000) in paragraph at lines 264--265
  []$\OML/cmm/m/it/10 =home=gri[]roject \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (50.10565pt too wide) in paragraph at lines 250--251
+Overfull \hbox (50.10565pt too wide) in paragraph at lines 265--266
  []$\OML/cmm/m/it/10 LasCumbresLCOGT\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Faulkes\O
 T1/cmr/m/n/10 2\OML/cmm/m/it/10 mtelescopeonHaleakala\OT1/cmr/m/n/10 )$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--253
+Underfull \hbox (badness 10000) in paragraph at lines 267--268
  []$\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 5\OML/cmm/m/it/10 mteles
 copewithc; o; B; V; R; I; H \OMS/cmsy/m/n/10 ^^@
  []
 
-(./RRLyrae_final.bbl) [3 <./figures/aitoff/Obs_PS_lsum_aitoff_map.png> <./figur
-es/aitoff/simbad_alpha_is_1.png> <./figures/aitoff/Obs_PS_sim_lsum_aitoff_map.p
-ng>] (./RRLyrae_final.aux)
+(./RRLyrae_final.bbl) [4] (./RRLyrae_final.aux)
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
-
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5025 strings out of 493117
- 73753 string characters out of 6135433
- 158433 words of memory out of 5000000
- 8419 multiletter control sequences out of 15000+600000
+ 5035 strings out of 493117
+ 74150 string characters out of 6135433
+ 148472 words of memory out of 5000000
+ 8427 multiletter control sequences out of 15000+600000
  10045 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,8n,40p,729b,521s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -457,10 +487,10 @@ live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
 ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texliv
 e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/
 2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on RRLyrae_final.pdf (3 pages, 974019 bytes).
+Output written on RRLyrae_final.pdf (4 pages, 1066957 bytes).
 PDF statistics:
- 74 PDF objects out of 1000 (max. 8388607)
- 45 compressed objects within 1 object stream
+ 81 PDF objects out of 1000 (max. 8388607)
+ 47 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
