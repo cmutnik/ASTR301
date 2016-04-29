@@ -125,6 +125,9 @@ INPUT ./figures/LC/star7_97_98_0_1_restricted.png
 INPUT figures/fromJT/probf.png
 INPUT ./figures/fromJT/probf.png
 INPUT ./figures/fromJT/probf.png
+INPUT figures/log_period_diff-50.png
+INPUT ./figures/log_period_diff-50.png
+INPUT ./figures/log_period_diff-50.png
 INPUT figures/FSP1_g_LC_rrrtest_p5_grp19.png
 INPUT ./figures/FSP1_g_LC_rrrtest_p5_grp19.png
 INPUT ./figures/FSP1_g_LC_rrrtest_p5_grp19.png

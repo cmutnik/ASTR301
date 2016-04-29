@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  28 APR 2016 13:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  28 APR 2016 15:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -348,11 +348,11 @@ Overfull \hbox (16.22745pt too wide) in paragraph at lines 95--96
 File: figures/LC/star7_97_98_0_1.png Graphic file (type png)
 
 <use figures/LC/star7_97_98_0_1.png>
-Package pdftex.def Info: figures/LC/star7_97_98_0_1.png used on input line 133.
+Package pdftex.def Info: figures/LC/star7_97_98_0_1.png used on input line 135.
 
 (pdftex.def)             Requested size: 242.10493pt x 181.5766pt.
 
-Overfull \hbox (16.22745pt too wide) in paragraph at lines 133--134
+Overfull \hbox (16.22745pt too wide) in paragraph at lines 135--136
  [][] 
  []
 
@@ -363,10 +363,10 @@ File: figures/LC/star7_97_98_0_1_restricted.png Graphic file (type png)
 
 <use figures/LC/star7_97_98_0_1_restricted.png>
 Package pdftex.def Info: figures/LC/star7_97_98_0_1_restricted.png used on inpu
-t line 140.
+t line 142.
 (pdftex.def)             Requested size: 242.10493pt x 181.5766pt.
 
-Overfull \hbox (16.22745pt too wide) in paragraph at lines 140--141
+Overfull \hbox (16.22745pt too wide) in paragraph at lines 142--143
  [][] 
  []
 
@@ -381,107 +381,119 @@ Overfull \hbox (16.22745pt too wide) in paragraph at lines 175--176
  [][] 
  []
 
-<figures/FSP1_g_LC_rrrtest_p5_grp19.png, id=24, 578.16pt x 433.62pt>
-File: figures/FSP1_g_LC_rrrtest_p5_grp19.png Graphic file (type png)
+<figures/log_period_diff-50.png, id=24, 590.4459pt x 445.9059pt>
+File: figures/log_period_diff-50.png Graphic file (type png)
 
-<use figures/FSP1_g_LC_rrrtest_p5_grp19.png>
-Package pdftex.def Info: figures/FSP1_g_LC_rrrtest_p5_grp19.png used on input l
-ine 195.
-(pdftex.def)             Requested size: 242.10493pt x 181.5766pt.
+<use figures/log_period_diff-50.png>
+Package pdftex.def Info: figures/log_period_diff-50.png used on input line 184.
 
-Overfull \hbox (16.22745pt too wide) in paragraph at lines 195--196
+(pdftex.def)             Requested size: 242.10493pt x 182.83621pt.
+
+Overfull \hbox (16.22745pt too wide) in paragraph at lines 184--185
  [][] 
  []
 
 [2 <./figures/LC/star7_97_98_0_1.png> <./figures/LC/star7_97_98_0_1_restricted.
-png> <./figures/fromJT/probf.png>]
-<figures/FSP1_g_LC_rrrtest_p5_grp7.png, id=30, 578.16pt x 433.62pt>
+png> <./figures/fromJT/probf.png> <./figures/log_period_diff-50.png>]
+<figures/FSP1_g_LC_rrrtest_p5_grp19.png, id=31, 578.16pt x 433.62pt>
+File: figures/FSP1_g_LC_rrrtest_p5_grp19.png Graphic file (type png)
+
+<use figures/FSP1_g_LC_rrrtest_p5_grp19.png>
+Package pdftex.def Info: figures/FSP1_g_LC_rrrtest_p5_grp19.png used on input l
+ine 205.
+(pdftex.def)             Requested size: 242.10493pt x 181.5766pt.
+
+Overfull \hbox (16.22745pt too wide) in paragraph at lines 205--206
+ [][] 
+ []
+
+<figures/FSP1_g_LC_rrrtest_p5_grp7.png, id=32, 578.16pt x 433.62pt>
 File: figures/FSP1_g_LC_rrrtest_p5_grp7.png Graphic file (type png)
 
 <use figures/FSP1_g_LC_rrrtest_p5_grp7.png>
 Package pdftex.def Info: figures/FSP1_g_LC_rrrtest_p5_grp7.png used on input li
-ne 203.
+ne 213.
 (pdftex.def)             Requested size: 242.10493pt x 181.5766pt.
 
-Overfull \hbox (16.22745pt too wide) in paragraph at lines 203--204
+Overfull \hbox (16.22745pt too wide) in paragraph at lines 213--214
  [][] 
  []
 
-<figures/simbadoverlap.png, id=31, 803.0pt x 985.6825pt>
+<figures/simbadoverlap.png, id=33, 803.0pt x 985.6825pt>
 File: figures/simbadoverlap.png Graphic file (type png)
 
 <use figures/simbadoverlap.png>
-Package pdftex.def Info: figures/simbadoverlap.png used on input line 231.
+Package pdftex.def Info: figures/simbadoverlap.png used on input line 241.
 (pdftex.def)             Requested size: 242.10493pt x 297.18097pt.
 
-Overfull \hbox (16.22745pt too wide) in paragraph at lines 231--232
+Overfull \hbox (16.22745pt too wide) in paragraph at lines 241--242
  [][] 
  []
 
-<figures/aitoff/Obs_PS_lsum_aitoff_map.png, id=32, 578.16pt x 433.62pt>
+<figures/aitoff/Obs_PS_lsum_aitoff_map.png, id=34, 578.16pt x 433.62pt>
 File: figures/aitoff/Obs_PS_lsum_aitoff_map.png Graphic file (type png)
 
 <use figures/aitoff/Obs_PS_lsum_aitoff_map.png>
 Package pdftex.def Info: figures/aitoff/Obs_PS_lsum_aitoff_map.png used on inpu
-t line 240.
+t line 250.
 (pdftex.def)             Requested size: 242.10493pt x 181.5766pt.
 
-Overfull \hbox (16.22745pt too wide) in paragraph at lines 240--241
+Overfull \hbox (16.22745pt too wide) in paragraph at lines 250--251
  [][] 
  []
 
 [3 <./figures/FSP1_g_LC_rrrtest_p5_grp19.png> <./figures/FSP1_g_LC_rrrtest_p5_g
 rp7.png> <./figures/simbadoverlap.png>]
-<figures/aitoff/simbad_alpha_is_1.png, id=39, 578.16pt x 433.62pt>
+<figures/aitoff/simbad_alpha_is_1.png, id=41, 578.16pt x 433.62pt>
 File: figures/aitoff/simbad_alpha_is_1.png Graphic file (type png)
 
 <use figures/aitoff/simbad_alpha_is_1.png>
 Package pdftex.def Info: figures/aitoff/simbad_alpha_is_1.png used on input lin
-e 261.
+e 271.
 (pdftex.def)             Requested size: 234.87749pt x 176.15768pt.
 
-<figures/aitoff/Obs_PS_sim_lsum_aitoff_map.png, id=40, 578.16pt x 433.62pt>
+<figures/aitoff/Obs_PS_sim_lsum_aitoff_map.png, id=42, 578.16pt x 433.62pt>
 File: figures/aitoff/Obs_PS_sim_lsum_aitoff_map.png Graphic file (type png)
 
 <use figures/aitoff/Obs_PS_sim_lsum_aitoff_map.png>
 Package pdftex.def Info: figures/aitoff/Obs_PS_sim_lsum_aitoff_map.png used on 
-input line 267.
+input line 277.
 (pdftex.def)             Requested size: 234.87749pt x 176.15768pt.
 
-Overfull \hbox (243.87749pt too wide) in paragraph at lines 259--271
+Overfull \hbox (243.87749pt too wide) in paragraph at lines 269--281
  []$[]$$[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 283--284
+Underfull \hbox (badness 10000) in paragraph at lines 293--294
  []$\OML/cmm/m/it/10 =ay\OT1/cmr/m/n/10 301\OML/cmm/m/it/10 =atlas \OT1/cmr/m/n
 /10 =
  []
 
 
-Overfull \hbox (3.26852pt too wide) in paragraph at lines 283--284
+Overfull \hbox (3.26852pt too wide) in paragraph at lines 293--294
  \OML/cmm/m/it/10 locationforallthegriProjectdataandprograms$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 284--285
+Underfull \hbox (badness 10000) in paragraph at lines 294--295
  []$\OML/cmm/m/it/10 =ay\OT1/cmr/m/n/10 301\OML/cmm/m/it/10 =script \OT1/cmr/m/
 n/10 =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 287--288
+Underfull \hbox (badness 10000) in paragraph at lines 297--298
  []$\OML/cmm/m/it/10 =home=gri[]roject \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (50.10565pt too wide) in paragraph at lines 288--289
+Overfull \hbox (50.10565pt too wide) in paragraph at lines 298--299
  []$\OML/cmm/m/it/10 LasCumbresLCOGT\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Faulkes\O
 T1/cmr/m/n/10 2\OML/cmm/m/it/10 mtelescopeonHaleakala\OT1/cmr/m/n/10 )$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 290--291
+Underfull \hbox (badness 10000) in paragraph at lines 300--301
  []$\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 5\OML/cmm/m/it/10 mteles
 copewithc; o; B; V; R; I; H \OMS/cmsy/m/n/10 ^^@
  []
@@ -494,13 +506,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5046 strings out of 493089
- 74539 string characters out of 6134842
- 158637 words of memory out of 5000000
- 8457 multiletter control sequences out of 15000+600000
+ 5052 strings out of 493089
+ 74713 string characters out of 6134842
+ 158654 words of memory out of 5000000
+ 8462 multiletter control sequences out of 15000+600000
  10045 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,8n,40p,729b,521s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,8n,40p,730b,521s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><
 /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
@@ -513,10 +525,10 @@ live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
 ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texliv
 e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/
 2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on RRLyrae_final.pdf (4 pages, 1161431 bytes).
+Output written on RRLyrae_final.pdf (4 pages, 1229351 bytes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
+ 87 PDF objects out of 1000 (max. 8388607)
  47 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
