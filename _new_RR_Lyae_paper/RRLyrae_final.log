@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  28 APR 2016 15:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  28 APR 2016 15:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -374,10 +374,10 @@ Overfull \hbox (16.22745pt too wide) in paragraph at lines 142--143
 File: figures/fromJT/probf.png Graphic file (type png)
 
 <use figures/fromJT/probf.png>
-Package pdftex.def Info: figures/fromJT/probf.png used on input line 175.
+Package pdftex.def Info: figures/fromJT/probf.png used on input line 178.
 (pdftex.def)             Requested size: 242.10493pt x 181.57697pt.
 
-Overfull \hbox (16.22745pt too wide) in paragraph at lines 175--176
+Overfull \hbox (16.22745pt too wide) in paragraph at lines 178--179
  [][] 
  []
 
@@ -385,11 +385,11 @@ Overfull \hbox (16.22745pt too wide) in paragraph at lines 175--176
 File: figures/log_period_diff-50.png Graphic file (type png)
 
 <use figures/log_period_diff-50.png>
-Package pdftex.def Info: figures/log_period_diff-50.png used on input line 184.
+Package pdftex.def Info: figures/log_period_diff-50.png used on input line 187.
 
 (pdftex.def)             Requested size: 242.10493pt x 182.83621pt.
 
-Overfull \hbox (16.22745pt too wide) in paragraph at lines 184--185
+Overfull \hbox (16.22745pt too wide) in paragraph at lines 187--188
  [][] 
  []
 
@@ -400,10 +400,10 @@ File: figures/FSP1_g_LC_rrrtest_p5_grp19.png Graphic file (type png)
 
 <use figures/FSP1_g_LC_rrrtest_p5_grp19.png>
 Package pdftex.def Info: figures/FSP1_g_LC_rrrtest_p5_grp19.png used on input l
-ine 205.
+ine 208.
 (pdftex.def)             Requested size: 242.10493pt x 181.5766pt.
 
-Overfull \hbox (16.22745pt too wide) in paragraph at lines 205--206
+Overfull \hbox (16.22745pt too wide) in paragraph at lines 208--209
  [][] 
  []
 
@@ -412,10 +412,10 @@ File: figures/FSP1_g_LC_rrrtest_p5_grp7.png Graphic file (type png)
 
 <use figures/FSP1_g_LC_rrrtest_p5_grp7.png>
 Package pdftex.def Info: figures/FSP1_g_LC_rrrtest_p5_grp7.png used on input li
-ne 213.
+ne 216.
 (pdftex.def)             Requested size: 242.10493pt x 181.5766pt.
 
-Overfull \hbox (16.22745pt too wide) in paragraph at lines 213--214
+Overfull \hbox (16.22745pt too wide) in paragraph at lines 216--217
  [][] 
  []
 
@@ -423,10 +423,10 @@ Overfull \hbox (16.22745pt too wide) in paragraph at lines 213--214
 File: figures/simbadoverlap.png Graphic file (type png)
 
 <use figures/simbadoverlap.png>
-Package pdftex.def Info: figures/simbadoverlap.png used on input line 241.
+Package pdftex.def Info: figures/simbadoverlap.png used on input line 244.
 (pdftex.def)             Requested size: 242.10493pt x 297.18097pt.
 
-Overfull \hbox (16.22745pt too wide) in paragraph at lines 241--242
+Overfull \hbox (16.22745pt too wide) in paragraph at lines 244--245
  [][] 
  []
 
@@ -435,10 +435,10 @@ File: figures/aitoff/Obs_PS_lsum_aitoff_map.png Graphic file (type png)
 
 <use figures/aitoff/Obs_PS_lsum_aitoff_map.png>
 Package pdftex.def Info: figures/aitoff/Obs_PS_lsum_aitoff_map.png used on inpu
-t line 250.
+t line 253.
 (pdftex.def)             Requested size: 242.10493pt x 181.5766pt.
 
-Overfull \hbox (16.22745pt too wide) in paragraph at lines 250--251
+Overfull \hbox (16.22745pt too wide) in paragraph at lines 253--254
  [][] 
  []
 
@@ -449,7 +449,7 @@ File: figures/aitoff/simbad_alpha_is_1.png Graphic file (type png)
 
 <use figures/aitoff/simbad_alpha_is_1.png>
 Package pdftex.def Info: figures/aitoff/simbad_alpha_is_1.png used on input lin
-e 271.
+e 274.
 (pdftex.def)             Requested size: 234.87749pt x 176.15768pt.
 
 <figures/aitoff/Obs_PS_sim_lsum_aitoff_map.png, id=42, 578.16pt x 433.62pt>
@@ -457,43 +457,43 @@ File: figures/aitoff/Obs_PS_sim_lsum_aitoff_map.png Graphic file (type png)
 
 <use figures/aitoff/Obs_PS_sim_lsum_aitoff_map.png>
 Package pdftex.def Info: figures/aitoff/Obs_PS_sim_lsum_aitoff_map.png used on 
-input line 277.
+input line 280.
 (pdftex.def)             Requested size: 234.87749pt x 176.15768pt.
 
-Overfull \hbox (243.87749pt too wide) in paragraph at lines 269--281
+Overfull \hbox (243.87749pt too wide) in paragraph at lines 272--284
  []$[]$$[]$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 293--294
+Underfull \hbox (badness 10000) in paragraph at lines 296--297
  []$\OML/cmm/m/it/10 =ay\OT1/cmr/m/n/10 301\OML/cmm/m/it/10 =atlas \OT1/cmr/m/n
 /10 =
  []
 
 
-Overfull \hbox (3.26852pt too wide) in paragraph at lines 293--294
+Overfull \hbox (3.26852pt too wide) in paragraph at lines 296--297
  \OML/cmm/m/it/10 locationforallthegriProjectdataandprograms$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
+Underfull \hbox (badness 10000) in paragraph at lines 297--298
  []$\OML/cmm/m/it/10 =ay\OT1/cmr/m/n/10 301\OML/cmm/m/it/10 =script \OT1/cmr/m/
 n/10 =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 297--298
+Underfull \hbox (badness 10000) in paragraph at lines 300--301
  []$\OML/cmm/m/it/10 =home=gri[]roject \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (50.10565pt too wide) in paragraph at lines 298--299
+Overfull \hbox (50.10565pt too wide) in paragraph at lines 301--302
  []$\OML/cmm/m/it/10 LasCumbresLCOGT\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Faulkes\O
 T1/cmr/m/n/10 2\OML/cmm/m/it/10 mtelescopeonHaleakala\OT1/cmr/m/n/10 )$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 300--301
+Underfull \hbox (badness 10000) in paragraph at lines 303--304
  []$\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 5\OML/cmm/m/it/10 mteles
 copewithc; o; B; V; R; I; H \OMS/cmsy/m/n/10 ^^@
  []
@@ -525,7 +525,7 @@ live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
 ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texliv
 e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/
 2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on RRLyrae_final.pdf (4 pages, 1229351 bytes).
+Output written on RRLyrae_final.pdf (4 pages, 1229265 bytes).
 PDF statistics:
  87 PDF objects out of 1000 (max. 8388607)
  47 compressed objects within 1 object stream
