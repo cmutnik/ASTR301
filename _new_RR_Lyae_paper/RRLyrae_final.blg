@@ -2,14 +2,17 @@ This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: RRLyrae_final.aux
 The style file: apsrev.bst
-I found no \citation commands---while reading file RRLyrae_final.aux
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: RRLyrae_finalNotes.bib
+Warning--I didn't find a database entry for "gri"
+Warning--I didn't find a database entry for "PSimgpipe"
+Warning--I didn't find a database entry for "tonrypipe"
+Warning--I didn't find a database entry for "simbad"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 You've used 0 entries,
             3411 wiz_defined-function locations,
-            1152 strings with 10028 characters,
+            1157 strings with 10064 characters,
 and the built_in function-call counts, 46 in all, are:
 = -- 0
 > -- 0
@@ -48,4 +51,4 @@ warning$ -- 0
 while$ -- 0
 width$ -- 0
 write$ -- 14
-(There was 1 error message)
+(There were 4 warnings)

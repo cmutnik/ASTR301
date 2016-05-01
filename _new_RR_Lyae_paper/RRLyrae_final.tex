@@ -69,33 +69,72 @@ LS analysis on ATLAS Pathfinder Telescope data, verified PS variability criteria
 	\item{} Mention what will be discussed: ``in section 2 we describe the observations we used...''
 \end{itemize}
 
+
+
+
 \section{ATLAS PathFinder 1 Observations}
 \begin{itemize}
 	\item{} we used data from ATLAS
 	\item{} supplemented with ATLAS data [REF TONRY] (possibly make this s subsection)
-	\item{} exposure time
-	\item{} observation dates
+%	\item{} exposure time
+%	\item{} observation dates
 	\item{} what was the weather like during observations
 	\item{} PSF FWHM variations (only include if we discuss crowding)
 	\item{} `we recieved the reduced image data from the ATLAS pipeline; which gave us RA, Dec, mag, etc...'
 \end{itemize}
 
+
+~[VERITY CORRECT CITATIONS $http://rsta.royalsocietypublishing.org/content/371/1992/20120269$]\\
+In determining variability of stars in our FOV, data from the $gri Project$~\cite{gri} was used.\\
+~[PATHFINDER USED FOR GRI DATA...the reduction process is discussed at length Tonry in...cite]\\
+We received the reduced image data from the ATLAS pipeline~\cite{PSimgpipe,tonrypipe}.
+
+
+
 \subsection{Data}
+%\begin{itemize}
+%	\item{} how we got mags out of data...
+%	\item{} $l^{II}=202^{\circ}$
+%	\item{} $b^{II}=\pm5$
+%\end{itemize}
 
-\begin{itemize}
-	\item{} how we got mags out of data...
-	\item{} $l^{II}=202^{\circ}$
-	\item{} $b^{II}=\pm5$
-\end{itemize}
 
-\begin{figure}[H]
-	\centering
-	%\caption{prob(f)}
-	\textbf{Sorting Pattern}\par\medskip
-		\includegraphics[width=3.35in]{figures/fromJT/sortedFOV.png}
-	\caption{\it \small{Stars were grouped in the pattern shown (down the collected observations)}}
-	\label{fig:sortpat}
-\end{figure}
+
+Is it $b^{II}=+5^{\circ}$ or $b=+5^{\circ}$??\\
+~[NEED TO DEFINE FOV]\\
+~[VERIFY RA DEC RANGE (NOT WHAT WAS PUT INTO SIMBAD)]\\
+~[NEED TO CITE TONRY FOR OUR OBSERVATIONS]\\
+~[MENTION THAT OUR OBS NECESSARY TO REDUCE ALIASING]\\
+
+Using the Pathfinder telescope, observations were made at two galactic latitudes ($b^{II}=\pm5^{\circ}$) and spanned a range of galactic longitudes ($202^{\circ} < l^{II} < 232^{\circ}$).  
+Exposures were collected for 20~s and separated by $3^{\circ}$ longitudinally.  For implementation by the Pathfinder telescope, a conversion to RA and Dec was made; giving a range of $93 < RA < 119^{\circ}$ and $-20^{\circ} < Dec < 13^{\circ}$, as shown by Figure~\ref{fig:simoverlap}.  To account for the 0.05~$^{\circ}$ gap between the detectors, a 0.1~$^{\circ}$ offset in RA was implemented on every other night.  
+%Ten observations per night were collected for 20 nights, spanning 3/8/16-3/27/16.
+%Observations were collected between 3/8/16-3/27/16.  During this 20 day period, we collected 10 observations per night.  
+Spanning 20 nights, 10 observations a night were collected on 3/8/16-3/27/16.  On\\
+~[DATE]\\
+overcast caused observations to be cut short, all other nights had weather perfectly attuned for observations.
+
+
+%0.1 deg offset in RA, accounts for 0.05 deg gap between the two detectors.
+~\\~[dRA = dangle / cos(Dec)]
+~\\~[EXPLAINS EXACT OBSERVATIONAL PLAN...NECESSARY?]\\
+Observations were traced out by moving the FOV by $3^{\circ}$ longitudinally, starting at $b^{II}=-5^{\circ}$, $l^{II}=202^{\circ}$ and ending at $b^{II}=-5^{\circ}$, $l^{II}=232^{\circ}$.  Once observations at $b^{II}=-5^{\circ}$ were complete, the FOV was shifted to $b^{II}=+5^{\circ}$, $l^{II}=232^{\circ}$.
+%Observations were traced out by taking the first exposure at $b^{II}=-5^{\circ}$ and $l^{II}=202^{\circ}$, moving the FOV longitudinally by $3^{\circ}$
+%Starting at $b^{II}=-5^{\circ}$ and $l^{II}=202^{\circ}$, exposures were collected for 20~s
+%Observations were made by starting at $b^{II}=-5^{\circ}$ and $l^{II}=202^{\circ}$, moving the ...Each exposure was collected for 20
+%Data was collected for \\
+%Starting at $b^{II}=-5^{\circ}$ and $l^{II}=202^{\circ}$ \\
+%20~s exposures were collected\\
+
+
+%\begin{figure}[H]
+%	\centering
+%	%\caption{prob(f)}
+%	\textbf{Sorting Pattern}\par\medskip
+%		\includegraphics[width=3.35in]{figures/fromJT/sortedFOV.png}
+%	\caption{\it \small{Stars were grouped in the pattern shown (down the collected observations)}}
+%	\label{fig:sortpat}
+%\end{figure}
 
 
 
@@ -129,20 +168,39 @@ LS analysis on ATLAS Pathfinder Telescope data, verified PS variability criteria
 \end{itemize}
 
 
+% merged these figures into side by side (below)
+%\begin{figure}[H]
+% \centering
+% 	\includegraphics[width=3.35in]{figures/LC/star7_97_98_0_1.png}
+% \caption{\it \small{Light Curve of variable star, using all collected and ATLAS data.}}
+% \label{fig:LC7}
+%\end{figure}
+%\begin{figure}[H]
+% \centering
+% 	\includegraphics[width=3.35in]{figures/LC/star7_97_98_0_1_restricted.png}
+% \caption{\it \small{Light Curve of variable star, using only collected data (without incorporating extra ATLAS data).}}
+% \label{fig:restrictedLC7}
+%\end{figure}
 
-\begin{figure}[H]
- \centering
- 	\includegraphics[width=3.35in]{figures/LC/star7_97_98_0_1.png}
- \caption{\it \small{Light Curve of variable star, using all collected and ATLAS data.}}
- \label{fig:LC7}
-\end{figure}
 
-\begin{figure}[H]
- \centering
- 	\includegraphics[width=3.35in]{figures/LC/star7_97_98_0_1_restricted.png}
- \caption{\it \small{Light Curve of variable star, using only collected data (without incorporating extra ATLAS data).}}
- \label{fig:restrictedLC7}
-\end{figure}
+
+\begin{figure*}
+	\centering
+	\begin{subfigure}{.5\textwidth}
+	  \centering
+	  \includegraphics[width=1\linewidth]{figures/LC/star7_97_98_0_1.png}
+		\caption{\it \small{ }}
+		\label{fig:LC7}
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+	  \centering
+			\includegraphics[width=1\linewidth]{figures/LC/star7_97_98_0_1_restricted.png}
+		\caption{\it \small{ }}
+		\label{fig:restrictedLC7}
+	\end{subfigure}
+	\caption{\it \small{Light Curve of a variable star.  Panel `(a)' shows a light curve constructed using all collected and ATLAS data.  Panel `(b)' is a restricted selection of `(a)', not showing any observations made by ATLAS.}}
+	\label{fig:LC}
+\end{figure*}
 
 
 
@@ -219,6 +277,10 @@ LS analysis on ATLAS Pathfinder Telescope data, verified PS variability criteria
 \end{figure}
 
 
+
+
+
+
 \section{Results}
 \begin{itemize}
 	\item{} compare with PS
@@ -237,6 +299,23 @@ LS analysis on ATLAS Pathfinder Telescope data, verified PS variability criteria
 		\item{} Wow, its sad how little Jeff did since class began (especially after JT gave him the code to do it a month ago) - 6 obs x 4 nights = January-April work period haha
 		\item{} Establish completeness with Simbad
 	\end{itemize}
+~[FIX SIMBAD CITATION]\\
+In order to evaluate the completeness of our results, comparisons needed to be made to other variable star catalogs.  Simbad~\cite{simbad} provided a list of variable stars within our FOV.  Pulsating sources encompasses all variable objects.  \\
+~[OF THESE WE MATCHED...RR LYRAE...REF FIGURE]\\
+
+
+~[review what he did, but heres a summary:]\\
+~[48 simbad objects overlay our FOV]\\
+~[33 have an entry in lsum.dat]\\
+~[Of 15 that overlap w/o lsum entry]\\
+~[14 are defective]\\
+~[at least one filter has less than 10 detections]\\
+~[=> it's a survey problem, not an LC problem]\\
+~[P(rand) for the 33 that do occur in lsum]\\
+~[27/33 show up as high probability variables]\\
+
+
+
 \begin{figure}[H]
  \centering
  %\caption{prob(f)}
@@ -248,12 +327,12 @@ LS analysis on ATLAS Pathfinder Telescope data, verified PS variability criteria
 
 
 
-\begin{figure}[H]
-	\centering
-		\includegraphics[width=3.35in]{figures/aitoff/Obs_PS_lsum_aitoff_map.png}
-		\caption{\it \small{Aitoff projection of observed and PS RR Lyrae candidates.  Blue are candidates from PS that >= 0.05, green are PS candidates that >= 0.2., observed data in red.}}%
-	\label{fig:aitoff_nosimbad}
-\end{figure}
+%\begin{figure}[H]
+%	\centering
+%		\includegraphics[width=3.35in]{figures/aitoff/Obs_PS_lsum_aitoff_map.png}
+%		\caption{\it \small{Aitoff projection of observed and PS RR Lyrae candidates.  Blue are candidates from PS that >= 0.05, green are PS candidates that >= 0.2., observed data in red.}}%
+%	\label{fig:aitoff_nosimbad}
+%\end{figure}
 
 
 \section{Discussion}
@@ -267,23 +346,23 @@ LS analysis on ATLAS Pathfinder Telescope data, verified PS variability criteria
 
 	
 
-\begin{figure}[h!]
-	\centering
-	\begin{subfigure}{.5\textwidth}
-	  \centering
-	  \includegraphics[width=1\linewidth]{figures/aitoff/simbad_alpha_is_1.png}
-	  \caption{\it \small{Aitoff map.}}
-	  \label{fig:aitoff_map_simbad}
-	\end{subfigure}%
-	\begin{subfigure}{.5\textwidth}
-	  \centering
-	  \includegraphics[width=1\linewidth]{figures/aitoff/Obs_PS_sim_lsum_aitoff_map.png}
-	 \caption{\it \small{Aitoff projection}}%
-	 \label{fig:aitoff_projection_simbad}
-	\end{subfigure}
-	\caption{\it \small{Aitoff projection of observed and PS RR Lyrae candidates.  Blue are candidates from PS that >= 0.05, yellow are PS candidates that >= 0.2., observed data in red, simbad in black.}}
-	\label{fig:aitoff_simbad}
-\end{figure}	
+%\begin{figure}[h!]
+%	\centering
+%	\begin{subfigure}{.5\textwidth}
+%	  \centering
+%	  \includegraphics[width=1\linewidth]{figures/aitoff/simbad_alpha_is_1.png}
+%	  \caption{\it \small{Aitoff map.}}
+%	  \label{fig:aitoff_map_simbad}
+%	\end{subfigure}%
+%	\begin{subfigure}{.5\textwidth}
+%	  \centering
+%	  \includegraphics[width=1\linewidth]{figures/aitoff/Obs_PS_sim_lsum_aitoff_map.png}
+%	 \caption{\it \small{Aitoff projection}}%
+%	 \label{fig:aitoff_projection_simbad}
+%	\end{subfigure}
+%	\caption{\it \small{Aitoff projection of observed and PS RR Lyrae candidates.  Blue are candidates from PS that >= 0.05, yellow are PS candidates that >= 0.2., observed data in red, simbad in black.}}
+%	\label{fig:aitoff_simbad}
+%\end{figure}	
 
 
 \section{Summary and Conclusions}
@@ -312,7 +391,15 @@ LS analysis on ATLAS Pathfinder Telescope data, verified PS variability criteria
 
 \begin{thebibliography}{99}  % the trailing 99 controls some obscure format--just use
 
-%\bibitem{Sch_eq} Weisstein, Eric W. ``Schr\"{o}dinger Equation."
+~\\% needed for spacing
+
+\bibitem{PSimgpipe} Magnier E 2006 The Pan-STARRS PS1 image processing pipeline. In \textit{Proceedings of the Advanced Maui Optical and Space Surveillance Technologies Conf.} (ed. Ryan S), \textit{Wailea, Maui, HI, 10–14 September 2006,} p. E5. Kihei, HI: The Maui Economic Development Board.\\
+
+\bibitem{simbad} Simbad Database
+
+\bibitem{tonrypipe} Tonry JL, et al. 2012 The Pan-STARRS1 photometric system. \textit{Astrophys. J.} \textbf{750}, 99. doi:10.1088/0004-637X/750/2/99\\
+
+\bibitem{gri} Tonry JL, er al. 2016 (personal communications January-April 2016)\\
 
 \end{thebibliography}
 
