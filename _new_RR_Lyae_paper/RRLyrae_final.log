@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  30 APR 2016 17:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  30 APR 2016 18:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -367,12 +367,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 103--108
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--128
+Underfull \hbox (badness 10000) in paragraph at lines 117--126
 \OT1/cmr/m/n/10 [EX-PLAINS EX-ACT OB-SER-VA-TIONAL
  []
 
 
-Underfull \hbox (badness 3209) in paragraph at lines 119--128
+Underfull \hbox (badness 3209) in paragraph at lines 117--126
 \OT1/cmr/m/n/10 Observations were traced out by mov-ing the
  []
 
@@ -381,7 +381,7 @@ Underfull \hbox (badness 3209) in paragraph at lines 119--128
 File: figures/LC/star7_97_98_0_1.png Graphic file (type png)
 
 <use figures/LC/star7_97_98_0_1.png>
-Package pdftex.def Info: figures/LC/star7_97_98_0_1.png used on input line 191.
+Package pdftex.def Info: figures/LC/star7_97_98_0_1.png used on input line 189.
 
 (pdftex.def)             Requested size: 234.87749pt x 176.15768pt.
 
@@ -390,17 +390,17 @@ File: figures/LC/star7_97_98_0_1_restricted.png Graphic file (type png)
 
 <use figures/LC/star7_97_98_0_1_restricted.png>
 Package pdftex.def Info: figures/LC/star7_97_98_0_1_restricted.png used on inpu
-t line 197.
+t line 195.
 (pdftex.def)             Requested size: 234.87749pt x 176.15768pt.
 
 <figures/fromJT/probf.png, id=21, 803.0pt x 602.25pt>
 File: figures/fromJT/probf.png Graphic file (type png)
 
 <use figures/fromJT/probf.png>
-Package pdftex.def Info: figures/fromJT/probf.png used on input line 236.
+Package pdftex.def Info: figures/fromJT/probf.png used on input line 234.
 (pdftex.def)             Requested size: 242.10493pt x 181.57697pt.
 
-Overfull \hbox (16.22745pt too wide) in paragraph at lines 236--237
+Overfull \hbox (16.22745pt too wide) in paragraph at lines 234--235
  [][] 
  []
 
@@ -408,11 +408,11 @@ Overfull \hbox (16.22745pt too wide) in paragraph at lines 236--237
 File: figures/log_period_diff-50.png Graphic file (type png)
 
 <use figures/log_period_diff-50.png>
-Package pdftex.def Info: figures/log_period_diff-50.png used on input line 245.
+Package pdftex.def Info: figures/log_period_diff-50.png used on input line 243.
 
 (pdftex.def)             Requested size: 242.10493pt x 182.83621pt.
 
-Overfull \hbox (16.22745pt too wide) in paragraph at lines 245--246
+Overfull \hbox (16.22745pt too wide) in paragraph at lines 243--244
  [][] 
  []
 
@@ -421,10 +421,10 @@ File: figures/FSP1_g_LC_rrrtest_p5_grp19.png Graphic file (type png)
 
 <use figures/FSP1_g_LC_rrrtest_p5_grp19.png>
 Package pdftex.def Info: figures/FSP1_g_LC_rrrtest_p5_grp19.png used on input l
-ine 266.
+ine 264.
 (pdftex.def)             Requested size: 242.10493pt x 181.5766pt.
 
-Overfull \hbox (16.22745pt too wide) in paragraph at lines 266--267
+Overfull \hbox (16.22745pt too wide) in paragraph at lines 264--265
  [][] 
  []
 
@@ -433,21 +433,21 @@ File: figures/FSP1_g_LC_rrrtest_p5_grp7.png Graphic file (type png)
 
 <use figures/FSP1_g_LC_rrrtest_p5_grp7.png>
 Package pdftex.def Info: figures/FSP1_g_LC_rrrtest_p5_grp7.png used on input li
-ne 274.
+ne 272.
 (pdftex.def)             Requested size: 242.10493pt x 181.5766pt.
 
-Overfull \hbox (16.22745pt too wide) in paragraph at lines 274--275
+Overfull \hbox (16.22745pt too wide) in paragraph at lines 272--273
  [][] 
  []
 
 [2 <./figures/fromJT/probf.png> <./figures/log_period_diff-50.png> <./figures/F
 SP1_g_LC_rrrtest_p5_grp19.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 302--305
+Underfull \hbox (badness 10000) in paragraph at lines 300--303
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 307--316
+Underfull \hbox (badness 10000) in paragraph at lines 305--314
 
  []
 
@@ -455,50 +455,50 @@ Underfull \hbox (badness 10000) in paragraph at lines 307--316
 File: figures/simbadoverlap.png Graphic file (type png)
 
 <use figures/simbadoverlap.png>
-Package pdftex.def Info: figures/simbadoverlap.png used on input line 323.
+Package pdftex.def Info: figures/simbadoverlap.png used on input line 321.
 (pdftex.def)             Requested size: 242.10493pt x 297.18097pt.
 
-Overfull \hbox (16.22745pt too wide) in paragraph at lines 323--324
+Overfull \hbox (16.22745pt too wide) in paragraph at lines 321--322
  [][] 
  []
 
 [3 <./figures/LC/star7_97_98_0_1.png> <./figures/LC/star7_97_98_0_1_restricted.
 png> <./figures/FSP1_g_LC_rrrtest_p5_grp7.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 375--376
+Underfull \hbox (badness 10000) in paragraph at lines 373--374
  []$\OML/cmm/m/it/10 =ay\OT1/cmr/m/n/10 301\OML/cmm/m/it/10 =atlas \OT1/cmr/m/n
 /10 =
  []
 
 
-Overfull \hbox (3.26852pt too wide) in paragraph at lines 375--376
+Overfull \hbox (3.26852pt too wide) in paragraph at lines 373--374
  \OML/cmm/m/it/10 locationforallthegriProjectdataandprograms$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 376--377
+Underfull \hbox (badness 10000) in paragraph at lines 374--375
  []$\OML/cmm/m/it/10 =ay\OT1/cmr/m/n/10 301\OML/cmm/m/it/10 =script \OT1/cmr/m/
 n/10 =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--380
+Underfull \hbox (badness 10000) in paragraph at lines 377--378
  []$\OML/cmm/m/it/10 =home=gri[]roject \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (50.10565pt too wide) in paragraph at lines 380--381
+Overfull \hbox (50.10565pt too wide) in paragraph at lines 378--379
  []$\OML/cmm/m/it/10 LasCumbresLCOGT\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Faulkes\O
 T1/cmr/m/n/10 2\OML/cmm/m/it/10 mtelescopeonHaleakala\OT1/cmr/m/n/10 )$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 382--383
+Underfull \hbox (badness 10000) in paragraph at lines 380--381
  []$\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 5\OML/cmm/m/it/10 mteles
 copewithc; o; B; V; R; I; H \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 394--395
+Underfull \hbox (badness 10000) in paragraph at lines 392--393
  
  []
 
@@ -506,22 +506,22 @@ Missing character: There is no â in font cmti9!
 Missing character: There is no € in font cmti9!
 Missing character: There is no “ in font cmti9!
 
-Underfull \hbox (badness 1831) in paragraph at lines 396--397
+Underfull \hbox (badness 1831) in paragraph at lines 394--395
  []\OT1/cmr/m/n/9 Magnier E 2006 The Pan-STARRS PS1 im-age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 396--397
+Underfull \hbox (badness 10000) in paragraph at lines 394--395
+ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 398--399
  
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 400--401
- 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 402--403
  
  []
 
@@ -550,7 +550,7 @@ live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
 ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texliv
 e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/
 2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on RRLyrae_final.pdf (4 pages, 447568 bytes).
+Output written on RRLyrae_final.pdf (4 pages, 447631 bytes).
 PDF statistics:
  79 PDF objects out of 1000 (max. 8388607)
  47 compressed objects within 1 object stream

@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex RRLyrae_final"] 1462074332 "RRLyrae_final.aux" "RRLyrae_final.bbl" "RRLyrae_final" 1462074333
+["bibtex RRLyrae_final"] 1462074332 "RRLyrae_final.aux" "RRLyrae_final.bbl" "RRLyrae_final" 1462075669
   "/usr/local/texlive/2015/texmf-dist/bibtex/bst/revtex4/apsrev.bst" 1261594643 44155 dc7233506a001aedcd59cfd90f9fe8d7 ""
-  "RRLyrae_final.aux" 1462074333 5559 e2719c6ea246e1c3429cf0df6c72b3a9 ""
+  "RRLyrae_final.aux" 1462075668 5559 e2719c6ea246e1c3429cf0df6c72b3a9 ""
   "RRLyrae_final.bcf" 0 -1 0 ""
-  "RRLyrae_finalNotes.bib" 1462074332 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "RRLyrae_finalNotes.bib" 1462075668 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
   "RRLyrae_final.blg"
   "RRLyrae_final.bbl"
-["pdflatex"] 1462074332 "RRLyrae_final.tex" "RRLyrae_final.pdf" "RRLyrae_final" 1462074333
+["pdflatex"] 1462075668 "RRLyrae_final.tex" "RRLyrae_final.pdf" "RRLyrae_final" 1462075669
   "./figures/FSP1_g_LC_rrrtest_p5_grp19.png" 1461878253 69520 aa84ad3fe819fbd74ca5f8a5694fb3a8 ""
   "./figures/FSP1_g_LC_rrrtest_p5_grp7.png" 1461878253 64693 9d15fb4ffb6ab0e1836b7be4b5cec81f ""
   "./figures/LC/star7_97_98_0_1.png" 1458204982 66642 effe68fa080a6259e63d4e06bf1caaae ""
@@ -89,9 +89,9 @@
   "/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1432479641 1764542 91654ba72bdb667e84ea24f076ae16d8 ""
   "/usr/local/texlive/2015/texmf-var/web2c/pdftex/pdflatex.fmt" 1432479681 3849859 39a7d258195bde2394e244961601fbc5 ""
   "/usr/local/texlive/2015/texmf.cnf" 1432479636 577 0d611272082f3cdb8e80e09a3c69cf07 ""
-  "RRLyrae_final.aux" 1462074333 5559 e2719c6ea246e1c3429cf0df6c72b3a9 ""
+  "RRLyrae_final.aux" 1462075668 5559 e2719c6ea246e1c3429cf0df6c72b3a9 ""
   "RRLyrae_final.bbl" 1462074332 584 9411fe63aa1c4dcc3282b86a381435fa "bibtex RRLyrae_final"
-  "RRLyrae_final.tex" 1462074331 14624 94dbeaa2907a6ef16965d545cd9715d6 ""
+  "RRLyrae_final.tex" 1462075668 14682 1ce045ba5f9f3cbaf79c14ff3263ad7c ""
   "figures/FSP1_g_LC_rrrtest_p5_grp19.png" 1461878253 69520 aa84ad3fe819fbd74ca5f8a5694fb3a8 ""
   "figures/FSP1_g_LC_rrrtest_p5_grp7.png" 1461878253 64693 9d15fb4ffb6ab0e1836b7be4b5cec81f ""
   "figures/LC/star7_97_98_0_1.png" 1458204982 66642 effe68fa080a6259e63d4e06bf1caaae ""
@@ -102,5 +102,5 @@
   (generated)
   "RRLyrae_final.log"
   "RRLyrae_final.aux"
-  "RRLyrae_final.pdf"
   "RRLyrae_finalNotes.bib"
+  "RRLyrae_final.pdf"
