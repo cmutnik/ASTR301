@@ -1,4 +1,4 @@
-\begin{thebibliography}{0}
+\begin{thebibliography}{5}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname bibnamefont\endcsname\relax
   \def\bibnamefont#1{#1}\fi
@@ -11,5 +11,63 @@
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
 \providecommand{\bibinfo}[2]{#2}
 \providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{\citenamefont{Tonry}(2016)}]{gri}
+\bibinfo{author}{\bibfnamefont{J.~L.} \bibnamefont{Tonry}},
+  \bibinfo{howpublished}{personal communication} (\bibinfo{year}{2016}).
+
+\bibitem[{\citenamefont{{Magnier}}(2006)}]{PSpipe}
+\bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{{Magnier}}}, in
+  \emph{\bibinfo{booktitle}{The Advanced Maui Optical and Space Surveillance
+  Technologies Conference}} (\bibinfo{year}{2006}), p. \bibinfo{pages}{E50}.
+
+\bibitem[{\citenamefont{Tonry et~al.}(2012)\citenamefont{Tonry, Stubbs, Lykke,
+  Doherty, Shivvers, Burgett, Chambers, Hodapp, Kaiser, Kudritzki
+  et~al.}}]{tonrypipe}
+\bibinfo{author}{\bibfnamefont{J.~L.} \bibnamefont{Tonry}},
+  \bibinfo{author}{\bibfnamefont{C.~W.} \bibnamefont{Stubbs}},
+  \bibinfo{author}{\bibfnamefont{K.~R.} \bibnamefont{Lykke}},
+  \bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{Doherty}},
+  \bibinfo{author}{\bibfnamefont{I.~S.} \bibnamefont{Shivvers}},
+  \bibinfo{author}{\bibfnamefont{W.~S.} \bibnamefont{Burgett}},
+  \bibinfo{author}{\bibfnamefont{K.~C.} \bibnamefont{Chambers}},
+  \bibinfo{author}{\bibfnamefont{K.~W.} \bibnamefont{Hodapp}},
+  \bibinfo{author}{\bibfnamefont{N.}~\bibnamefont{Kaiser}},
+  \bibinfo{author}{\bibfnamefont{R.-P.} \bibnamefont{Kudritzki}},
+  \bibnamefont{et~al.}, \bibinfo{journal}{The Astrophysical Journal}
+  \textbf{\bibinfo{volume}{750}}, \bibinfo{pages}{99} (\bibinfo{year}{2012}),
+  \urlprefix\url{http://stacks.iop.org/0004-637X/750/i=2/a=99}.
+
+\bibitem[{\citenamefont{{Hernitschek} et~al.}(2016)\citenamefont{{Hernitschek},
+  {Schlafly}, {Sesar}, {Rix}, {Hogg}, {Ivezi{\'c}}, {Grebel}, {Bell}, {Martin},
+  {Burgett} et~al.}}]{PSdata}
+\bibinfo{author}{\bibfnamefont{N.}~\bibnamefont{{Hernitschek}}},
+  \bibinfo{author}{\bibfnamefont{E.~F.} \bibnamefont{{Schlafly}}},
+  \bibinfo{author}{\bibfnamefont{B.}~\bibnamefont{{Sesar}}},
+  \bibinfo{author}{\bibfnamefont{H.-W.} \bibnamefont{{Rix}}},
+  \bibinfo{author}{\bibfnamefont{D.~W.} \bibnamefont{{Hogg}}},
+  \bibinfo{author}{\bibfnamefont{{\v Z}.}~\bibnamefont{{Ivezi{\'c}}}},
+  \bibinfo{author}{\bibfnamefont{E.~K.} \bibnamefont{{Grebel}}},
+  \bibinfo{author}{\bibfnamefont{E.~F.} \bibnamefont{{Bell}}},
+  \bibinfo{author}{\bibfnamefont{N.~F.} \bibnamefont{{Martin}}},
+  \bibinfo{author}{\bibfnamefont{W.~S.} \bibnamefont{{Burgett}}},
+  \bibnamefont{et~al.}, \bibinfo{journal}{\apj} \textbf{\bibinfo{volume}{817}},
+  \bibinfo{eid}{73} (\bibinfo{year}{2016}), \eprint{1511.05527}.
+
+\bibitem[{\citenamefont{{Wenger} et~al.}(2000)\citenamefont{{Wenger},
+  {Ochsenbein}, {Egret}, {Dubois}, {Bonnarel}, {Borde}, {Genova}, {Jasniewicz},
+  {Lalo{\"e}}, {Lesteven} et~al.}}]{simbad}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{{Wenger}}},
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{{Ochsenbein}}},
+  \bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{{Egret}}},
+  \bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{{Dubois}}},
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{{Bonnarel}}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{{Borde}}},
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{{Genova}}},
+  \bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{{Jasniewicz}}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{{Lalo{\"e}}}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{{Lesteven}}},
+  \bibnamefont{et~al.}, \bibinfo{journal}{aaps} \textbf{\bibinfo{volume}{143}},
+  \bibinfo{pages}{9} (\bibinfo{year}{2000}), \eprint{astro-ph/0002110}.
 
 \end{thebibliography}

@@ -1,8 +1,0 @@
- * split observations into 1 deg^2 chunks
- * isolated groups s.t. each one is a star with 12 or more obs
- * this reduced 1300 deg^2 observation data down to ~300
- * for variability parameters
-  - log(upper quartile) - log(lower quartile)
-  - expect variation to go at .2* mag => from sqrt noise
- * sorted biggest (most variable?) to smallest (least variable?)
- * ran LS on 90,000 most variable stars, rather than full star groupings (over 1million)

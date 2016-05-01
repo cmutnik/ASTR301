@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  30 APR 2016 18:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  1 MAY 2016 00:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -204,39 +204,33 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks21
 \@floatcapt=\box42
 )
-Class revtex4-1 Info: Patching LaTeX tabular. on input line 27.
+Class revtex4-1 Info: Patching LaTeX tabular. on input line 28.
 
 
 Class revtex4-1 Warning: Repair the float package.
 
-Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 27.
+Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 28.
 
-Class revtex4-1 Info: cite was not loaded (OK!) on input line 27.
-Class revtex4-1 Info: mcite was not loaded (OK!) on input line 27.
-Class revtex4-1 Info: multicol was not loaded (OK!) on input line 27.
-(./RRLyrae_final.aux
-
-LaTeX Warning: Label `fig:quartiles' multiply defined.
-
-
-LaTeX Warning: Label `fig:quartiles' multiply defined.
-
-)
+Class revtex4-1 Info: cite was not loaded (OK!) on input line 28.
+Class revtex4-1 Info: mcite was not loaded (OK!) on input line 28.
+Class revtex4-1 Info: multicol was not loaded (OK!) on input line 28.
+(./RRLyrae_final.aux)
 \openout1 = `RRLyrae_final.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
- (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+
+(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count100
 \scratchdimen=\dimen111
@@ -303,257 +297,180 @@ Package caption Info: End \AtBeginDocument code.
 \openout3 = `RRLyrae_finalNotes.bib'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--47
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
   
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
   
  []
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 53.
+LaTeX Font Info:    Try loading font information for U+msa on input line 54.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 53.
+LaTeX Font Info:    Try loading font information for U+msb on input line 54.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 61.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 62.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 61.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 62.
 
 Underfull \hbox (badness 10000) in paragraph at lines 78--81
  []\OT1/cmr/m/n/10 supplemented with AT-LAS data [REF
  []
 
 
-Underfull \hbox (badness 3098) in paragraph at lines 87--91
-[] \OT1/cmr/m/n/10 [VER-ITY COR-RECT CI-TA-TIONS $\OML/cmm/m/it/10 http \OT1/cm
-r/m/n/10 :
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+ []$\OT1/cmtt/m/n/10 http : / / fallingstar . com / how _ atlas _
  []
 
 
-Overfull \hbox (54.55237pt too wide) in paragraph at lines 87--91
-\OML/cmm/m/it/10 ==rsta:royalsocietypublishing:org=content=\OT1/cmr/m/n/10 371\
-OML/cmm/m/it/10 =\OT1/cmr/m/n/10 1992\OML/cmm/m/it/10 =\OT1/cmr/m/n/10 20120269
-$] 
- []
-
-
-Underfull \hbox (badness 5345) in paragraph at lines 87--91
-\OT1/cmr/m/n/10 [PATHFINDER USED FOR GRI DATA...the
- []
-
-
-Underfull \hbox (badness 1389) in paragraph at lines 87--91
-\OT1/cmr/m/n/10 re-duc-tion pro-cess is dis-cussed at length Tonry
- []
-
-
-Underfull \hbox (badness 1184) in paragraph at lines 87--91
-\OT1/cmr/m/n/10 We re-ceived the re-duced im-age data from the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 103--108
+Underfull \hbox (badness 10000) in paragraph at lines 120--125
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--126
+Underfull \hbox (badness 10000) in paragraph at lines 134--143
 \OT1/cmr/m/n/10 [EX-PLAINS EX-ACT OB-SER-VA-TIONAL
  []
 
 
-Underfull \hbox (badness 3209) in paragraph at lines 117--126
+Underfull \hbox (badness 3209) in paragraph at lines 134--143
 \OT1/cmr/m/n/10 Observations were traced out by mov-ing the
  []
 
 [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<figures/LC/star7_97_98_0_1.png, id=18, 578.16pt x 433.62pt>
+<figures/LC/star7_97_98_0_1.png, id=19, 578.16pt x 433.62pt>
 File: figures/LC/star7_97_98_0_1.png Graphic file (type png)
 
 <use figures/LC/star7_97_98_0_1.png>
-Package pdftex.def Info: figures/LC/star7_97_98_0_1.png used on input line 189.
+Package pdftex.def Info: figures/LC/star7_97_98_0_1.png used on input line 196.
 
 (pdftex.def)             Requested size: 234.87749pt x 176.15768pt.
 
-<figures/LC/star7_97_98_0_1_restricted.png, id=20, 578.16pt x 433.62pt>
+<figures/LC/star7_97_98_0_1_restricted.png, id=21, 578.16pt x 433.62pt>
 File: figures/LC/star7_97_98_0_1_restricted.png Graphic file (type png)
 
 <use figures/LC/star7_97_98_0_1_restricted.png>
 Package pdftex.def Info: figures/LC/star7_97_98_0_1_restricted.png used on inpu
-t line 195.
+t line 202.
 (pdftex.def)             Requested size: 234.87749pt x 176.15768pt.
 
-<figures/fromJT/probf.png, id=21, 803.0pt x 602.25pt>
+<figures/fromJT/probf.png, id=22, 803.0pt x 602.25pt>
 File: figures/fromJT/probf.png Graphic file (type png)
 
 <use figures/fromJT/probf.png>
-Package pdftex.def Info: figures/fromJT/probf.png used on input line 234.
+Package pdftex.def Info: figures/fromJT/probf.png used on input line 241.
 (pdftex.def)             Requested size: 242.10493pt x 181.57697pt.
 
-Overfull \hbox (16.22745pt too wide) in paragraph at lines 234--235
+Overfull \hbox (16.22745pt too wide) in paragraph at lines 241--242
  [][] 
  []
 
-<figures/log_period_diff-50.png, id=22, 590.4459pt x 445.9059pt>
+<figures/log_period_diff-50.png, id=23, 590.4459pt x 445.9059pt>
 File: figures/log_period_diff-50.png Graphic file (type png)
 
 <use figures/log_period_diff-50.png>
-Package pdftex.def Info: figures/log_period_diff-50.png used on input line 243.
+Package pdftex.def Info: figures/log_period_diff-50.png used on input line 250.
 
 (pdftex.def)             Requested size: 242.10493pt x 182.83621pt.
 
-Overfull \hbox (16.22745pt too wide) in paragraph at lines 243--244
+Overfull \hbox (16.22745pt too wide) in paragraph at lines 250--251
  [][] 
  []
 
-<figures/FSP1_g_LC_rrrtest_p5_grp19.png, id=23, 578.16pt x 433.62pt>
-File: figures/FSP1_g_LC_rrrtest_p5_grp19.png Graphic file (type png)
 
-<use figures/FSP1_g_LC_rrrtest_p5_grp19.png>
-Package pdftex.def Info: figures/FSP1_g_LC_rrrtest_p5_grp19.png used on input l
-ine 264.
-(pdftex.def)             Requested size: 242.10493pt x 181.5766pt.
-
-Overfull \hbox (16.22745pt too wide) in paragraph at lines 264--265
- [][] 
- []
-
-<figures/FSP1_g_LC_rrrtest_p5_grp7.png, id=24, 578.16pt x 433.62pt>
-File: figures/FSP1_g_LC_rrrtest_p5_grp7.png Graphic file (type png)
-
-<use figures/FSP1_g_LC_rrrtest_p5_grp7.png>
-Package pdftex.def Info: figures/FSP1_g_LC_rrrtest_p5_grp7.png used on input li
-ne 272.
-(pdftex.def)             Requested size: 242.10493pt x 181.5766pt.
-
-Overfull \hbox (16.22745pt too wide) in paragraph at lines 272--273
- [][] 
- []
-
-[2 <./figures/fromJT/probf.png> <./figures/log_period_diff-50.png> <./figures/F
-SP1_g_LC_rrrtest_p5_grp19.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 300--303
+Underfull \hbox (badness 10000) in paragraph at lines 308--311
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 305--314
+[2 <./figures/fromJT/probf.png> <./figures/log_period_diff-50.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 313--322
 
  []
 
-<figures/simbadoverlap.png, id=30, 803.0pt x 985.6825pt>
+<figures/simbadoverlap.png, id=28, 803.0pt x 985.6825pt>
 File: figures/simbadoverlap.png Graphic file (type png)
 
 <use figures/simbadoverlap.png>
-Package pdftex.def Info: figures/simbadoverlap.png used on input line 321.
+Package pdftex.def Info: figures/simbadoverlap.png used on input line 329.
 (pdftex.def)             Requested size: 242.10493pt x 297.18097pt.
 
-Overfull \hbox (16.22745pt too wide) in paragraph at lines 321--322
+Overfull \hbox (16.22745pt too wide) in paragraph at lines 329--330
  [][] 
  []
 
 [3 <./figures/LC/star7_97_98_0_1.png> <./figures/LC/star7_97_98_0_1_restricted.
-png> <./figures/FSP1_g_LC_rrrtest_p5_grp7.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 373--374
+png> <./figures/simbadoverlap.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 381--382
  []$\OML/cmm/m/it/10 =ay\OT1/cmr/m/n/10 301\OML/cmm/m/it/10 =atlas \OT1/cmr/m/n
 /10 =
  []
 
 
-Overfull \hbox (3.26852pt too wide) in paragraph at lines 373--374
+Overfull \hbox (3.26852pt too wide) in paragraph at lines 381--382
  \OML/cmm/m/it/10 locationforallthegriProjectdataandprograms$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 374--375
+Underfull \hbox (badness 10000) in paragraph at lines 382--383
  []$\OML/cmm/m/it/10 =ay\OT1/cmr/m/n/10 301\OML/cmm/m/it/10 =script \OT1/cmr/m/
 n/10 =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 377--378
+Underfull \hbox (badness 10000) in paragraph at lines 385--386
  []$\OML/cmm/m/it/10 =home=gri[]roject \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (50.10565pt too wide) in paragraph at lines 378--379
+Overfull \hbox (50.10565pt too wide) in paragraph at lines 386--387
  []$\OML/cmm/m/it/10 LasCumbresLCOGT\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Faulkes\O
 T1/cmr/m/n/10 2\OML/cmm/m/it/10 mtelescopeonHaleakala\OT1/cmr/m/n/10 )$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 380--381
+Underfull \hbox (badness 10000) in paragraph at lines 388--389
  []$\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 5\OML/cmm/m/it/10 mteles
 copewithc; o; B; V; R; I; H \OMS/cmsy/m/n/10 ^^@
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 392--393
- 
- []
-
-Missing character: There is no â in font cmti9!
-Missing character: There is no € in font cmti9!
-Missing character: There is no “ in font cmti9!
-
-Underfull \hbox (badness 1831) in paragraph at lines 394--395
- []\OT1/cmr/m/n/9 Magnier E 2006 The Pan-STARRS PS1 im-age
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 394--395
- 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 398--399
- 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 400--401
- 
- []
-
-(./RRLyrae_final.bbl) [4 <./figures/simbadoverlap.png>] (./RRLyrae_final.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+(./RRLyrae_final.bbl) [4] (./RRLyrae_final.aux) ) 
 Here is how much of TeX's memory you used:
- 5043 strings out of 493089
- 74036 string characters out of 6134842
- 158655 words of memory out of 5000000
- 8458 multiletter control sequences out of 15000+600000
- 10045 words of font info for 39 fonts, out of 8000000 for 9000
+ 5049 strings out of 493089
+ 73848 string characters out of 6134842
+ 158029 words of memory out of 5000000
+ 8464 multiletter control sequences out of 15000+600000
+ 10380 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,8n,40p,755b,526s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><
-/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></us
-r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
-local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/loc
-al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/
-texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/tex
-live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
-ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texliv
-e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/
-2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on RRLyrae_final.pdf (4 pages, 447631 bytes).
+</usr/local/texlive/2015/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2015/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2015/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmti9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmtt9.pfb>
+Output written on RRLyrae_final.pdf (4 pages, 379156 bytes).
 PDF statistics:
- 79 PDF objects out of 1000 (max. 8388607)
- 47 compressed objects within 1 object stream
+ 83 PDF objects out of 1000 (max. 8388607)
+ 53 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

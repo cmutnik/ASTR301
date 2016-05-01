@@ -5,6 +5,7 @@
 \usepackage{color}
 \usepackage{subcaption} % for subcaptions on side-by-side figures
 \usepackage{float}	% allows use of 'H' command
+%\usepackage{cite}	% to use .bib file
 %\usepackage{hyperref}	% needed to add hyperlinks
 %\hypersetup{
 %  colorlinks=true,
@@ -71,7 +72,6 @@ LS analysis on ATLAS Pathfinder Telescope data, verified PS variability criteria
 
 
 
-
 \section{ATLAS PathFinder 1 Observations}
 \begin{itemize}
 	\item{} we used data from ATLAS
@@ -81,14 +81,15 @@ LS analysis on ATLAS Pathfinder Telescope data, verified PS variability criteria
 	\item{} what was the weather like during observations
 	\item{} PSF FWHM variations (only include if we discuss crowding)
 	\item{} `we recieved the reduced image data from the ATLAS pipeline; which gave us RA, Dec, mag, etc...'
+	\item{}\url{http://fallingstar.com/how_atlas_works.php}
 \end{itemize}
 
 
-~[VERITY CORRECT CITATIONS $http://rsta.royalsocietypublishing.org/content/371/1992/20120269$]\\
+~[VERIFY CORRECT CITATIONS:\\% $http://rsta.royalsocietypublishing.org/content/371/1992/20120269$]\\
 In determining variability of stars in our FOV, data from the $gri Project$~\cite{gri} was used.\\
 ~[PATHFINDER USED FOR GRI DATA...the reduction process is discussed at length Tonry in...cite]\\
-We received the reduced image data from the ATLAS pipeline~\cite{PSimgpipe,tonrypipe}.
-
+We received the reduced image data from the ATLAS pipeline~\cite{PSpipe}~\cite{tonrypipe}
+%\cite{PSimgpipe,*tonrypipe}
 
 
 \subsection{Data}
@@ -97,6 +98,22 @@ We received the reduced image data from the ATLAS pipeline~\cite{PSimgpipe,tonry
 %	\item{} $l^{II}=202^{\circ}$
 %	\item{} $b^{II}=\pm5$
 %\end{itemize}
+% from old paper
+\iffalse
+	\begin{itemize}
+	 \item{} split observations into 1 $deg^2$ chunks
+	 \item{} isolated groups s.t. each one is a star with 12 or more obs
+	 \item{} $--$ more than 12 detections to be a star
+	 \item{} $--$ any sq deg that has more than one star
+	 \item{} this reduced 1300 $deg^2$ observation data down to ~300
+	 \item{} before variability params: 1531417 stars in field
+	 \item{} for variability parameters
+	 \item{} $--$ log(average(upper quartile)) - log(average(lower quartile))
+	 \item{} $--$ expect variation to go at .2* mag (from sqrt noise)...so subtract .2mag to get the logritmic statistic
+	 \item{} sorted biggest (most variable?) to smallest (least variable?)
+	 \item{} ran LS on 80,000 most variable stars, rather than full star groupings (over 1million)
+	\end{itemize}
+\fi
 
 
 
@@ -135,28 +152,16 @@ Observations were traced out by moving the FOV by $3^{\circ}$ longitudinally, st
 %\end{figure}
 
 
-
-% from old paper
 \iffalse
-	\begin{itemize}
-	 \item{} split observations into 1 $deg^2$ chunks
-	 \item{} isolated groups s.t. each one is a star with 12 or more obs
-	 \item{} $--$ more than 12 detections to be a star
-	 \item{} $--$ any sq deg that has more than one star
-	 \item{} this reduced 1300 $deg^2$ observation data down to ~300
-	 \item{} before variability params: 1531417 stars in field
-	 \item{} for variability parameters
-	 \item{} $--$ log(average(upper quartile)) - log(average(lower quartile))
-	 \item{} $--$ expect variation to go at .2* mag (from sqrt noise)...so subtract .2mag to get the logritmic statistic
-	 \item{} sorted biggest (most variable?) to smallest (least variable?)
-	 \item{} ran LS on 80,000 most variable stars, rather than full star groupings (over 1million)
-	\end{itemize}
+\subsection{Object Cuts}
+Threw away stars with magnitude error of 0.\\
+After isolating `good' observations we threw away any stars with less than 12 observations: could have fallen on the edge of each 1 $deg^{2}$ FOV, fallen on portion of detector with bad PSF, etc\\
+needed 12 observations to reduce / eliminate aliasing\\
 \fi
 
 
 
 \section{Constructing Stellar Light Curves}
-%\section{Constructing LightCurves for Stars}
 
 % check out resource:
 % https://www.aavso.org/lcg
@@ -164,6 +169,8 @@ Observations were traced out by moving the FOV by $3^{\circ}$ longitudinally, st
 \begin{itemize}
 	\item{} how we selected stars (12+ obs, 1x1 deg$^2$, etc)
 \end{itemize}
+
+The selection process began
 
 
 % merged these figures into side by side (below)
@@ -252,36 +259,37 @@ Observations were traced out by moving the FOV by $3^{\circ}$ longitudinally, st
 	\item{} Fourier series fit to extract variable types
 \end{itemize}
 
-\subsection{Period Error Estimation}
-
-\begin{itemize}
-	\item{} explanation of period error estimation using Fourier series
-\end{itemize}
-
-\begin{figure}[H]
- \centering
- %\caption{prob(f)}
- 	\includegraphics[width=3.35in]{figures/FSP1_g_LC_rrrtest_p5_grp19.png}
- \caption{\it \small{Type ab}}
- \label{fig:quartiles}
-\end{figure}
-
-\begin{figure}[H]
- \centering
- %\caption{prob(f)}
- 	\includegraphics[width=3.35in]{figures/FSP1_g_LC_rrrtest_p5_grp7.png}
- \caption{\it \small{Type c}}
- \label{fig:quartiles}
-\end{figure}
 
 
+\iffalse
+	\subsection{Period Error Estimation}
 
+	\begin{itemize}
+		\item{} explanation of period error estimation using Fourier series
+	\end{itemize}
+
+	\begin{figure}[H]
+	 \centering
+	 %\caption{prob(f)}
+	 	\includegraphics[width=3.35in]{figures/FSP1_g_LC_rrrtest_p5_grp19.png}
+	 \caption{\it \small{Type ab}}
+	 \label{fig:quartiles}
+	\end{figure}
+
+	\begin{figure}[H]
+	 \centering
+	 %\caption{prob(f)}
+	 	\includegraphics[width=3.35in]{figures/FSP1_g_LC_rrrtest_p5_grp7.png}
+	 \caption{\it \small{Type c}}
+	 \label{fig:quartiles}
+	\end{figure}
+\fi
 
 
 
 \section{Results}
 \begin{itemize}
-	\item{} compare with PS
+	\item{} compare with PS~\cite{PSdata}
 	\item{} density/distribution of variables in sky
 	\item{} (what LS gave us for our catalog)
 	\item{} put a table with ~5 stars, to show off part of catalog
@@ -387,19 +395,16 @@ In order to evaluate the completeness of our results, comparisons needed to be m
 
 \setlength{\parindent}{0cm}
 
-\begin{thebibliography}{99}  % the trailing 99 controls some obscure format--just use
+\bibliography{biblio}
 
-~\\% needed for spacing
 
-\bibitem{PSimgpipe} Magnier E 2006 The Pan-STARRS PS1 image processing pipeline. In \textit{Proceedings of the Advanced Maui Optical and Space Surveillance Technologies Conf.} (ed. Ryan S), \textit{Wailea, Maui, HI, 10–14 September 2006,} p. E5. Kihei, HI: The Maui Economic Development Board.\\
-
-\bibitem{simbad} Simbad Database
-
-\bibitem{tonrypipe} Tonry JL, et al. 2012 The Pan-STARRS1 photometric system. \textit{Astrophys. J.} \textbf{750}, 99. doi:10.1088/0004-637X/750/2/99\\
-
-\bibitem{gri} Tonry JL, er al. 2016 (personal communications January-April 2016)\\
-
-\end{thebibliography}
+%\begin{thebibliography}{99}  % the trailing 99 controls some obscure format--just use	
+%~\\% needed for spacing	
+%\bibitem{PSimgpipe} Magnier E 2006 The Pan-STARRS PS1 image processing pipeline. In \textit{Proceedings of the Advanced Maui Optical and Space Surveillance Technologies Conf.} (ed. Ryan S), \textit{Wailea, Maui, HI, 10–14 September 2006,} p. E5. Kihei, HI: The Maui Economic Development Board.\\	
+%\bibitem{simbad} Simbad Database	
+%\bibitem{tonrypipe} Tonry JL, et al. 2012 The Pan-STARRS1 photometric system. \textit{Astrophys. J.} \textbf{750}, 99. doi:10.1088/0004-637X/750/2/99\\	
+%\bibitem{gri} Tonry JL, er al. 2016 (personal communications January-April 2016)\\	
+%\end{thebibliography}
 
 
 \end{document}
