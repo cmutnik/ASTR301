@@ -1,10 +1,18 @@
-\documentclass[aps,prl,twocolumn,superscriptaddress]{revtex4-1}
+%[prl] it will mess up section numbers but puts our emails in the bibliography section
+%[eqsecnum] Number equations by section
+\documentclass[aps,prb,twocolumn,superscriptaddress]{revtex4-1}
 \usepackage{graphicx}  % this is the up-to-date package for all figures
 \usepackage{amssymb}   % for math
 \usepackage{verbatim}  % for the comment environment
 \usepackage{color}
 \usepackage{subcaption} % for subcaptions on side-by-side figures
 \usepackage{float}	% allows use of 'H' command
+
+% This allows you to use '\cref{}' to reference sections with the symbol
+\usepackage{cleveref}
+\crefname{section}{\S}{\S\S}%{§}{§§}
+
+
 %\usepackage{cite}	% to use .bib file
 %\usepackage{hyperref}	% needed to add hyperlinks
 %\hypersetup{
@@ -14,6 +22,18 @@
 %  urlcolor=cyan,
 %}
 \bibliographystyle{apsrev}
+
+% For Numbered Sections---------------------------------------------------------------
+% Usual (decimal) numbering
+\renewcommand{\thesection}{\arabic{section}}
+\renewcommand{\thesubsection}{\thesection.\arabic{subsection}}
+\renewcommand{\thesubsubsection}{\thesubsection.\arabic{subsubsection}}
+%% Fix references
+%\makeatletter
+%\renewcommand{\p@subsection}{}
+%\renewcommand{\p@subsubsection}{}
+%\makeatother
+% ------------------------------------------------------------------------------------
 
 
 % these are some custom control of the page size and margins
@@ -32,14 +52,19 @@
 \title{Evaluating the Pan-STARRS Variability Parameter}
 
 
+%\input author_list.tex
+
+%\author{Daichi Hiramatsu\thanks{dhiramat@hawaii.edu}}
+%\author{Corey Muntik\thanks{cmutnik@hawaii.edu}}
+
 \author{Daichi Hiramatsu}
-\author{Corey Mutnik}
 \email{dhiramat@hawaii.edu}
+\author{Corey Mutnik}
 \email{cmutnik@hawaii.edu}
 \affiliation{Department of Physics \& Astronomy, \\
-University of Hawaii at Manoa,\\
-2505 Correa Rd, Honolulu, HI, 96822, USA}
-\altaffiliation{Observational Astronomy 301}
+University of Hawaii at Manoa}
+%\affiliation{Department of Physics \& Astronomy, \\University of Hawaii at Manoa,\\2505 Correa Rd, Honolulu, HI, 96822, USA}
+%\altaffiliation{Observational Astronomy 301}
 
 
 
@@ -86,13 +111,15 @@ LS analysis on ATLAS Pathfinder Telescope data, verified PS variability criteria
 
 
 ~[VERIFY CORRECT CITATIONS:\\% $http://rsta.royalsocietypublishing.org/content/371/1992/20120269$]\\
-In determining variability of stars in our FOV, data from the $gri Project$~\cite{gri} was used.\\
+%In determining the variability of stars in our FOV, data from the $gri Project$~\cite{gri} was used.\\
+Initially, determination of variability was going to be achieved using data collected by the $gri Project$~\cite{gri}.  The $gri Project$ is [EXPLAIN]...\\
+In order to reduce aliasing, extra observations needed to be made.  Observation procedures are discussed in~\cref{sec:data}.
 ~[PATHFINDER USED FOR GRI DATA...the reduction process is discussed at length Tonry in...cite]\\
 We received the reduced image data from the ATLAS pipeline~\cite{PSpipe}~\cite{tonrypipe}
 %\cite{PSimgpipe,*tonrypipe}
 
 
-\subsection{Data}
+\subsection{Data}\label{sec:data}
 %\begin{itemize}
 %	\item{} how we got mags out of data...
 %	\item{} $l^{II}=202^{\circ}$
@@ -390,6 +417,13 @@ In order to evaluate the completeness of our results, comparisons needed to be m
 	\item{} $0.06m 35mm piggy-back camera with RGB$
 	\item{} $0.01m 35mm fisheye camera$
 \end{itemize}
+
+
+
+\section*{Acknowledgments}
+We would like to thank \input acknowledgement.tex  % input acknowledgement
+
+
 
 
 
