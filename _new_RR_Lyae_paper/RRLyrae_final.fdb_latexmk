@@ -1,5 +1,5 @@
 # Fdb version 3
-["bibtex RRLyrae_final"] 1462152688 "RRLyrae_final.aux" "RRLyrae_final.bbl" "RRLyrae_final" 1462152812
+["bibtex RRLyrae_final"] 1462152688 "RRLyrae_final.aux" "RRLyrae_final.bbl" "RRLyrae_final" 1462152874
   "/usr/local/texlive/2015/texmf-dist/bibtex/bst/revtex4/apsrev.bst" 1261594643 44155 dc7233506a001aedcd59cfd90f9fe8d7 ""
   "RRLyrae_final.aux" 1462152812 5462 9ee2832b595231f7be69b31f0a75a882 ""
   "RRLyrae_final.bcf" 0 -1 0 ""
@@ -8,7 +8,7 @@
   (generated)
   "RRLyrae_final.blg"
   "RRLyrae_final.bbl"
-["pdflatex"] 1462152811 "RRLyrae_final.tex" "RRLyrae_final.pdf" "RRLyrae_final" 1462152812
+["pdflatex"] 1462152811 "RRLyrae_final.tex" "RRLyrae_final.pdf" "RRLyrae_final" 1462152874
   "./figures/LC/star7_97_98_0_1.png" 1458204982 66642 effe68fa080a6259e63d4e06bf1caaae ""
   "./figures/LC/star7_97_98_0_1_restricted.png" 1458205447 76870 a7897561fae457e0282fc62b6588c27e ""
   "./figures/fromJT/probf.png" 1460683353 14303 229d9fbf3b201c30d80bb9447e1efc58 ""
@@ -95,7 +95,7 @@
   "/usr/local/texlive/2015/texmf.cnf" 1432479636 577 0d611272082f3cdb8e80e09a3c69cf07 ""
   "RRLyrae_final.aux" 1462152812 5462 9ee2832b595231f7be69b31f0a75a882 ""
   "RRLyrae_final.bbl" 1462152688 4003 078790f7a51d8614a8aea27ac7932a73 "bibtex RRLyrae_final"
-  "RRLyrae_final.tex" 1462152811 16590 7d639b25601e18371ad80ea66b303d9e ""
+  "RRLyrae_final.tex" 1462152820 16590 7d639b25601e18371ad80ea66b303d9e ""
   "acknowledgement.tex" 1462150495 59 55cae71459c780c472b82cf626dabae6 ""
   "figures/LC/star7_97_98_0_1.png" 1458204982 66642 effe68fa080a6259e63d4e06bf1caaae ""
   "figures/LC/star7_97_98_0_1_restricted.png" 1458205447 76870 a7897561fae457e0282fc62b6588c27e ""
@@ -103,7 +103,7 @@
   "figures/log_period_diff-50.png" 1461891316 107882 28ad795a70b677cf7f8b9a19a4154eae ""
   "figures/simbadoverlap.png" 1461724744 19694 bb029d556b2827a8e46e073db7cd9598 ""
   (generated)
-  "RRLyrae_final.pdf"
   "RRLyrae_finalNotes.bib"
   "RRLyrae_final.aux"
+  "RRLyrae_final.pdf"
   "RRLyrae_final.log"
