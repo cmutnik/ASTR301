@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  3 MAY 2016 03:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  3 MAY 2016 14:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **RRLyrae_final.tex
 (./RRLyrae_final.tex
-LaTeX2e <2015/01/01>
-Babel <3.9l> and hyphenation patterns for 79 languages loaded.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/revtex/revtex4-1.cls
+LaTeX2e <2014/05/01>
+Babel <3.9k> and hyphenation patterns for 78 languages loaded.
+(/usr/local/texlive/2014/texmf-dist/tex/latex/revtex/revtex4-1.cls
 Document Class: revtex4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revt
 ex4/ for documentation)
  Copyright (c) 2009 The American Physical Society.
@@ -66,7 +66,7 @@ Class revtex4-1 Info: Overriding \@vspace, \@vspacer, \@no@pgbk, \@newline, and
 \widetext@top=\box39
 \widetext@bot=\box40
 Class revtex4-1 Info: Selecting society aps on input line 7542.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/revtex/aps4-1.rtx
+(/usr/local/texlive/2014/texmf-dist/tex/latex/revtex/aps4-1.rtx
 File: aps4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for docu
 mentation)
 Class revtex4-1 Info: RevTeX society APS selected on input line 31.
@@ -77,19 +77,19 @@ Class revtex4-1 Info: APS journal PRB selected on input line 7545.
 
 Class revtex4-1 Warning: No type size specified, using default 10.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/revtex/aps10pt4-1.rtx
+(/usr/local/texlive/2014/texmf-dist/tex/latex/revtex/aps10pt4-1.rtx
 File: aps10pt4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for 
 documentation)
 Class revtex4-1 Info: RevTeX pointsize 10pt selected on input line 30.
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/textcase/textcase.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/textcase/textcase.sty
 Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/natbib/natbib.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip44
 \bibsep=\skip45
@@ -98,36 +98,36 @@ LaTeX Info: Redefining \cite on input line 694.
 )
 Class revtex4-1 Info: Repairing natbib's \BibitemShut on input line 7549.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/revtex/revsymb4-1.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/revtex/revsymb4-1.sty
 Package: revsymb4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ f
 or documentation)
 LaTeX Info: Redefining \REV@mathfrak on input line 119.
 ))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: pdftex.def on input line 94.
+Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count95
@@ -135,10 +135,10 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen102
 \Gin@req@width=\dimen103
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks17
 \symAMSa=\mathgroup4
@@ -148,27 +148,27 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 LaTeX Info: Redefining \frak on input line 111.
 LaTeX Info: Redefining \Bbb on input line 113.
 ))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/verbatim.sty
-Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+(/usr/local/texlive/2014/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks18
 \verbatim@line=\toks19
 \verbatim@in@stream=\read1
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2014/04/23 v1.1a Standard LaTeX Color (DPC)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package color Info: Driver file: pdftex.def on input line 142.
+Package color Info: Driver file: pdftex.def on input line 137.
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/caption/subcaption.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption3.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
 \captionmargin=\dimen104
@@ -196,7 +196,7 @@ dgroup }{\global \@minipagefalse \hb@xt@ \hsize {\hfil \unhbox \@tempboxa \hfil
 )
 \c@subfigure=\count97
 \c@subtable=\count98
-) (/usr/local/texlive/2015/texmf-dist/tex/latex/float/float.sty
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count99
 \float@exts=\toks20
@@ -204,7 +204,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks21
 \@floatcapt=\box42
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/cleveref/cleveref.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/cleveref/cleveref.sty
 Package: cleveref 2013/12/28 v0.19 Intelligent cross-referencing
 )
 Class revtex4-1 Info: Patching LaTeX tabular. on input line 48.
@@ -233,7 +233,7 @@ LaTeX Font Info:    ... okay on input line 48.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
 LaTeX Font Info:    ... okay on input line 48.
 
-(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+(/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count100
 \scratchdimen=\dimen111
@@ -246,15 +246,15 @@ LaTeX Font Info:    ... okay on input line 48.
 \MPnumerator=\count104
 \makeMPintoPDFobject=\count105
 \everyMPtoPDFconversion=\toks23
-) (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+) (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
@@ -263,22 +263,22 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
 Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
 ))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
 Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
@@ -290,7 +290,7 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
@@ -310,18 +310,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 74--75
  []
 
 LaTeX Font Info:    Try loading font information for U+msa on input line 79.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 79.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 87.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 87.
@@ -355,7 +355,7 @@ Underfull \hbox (badness 3209) in paragraph at lines 161--170
 \OT1/cmr/m/n/10 Observations were traced out by mov-ing the
  []
 
-[1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[1{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 <figures/LC/star7_97_98_0_1.png, id=18, 578.16pt x 433.62pt>
 File: figures/LC/star7_97_98_0_1.png Graphic file (type png)
 
@@ -396,12 +396,12 @@ Overfull \hbox (16.22745pt too wide) in paragraph at lines 283--284
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 341--344
+Underfull \hbox (badness 10000) in paragraph at lines 342--345
 
  []
 
 [2 <./figures/fromJT/probf.png> <./figures/log_period_diff-50.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 346--355
+Underfull \hbox (badness 10000) in paragraph at lines 347--356
 
  []
 
@@ -409,71 +409,71 @@ Underfull \hbox (badness 10000) in paragraph at lines 346--355
 File: figures/simbadoverlap.png Graphic file (type png)
 
 <use figures/simbadoverlap.png>
-Package pdftex.def Info: figures/simbadoverlap.png used on input line 362.
+Package pdftex.def Info: figures/simbadoverlap.png used on input line 363.
 (pdftex.def)             Requested size: 242.10493pt x 297.18097pt.
 
-Overfull \hbox (16.22745pt too wide) in paragraph at lines 362--363
+Overfull \hbox (16.22745pt too wide) in paragraph at lines 363--364
  [][] 
  []
 
 [3 <./figures/LC/star7_97_98_0_1.png> <./figures/LC/star7_97_98_0_1_restricted.
 png> <./figures/simbadoverlap.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 414--415
+Underfull \hbox (badness 10000) in paragraph at lines 415--416
  []$\OML/cmm/m/it/10 =ay\OT1/cmr/m/n/10 301\OML/cmm/m/it/10 =atlas \OT1/cmr/m/n
 /10 =
  []
 
 
-Overfull \hbox (3.26852pt too wide) in paragraph at lines 414--415
+Overfull \hbox (3.26852pt too wide) in paragraph at lines 415--416
  \OML/cmm/m/it/10 locationforallthegriProjectdataandprograms$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 415--416
+Underfull \hbox (badness 10000) in paragraph at lines 416--417
  []$\OML/cmm/m/it/10 =ay\OT1/cmr/m/n/10 301\OML/cmm/m/it/10 =script \OT1/cmr/m/
 n/10 =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 418--419
+Underfull \hbox (badness 10000) in paragraph at lines 419--420
  []$\OML/cmm/m/it/10 =home=gri[]roject \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (50.10565pt too wide) in paragraph at lines 419--420
+Overfull \hbox (50.10565pt too wide) in paragraph at lines 420--421
  []$\OML/cmm/m/it/10 LasCumbresLCOGT\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Faulkes\O
 T1/cmr/m/n/10 2\OML/cmm/m/it/10 mtelescopeonHaleakala\OT1/cmr/m/n/10 )$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 421--422
+Underfull \hbox (badness 10000) in paragraph at lines 422--423
  []$\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 5\OML/cmm/m/it/10 mteles
 copewithc; o; B; V; R; I; H \OMS/cmsy/m/n/10 ^^@
  []
 
 (./acknowledgement.tex) (./RRLyrae_final.bbl) [4] (./RRLyrae_final.aux) ) 
 Here is how much of TeX's memory you used:
- 6618 strings out of 493089
- 107492 string characters out of 6134842
- 195290 words of memory out of 5000000
- 10026 multiletter control sequences out of 15000+600000
+ 6620 strings out of 493117
+ 107513 string characters out of 6135433
+ 195145 words of memory out of 5000000
+ 10006 multiletter control sequences out of 15000+600000
  10380 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,8n,40p,755b,537s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/
-local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/l
-ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/loc
-al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/loca
-l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/
-texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/te
-xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texli
-ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/
-2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/201
-5/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2015/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2015/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2015/texmf
--dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2015/texmf-
+local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/l
+ocal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/loc
+al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/loca
+l/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/
+texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/te
+xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texli
+ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/
+2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/201
+4/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2014
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2014/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2014/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2014/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2014/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
 Output written on RRLyrae_final.pdf (4 pages, 380755 bytes).
 PDF statistics:
