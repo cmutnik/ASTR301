@@ -263,8 +263,7 @@ The selection process began
 \begin{itemize}
 	\item{} brief explanation of the fast LS
 	\item{} period search range to avoid aliasing
-	\item{} compute gri periods individually and compare each other 
-	\item{} Fourier series fit to extract variable types
+	\item{} compute gri periods individually and compare each other. if period differences are less than 0.04 days, next step
 \end{itemize}
 
 
@@ -293,7 +292,9 @@ The selection process began
 \end{itemize}
 
 \begin{itemize}
-		\item{} explanation of period error estimation using Fourier series
+	\item{} compute FS and calculate $\chi^2 / ndf$. if $\chi^2 / ndf < 10$, next step.
+	\item{} find abs(max/min(FS)). if abs(max/min(FS)) $> 0.2$, then we call it's a variable stars.
+	\item{} explanation of period error estimation using Fourier series.
 	\end{itemize}
 
 	\begin{figure}[!]

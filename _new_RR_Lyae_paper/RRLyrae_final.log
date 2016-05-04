@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  3 MAY 2016 14:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  3 MAY 2016 14:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -376,10 +376,10 @@ t line 235.
 File: figures/fromJT/probf.png Graphic file (type png)
 
 <use figures/fromJT/probf.png>
-Package pdftex.def Info: figures/fromJT/probf.png used on input line 274.
+Package pdftex.def Info: figures/fromJT/probf.png used on input line 273.
 (pdftex.def)             Requested size: 242.10493pt x 181.57697pt.
 
-Overfull \hbox (16.22745pt too wide) in paragraph at lines 274--275
+Overfull \hbox (16.22745pt too wide) in paragraph at lines 273--274
  [][] 
  []
 
@@ -387,81 +387,76 @@ Overfull \hbox (16.22745pt too wide) in paragraph at lines 274--275
 File: figures/log_period_diff-50.png Graphic file (type png)
 
 <use figures/log_period_diff-50.png>
-Package pdftex.def Info: figures/log_period_diff-50.png used on input line 283.
+Package pdftex.def Info: figures/log_period_diff-50.png used on input line 282.
 
 (pdftex.def)             Requested size: 242.10493pt x 182.83621pt.
 
-Overfull \hbox (16.22745pt too wide) in paragraph at lines 283--284
+Overfull \hbox (16.22745pt too wide) in paragraph at lines 282--283
  [][] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 299.
+               Default added (so using `!tbp') on input line 300.
 
 <figures/FSP1_g_LC_rrrtest_p5_grp19.png, id=23, 578.16pt x 433.62pt>
 File: figures/FSP1_g_LC_rrrtest_p5_grp19.png Graphic file (type png)
 
 <use figures/FSP1_g_LC_rrrtest_p5_grp19.png>
 Package pdftex.def Info: figures/FSP1_g_LC_rrrtest_p5_grp19.png used on input l
-ine 302.
+ine 303.
 (pdftex.def)             Requested size: 242.10493pt x 181.5766pt.
 
-Overfull \hbox (16.22745pt too wide) in paragraph at lines 302--303
+Overfull \hbox (16.22745pt too wide) in paragraph at lines 303--304
  [][] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 307.
+               Default added (so using `!tbp') on input line 308.
 
 <figures/FSP1_g_LC_rrrtest_p5_grp7.png, id=24, 578.16pt x 433.62pt>
 File: figures/FSP1_g_LC_rrrtest_p5_grp7.png Graphic file (type png)
 
 <use figures/FSP1_g_LC_rrrtest_p5_grp7.png>
 Package pdftex.def Info: figures/FSP1_g_LC_rrrtest_p5_grp7.png used on input li
-ne 310.
+ne 311.
 (pdftex.def)             Requested size: 242.10493pt x 181.5766pt.
 
-Overfull \hbox (16.22745pt too wide) in paragraph at lines 310--311
+Overfull \hbox (16.22745pt too wide) in paragraph at lines 311--312
  [][] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 315.
+               Default added (so using `!tbp') on input line 316.
 
 <figures/rPLCneg45E_limit2_grp_109+01_09693.png, id=25, 578.16pt x 433.62pt>
 File: figures/rPLCneg45E_limit2_grp_109+01_09693.png Graphic file (type png)
 
 <use figures/rPLCneg45E_limit2_grp_109+01_09693.png>
 Package pdftex.def Info: figures/rPLCneg45E_limit2_grp_109+01_09693.png used on
- input line 318.
+ input line 319.
 (pdftex.def)             Requested size: 242.10493pt x 181.5766pt.
 
-Overfull \hbox (16.22745pt too wide) in paragraph at lines 318--319
+Overfull \hbox (16.22745pt too wide) in paragraph at lines 319--320
  [][] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 323.
+               Default added (so using `!tbp') on input line 324.
 
 <figures/rPLCneg45E_limit2_grp_116-11_03117.png, id=26, 578.16pt x 433.62pt>
 File: figures/rPLCneg45E_limit2_grp_116-11_03117.png Graphic file (type png)
 
 <use figures/rPLCneg45E_limit2_grp_116-11_03117.png>
 Package pdftex.def Info: figures/rPLCneg45E_limit2_grp_116-11_03117.png used on
- input line 326.
+ input line 327.
 (pdftex.def)             Requested size: 242.10493pt x 181.5766pt.
 
-Overfull \hbox (16.22745pt too wide) in paragraph at lines 326--327
+Overfull \hbox (16.22745pt too wide) in paragraph at lines 327--328
  [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 392--395
-
  []
 
 [2 <./figures/fromJT/probf.png> <./figures/log_period_diff-50.png>] [3 <./figur
@@ -469,7 +464,12 @@ es/LC/star7_97_98_0_1.png> <./figures/LC/star7_97_98_0_1_restricted.png> <./fig
 ures/FSP1_g_LC_rrrtest_p5_grp19.png> <./figures/FSP1_g_LC_rrrtest_p5_grp7.png> 
 <./figures/rPLCneg45E_limit2_grp_109+01_09693.png> <./figures/rPLCneg45E_limit2
 _grp_116-11_03117.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 397--406
+Underfull \hbox (badness 10000) in paragraph at lines 393--396
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 398--407
 
  []
 
@@ -477,77 +477,73 @@ Underfull \hbox (badness 10000) in paragraph at lines 397--406
 File: figures/simbadoverlap.png Graphic file (type png)
 
 <use figures/simbadoverlap.png>
-Package pdftex.def Info: figures/simbadoverlap.png used on input line 413.
+Package pdftex.def Info: figures/simbadoverlap.png used on input line 414.
 (pdftex.def)             Requested size: 242.10493pt x 297.18097pt.
 
-Overfull \hbox (16.22745pt too wide) in paragraph at lines 413--414
+Overfull \hbox (16.22745pt too wide) in paragraph at lines 414--415
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 465--466
+Underfull \hbox (badness 10000) in paragraph at lines 466--467
  []$\OML/cmm/m/it/10 =ay\OT1/cmr/m/n/10 301\OML/cmm/m/it/10 =atlas \OT1/cmr/m/n
 /10 =
  []
 
 
-Overfull \hbox (3.26852pt too wide) in paragraph at lines 465--466
+Overfull \hbox (3.26852pt too wide) in paragraph at lines 466--467
  \OML/cmm/m/it/10 locationforallthegriProjectdataandprograms$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 466--467
+Underfull \hbox (badness 10000) in paragraph at lines 467--468
  []$\OML/cmm/m/it/10 =ay\OT1/cmr/m/n/10 301\OML/cmm/m/it/10 =script \OT1/cmr/m/
 n/10 =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 469--470
+Underfull \hbox (badness 10000) in paragraph at lines 470--471
  []$\OML/cmm/m/it/10 =home=gri[]roject \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (50.10565pt too wide) in paragraph at lines 470--471
+Overfull \hbox (50.10565pt too wide) in paragraph at lines 471--472
  []$\OML/cmm/m/it/10 LasCumbresLCOGT\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Faulkes\O
 T1/cmr/m/n/10 2\OML/cmm/m/it/10 mtelescopeonHaleakala\OT1/cmr/m/n/10 )$ 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 472--473
+Underfull \hbox (badness 10000) in paragraph at lines 473--474
  []$\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 5\OML/cmm/m/it/10 mteles
 copewithc; o; B; V; R; I; H \OMS/cmsy/m/n/10 ^^@
  []
 
 (./acknowledgement.tex) (./RRLyrae_final.bbl [4 <./figures/simbadoverlap.png>])
-[5] (./RRLyrae_final.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
-
-
- ) 
+[5] (./RRLyrae_final.aux) ) 
 Here is how much of TeX's memory you used:
  6649 strings out of 493117
  108515 string characters out of 6135433
- 202145 words of memory out of 5000000
+ 204145 words of memory out of 5000000
  10031 multiletter control sequences out of 15000+600000
  10380 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,8n,40p,755b,537s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><
-/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></us
-r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
-local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/loc
-al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/
-texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/tex
-live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
-ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texliv
-e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/
-2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/20
-14/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/201
-4/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on RRLyrae_final.pdf (5 pages, 564768 bytes).
+</usr/local/texlive/2014/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmmi10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmmi7.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr6.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr7.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr9.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+y6.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7
+.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.p
+fb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pf
+b></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+
+Output written on RRLyrae_final.pdf (5 pages, 565361 bytes).
 PDF statistics:
  94 PDF objects out of 1000 (max. 8388607)
  55 compressed objects within 1 object stream
