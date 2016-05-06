@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  3 MAY 2016 14:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  3 MAY 2016 17:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -523,7 +523,7 @@ copewithc; o; B; V; R; I; H \OMS/cmsy/m/n/10 ^^@
 Here is how much of TeX's memory you used:
  6649 strings out of 493117
  108515 string characters out of 6135433
- 204145 words of memory out of 5000000
+ 205145 words of memory out of 5000000
  10031 multiletter control sequences out of 15000+600000
  10380 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -543,7 +543,7 @@ y6.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7
 fb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pf
 b></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
 
-Output written on RRLyrae_final.pdf (5 pages, 565361 bytes).
+Output written on RRLyrae_final.pdf (5 pages, 565386 bytes).
 PDF statistics:
  94 PDF objects out of 1000 (max. 8388607)
  55 compressed objects within 1 object stream
