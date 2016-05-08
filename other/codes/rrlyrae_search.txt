@@ -1,0 +1,59 @@
+ #------------------------------------------------------------------------------------------------------------------------
+ # Example
+ #------------------------------------------------------------------------------------------------------------------------
+ (ay301)
+  mkdir /tmp/JT ; cd /tmp/JT
+  for m in {57396..57456} ; do
+    awk '$5>=20 && $8<3 && $9>500 && $10>15 && $11!=0 && $12!=0{print $0}' /atlas/red/01p/$m/$m.log
+  done > all.log
+
+  RA0=97.5 DEC0=-0.5 RAD=1
+  echo $RA0 $DEC0 | cm 2,1 - 12,11 all.log -tol $RAD,d | awk '{print $4}' > list.$RA0.$DEC0
+
+  rm hunk.$RA0.$DEC0
+  for f in $(cat list.$RA0.$DEC0) ; do
+    m=$(echo $f | tr '[a-z]' ' ' | awk '{print $2}')
+    obs=$(echo $f | awk '{print substr($1,1,14)}')
+    dev=$(echo $f | awk '{print substr($1,15,1)}')
+    filt=$(echo $f | awk '{print substr($1,14,1)}')
+    echo $obs $dev $filt
+    awk -v obs=$obs -v dev=$dev -v filt=$filt 'NR>1{printf "%s %d %s %s\n", obs, dev, filt, $0}' /atlas/red/01p/$m/$f.dph >> hunk.$RA0.$DEC0
+  done
+
+  for filt in g r i ; do
+    grep $filt hunk.$RA0.$DEC0 > hunk.$filt
+    cm 5,4,6 hunk.$filt -fof -tol 0.001,d,2 -grp -max 5000000 > grp.$filt
+    awk -v nmin=12 '$4>nmin{print $0}' grp.$filt > star.$filt
+  done
+
+
+#------------------------------------------------------------------------------------------------------------------------
+# .log file colnames
+# Observation   MJD     Filt   Foc  Etime  TCCD    Sky     FWHM   Nstar    ZP     RA      Dec  QC Obj
+#------------------------------------------------------------------------------------------------------------------------
+
+  /home/cmutnik/data/RR_data_160306/fulldata
+
+  mkdir /home/cmutnik/data/RR_data_160306/fulldata/RR_sortfilt ; cd /home/cmutnik/data/RR_data_160306/fulldata/RR_sortfilt
+  for m in {57452..57455} ; do
+    awk '$5==20 && $8<3 && $9>500 && $10>15 && $11!=0 && $12!=0{print $0}' /atlas/red/01p/$m/$m.log
+  done > logs_57452_57455.log
+
+  RA0=97.5 DEC0=-0.5 RAD=1
+  echo $RA0 $DEC0 | cm 2,1 - 12,11 logs_57452_57455.log -tol $RAD,d | awk '{print $4}' > list.$RA0.$DEC0
+
+  rm hunk.$RA0.$DEC0
+  for f in $(cat list.$RA0.$DEC0) ; do
+    m=$(echo $f | tr '[a-z]' ' ' | awk '{print $2}')
+    obs=$(echo $f | awk '{print substr($1,1,14)}')
+    dev=$(echo $f | awk '{print substr($1,15,1)}')
+    filt=$(echo $f | awk '{print substr($1,14,1)}')
+    echo $obs $dev $filt
+    awk -v obs=$obs -v dev=$dev -v filt=$filt 'NR>1{printf "%s %d %s %s\n", obs, dev, filt, $0}' /atlas/red/01p/$m/$f.dph >> hunk.$RA0.$DEC0
+  done
+
+  for filt in g r i ; do
+    grep $filt hunk.$RA0.$DEC0 > hunk.$filt
+    cm 5,4,6 hunk.$filt -fof -tol 0.001,d,2 -grp -max 5000000 > grp.$filt
+    awk -v nmin=12 '$4>nmin{print $0}' grp.$filt > star.$filt
+  done

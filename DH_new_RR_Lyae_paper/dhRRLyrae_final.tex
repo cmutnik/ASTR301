@@ -1,0 +1,533 @@
+%[prl] it will mess up section numbers but puts our emails in the bibliography section
+%[eqsecnum] Number equations by section
+\documentclass[aps,prb,twocolumn,superscriptaddress]{revtex4-1}
+\usepackage{graphicx}  % this is the up-to-date package for all figures
+\usepackage{amssymb}   % for math
+\usepackage{verbatim}  % for the comment environment
+\usepackage{color}
+\usepackage{subcaption} % for subcaptions on side-by-side figures
+\usepackage{float}	% allows use of 'H' command
+
+% This allows you to use '\cref{}' to reference sections with the symbol
+\usepackage{cleveref}
+\crefname{section}{\S}{\S\S}%{§}{§§}
+
+
+%\usepackage{cite}	% to use .bib file
+%\usepackage{hyperref}	% needed to add hyperlinks
+%\hypersetup{
+%  colorlinks=true,
+%  linkcolor=blue,
+%  filecolor=magenta,
+%  urlcolor=cyan,
+%}
+\bibliographystyle{apsrev}
+
+% For Numbered Sections---------------------------------------------------------------
+% Usual (decimal) numbering
+\renewcommand{\thesection}{\arabic{section}}
+\renewcommand{\thesubsection}{\thesection.\arabic{subsection}}
+\renewcommand{\thesubsubsection}{\thesubsection.\arabic{subsubsection}}
+%% Fix references
+%\makeatletter
+%\renewcommand{\p@subsection}{}
+%\renewcommand{\p@subsubsection}{}
+%\makeatother
+% ------------------------------------------------------------------------------------
+
+
+% these are some custom control of the page size and margins
+% \topmargin= 0.2in  % these 1st two may be needed for some computers
+% \textheight=8.75in
+\textwidth=6.5in
+%\oddsidemargin=0cm
+%\evensidemargin=0cm
+
+% this is where the actual document itself (rather than control statements) begins:
+
+\begin{document}
+
+
+
+\title{Evaluating the Pan-STARRS Variability Parameter}
+
+
+%\input author_list.tex
+
+%\author{Daichi Hiramatsu\thanks{dhiramat@hawaii.edu}}
+%\author{Corey Muntik\thanks{cmutnik@hawaii.edu}}
+
+\author{Daichi Hiramatsu}
+\email{dhiramat@hawaii.edu}
+\author{Corey Mutnik}
+\email{cmutnik@hawaii.edu}
+\affiliation{Department of Physics \& Astronomy, \\
+University of Hawaii at Manoa}
+%\affiliation{Department of Physics \& Astronomy, \\University of Hawaii at Manoa,\\2505 Correa Rd, Honolulu, HI, 96822, USA}
+%\altaffiliation{Observational Astronomy 301}
+
+
+
+\begin{abstract}
+\textbf{By Thursday (4/18) we need:} well thought out section titles and plots that show all the points we wanna make\\
+
+remake prob(f) plot with all 300,000 stars (not only 80,000)\\
+
+LS analysis on ATLAS Pathfinder Telescope data, verified PS variability criteria
+\end{abstract}
+
+\maketitle    
+
+
+
+
+\section{Introduction}
+
+\begin{itemize}
+	\item{} why we care
+	\item{} what made us care about this project
+	\item{} NO structure / distance stuff (maybe put it in looking forward section at end)
+	\item{} talk about PS catalog
+	\item{} variability surveys (discuss other attempts to measure variables across the sky)
+	\item{} why are variables interesting
+	\item{} why do we want to find variables and care about where they are located
+	\item{} Summary: we ran LS, analyzed stars, why did we do it all
+	\item{} Mention what will be discussed: ``in section 2 we describe the observations we used...''
+\end{itemize}
+
+
+
+\section{ATLAS PathFinder 1 Observations}
+\begin{itemize}
+	\item{} we used data from ATLAS
+	\item{} supplemented with ATLAS data [REF TONRY] (possibly make this s subsection)
+%	\item{} exposure time
+%	\item{} observation dates
+	\item{} what was the weather like during observations
+	\item{} PSF FWHM variations (only include if we discuss crowding)
+	\item{} `we recieved the reduced image data from the ATLAS pipeline; which gave us RA, Dec, mag, etc...'
+	\item{}\url{http://fallingstar.com/how_atlas_works.php}
+\end{itemize}
+
+
+~[VERIFY CORRECT CITATIONS:\\% $http://rsta.royalsocietypublishing.org/content/371/1992/20120269$]\\
+%In determining the variability of stars in our FOV, data from the $gri Project$~\cite{gri} was used.\\
+Initially, determination of variability was going to be achieved using data collected by the $gri Project$~\cite{gri}.  The $gri Project$ is [EXPLAIN]...\\
+In order to reduce aliasing, extra observations needed to be made.  Observation procedures are discussed in~\cref{sec:data}.
+~[PATHFINDER USED FOR GRI DATA...the reduction process is discussed at length Tonry in...cite]\\
+We received the reduced image data from the ATLAS pipeline~\cite{PSpipe}~\cite{tonrypipe}
+%\cite{PSimgpipe,*tonrypipe}
+
+
+\subsection{Data}\label{sec:data}
+%\begin{itemize}
+%	\item{} how we got mags out of data...
+%	\item{} $l^{II}=202^{\circ}$
+%	\item{} $b^{II}=\pm5$
+%\end{itemize}
+% from old paper
+\iffalse
+	\begin{itemize}
+	 \item{} split observations into 1 $deg^2$ chunks
+	 \item{} isolated groups s.t. each one is a star with 12 or more obs
+	 \item{} $--$ more than 12 detections to be a star
+	 \item{} $--$ any sq deg that has more than one star
+	 \item{} this reduced 1300 $deg^2$ observation data down to ~300
+	 \item{} before variability params: 1531417 stars in field
+	 \item{} for variability parameters
+	 \item{} $--$ log(average(upper quartile)) - log(average(lower quartile))
+	 \item{} $--$ expect variation to go at .2* mag (from sqrt noise)...so subtract .2mag to get the logritmic statistic
+	 \item{} sorted biggest (most variable?) to smallest (least variable?)
+	 \item{} ran LS on 80,000 most variable stars, rather than full star groupings (over 1million)
+	\end{itemize}
+\fi
+
+
+
+Is it $b^{II}=+5^{\circ}$ or $b=+5^{\circ}$??\\
+~[NEED TO DEFINE FOV]\\
+~[VERIFY RA DEC RANGE (NOT WHAT WAS PUT INTO SIMBAD)]\\
+~[NEED TO CITE TONRY FOR OUR OBSERVATIONS]\\
+~[MENTION THAT OUR OBS NECESSARY TO REDUCE ALIASING]\\
+
+Using the Pathfinder telescope, observations were made at two galactic latitudes ($b^{II}=\pm5^{\circ}$) and spanned a range of galactic longitudes ($202^{\circ} < l^{II} < 232^{\circ}$).  
+Exposures were collected for 20~s and separated by $3^{\circ}$ longitudinally.  For implementation by the Pathfinder telescope, a conversion to RA and Dec was made; giving a range of $93 < RA < 119^{\circ}$ and $-20^{\circ} < Dec < 13^{\circ}$, as shown by Figure~\ref{fig:simoverlap}.  To account for the 0.05~$^{\circ}$ gap between the detectors, a 0.1~$^{\circ}$ offset in RA was implemented on every other night.  
+%Ten observations per night were collected for 20 nights, spanning 3/8/16-3/27/16.
+%Observations were collected between 3/8/16-3/27/16.  During this 20 day period, we collected 10 observations per night.  
+Spanning 20 nights, 10 observations a night were collected on 3/8/16-3/27/16.  Luckily all of these nights had weather perfectly attuned for observations.  Half a night of observations were lost on 3/19/26, due to a crash of the server controlling the telescope.
+
+
+%0.1 deg offset in RA, accounts for 0.05 deg gap between the two detectors.
+~\\~[dRA = dangle / cos(Dec)]
+~\\~[EXPLAINS EXACT OBSERVATIONAL PLAN...NECESSARY?]\\
+Observations were traced out by moving the FOV by $3^{\circ}$ longitudinally, starting at $b^{II}=-5^{\circ}$, $l^{II}=202^{\circ}$ and ending at $b^{II}=-5^{\circ}$, $l^{II}=232^{\circ}$.  Once observations at $b^{II}=-5^{\circ}$ were complete, the FOV was shifted to $b^{II}=+5^{\circ}$, $l^{II}=232^{\circ}$.
+%Observations were traced out by taking the first exposure at $b^{II}=-5^{\circ}$ and $l^{II}=202^{\circ}$, moving the FOV longitudinally by $3^{\circ}$
+%Starting at $b^{II}=-5^{\circ}$ and $l^{II}=202^{\circ}$, exposures were collected for 20~s
+%Observations were made by starting at $b^{II}=-5^{\circ}$ and $l^{II}=202^{\circ}$, moving the ...Each exposure was collected for 20
+%Data was collected for \\
+%Starting at $b^{II}=-5^{\circ}$ and $l^{II}=202^{\circ}$ \\
+%20~s exposures were collected\\
+
+
+%\begin{figure}[H]
+%	\centering
+%	%\caption{prob(f)}
+%	\textbf{Sorting Pattern}\par\medskip
+%		\includegraphics[width=3.35in]{figures/fromJT/sortedFOV.png}
+%	\caption{\it \small{Stars were grouped in the pattern shown (down the collected observations)}}
+%	\label{fig:sortpat}
+%\end{figure}
+
+
+\iffalse
+\subsection{Object Cuts}
+Threw away stars with magnitude error of 0.\\
+After isolating `good' observations we threw away any stars with less than 12 observations: could have fallen on the edge of each 1 $deg^{2}$ FOV, fallen on portion of detector with bad PSF, etc\\
+needed 12 observations to reduce / eliminate aliasing\\
+ * of all 1.5 billion stars in our FOV we scanned the most variable (logPr(rnd)<=45)
+  - located: {{{cd /home/rr_lyrae/logprob_below_neg45_take2}}}
+  - 1558 stars
+ * new grouping list that DH wanted (after removing aliased regions)
+  - located: {{{cd /home/rr_lyrae/alias_rm_grps}}}
+  - 776 stars
+\fi
+
+
+
+\section{Constructing Stellar Light Curves}
+
+% check out resource:
+% https://www.aavso.org/lcg
+
+\begin{itemize}
+	\item{} how we selected stars (12+ obs, 1x1 deg$^2$, etc)
+\end{itemize}
+
+The selection process began
+
+
+% merged these figures into side by side (below)
+%\begin{figure}[H]
+% \centering
+% 	\includegraphics[width=3.35in]{figures/LC/star7_97_98_0_1.png}
+% \caption{\it \small{Light Curve of variable star, using all collected and ATLAS data.}}
+% \label{fig:LC7}
+%\end{figure}
+%\begin{figure}[H]
+% \centering
+% 	\includegraphics[width=3.35in]{figures/LC/star7_97_98_0_1_restricted.png}
+% \caption{\it \small{Light Curve of variable star, using only collected data (without incorporating extra ATLAS data).}}
+% \label{fig:restrictedLC7}
+%\end{figure}
+
+
+
+\begin{figure*}
+	\centering
+	\begin{subfigure}{.5\textwidth}
+	  \centering
+	  \includegraphics[width=1\linewidth]{figures/LC/star7_97_98_0_1.png}
+		\caption{\it \small{ }}
+		\label{fig:LC7}
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+	  \centering
+			\includegraphics[width=1\linewidth]{figures/LC/star7_97_98_0_1_restricted.png}
+		\caption{\it \small{ }}
+		\label{fig:restrictedLC7}
+	\end{subfigure}
+	\caption{\it \small{Light Curve of a variable star.  Panel `(a)' shows a light curve constructed using all collected and ATLAS data.  Panel `(b)' is a restricted selection of `(a)', not showing any observations made by ATLAS.}}
+	\label{fig:LC}
+\end{figure*}
+
+
+
+% clean up section title
+\section{Fast Lomb-Scargle Periodogram}
+
+%------------- KILL subsection and make periodgram the intro to LS
+%\subsection{Periodogram Analysis}
+%\section{Identifying Variable Stars Using Lomb-Scargle}
+~[INTRO TO WHAT IS PERIODOGRAM...WE CONSTRUCT PERGRAMS USING LS METHOD]
+\begin{itemize}
+	\item{} extract variability from LS
+	\item{} describe how it works and why we used LS
+	\item{} major aliasing at 1 day and 0.5 day periods
+	\item{} things that fall at at -50 (in Figure~\ref{fig:quartiles}) means that those are VERY probably variable stars
+	\item{} roughly \_\_\_\_\_ stars fell at -50 in Figure~\ref{fig:quartiles}
+	\item{} 315,992 stars tested for variability
+	\item{} other stars (outside of 315,992) are statistically unlikely to be variable
+\end{itemize}
+%-------------
+
+\begin{itemize}
+	\item{} brief explanation of the fast LS
+	\item{} period search range to avoid aliasing
+	\item{} compute gri periods individually and compare each other. if period differences are less than 0.04 days, next step
+\end{itemize}
+
+
+
+\begin{figure}[H]
+ \centering
+ 	\includegraphics[width=3.35in]{figures/fromJT/probf.png}
+ \caption{\it \small{prob(f) of 80,000, most variable, stars LS was run on}}
+ \label{fig:quartiles}
+\end{figure}
+
+\begin{figure}[H]
+ \centering
+ %\caption{prob(f)}
+ \textbf{prob(f)}\par\medskip
+ 	\includegraphics[width=3.35in]{figures/log_period_diff-50.png}
+ \caption{\it \small{prob(f) of 80,000, most variable, stars LS was run on}}
+ \label{fig:quartpy}
+\end{figure}
+
+
+\subsection{Fourier Series}
+
+\begin{itemize}
+	\item{} Fourier series fit to extract variable types
+\end{itemize}
+
+\begin{itemize}
+	\item{} compute FS and calculate $\chi^2 / ndf$. if $\chi^2 / ndf < 10$, next step.
+	\item{} find abs(max/min(FS)). if abs(max/min(FS)) $> 0.2$, then we call it's a variable stars.
+	\item{} explanation of period error estimation using Fourier series.
+	\end{itemize}
+
+	\begin{figure}[!]
+	 \centering
+	 %\caption{prob(f)}
+	 	\includegraphics[width=3.35in]{figures/FSP1_g_LC_rrrtest_p5_grp19.png}
+	 \caption{\it \small{Type ab}}
+	 \label{fig:Typeab}
+	\end{figure}
+
+	\begin{figure}[!]
+	 \centering
+	 %\caption{prob(f)}
+	 	\includegraphics[width=3.35in]{figures/FSP1_g_LC_rrrtest_p5_grp7.png}
+	 \caption{\it \small{Type c}}
+	 \label{fig:Typec}
+	\end{figure}
+	
+	\begin{figure}[!]
+	 \centering
+	 %\caption{prob(f)}
+	 	\includegraphics[width=3.35in]{figures/rPLCneg45E_limit2_grp_109+01_09693.png}
+	 \caption{\it \small{Type ?}}
+	 \label{fig:Typeq}
+	\end{figure}
+
+	\begin{figure}[!]
+	 \centering
+	 %\caption{prob(f)}
+	 	\includegraphics[width=3.35in]{figures/rPLCneg45E_limit2_grp_116-11_03117.png}
+	 \caption{\it \small{Blazhko Effect (period doubling)}}
+	 \label{fig:Blazhko}
+	\end{figure}
+
+\iffalse
+
+	\subsection{Period Error Estimation}
+
+	\begin{itemize}
+		\item{} explanation of period error estimation using Fourier series
+	\end{itemize}
+
+	\begin{figure}[H]
+	 \centering
+	 %\caption{prob(f)}
+	 	\includegraphics[width=3.35in]{figures/FSP1_g_LC_rrrtest_p5_grp19.png}
+	 \caption{\it \small{Type ab}}
+	 \label{fig:Typeab}
+	\end{figure}
+
+	\begin{figure}[H]
+	 \centering
+	 %\caption{prob(f)}
+	 	\includegraphics[width=3.35in]{figures/FSP1_g_LC_rrrtest_p5_grp7.png}
+	 \caption{\it \small{Type c}}
+	 \label{fig:Typec}
+	\end{figure}
+	
+	\begin{figure}[H]
+	 \centering
+	 %\caption{prob(f)}
+	 	\includegraphics[width=3.35in]{figures/rPLCneg45E_limit2_grp_109+01_09693.png}
+	 \caption{\it \small{Type $\?$}}
+	 \label{fig:Typeq}
+	\end{figure}
+
+	\begin{figure}[H]
+	 \centering
+	 %\caption{prob(f)}
+	 	\includegraphics[width=3.35in]{figures/rPLCneg45E_limit2_grp_116-11_03117.png}
+	 \caption{\it \small{Blazhko Effect (period doubling)}}
+	 \label{fig:Blazhko}
+	\end{figure}
+\fi
+
+
+
+\section{Results}
+\begin{itemize}
+	\item{} compare with PS~\cite{PSdata}
+	\item{} density/distribution of variables in sky
+	\item{} (what LS gave us for our catalog)
+	\item{} put a table with ~5 stars, to show off part of catalog
+\end{itemize}
+
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular}{ | c | c | c | c | c | c | c | }\hline
+		$\rho_{RR}$ & \# HPS & \# RR & \# Other Variable Class & \# not var & Prob(var) & Prob(RR) \\ \hline
+		0-0.05 &&&&&& \\ \hline
+		0.05-0.2 &&&&&& \\ \hline
+		0.2-0.4 &&&&&& \\ \hline
+		0.4-0.6 &&&&&& \\ \hline
+		0.6-0.8 &&&&&& \\ \hline
+		0.8-1 &&&&&& \\ \hline
+		\end{tabular}
+	\end{center}
+\caption{ \small{RR Table 0.15 \label{tab:rrtab}}}
+\end{table}
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular}{ | c | c | c | c | c | c | c | }\hline
+		$\rho_{RR}$ & \# HPS & \# RR & \# Other Variable Class & \# not var & Prob(var) & Prob(RR) \\ \hline
+		0-0.05 &&&&&& \\ \hline
+		0.05-0.2 &&&&&& \\ \hline
+		0.2-0.4 &&&&&& \\ \hline
+		0.4-0.6 &&&&&& \\ \hline
+		0.6-0.8 &&&&&& \\ \hline
+		0.8-1 &&&&&& \\ \hline
+		\end{tabular}
+	\end{center}
+\caption{ \small{RR Table 0.2 \label{tab:rrtab}}}
+\end{table}
+
+% From old paper
+\subsection{Simbad Completeness}
+	\begin{itemize}
+		\item{} Pull established RR list from Simbad
+		\item{} Pull other variable data from simbad, too
+		\item{} Compare list of observed RR to catalogs
+		\item{} Is anyone actually reading this outline, this bullet point serves no purpose
+		\item{} Wow, its sad how little Jeff did since class began (especially after JT gave him the code to do it a month ago) - 6 obs x 4 nights = January-April work period haha
+		\item{} Establish completeness with Simbad
+	\end{itemize}
+~[FIX SIMBAD CITATION]\\
+In order to evaluate the completeness of our results, comparisons needed to be made to other variable star catalogs.  Simbad~\cite{simbad} provided a list of variable stars within our FOV.  Pulsating sources encompasses all variable objects.  \\
+~[OF THESE WE MATCHED...RR LYRAE...REF FIGURE]\\
+
+
+~[review what he did, but heres a summary:]\\
+~[48 simbad objects overlay our FOV]\\
+~[33 have an entry in lsum.dat]\\
+~[Of 15 that overlap w/o lsum entry]\\
+~[14 are defective]\\
+~[at least one filter has less than 10 detections]\\
+~[=> it's a survey problem, not an LC problem]\\
+~[P(rand) for the 33 that do occur in lsum]\\
+~[27/33 show up as high probability variables]\\
+
+
+
+\begin{figure}[H]
+ \centering
+ %\caption{prob(f)}
+ %\textbf{Simbad Completeness}\par\medskip
+ 	\includegraphics[width=3.35in]{figures/simbadoverlap.png}
+ \caption{\it \small{Observation path with Simbad pulsators in blue and RR Lyrae in green.}}
+ \label{fig:simoverlap}
+\end{figure}
+
+
+
+%\begin{figure}[H]
+%	\centering
+%		\includegraphics[width=3.35in]{figures/aitoff/Obs_PS_lsum_aitoff_map.png}
+%		\caption{\it \small{Aitoff projection of observed and PS RR Lyrae candidates.  Blue are candidates from PS that >= 0.05, green are PS candidates that >= 0.2., observed data in red.}}%
+%	\label{fig:aitoff_nosimbad}
+%\end{figure}
+
+
+\section{Discussion}
+\begin{itemize}
+	\item{} Evaluation of PS criteria
+	\item{} what went wrong
+	\item{} what could have gone better
+	\item{} future outlook
+	\item{}~~~we could map spiral arms using x y and z
+\end{itemize}
+
+	
+
+%\begin{figure}[h!]
+%	\centering
+%	\begin{subfigure}{.5\textwidth}
+%	  \centering
+%	  \includegraphics[width=1\linewidth]{figures/aitoff/simbad_alpha_is_1.png}
+%	  \caption{\it \small{Aitoff map.}}
+%	  \label{fig:aitoff_map_simbad}
+%	\end{subfigure}%
+%	\begin{subfigure}{.5\textwidth}
+%	  \centering
+%	  \includegraphics[width=1\linewidth]{figures/aitoff/Obs_PS_sim_lsum_aitoff_map.png}
+%	 \caption{\it \small{Aitoff projection}}%
+%	 \label{fig:aitoff_projection_simbad}
+%	\end{subfigure}
+%	\caption{\it \small{Aitoff projection of observed and PS RR Lyrae candidates.  Blue are candidates from PS that >= 0.05, yellow are PS candidates that >= 0.2., observed data in red, simbad in black.}}
+%	\label{fig:aitoff_simbad}
+%\end{figure}	
+
+
+\section{Summary and Conclusions}
+~[TALK ABOUT IT]
+
+
+\section{Resources from website (remove this section)}
+\begin{itemize}
+	\item{} $ay301.ifa.hawaii.edu$
+	\item{} $/ay301/atlas = location for all the gri Project data and programs$
+	\item{} $/ay301/script = transcripts from class computer activities$
+	\item{} $/ay301/tmp = generic temporary area$
+	\item{} $gri Project$
+	\item{} $/home/gri_project = location for manuscript and figures$
+	\item{} $Las Cumbres LCOGT (Faulkes 2m telescope on Haleakala)$
+	\item{} $ATLAS (fallingstar.com)$
+	\item{} $0.5m telescope with c,o,B,V,R,I,H-alpha filters$
+	\item{} $0.18m Pathfinder telescope with g,r,i filters$
+	\item{} $0.06m 35mm piggy-back camera with RGB$
+	\item{} $0.01m 35mm fisheye camera$
+\end{itemize}
+
+
+\section*{Acknowledgments}
+We would like to thank \input acknowledgement.tex  % input acknowledgement
+
+
+
+
+
+\setlength{\parindent}{0cm}
+
+\bibliography{biblio}
+
+
+%\begin{thebibliography}{99}  % the trailing 99 controls some obscure format--just use	
+%~\\% needed for spacing	
+%\bibitem{PSimgpipe} Magnier E 2006 The Pan-STARRS PS1 image processing pipeline. In \textit{Proceedings of the Advanced Maui Optical and Space Surveillance Technologies Conf.} (ed. Ryan S), \textit{Wailea, Maui, HI, 10–14 September 2006,} p. E5. Kihei, HI: The Maui Economic Development Board.\\	
+%\bibitem{simbad} Simbad Database	
+%\bibitem{tonrypipe} Tonry JL, et al. 2012 The Pan-STARRS1 photometric system. \textit{Astrophys. J.} \textbf{750}, 99. doi:10.1088/0004-637X/750/2/99\\	
+%\bibitem{gri} Tonry JL, er al. 2016 (personal communications January-April 2016)\\	
+%\end{thebibliography}
+
+
+\end{document}
+

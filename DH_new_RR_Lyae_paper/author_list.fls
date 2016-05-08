@@ -1,0 +1,6 @@
+PWD /Users/cmutnik/work/git/ASTR301/_new_RR_Lyae_paper
+INPUT /usr/local/texlive/2015/texmf.cnf
+INPUT /usr/local/texlive/2015/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2015/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT author_list.tex
+OUTPUT author_list.log
