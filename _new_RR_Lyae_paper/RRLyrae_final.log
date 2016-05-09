@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  8 MAY 2016 17:24
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  9 MAY 2016 02:36
->>>>>>> origin/master
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  9 MAY 2016 04:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -351,186 +347,174 @@ Underfull \hbox (badness 1337) in paragraph at lines 113--120
  []
 
 
-LaTeX Warning: Reference `fig:Lcurve' on page 1 undefined on input line 124.
-
-
-LaTeX Warning: Reference `fig:1510' on page 1 undefined on input line 124.
-
-
-LaTeX Warning: Reference `fig:1010' on page 1 undefined on input line 124.
-
-
-LaTeX Warning: Reference `fig:1505' on page 1 undefined on input line 124.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 152--157
+Underfull \hbox (badness 10000) in paragraph at lines 151--156
 
  []
 
 [1{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 166--175
+Underfull \hbox (badness 10000) in paragraph at lines 165--174
 \OT1/cmr/m/n/10 [EX-PLAINS EX-ACT OB-SER-VA-TIONAL
  []
 
 
-Underfull \hbox (badness 3209) in paragraph at lines 166--175
+Underfull \hbox (badness 3209) in paragraph at lines 165--174
 \OT1/cmr/m/n/10 Observations were traced out by mov-ing the
  []
 
-<figures/LC/star7_97_98_0_1.png, id=19, 578.16pt x 433.62pt>
+<figures/LC/star7_97_98_0_1.png, id=18, 578.16pt x 433.62pt>
 File: figures/LC/star7_97_98_0_1.png Graphic file (type png)
 
 <use figures/LC/star7_97_98_0_1.png>
-Package pdftex.def Info: figures/LC/star7_97_98_0_1.png used on input line 234.
+Package pdftex.def Info: figures/LC/star7_97_98_0_1.png used on input line 233.
 
 (pdftex.def)             Requested size: 234.87749pt x 176.15768pt.
 
-<figures/LC/star7_97_98_0_1_restricted.png, id=21, 578.16pt x 433.62pt>
+<figures/LC/star7_97_98_0_1_restricted.png, id=20, 578.16pt x 433.62pt>
 File: figures/LC/star7_97_98_0_1_restricted.png Graphic file (type png)
 
 <use figures/LC/star7_97_98_0_1_restricted.png>
 Package pdftex.def Info: figures/LC/star7_97_98_0_1_restricted.png used on inpu
-t line 240.
+t line 239.
 (pdftex.def)             Requested size: 234.87749pt x 176.15768pt.
 
-<figures/fromJT/probf.png, id=22, 803.0pt x 602.25pt>
+<figures/fromJT/probf.png, id=21, 803.0pt x 602.25pt>
 File: figures/fromJT/probf.png Graphic file (type png)
 
 <use figures/fromJT/probf.png>
-Package pdftex.def Info: figures/fromJT/probf.png used on input line 278.
+Package pdftex.def Info: figures/fromJT/probf.png used on input line 279.
 (pdftex.def)             Requested size: 242.10493pt x 181.57697pt.
 
-Overfull \hbox (16.22745pt too wide) in paragraph at lines 278--279
+Overfull \hbox (16.22745pt too wide) in paragraph at lines 279--280
  [][] 
  []
 
-<figures/log_period_diff-50.png, id=23, 590.4459pt x 445.9059pt>
+<figures/log_period_diff-50.png, id=22, 590.4459pt x 445.9059pt>
 File: figures/log_period_diff-50.png Graphic file (type png)
 
 <use figures/log_period_diff-50.png>
-Package pdftex.def Info: figures/log_period_diff-50.png used on input line 287.
+Package pdftex.def Info: figures/log_period_diff-50.png used on input line 288.
 
 (pdftex.def)             Requested size: 242.10493pt x 182.83621pt.
 
-Overfull \hbox (16.22745pt too wide) in paragraph at lines 287--288
+Overfull \hbox (16.22745pt too wide) in paragraph at lines 288--289
  [][] 
  []
 
+[2 <./figures/fromJT/probf.png> <./figures/log_period_diff-50.png>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 305.
+               Default added (so using `!tbp') on input line 306.
 
-<figures/FSP1_g_LC_rrrtest_p5_grp19.png, id=24, 578.16pt x 433.62pt>
+<figures/FSP1_g_LC_rrrtest_p5_grp19.png, id=27, 578.16pt x 433.62pt>
 File: figures/FSP1_g_LC_rrrtest_p5_grp19.png Graphic file (type png)
 
 <use figures/FSP1_g_LC_rrrtest_p5_grp19.png>
 Package pdftex.def Info: figures/FSP1_g_LC_rrrtest_p5_grp19.png used on input l
-ine 308.
+ine 309.
 (pdftex.def)             Requested size: 242.10493pt x 181.5766pt.
 
-Overfull \hbox (16.22745pt too wide) in paragraph at lines 308--309
+Overfull \hbox (16.22745pt too wide) in paragraph at lines 309--310
  [][] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 313.
+               Default added (so using `!tbp') on input line 314.
 
-<figures/FSP1_g_LC_rrrtest_p5_grp7.png, id=25, 578.16pt x 433.62pt>
+<figures/FSP1_g_LC_rrrtest_p5_grp7.png, id=28, 578.16pt x 433.62pt>
 File: figures/FSP1_g_LC_rrrtest_p5_grp7.png Graphic file (type png)
 
 <use figures/FSP1_g_LC_rrrtest_p5_grp7.png>
 Package pdftex.def Info: figures/FSP1_g_LC_rrrtest_p5_grp7.png used on input li
-ne 316.
+ne 317.
 (pdftex.def)             Requested size: 242.10493pt x 181.5766pt.
 
-Overfull \hbox (16.22745pt too wide) in paragraph at lines 316--317
+Overfull \hbox (16.22745pt too wide) in paragraph at lines 317--318
  [][] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 321.
+               Default added (so using `!tbp') on input line 322.
 
-<figures/rPLCneg45E_limit2_grp_109+01_09693.png, id=26, 578.16pt x 433.62pt>
+<figures/rPLCneg45E_limit2_grp_109+01_09693.png, id=29, 578.16pt x 433.62pt>
 File: figures/rPLCneg45E_limit2_grp_109+01_09693.png Graphic file (type png)
 
 <use figures/rPLCneg45E_limit2_grp_109+01_09693.png>
 Package pdftex.def Info: figures/rPLCneg45E_limit2_grp_109+01_09693.png used on
- input line 324.
+ input line 325.
 (pdftex.def)             Requested size: 242.10493pt x 181.5766pt.
 
-Overfull \hbox (16.22745pt too wide) in paragraph at lines 324--325
+Overfull \hbox (16.22745pt too wide) in paragraph at lines 325--326
  [][] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 329.
+               Default added (so using `!tbp') on input line 330.
 
-<figures/rPLCneg45E_limit2_grp_116-11_03117.png, id=27, 578.16pt x 433.62pt>
+<figures/rPLCneg45E_limit2_grp_116-11_03117.png, id=30, 578.16pt x 433.62pt>
 File: figures/rPLCneg45E_limit2_grp_116-11_03117.png Graphic file (type png)
 
 <use figures/rPLCneg45E_limit2_grp_116-11_03117.png>
 Package pdftex.def Info: figures/rPLCneg45E_limit2_grp_116-11_03117.png used on
- input line 332.
+ input line 333.
 (pdftex.def)             Requested size: 242.10493pt x 181.5766pt.
 
-Overfull \hbox (16.22745pt too wide) in paragraph at lines 332--333
+Overfull \hbox (16.22745pt too wide) in paragraph at lines 333--334
  [][] 
  []
 
-[2 <./figures/fromJT/probf.png> <./figures/log_period_diff-50.png>] [3 <./figur
-es/LC/star7_97_98_0_1.png> <./figures/LC/star7_97_98_0_1_restricted.png> <./fig
-ures/FSP1_g_LC_rrrtest_p5_grp19.png> <./figures/FSP1_g_LC_rrrtest_p5_grp7.png> 
-<./figures/rPLCneg45E_limit2_grp_109+01_09693.png> <./figures/rPLCneg45E_limit2
-_grp_116-11_03117.png>]
-Overfull \hbox (104.24353pt too wide) in paragraph at lines 424--441
+
+Overfull \hbox (104.24353pt too wide) in paragraph at lines 426--443
  []$ 
  []
 
 
-LaTeX Warning: Reference `RlogPr.png' on page 4 undefined on input line 456.
+LaTeX Warning: Reference `RlogPr.png' on page 3 undefined on input line 458.
 
 
-Underfull \hbox (badness 7151) in paragraph at lines 446--461
+Underfull \hbox (badness 7151) in paragraph at lines 448--463
 \OT1/cmr/m/n/10 [DE-SCRIBE LOWER QUAR-TILE METHOD]
  []
 
-<figures/probrr_vs_HPS.png, id=41, 590.4459pt x 445.9059pt>
+[3 <./figures/LC/star7_97_98_0_1.png> <./figures/LC/star7_97_98_0_1_restricted.
+png> <./figures/FSP1_g_LC_rrrtest_p5_grp19.png> <./figures/FSP1_g_LC_rrrtest_p5
+_grp7.png> <./figures/rPLCneg45E_limit2_grp_109+01_09693.png>]
+<figures/probrr_vs_HPS.png, id=39, 590.4459pt x 445.9059pt>
 File: figures/probrr_vs_HPS.png Graphic file (type png)
 
 <use figures/probrr_vs_HPS.png>
-Package pdftex.def Info: figures/probrr_vs_HPS.png used on input line 470.
+Package pdftex.def Info: figures/probrr_vs_HPS.png used on input line 472.
 (pdftex.def)             Requested size: 242.10493pt x 182.83621pt.
 
-Overfull \hbox (16.22745pt too wide) in paragraph at lines 470--471
+Overfull \hbox (16.22745pt too wide) in paragraph at lines 472--473
  [][] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 486--489
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 491--500
+[4 <./figures/rPLCneg45E_limit2_grp_116-11_03117.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 488--491
 
  []
 
-<figures/simbadoverlap.png, id=42, 803.0pt x 985.6825pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 493--502
+
+ []
+
+<figures/simbadoverlap.png, id=48, 803.0pt x 985.6825pt>
 File: figures/simbadoverlap.png Graphic file (type png)
 
 <use figures/simbadoverlap.png>
-Package pdftex.def Info: figures/simbadoverlap.png used on input line 507.
+Package pdftex.def Info: figures/simbadoverlap.png used on input line 509.
 (pdftex.def)             Requested size: 242.10493pt x 297.18097pt.
 
-Overfull \hbox (16.22745pt too wide) in paragraph at lines 507--508
+Overfull \hbox (16.22745pt too wide) in paragraph at lines 509--510
  [][] 
  []
 
-[4 <./figures/probrr_vs_HPS.png>] (./acknowledgement.tex) (./RRLyrae_final.bbl
-[5 <./figures/simbadoverlap.png>]) [6] (./RRLyrae_final.aux)
+(./acknowledgement.tex) (./RRLyrae_final.bbl [5 <./figures/probrr_vs_HPS.png> <
+./figures/simbadoverlap.png>]) [6] (./RRLyrae_final.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -539,14 +523,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 6667 strings out of 493117
- 108728 string characters out of 6135433
+ 6688 strings out of 493117
+ 109109 string characters out of 6135433
  200145 words of memory out of 5000000
- 10048 multiletter control sequences out of 15000+600000
+ 10068 multiletter control sequences out of 15000+600000
  10688 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,9n,40p,1011b,537s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,9n,40p,1034b,537s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></
@@ -561,38 +544,11 @@ ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/
 2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2
 014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/201
 4/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2014/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2014/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2014/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on RRLyrae_final.pdf (5 pages, 593295 bytes).
-=======
- 6673 strings out of 493089
- 108897 string characters out of 6134842
- 201290 words of memory out of 5000000
- 10075 multiletter control sequences out of 15000+600000
- 10688 words of font info for 42 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 42i,9n,40p,1011b,537s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></
-usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
-sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr
-/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/l
-ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/loc
-al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local
-/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/te
-xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texli
-ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/
-2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2
-015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/201
-5/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2015/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2015/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2015/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2015/texmf
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2014/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2014/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2014/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on RRLyrae_final.pdf (6 pages, 619896 bytes).
->>>>>>> origin/master
+Output written on RRLyrae_final.pdf (6 pages, 623887 bytes).
 PDF statistics:
  115 PDF objects out of 1000 (max. 8388607)
  69 compressed objects within 1 object stream

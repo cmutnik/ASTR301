@@ -1,4 +1,4 @@
-\begin{thebibliography}{6}
+\begin{thebibliography}{9}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname bibnamefont\endcsname\relax
   \def\bibnamefont#1{#1}\fi
@@ -54,6 +54,30 @@
   \bibinfo{author}{\bibfnamefont{Z.}~\bibnamefont{{Koll{\'a}th}}},
   \textbf{\bibinfo{volume}{452}}, \bibinfo{pages}{4283} (\bibinfo{year}{2015}),
   \eprint{1507.04714}.
+
+\bibitem[{\citenamefont{{C{\'a}ceres} and {Catelan}}(2008)}]{PL}
+\bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{{C{\'a}ceres}}}
+  \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{{Catelan}}},
+  \textbf{\bibinfo{volume}{179}}, \bibinfo{eid}{242-248}
+  (\bibinfo{year}{2008}), \eprint{0805.3704}.
+
+\bibitem[{\citenamefont{{Carroll} and {Ostlie}}(2007)}]{Modern}
+\bibinfo{author}{\bibfnamefont{B.~W.} \bibnamefont{{Carroll}}}
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{D.~A.}
+  \bibnamefont{{Ostlie}}}, \emph{\bibinfo{title}{{An Introduction to Modern
+  Astrophysics}}} (\bibinfo{publisher}{San Francisco: Addison-Wesley},
+  \bibinfo{year}{2007}), \bibinfo{edition}{2nd} ed.
+
+\bibitem[{\citenamefont{{Press} et~al.}(2007)\citenamefont{{Press},
+  {Teukolsky}, {Vetterling}, and {Flannery}}}]{Numerical}
+\bibinfo{author}{\bibfnamefont{W.~H.} \bibnamefont{{Press}}},
+  \bibinfo{author}{\bibfnamefont{S.~A.} \bibnamefont{{Teukolsky}}},
+  \bibinfo{author}{\bibfnamefont{W.~T.} \bibnamefont{{Vetterling}}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{B.~P.}
+  \bibnamefont{{Flannery}}}, \emph{\bibinfo{title}{{NUMERICAL RECIPES}}}
+  (\bibinfo{publisher}{Cambridge: Cambridge University Press},
+  \bibinfo{year}{2007}), \bibinfo{edition}{3rd} ed.
 
 \bibitem[{\citenamefont{{Hernitschek} et~al.}(2016)\citenamefont{{Hernitschek},
   {Schlafly}, {Sesar}, {Rix}, {Hogg}, {Ivezi{\'c}}, {Grebel}, {Bell}, {Martin},

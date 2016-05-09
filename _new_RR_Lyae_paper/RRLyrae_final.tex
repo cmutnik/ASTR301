@@ -121,8 +121,7 @@ We received the reduced image data from the ATLAS pipeline~\cite{PSpipe}~\cite{t
 
 \subsection{SNR Calculation}\label{sec:data}
 
-\noindent To calculate an appropriate sampling frequency and SNR, typical RR Lyrae star light curves from~\cite{RRLyrae} with artificially introduced gaps following the Gaussian distribution. Since sampling in astronomy is always uneven, we used the Lomb-Scargle analysis (Lomb 1976~$\&$~Scargle~1982). The light curve of 210282474 is shown in Figure~\ref{fig:Lcurve}, and Lomb-Scargle power plots with various sampling conditions are shown in Figures~\ref{fig:1510},~\ref{fig:1010}, and~\ref{fig:1505}. We want a distinguishable and narrow peak in power plots. To determine distances from the PL relations with $\simeq5\%$ accuracy, we need peaks with FWHM~$ \simeq 0.02$ days. From this condition, it looks like 15 nights with 10 observations/night is the lower limit sampling rate. The uncertainty in magnitude was taken to be $10\%$, and the changes, $1\% - 10\%$, in the uncertainty did not affect the period determinations significantly; we only need $10\%$ photometry.
-
+To calculate an appropriate sampling frequency and SNR, typical RR Lyrae light curves~\cite{RRLyrae} were used with artificially introduced gaps and noise following the Gaussian distribution. To determine distances from the PL relations~\citep{PL} within $\simeq5\%$ accuracy assuming typical metalicity $Z=0.001$, we need periods within $\simeq1\%$ accuracy. By using the Lomb-Scargle analysis (discussed in section \ref{sec:PA}), it was found that 15 nights with 10 observations/night is the lower limit sampling rate to achieve the period accuracy. Since the magnitude fluctuations of RR Lyrae are typically in the range of $0.3$ to $2.0$ mags~\cite{Modern}, the uncertainty in magnitude was taken to be $0.1$ mags, and the changes, $0.01$ to $0.1$ mags, in the uncertainty did not affect the period determinations significantly. Thus we only needed $10\%$ photometry. For $m_g = m_r = 16$ and $m_i = 15.7$, an exposure time of $20$~sec yields $10\%$ photometry for the ATLAS pathfinder telescope.
 
 \subsection{Data}\label{sec:data}
 %\begin{itemize}
@@ -248,7 +247,7 @@ The selection process began
 
 
 % clean up section title
-\section{Fast Lomb-Scargle Periodogram}
+\section{Periodogram Analysis}\label{sec:PA}
 
 %------------- KILL subsection and make periodgram the intro to LS
 %\subsection{Periodogram Analysis}
@@ -271,6 +270,8 @@ The selection process began
 	\item{} compute gri periods individually and compare each other. if period differences are less than 0.04 days, next step
 \end{itemize}
 
+To extract periods/frequencies from light curves, the Fast Fourier Transform (FFT) is usually used. For our data, however, FFT is not optimal because of the data gaps. To deal with the data gaps, the Fast Lomb-Scargle (FLS) periodogram analysis~\citep{Numerical} was used in this study. 
+
 
 
 \begin{figure}[H]
@@ -290,7 +291,7 @@ The selection process began
 \end{figure}
 
 
-\subsection{Fourier Series}
+\section{RR Lyrae Selection Criteria}
 
 \begin{itemize}
 	\item{} Fourier series fit to extract variable types
@@ -385,6 +386,7 @@ The selection process began
 	\item{} put a table with ~5 stars, to show off part of catalog
 \end{itemize}
 
+\subsection{Spatial Distribution}
 \iffalse
 	\begin{table}[H]
 	\begin{center}
