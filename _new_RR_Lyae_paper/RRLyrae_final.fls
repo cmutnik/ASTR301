@@ -141,6 +141,9 @@ INPUT ./figures/rPLCneg45E_limit2_grp_109+01_09693.png
 INPUT figures/rPLCneg45E_limit2_grp_116-11_03117.png
 INPUT ./figures/rPLCneg45E_limit2_grp_116-11_03117.png
 INPUT ./figures/rPLCneg45E_limit2_grp_116-11_03117.png
+INPUT figures/probrr_vs_HPS.png
+INPUT ./figures/probrr_vs_HPS.png
+INPUT ./figures/probrr_vs_HPS.png
 INPUT figures/simbadoverlap.png
 INPUT ./figures/simbadoverlap.png
 INPUT ./figures/simbadoverlap.png
@@ -163,6 +166,7 @@ INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb

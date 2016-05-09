@@ -385,8 +385,8 @@ The selection process began
 	\item{} put a table with ~5 stars, to show off part of catalog
 \end{itemize}
 
-
-\begin{table}[H]
+\iffalse
+	\begin{table}[H]
 	\begin{center}
 		\begin{tabular}{ | c | c | c | c | c | c | c | }\hline
 		$\rho_{RR}$ & \# HPS & \# RR & \# Other Variable Class & \# not var & Prob(var) & Prob(RR) \\ \hline
@@ -398,10 +398,10 @@ The selection process began
 		0.8-1 &&&&&& \\ \hline
 		\end{tabular}
 	\end{center}
-\caption{ \small{RR Table 0.15 \label{tab:rrtab}}}
-\end{table}
+	\caption{ \small{RR Table 0.15 \label{tab:rrtab}}}
+	\end{table}
 
-\begin{table}[H]
+	\begin{table}[H]
 	\begin{center}
 		\begin{tabular}{ | c | c | c | c | c | c | c | }\hline
 		$\rho_{RR}$ & \# HPS & \# RR & \# Other Variable Class & \# not var & Prob(var) & Prob(RR) \\ \hline
@@ -413,8 +413,47 @@ The selection process began
 		0.8-1 &&&&&& \\ \hline
 		\end{tabular}
 	\end{center}
-\caption{ \small{RR Table 0.2 \label{tab:rrtab}}}
-\end{table}
+	\caption{ \small{RR Table 0.2 \label{tab:rrtab}}}
+	\end{table}
+\fi
+
+
+\begin{table*}
+%\begin{table}[H]
+	\begin{center}
+		\begin{tabular}{|c|c|c|c|c|c|c|c|c|}\hline
+			%HPS stat & nonvar15 & var15 \\ \hline
+HPS $\rho_{RRLyrae}$ & $HPS_{total}$ & $HPS_{matched}$ & RR & var (notRR) & $Not-Variable_{matched}$ &$notvar_{notmatched}$(outside mask)& Prob(var)&Prob(RR) \\ \hline
+0.0-0.05 & 5029 & 138 & 9 & 37 & 92 & 4891 & $46/138=0.33$ & $9/138=0.07$	\\ \hline
+0.05-0.1 & 124 & 25 & 1 & 11 & 13 & 99 & 12/25 & 1/25 \\ \hline
+0.1-0.2 & 154 & 38 & 1 & 18 & 19 & 116 & 19/38 & 1/38 \\ \hline
+0.2-0.3 & 116 & 36 & 1 & 14 & 21 & 80 & 15/36 & 1/36 \\ \hline
+0.3-0.4 & 82 & 36 & 1 & 21 & 14 & 46 & 22/36 & 1/36	\\ \hline
+0.4-0.5 & 85 & 34 & 1 & 19 & 14 & 51 & 20/34 & 1/34	\\ \hline
+0.5-0.6 & 90 & 41 & 5 & 17 & 19 & 49 & 19/41 & 5/41	\\ \hline
+0.6-0.7 & 89 & 47 & 6 & 22 & 19 & 42 & 28/47 & 6/47	\\ \hline
+0.7-0.8 & 64 & 39 & 5 & 23 & 11 & 25 & 28/39 & 5/39	\\ \hline
+0.8-0.9 & 46 & 28 & 4 & 19 & 5 & 18 & 23/28 & 4/28	\\ \hline
+0.9-1.0 & 21 & 15 & 1 & 8 & 6 & 6 & 9/15 & 1/15	\\ \hline
+\hline
+0.0-1.0 & 5900 & 477 & 35 & 209 & 233 & 5423 & & \\ \hline
+		\end{tabular}
+	\end{center}
+\caption{ \small{A comparison of observations to HPS RR Lyrae candidates. \label{tab:HPSlim15}}}
+\end{table*}
+
+
+Figure~\ref{fig:probrrHPS} shows no correlation between the HPS criteria and verified RR Lyraes.  Of the 1.5 Billion stars identified in our FOV, 320,000 were checked for variability using\\
+~[DESCRIBE LOWER QUARTILE METHOD]
+
+
+\begin{figure}[H]
+ \centering
+ 	\includegraphics[width=3.35in]{figures/probrr_vs_HPS.png}
+ \caption{\it \small{Evaluation of HPS RR Lyrae criteria.}}
+ \label{fig:probrrHPS}
+\end{figure}
+
 
 % From old paper
 \subsection{Simbad Completeness}
@@ -496,21 +535,21 @@ In order to evaluate the completeness of our results, comparisons needed to be m
 ~[TALK ABOUT IT]
 
 
-\section{Resources from website (remove this section)}
-\begin{itemize}
-	\item{} $ay301.ifa.hawaii.edu$
-	\item{} $/ay301/atlas = location for all the gri Project data and programs$
-	\item{} $/ay301/script = transcripts from class computer activities$
-	\item{} $/ay301/tmp = generic temporary area$
-	\item{} $gri Project$
-	\item{} $/home/gri_project = location for manuscript and figures$
-	\item{} $Las Cumbres LCOGT (Faulkes 2m telescope on Haleakala)$
-	\item{} $ATLAS (fallingstar.com)$
-	\item{} $0.5m telescope with c,o,B,V,R,I,H-alpha filters$
-	\item{} $0.18m Pathfinder telescope with g,r,i filters$
-	\item{} $0.06m 35mm piggy-back camera with RGB$
-	\item{} $0.01m 35mm fisheye camera$
-\end{itemize}
+%\section{Resources from website (remove this section)}
+%\begin{itemize}
+%	\item{} $ay301.ifa.hawaii.edu$
+%	\item{} $/ay301/atlas = location for all the gri Project data and programs$
+%	\item{} $/ay301/script = transcripts from class computer activities$
+%	\item{} $/ay301/tmp = generic temporary area$
+%	\item{} $gri Project$
+%	\item{} $/home/gri_project = location for manuscript and figures$
+%	\item{} $Las Cumbres LCOGT (Faulkes 2m telescope on Haleakala)$
+%	\item{} $ATLAS (fallingstar.com)$
+%	\item{} $0.5m telescope with c,o,B,V,R,I,H-alpha filters$
+%	\item{} $0.18m Pathfinder telescope with g,r,i filters$
+%	\item{} $0.06m 35mm piggy-back camera with RGB$
+%	\item{} $0.01m 35mm fisheye camera$
+%\end{itemize}
 
 
 \section*{Acknowledgments}
