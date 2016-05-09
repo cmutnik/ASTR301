@@ -1,13 +1,14 @@
 # Fdb version 3
-["bibtex dhRRLyrae_final"] 1462676041 "dhRRLyrae_final.aux" "dhRRLyrae_final.bbl" "dhRRLyrae_final" 1462676042
+["bibtex dhRRLyrae_final"] 1462676041 "dhRRLyrae_final.aux" "dhRRLyrae_final.bbl" "dhRRLyrae_final" 1462762860
   "/usr/local/texlive/2015/texmf-dist/bibtex/bst/revtex4/apsrev.bst" 1261594643 44155 dc7233506a001aedcd59cfd90f9fe8d7 ""
   "biblio.bib" 1462587534 3554 a42db27c5f08a4f0531d28e43525ac3e ""
   "dhRRLyrae_final.aux" 1462676042 9097 fafb38707fdab6e8f205afefebd067bd ""
   "dhRRLyrae_final.bcf" 0 -1 0 ""
   "dhRRLyrae_finalNotes.bib" 1462676041 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
+  "dhRRLyrae_final.blg"
   "dhRRLyrae_final.bbl"
-["pdflatex"] 1462676041 "dhRRLyrae_final.tex" "dhRRLyrae_final.pdf" "dhRRLyrae_final" 1462676042
+["pdflatex"] 1462676041 "dhRRLyrae_final.tex" "dhRRLyrae_final.pdf" "dhRRLyrae_final" 1462762860
   "./figures/FSP1_g_LC_rrrtest_p5_grp19.png" 1462587534 69520 aa84ad3fe819fbd74ca5f8a5694fb3a8 ""
   "./figures/FSP1_g_LC_rrrtest_p5_grp7.png" 1462587534 64693 9d15fb4ffb6ab0e1836b7be4b5cec81f ""
   "./figures/LC/star7_97_98_0_1.png" 1462587534 66642 effe68fa080a6259e63d4e06bf1caaae ""
@@ -112,7 +113,7 @@
   "figures/rPLCneg45E_limit2_grp_116-11_03117.png" 1462587534 62926 6cc814d6219f43510e1fefd7e3286318 ""
   "figures/simbadoverlap.png" 1462587534 19694 bb029d556b2827a8e46e073db7cd9598 ""
   (generated)
-  "dhRRLyrae_final.log"
-  "dhRRLyrae_final.aux"
   "dhRRLyrae_final.pdf"
   "dhRRLyrae_finalNotes.bib"
+  "dhRRLyrae_final.aux"
+  "dhRRLyrae_final.log"
