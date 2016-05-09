@@ -443,8 +443,26 @@ HPS $\rho_{RRLyrae}$ & $HPS_{total}$ & $HPS_{matched}$ & RR & var (notRR) & $Not
 \end{table*}
 
 
-Figure~\ref{fig:probrrHPS} shows no correlation between the HPS criteria and verified RR Lyraes.  Of the 1.5 Billion stars identified in our FOV, 320,000 were checked for variability using\\
+Figure~\ref{fig:probrrHPS} shows no correlation between the HPS criteria and verified RR Lyraes.  Of the 1.5 Billion stars identified in our FOV, we isolated the 320,000 most variable using\\
 ~[DESCRIBE LOWER QUARTILE METHOD]
+~[DESCRIBE logPr(rnd)...how some vars might have slipped past, but only ]\\
+~[CITE WHERE IT SAYS RRLYRAE HAVE 0.5 < PERIOD < 1.2 [DAYS]]\\
+A grouping and matching algorithm, written by J. Tonry~\cite{gri}, made it possible to isolate and group 
+stars from various nights of observations.  
+Implementation of logPr(rnd) allowed for $100\%$ of RR Lyrae verification.  Only stars with different 
+variable classifications, those having lower amplitude variations, would have been able to go
+undetected.  Masking out regions of high aliasing reduced the need to run LS and verify variability, 
+due to the statistically improbability of these sources being variable.  A total of 5,658 stars fell within 
+the masked region, shown in Figure~\ref{RlogPr.png}.  LS analysis identified 1,239 variable stars in our FOV.  
+A defining characteristic of RR Lyrae is their variability periods, falling between 0.5 and 1.2 days.  Using this 
+restriction 279 stars were confirmed to be RR Lyrae.  Variability classification was confirmed by visually inspecting 
+the light curves of all 279 RR Lyrae and the remaining 960 unclassified variable stars.  Following this procedure gives us 
+$100\%$ purity.
+
+Using the same matching algorithm~\cite{gri} made comparing observations with other variable catalogs possible.  
+To evaluate the HPS RR Lyrae criteria, our observations were matched to stars flagged as potential RR Lyrae candidates by HPS.  
+Shown in Table~\ref{tab:HPSlim15} and Figure~\ref{fig:probrrHPS}, there is no correlation between HPS criteria and 
+verified RR Lyrae stars.
 
 
 \begin{figure}[H]

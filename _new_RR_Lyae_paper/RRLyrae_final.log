@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  9 MAY 2016 01:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  9 MAY 2016 02:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -485,24 +485,32 @@ Overfull \hbox (104.24353pt too wide) in paragraph at lines 424--441
  []$ 
  []
 
+
+LaTeX Warning: Reference `RlogPr.png' on page 4 undefined on input line 456.
+
+
+Underfull \hbox (badness 7151) in paragraph at lines 446--461
+\OT1/cmr/m/n/10 [DE-SCRIBE LOWER QUAR-TILE METHOD]
+ []
+
 <figures/probrr_vs_HPS.png, id=41, 590.4459pt x 445.9059pt>
 File: figures/probrr_vs_HPS.png Graphic file (type png)
 
 <use figures/probrr_vs_HPS.png>
-Package pdftex.def Info: figures/probrr_vs_HPS.png used on input line 452.
+Package pdftex.def Info: figures/probrr_vs_HPS.png used on input line 470.
 (pdftex.def)             Requested size: 242.10493pt x 182.83621pt.
 
-Overfull \hbox (16.22745pt too wide) in paragraph at lines 452--453
+Overfull \hbox (16.22745pt too wide) in paragraph at lines 470--471
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 468--471
+Underfull \hbox (badness 10000) in paragraph at lines 486--489
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 473--482
+Underfull \hbox (badness 10000) in paragraph at lines 491--500
 
  []
 
@@ -510,15 +518,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 473--482
 File: figures/simbadoverlap.png Graphic file (type png)
 
 <use figures/simbadoverlap.png>
-Package pdftex.def Info: figures/simbadoverlap.png used on input line 489.
+Package pdftex.def Info: figures/simbadoverlap.png used on input line 507.
 (pdftex.def)             Requested size: 242.10493pt x 297.18097pt.
 
-Overfull \hbox (16.22745pt too wide) in paragraph at lines 489--490
+Overfull \hbox (16.22745pt too wide) in paragraph at lines 507--508
  [][] 
  []
 
-[4 <./figures/probrr_vs_HPS.png> <./figures/simbadoverlap.png>]
-(./acknowledgement.tex) (./RRLyrae_final.bbl) [5] (./RRLyrae_final.aux)
+[4 <./figures/probrr_vs_HPS.png>] (./acknowledgement.tex) (./RRLyrae_final.bbl
+[5 <./figures/simbadoverlap.png>]) [6] (./RRLyrae_final.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -527,10 +535,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6672 strings out of 493089
- 108885 string characters out of 6134842
- 206290 words of memory out of 5000000
- 10074 multiletter control sequences out of 15000+600000
+ 6673 strings out of 493089
+ 108897 string characters out of 6134842
+ 201290 words of memory out of 5000000
+ 10075 multiletter control sequences out of 15000+600000
  10688 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,9n,40p,1011b,537s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -552,10 +560,10 @@ texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2015/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2015/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2015/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on RRLyrae_final.pdf (5 pages, 617812 bytes).
+Output written on RRLyrae_final.pdf (6 pages, 619896 bytes).
 PDF statistics:
- 112 PDF objects out of 1000 (max. 8388607)
- 67 compressed objects within 1 object stream
+ 115 PDF objects out of 1000 (max. 8388607)
+ 69 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
