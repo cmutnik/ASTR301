@@ -5,46 +5,49 @@ The style file: apsrev.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: RRLyrae_finalNotes.bib
 Database file #2: biblio.bib
+Warning--string name "\mnras" is undefined
+--line 69 of file biblio.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 5 entries,
+You've used 6 entries,
             3411 wiz_defined-function locations,
-            1188 strings with 11391 characters,
-and the built_in function-call counts, 5172 in all, are:
-= -- 224
-> -- 278
-< -- 38
-+ -- 262
-- -- 70
-* -- 745
-:= -- 506
-add.period$ -- 5
-call.type$ -- 5
-change.case$ -- 20
-chr.to.int$ -- 5
-cite$ -- 5
-duplicate$ -- 462
-empty$ -- 387
-format.name$ -- 151
-if$ -- 930
+            1196 strings with 11694 characters,
+and the built_in function-call counts, 6489 in all, are:
+= -- 277
+> -- 359
+< -- 48
++ -- 338
+- -- 90
+* -- 948
+:= -- 622
+add.period$ -- 6
+call.type$ -- 6
+change.case$ -- 24
+chr.to.int$ -- 6
+cite$ -- 6
+duplicate$ -- 573
+empty$ -- 481
+format.name$ -- 194
+if$ -- 1167
 int.to.chr$ -- 1
-int.to.str$ -- 6
-missing$ -- 69
-newline$ -- 30
-num.names$ -- 15
-pop$ -- 73
+int.to.str$ -- 7
+missing$ -- 85
+newline$ -- 33
+num.names$ -- 18
+pop$ -- 106
 preamble$ -- 1
-purify$ -- 20
+purify$ -- 24
 quote$ -- 0
-skip$ -- 241
+skip$ -- 288
 stack$ -- 0
-substring$ -- 74
-swap$ -- 404
-text.length$ -- 36
+substring$ -- 98
+swap$ -- 509
+text.length$ -- 46
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 30
+type$ -- 36
 warning$ -- 0
-while$ -- 13
+while$ -- 16
 width$ -- 0
-write$ -- 66
+write$ -- 76
+(There was 1 warning)
