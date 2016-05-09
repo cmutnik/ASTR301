@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  9 MAY 2016 12:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  9 MAY 2016 12:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -247,6 +247,36 @@ LaTeX Warning: Label `sub@fig:Tc' multiply defined.
 
 
 LaTeX Warning: Label `sub@fig:Tc@cref' multiply defined.
+
+
+LaTeX Warning: Label `fig:blp' multiply defined.
+
+
+LaTeX Warning: Label `fig:blp@cref' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:blp' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:blp@cref' multiply defined.
+
+
+LaTeX Warning: Label `fig:EBVlp' multiply defined.
+
+
+LaTeX Warning: Label `fig:EBVlp@cref' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:EBVlp' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:EBVlp@cref' multiply defined.
+
+
+LaTeX Warning: Label `fig:RRspace' multiply defined.
+
+
+LaTeX Warning: Label `fig:RRspace@cref' multiply defined.
 
 )
 \openout1 = `RRLyrae_final.aux'.
@@ -532,37 +562,61 @@ Overfull \hbox (7.22745pt too wide) in paragraph at lines 447--448
  [][] 
  []
 
+<figures/PlotsSpace15/bphist_limit15.png, id=53, 578.16pt x 433.62pt>
+File: figures/PlotsSpace15/bphist_limit15.png Graphic file (type png)
 
-Overfull \hbox (104.24353pt too wide) in paragraph at lines 498--515
- []$ 
+<use figures/PlotsSpace15/bphist_limit15.png>
+Package pdftex.def Info: figures/PlotsSpace15/bphist_limit15.png used on input 
+line 461.
+(pdftex.def)             Requested size: 242.10493pt x 181.5766pt.
+
+Overfull \hbox (7.22745pt too wide) in paragraph at lines 461--462
+ [][] 
  []
 
+<figures/PlotsSpace15/bnhist_limit15.png, id=54, 578.16pt x 433.62pt>
+File: figures/PlotsSpace15/bnhist_limit15.png Graphic file (type png)
 
-LaTeX Warning: Reference `RlogPr.png' on page 5 undefined on input line 530.
+<use figures/PlotsSpace15/bnhist_limit15.png>
+Package pdftex.def Info: figures/PlotsSpace15/bnhist_limit15.png used on input 
+line 467.
+(pdftex.def)             Requested size: 242.10493pt x 181.5766pt.
 
-
-Underfull \hbox (badness 7151) in paragraph at lines 520--535
-\OT1/cmr/m/n/10 [DE-SCRIBE LOWER QUAR-TILE METHOD]
- []
-
-<figures/probrr_vs_HPS.png, id=53, 590.4459pt x 445.9059pt>
-File: figures/probrr_vs_HPS.png Graphic file (type png)
-
-<use figures/probrr_vs_HPS.png>
-Package pdftex.def Info: figures/probrr_vs_HPS.png used on input line 544.
-(pdftex.def)             Requested size: 242.10493pt x 182.83621pt.
-
-Overfull \hbox (16.22745pt too wide) in paragraph at lines 544--545
+Overfull \hbox (7.22745pt too wide) in paragraph at lines 467--468
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 560--563
+Overfull \hbox (104.24353pt too wide) in paragraph at lines 517--534
+ []$ 
+ []
+
+
+LaTeX Warning: Reference `RlogPr.png' on page 5 undefined on input line 549.
+
+
+Underfull \hbox (badness 7151) in paragraph at lines 539--554
+\OT1/cmr/m/n/10 [DE-SCRIBE LOWER QUAR-TILE METHOD]
+ []
+
+<figures/probrr_vs_HPS.png, id=55, 590.4459pt x 445.9059pt>
+File: figures/probrr_vs_HPS.png Graphic file (type png)
+
+<use figures/probrr_vs_HPS.png>
+Package pdftex.def Info: figures/probrr_vs_HPS.png used on input line 563.
+(pdftex.def)             Requested size: 242.10493pt x 182.83621pt.
+
+Overfull \hbox (16.22745pt too wide) in paragraph at lines 563--564
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 579--582
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 565--574
+Underfull \hbox (badness 10000) in paragraph at lines 584--593
 
  []
 
@@ -570,18 +624,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 565--574
 [6 <./figures/PlotsSpace15/dist_b_lp_limit15.png> <./figures/PlotsSpace15/dist_
 EBV_lp_limit15.png> <./figures/PlotsSpace15/dist_b_ln_limit15.png> <./figures/P
 lotsSpace15/dist_EBV_ln_limit15.png>]
-<figures/simbadoverlap.png, id=67, 803.0pt x 985.6825pt>
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 593.
+
+<figures/simbadoverlap.png, id=69, 803.0pt x 985.6825pt>
 File: figures/simbadoverlap.png Graphic file (type png)
 
 <use figures/simbadoverlap.png>
-Package pdftex.def Info: figures/simbadoverlap.png used on input line 581.
+Package pdftex.def Info: figures/simbadoverlap.png used on input line 600.
 (pdftex.def)             Requested size: 242.10493pt x 297.18097pt.
 
-Overfull \hbox (16.22745pt too wide) in paragraph at lines 581--582
+Overfull \hbox (16.22745pt too wide) in paragraph at lines 600--601
  [][] 
  []
 
-(./acknowledgement.tex) (./RRLyrae_final.bbl
+[7 <./figures/PlotsSpace15/bphist_limit15.png> <./figures/PlotsSpace15/bnhist_l
+imit15.png> <./figures/simbadoverlap.png>] (./acknowledgement.tex)
+(./RRLyrae_final.bbl
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -657,7 +717,6 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[7 <./figures/simbadoverlap.png>]
 ! Missing } inserted.
 <inserted text> 
                 }
@@ -678,10 +737,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6763 strings out of 493117
- 110563 string characters out of 6135433
- 203145 words of memory out of 5000000
- 10138 multiletter control sequences out of 15000+600000
+ 6773 strings out of 493117
+ 110949 string characters out of 6135433
+ 205145 words of memory out of 5000000
+ 10146 multiletter control sequences out of 15000+600000
  11037 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,10n,44p,1034b,652s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -705,10 +764,10 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2014/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2014/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2014/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on RRLyrae_final.pdf (8 pages, 1252051 bytes).
+Output written on RRLyrae_final.pdf (8 pages, 1284642 bytes).
 PDF statistics:
- 140 PDF objects out of 1000 (max. 8388607)
+ 144 PDF objects out of 1000 (max. 8388607)
  81 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 71 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
