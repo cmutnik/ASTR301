@@ -366,26 +366,16 @@ Assuming the Gaussian statistics and Taylor expanding $\chi^2$ with respect to a
 \end{equation}
 
 
+\section{Distance Calculations}
 
-\section{Results}
-\begin{itemize}
-	\item{} compare with PS~\cite{PSdata}
-	\item{} density/distribution of variables in sky
-	\item{} (what LS gave us for our catalog)
-	\item{} put a table with ~5 stars, to show off part of catalog
-\end{itemize}
-
-\subsection{Spatial Distribution}
-
-
-In order to determine the spatial distribution of RR Lyrae stars, we needed to classify RR Lyrae subtypes as shown in FIG. \ref{fig:Type}. However, there is currently only few systematic studies (calibrations) of the type classification using light curves (mainly on types ab and c), and they are complicated in general. To avoid the complications for the moment, we used the typical absolute RR Lyrae magnitude~\citep{PSdata}, $M_r \simeq M_v = 0.6$. To estimate the amount of dust reddening, we used the total to selective extinction~\citep{Rv}, $Rv=3.1$, and the number fraction weighted average color term~\citep{EBV}, $(B-V)_0 = 0.358$, of RRab and RRc stars. The number fraction weighted average $(B-V)_0$ was calculated by using the number statistics of known RR Lyrae stars ($\simeq91\%$ of RR Lyares are type ab and $\simeq9\%$ of RR Lyraes are type c assuming the numbers of Blazhko modulated and period doubling are negligible) as follows;
+In order to calculate distances to RR Lyrae stars, we needed to classify RR Lyrae subtypes as shown in FIG. \ref{fig:Type}. However, there is currently only few systematic studies (calibrations) of the type classification using light curves only (mainly on types ab and c), and they are complicated in general. To avoid the complications for the moment, we used the typical absolute RR Lyrae magnitude~\citep{PSdata}, $M_r \simeq M_v = 0.6$. To estimate the amount of dust reddening, we used the total to selective extinction~\citep{Rv}, $Rv=3.1$, and the number fraction weighted average color term~\citep{EBV}, $(B-V)_0 = 0.358$, of RRab and RRc stars. The number fraction weighted average $(B-V)_0$ was calculated by using the number statistics of known RR Lyrae stars ($\simeq91\%$ of RR Lyares are type ab and $\simeq9\%$ of RR Lyraes are type c assuming that the numbers of Blazhko modulated and period doubling are negligible) as follows;
 
 \begin{equation}
 \label{BV}
-\text{(B-V)}_0 = 0.91\text{(B-V)}_{ab0} + 0.09\text{(B-V)}_{c0}
+(B-V)_0 = 0.91(B-V)_{ab0} + 0.09(B-V)_{c0}
 \end{equation}
 
-\noindent where $\text{(B-V)}_{ab0} \simeq 0.372$ and $\text{(B-V)}_{c0} \simeq 0.211$. Then the color extinction was calculated as~\cite{Modern};
+\noindent where $(B-V)_{ab0} \simeq 0.372$ and $(B-V)_{c0} \simeq 0.211$. Then the color extinction was calculated as~\cite{Modern};
 
 \begin{equation}
 \label{EBV}
@@ -403,8 +393,25 @@ A_v = R_v E(B-V) \,
 
 \begin{equation}
 \label{dist}
-d = 10^{1+(m_r - A_v - M_v)/5} \, .
+d = 10^{[1+(m_r - A_v - M_v)/5]} \, .
 \end{equation}
+
+
+\section{Results}
+\begin{itemize}
+	\item{} compare with PS~\cite{PSdata}
+	\item{} density/distribution of variables in sky
+	\item{} (what LS gave us for our catalog)
+	\item{} put a table with ~5 stars, to show off part of catalog
+\end{itemize}
+
+
+
+
+\subsection{Spatial Distribution}
+
+
+
 
  
 

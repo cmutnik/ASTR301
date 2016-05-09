@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  9 MAY 2016 08:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  9 MAY 2016 11:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -470,54 +470,55 @@ Overfull \hbox (7.22745pt too wide) in paragraph at lines 341--342
 
 [3 <./figures/LC/star7_97_98_0_1.png> <./figures/LC/star7_97_98_0_1_restricted.
 png>]
-Overfull \hbox (104.24353pt too wide) in paragraph at lines 451--468
+Overfull \hbox (104.24353pt too wide) in paragraph at lines 458--475
  []$ 
- []
-
-
-LaTeX Warning: Reference `RlogPr.png' on page 4 undefined on input line 483.
-
-
-Underfull \hbox (badness 7151) in paragraph at lines 473--488
-\OT1/cmr/m/n/10 [DE-SCRIBE LOWER QUAR-TILE METHOD]
  []
 
 [4 <./figures/FSP1_g_LC_rrrtest_p5_grp19.png> <./figures/FSP1_g_LC_rrrtest_p5_g
 rp7.png> <./figures/rPLCneg45E_limit2_grp_109+01_09693.png> <./figures/rPLCneg4
 5E_limit2_grp_116-11_03117.png>]
+
+LaTeX Warning: Reference `RlogPr.png' on page 5 undefined on input line 490.
+
+
+Underfull \hbox (badness 7151) in paragraph at lines 480--495
+\OT1/cmr/m/n/10 [DE-SCRIBE LOWER QUAR-TILE METHOD]
+ []
+
 <figures/probrr_vs_HPS.png, id=48, 590.4459pt x 445.9059pt>
 File: figures/probrr_vs_HPS.png Graphic file (type png)
 
 <use figures/probrr_vs_HPS.png>
-Package pdftex.def Info: figures/probrr_vs_HPS.png used on input line 497.
+Package pdftex.def Info: figures/probrr_vs_HPS.png used on input line 504.
 (pdftex.def)             Requested size: 242.10493pt x 182.83621pt.
 
-Overfull \hbox (16.22745pt too wide) in paragraph at lines 497--498
+Overfull \hbox (16.22745pt too wide) in paragraph at lines 504--505
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 513--516
+Underfull \hbox (badness 10000) in paragraph at lines 520--523
 
  []
 
-[5 <./figures/probrr_vs_HPS.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 518--527
+
+Underfull \hbox (badness 10000) in paragraph at lines 525--534
 
  []
 
-<figures/simbadoverlap.png, id=54, 803.0pt x 985.6825pt>
+<figures/simbadoverlap.png, id=49, 803.0pt x 985.6825pt>
 File: figures/simbadoverlap.png Graphic file (type png)
 
 <use figures/simbadoverlap.png>
-Package pdftex.def Info: figures/simbadoverlap.png used on input line 534.
+Package pdftex.def Info: figures/simbadoverlap.png used on input line 541.
 (pdftex.def)             Requested size: 242.10493pt x 297.18097pt.
 
-Overfull \hbox (16.22745pt too wide) in paragraph at lines 534--535
+Overfull \hbox (16.22745pt too wide) in paragraph at lines 541--542
  [][] 
  []
 
-(./acknowledgement.tex) (./RRLyrae_final.bbl [6 <./figures/simbadoverlap.png>]
+[5 <./figures/probrr_vs_HPS.png>] (./acknowledgement.tex) (./RRLyrae_final.bbl
+[6 <./figures/simbadoverlap.png>]
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -591,10 +592,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6713 strings out of 493117
- 109173 string characters out of 6135433
- 201145 words of memory out of 5000000
- 10094 multiletter control sequences out of 15000+600000
+ 6711 strings out of 493117
+ 109153 string characters out of 6135433
+ 202145 words of memory out of 5000000
+ 10092 multiletter control sequences out of 15000+600000
  11037 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,10n,44p,1034b,652s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -618,7 +619,7 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2014/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2014/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2014/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on RRLyrae_final.pdf (7 pages, 669654 bytes).
+Output written on RRLyrae_final.pdf (7 pages, 669780 bytes).
 PDF statistics:
  127 PDF objects out of 1000 (max. 8388607)
  79 compressed objects within 1 object stream
