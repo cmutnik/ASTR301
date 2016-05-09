@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  8 MAY 2016 17:24
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  9 MAY 2016 02:36
+>>>>>>> origin/master
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -223,12 +227,6 @@ LaTeX Warning: Label `sec:data' multiply defined.
 
 
 LaTeX Warning: Label `sec:data@cref' multiply defined.
-
-
-LaTeX Warning: Label `tab:rrtab' multiply defined.
-
-
-LaTeX Warning: Label `tab:rrtab@cref' multiply defined.
 
 )
 \openout1 = `RRLyrae_final.aux'.
@@ -487,71 +485,52 @@ es/LC/star7_97_98_0_1.png> <./figures/LC/star7_97_98_0_1_restricted.png> <./fig
 ures/FSP1_g_LC_rrrtest_p5_grp19.png> <./figures/FSP1_g_LC_rrrtest_p5_grp7.png> 
 <./figures/rPLCneg45E_limit2_grp_109+01_09693.png> <./figures/rPLCneg45E_limit2
 _grp_116-11_03117.png>]
-Overfull \hbox (102.07314pt too wide) in paragraph at lines 391--400
+Overfull \hbox (104.24353pt too wide) in paragraph at lines 424--441
  []$ 
  []
 
 
-Overfull \hbox (102.07314pt too wide) in paragraph at lines 406--415
- []$ 
+LaTeX Warning: Reference `RlogPr.png' on page 4 undefined on input line 456.
+
+
+Underfull \hbox (badness 7151) in paragraph at lines 446--461
+\OT1/cmr/m/n/10 [DE-SCRIBE LOWER QUAR-TILE METHOD]
  []
 
+<figures/probrr_vs_HPS.png, id=41, 590.4459pt x 445.9059pt>
+File: figures/probrr_vs_HPS.png Graphic file (type png)
 
-Underfull \hbox (badness 10000) in paragraph at lines 429--432
+<use figures/probrr_vs_HPS.png>
+Package pdftex.def Info: figures/probrr_vs_HPS.png used on input line 470.
+(pdftex.def)             Requested size: 242.10493pt x 182.83621pt.
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 434--443
-
- []
-
-<figures/simbadoverlap.png, id=41, 803.0pt x 985.6825pt>
-File: figures/simbadoverlap.png Graphic file (type png)
-
-<use figures/simbadoverlap.png>
-Package pdftex.def Info: figures/simbadoverlap.png used on input line 450.
-(pdftex.def)             Requested size: 242.10493pt x 297.18097pt.
-
-Overfull \hbox (16.22745pt too wide) in paragraph at lines 450--451
+Overfull \hbox (16.22745pt too wide) in paragraph at lines 470--471
  [][] 
  []
 
-[4 <./figures/simbadoverlap.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 502--503
- []$\OML/cmm/m/it/10 =ay\OT1/cmr/m/n/10 301\OML/cmm/m/it/10 =atlas \OT1/cmr/m/n
-/10 =
+
+Underfull \hbox (badness 10000) in paragraph at lines 486--489
+
  []
 
 
-Overfull \hbox (3.26852pt too wide) in paragraph at lines 502--503
- \OML/cmm/m/it/10 locationforallthegriProjectdataandprograms$ 
+Underfull \hbox (badness 10000) in paragraph at lines 491--500
+
  []
 
+<figures/simbadoverlap.png, id=42, 803.0pt x 985.6825pt>
+File: figures/simbadoverlap.png Graphic file (type png)
 
-Underfull \hbox (badness 10000) in paragraph at lines 503--504
- []$\OML/cmm/m/it/10 =ay\OT1/cmr/m/n/10 301\OML/cmm/m/it/10 =script \OT1/cmr/m/
-n/10 =
+<use figures/simbadoverlap.png>
+Package pdftex.def Info: figures/simbadoverlap.png used on input line 507.
+(pdftex.def)             Requested size: 242.10493pt x 297.18097pt.
+
+Overfull \hbox (16.22745pt too wide) in paragraph at lines 507--508
+ [][] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 506--507
- []$\OML/cmm/m/it/10 =home=gri[]roject \OT1/cmr/m/n/10 =
- []
-
-
-Overfull \hbox (50.10565pt too wide) in paragraph at lines 507--508
- []$\OML/cmm/m/it/10 LasCumbresLCOGT\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Faulkes\O
-T1/cmr/m/n/10 2\OML/cmm/m/it/10 mtelescopeonHaleakala\OT1/cmr/m/n/10 )$ 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 509--510
- []$\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 5\OML/cmm/m/it/10 mteles
-copewithc; o; B; V; R; I; H \OMS/cmsy/m/n/10 ^^@
- []
-
-(./acknowledgement.tex) (./RRLyrae_final.bbl) [5] (./RRLyrae_final.aux)
+[4 <./figures/probrr_vs_HPS.png>] (./acknowledgement.tex) (./RRLyrae_final.bbl
+[5 <./figures/simbadoverlap.png>]) [6] (./RRLyrae_final.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -560,6 +539,7 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  6667 strings out of 493117
  108728 string characters out of 6135433
  200145 words of memory out of 5000000
@@ -585,9 +565,37 @@ texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2014/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2014/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
 Output written on RRLyrae_final.pdf (5 pages, 593295 bytes).
+=======
+ 6673 strings out of 493089
+ 108897 string characters out of 6134842
+ 201290 words of memory out of 5000000
+ 10075 multiletter control sequences out of 15000+600000
+ 10688 words of font info for 42 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 42i,9n,40p,1011b,537s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></
+usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
+sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr
+/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/l
+ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/loc
+al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local
+/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/te
+xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texli
+ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/
+2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2
+015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/201
+5/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2015/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2015/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2015/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2015/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on RRLyrae_final.pdf (6 pages, 619896 bytes).
+>>>>>>> origin/master
 PDF statistics:
- 106 PDF objects out of 1000 (max. 8388607)
- 64 compressed objects within 1 object stream
+ 115 PDF objects out of 1000 (max. 8388607)
+ 69 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
