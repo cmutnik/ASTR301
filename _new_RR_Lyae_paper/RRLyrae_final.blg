@@ -9,47 +9,49 @@ Warning--string name "\mnras" is undefined
 --line 69 of file biblio.bib
 Warning--string name "\apjs" is undefined
 --line 86 of file biblio.bib
+Warning--string name "\apj" is undefined
+--line 121 of file biblio.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 9 entries,
+You've used 10 entries,
             3411 wiz_defined-function locations,
-            1216 strings with 12124 characters,
-and the built_in function-call counts, 8493 in all, are:
-= -- 387
-> -- 428
-< -- 60
-+ -- 390
-- -- 106
-* -- 1223
-:= -- 833
-add.period$ -- 9
-call.type$ -- 9
-change.case$ -- 40
-chr.to.int$ -- 15
-cite$ -- 9
-duplicate$ -- 760
-empty$ -- 657
-format.name$ -- 239
-if$ -- 1546
+            1223 strings with 12246 characters,
+and the built_in function-call counts, 9062 in all, are:
+= -- 420
+> -- 445
+< -- 63
++ -- 402
+- -- 110
+* -- 1301
+:= -- 895
+add.period$ -- 10
+call.type$ -- 10
+change.case$ -- 44
+chr.to.int$ -- 16
+cite$ -- 10
+duplicate$ -- 815
+empty$ -- 707
+format.name$ -- 252
+if$ -- 1651
 int.to.chr$ -- 1
-int.to.str$ -- 10
-missing$ -- 115
-newline$ -- 42
-num.names$ -- 27
-pop$ -- 166
+int.to.str$ -- 11
+missing$ -- 123
+newline$ -- 45
+num.names$ -- 30
+pop$ -- 182
 preamble$ -- 1
-purify$ -- 36
+purify$ -- 40
 quote$ -- 0
-skip$ -- 361
+skip$ -- 382
 stack$ -- 0
-substring$ -- 135
-swap$ -- 654
-text.length$ -- 54
+substring$ -- 146
+swap$ -- 696
+text.length$ -- 56
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 50
+type$ -- 56
 warning$ -- 0
-while$ -- 24
+while$ -- 26
 width$ -- 0
-write$ -- 106
-(There were 2 warnings)
+write$ -- 116
+(There were 3 warnings)

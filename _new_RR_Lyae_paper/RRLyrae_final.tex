@@ -82,11 +82,10 @@ LS analysis on ATLAS Pathfinder Telescope data, verified PS variability criteria
 
 
 \section{Introduction}
-
 \begin{itemize}
 	\item{} why we care
 	\item{} what made us care about this project
-	\item{} NO structure / distance stuff (maybe put it in looking forward section at end)
+	\item{} NO structure $/$ distance stuff (maybe put it in looking forward section at end)
 	\item{} talk about PS catalog
 	\item{} variability surveys (discuss other attempts to measure variables across the sky)
 	\item{} why are variables interesting
@@ -270,25 +269,18 @@ The selection process began
 	\item{} compute gri periods individually and compare each other. if period differences are less than 0.04 days, next step
 \end{itemize}
 
-To extract periods/frequencies from light curves, the Fast Fourier Transform (FFT) is usually used. For our data, however, FFT is not optimal because of the data gaps. To deal with the data gaps, the Fast Lomb-Scargle (FLS) periodogram analysis~\citep{Numerical} was used in this study. 
+To extract periods from light curves, the Fast Fourier Transform (FFT) is usually used. For our data, however, FFT is not optimal due to the data gaps. To deal with the data gaps, the Fast Lomb-Scargle (FLS) periodogram analysis~\citep{Numerical} ~\citep{Gats} was used in this study because of its high computational efficiency. FLS extracts not only periods but also the significance levels of periods in the form of $\log{Pr(rnd)}$. The more negative the significance levels are, the more significance the periods are. The outputs of FLS is shown in FIG. \ref{fig:logPr}. Since our observational period is roughly a day, there are major aliasings at the periods with integer multiple of a day. To avoid the aliasing, we masked a period range with high significance level and used the masked range for further analyses.
 
 
 
 \begin{figure}[H]
  \centering
- 	\includegraphics[width=3.35in]{figures/fromJT/probf.png}
- \caption{\it \small{prob(f) of 80,000, most variable, stars LS was run on}}
- \label{fig:quartiles}
+ 	\includegraphics[width=3.3in]{figures/RlogPr.png}
+ \caption{\it \small{$\log{Pr(rnd)}$ vs frequency (day$^{-1}$) of $315,992$ stars selected by the quartile criteria. The red lines define the masked regions with high significance level ($\log{Pr(rnd)} < -12.5$) and no aliasing ($0.02<$ frequency $<0.98$, $1.02<$ frequency $<1.98$, etc.). The masked region contains $5,658$ stars.}} 
+ \label{fig:logPr}
 \end{figure}
 
-\begin{figure}[H]
- \centering
- %\caption{prob(f)}
- \textbf{prob(f)}\par\medskip
- 	\includegraphics[width=3.35in]{figures/log_period_diff-50.png}
- \caption{\it \small{prob(f) of 80,000, most variable, stars LS was run on}}
- \label{fig:quartpy}
-\end{figure}
+
 
 
 \section{RR Lyrae Selection Criteria}
@@ -302,6 +294,38 @@ To extract periods/frequencies from light curves, the Fast Fourier Transform (FF
 	\item{} find abs(max/min(FS)). if abs(max/min(FS)) $> 0.2$, then we call it's a variable stars.
 	\item{} explanation of period error estimation using Fourier series.
 	\end{itemize}
+
+\begin{figure*}
+	\centering
+	\begin{subfigure}{.5\textwidth}
+	  \centering
+	  \includegraphics[width=3.35in]{figures/FSP1_g_LC_rrrtest_p5_grp19.png}
+		\caption{\it \small{Type ab}}
+		\label{fig:Tab}
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+	  \centering
+			\includegraphics[width=3.35in]{figures/FSP1_g_LC_rrrtest_p5_grp7.png}
+		\caption{\it \small{Type c}}
+		\label{fig:Tc}
+	\end{subfigure}%
+	
+	\begin{subfigure}{.5\textwidth}
+	  \centering
+			\includegraphics[width=3.35in]{figures/rPLCneg45E_limit2_grp_109+01_09693.png}
+		\caption{\it \small{Blazhko Modulated \citep{RRLyrae}}}
+		\label{fig:Tc}
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+	  \centering
+			\includegraphics[width=3.35in]{figures/rPLCneg45E_limit2_grp_116-11_03117.png}
+		\caption{\it \small{Period Doubling}}
+		\label{fig:Tc}
+	\end{subfigure}%
+	\caption{\it \small{Four major types of RR Lyrae stars found in this study. }}
+	\label{fig:Type}
+\end{figure*}
+
 
 	\begin{figure}[!]
 	 \centering
