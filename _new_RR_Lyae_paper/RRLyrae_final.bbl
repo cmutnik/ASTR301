@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{12}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname bibnamefont\endcsname\relax
   \def\bibnamefont#1{#1}\fi
@@ -100,6 +100,16 @@
   \bibinfo{author}{\bibfnamefont{W.~S.} \bibnamefont{{Burgett}}},
   \bibnamefont{et~al.}, \bibinfo{journal}{\apj} \textbf{\bibinfo{volume}{817}},
   \bibinfo{eid}{73} (\bibinfo{year}{2016}), \eprint{1511.05527}.
+
+\bibitem[{\citenamefont{Fitzpatrick}(1999)}]{Rv}
+\bibinfo{author}{\bibfnamefont{E.~L.} \bibnamefont{Fitzpatrick}},
+  \bibinfo{journal}{Publications of the Astronomical Society of the Pacific}
+  \textbf{\bibinfo{volume}{111}}, \bibinfo{pages}{63} (\bibinfo{year}{1999}),
+  \urlprefix\url{http://stacks.iop.org/1538-3873/111/i=755/a=63}.
+
+\bibitem[{\citenamefont{{Nemec}}(2004)}]{EBV}
+\bibinfo{author}{\bibfnamefont{J.~M.} \bibnamefont{{Nemec}}},
+  \textbf{\bibinfo{volume}{127}}, \bibinfo{pages}{2185} (\bibinfo{year}{2004}).
 
 \bibitem[{\citenamefont{{Wenger} et~al.}(2000)\citenamefont{{Wenger},
   {Ochsenbein}, {Egret}, {Dubois}, {Bonnarel}, {Borde}, {Genova}, {Jasniewicz},

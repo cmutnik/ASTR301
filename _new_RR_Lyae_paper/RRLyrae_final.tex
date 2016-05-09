@@ -62,7 +62,7 @@
 \author{Corey Mutnik}
 \email{cmutnik@hawaii.edu}
 \affiliation{Department of Physics \& Astronomy, \\
-University of Hawaii at Manoa}
+University of Hawai`i at M\={a}noa}
 %\affiliation{Department of Physics \& Astronomy, \\University of Hawaii at Manoa,\\2505 Correa Rd, Honolulu, HI, 96822, USA}
 %\altaffiliation{Observational Astronomy 301}
 
@@ -142,6 +142,7 @@ To calculate an appropriate sampling frequency and SNR, typical RR Lyrae light c
 	 \item{} $--$ expect variation to go at .2* mag (from sqrt noise)...so subtract .2mag to get the logritmic statistic
 	 \item{} sorted biggest (most variable?) to smallest (least variable?)
 	 \item{} ran LS on 80,000 most variable stars, rather than full star groupings (over 1million)
+	 \item{} $8<$ mag $<18$, exclude points > $3.5 \sigma$, $\delta$mag > $0.5$, 
 	\end{itemize}
 \fi
 
@@ -295,6 +296,25 @@ To extract periods from light curves, the Fast Fourier Transform (FFT) is usuall
 	\item{} explanation of period error estimation using Fourier series.
 	\end{itemize}
 
+To identify RR Lyrae stars, we applied three criteria: gri period consistency, Fourier Sine Series $\chi^2/$ndf, and Fourier Sine Series amplitude. 
+
+\subsection{gri Period Consistency}
+The first criterion was the consistency of periods calculated by FLS from g, r, and i filters individually since RR Lyrae stars should have identically the same period in each filter. We checked whether each filter period agreed within $0.04$ days $\simeq 1$ hour with each other. 
+
+\subsection{Fourier Sine Series $\chi^2/$ndf}
+The second criterion was $\chi^2/$ndf calculated using the Fourier Sine Series (FSS). Since the RR Lyrae light curves are more or less sinusoidal, FSS with a few terms should be able to represent the light curves for certain accuracy. We used FSS in the form;
+
+\begin{equation}
+\label{FSS}
+\text{FSS} = \sum_{n=1}^{N} \sin{\left(\frac{n \pi t}{P} + \phi_n \right)}
+\end{equation}
+
+\noindent where $P$ is the calculated period from FLS, $\phi_n$ is the phase, and $N$ of up to $6$ (for larger $N$, the computations were unstable; huge errors in the parameter estimations). We required the $\chi^2/$ndf be within sigma deviation of $3$, so $\chi^2/$ndf $\sim \sigma^2 < 9$. 
+
+\subsection{Fourier Sine Series amplitude}
+The third criterion was the amplitude of FSS. As mentioned before, the amplitude range of RR Lyrae stars is $0.3$ to $2.0$ mags, so we set the amplitude ranges of FSS to be $0.15$ to $2.15$ mags by taking $10\%$ photometry into account ($1.5\sigma$ limit). The four major types of RR Lyrae found by using out criteria are show in FIG. \ref{fig:Type}.
+
+
 \begin{figure*}
 	\centering
 	\begin{subfigure}{.5\textwidth}
@@ -322,83 +342,28 @@ To extract periods from light curves, the Fast Fourier Transform (FFT) is usuall
 		\caption{\it \small{Period Doubling}}
 		\label{fig:Tc}
 	\end{subfigure}%
-	\caption{\it \small{Four major types of RR Lyrae stars found in this study. }}
+	\caption{\it \small{Four major types of RR Lyrae phase light curves.}}
 	\label{fig:Type}
 \end{figure*}
 
 
-	\begin{figure}[!]
-	 \centering
-	 %\caption{prob(f)}
-	 	\includegraphics[width=3.35in]{figures/FSP1_g_LC_rrrtest_p5_grp19.png}
-	 \caption{\it \small{Type ab}}
-	 \label{fig:Typeab}
-	\end{figure}
-
-	\begin{figure}[!]
-	 \centering
-	 %\caption{prob(f)}
-	 	\includegraphics[width=3.35in]{figures/FSP1_g_LC_rrrtest_p5_grp7.png}
-	 \caption{\it \small{Type c}}
-	 \label{fig:Typec}
-	\end{figure}
 	
-	\begin{figure}[!]
-	 \centering
-	 %\caption{prob(f)}
-	 	\includegraphics[width=3.35in]{figures/rPLCneg45E_limit2_grp_109+01_09693.png}
-	 \caption{\it \small{Type ?}}
-	 \label{fig:Typeq}
-	\end{figure}
+\subsection{Period Error Estimation}
 
-	\begin{figure}[!]
-	 \centering
-	 %\caption{prob(f)}
-	 	\includegraphics[width=3.35in]{figures/rPLCneg45E_limit2_grp_116-11_03117.png}
-	 \caption{\it \small{Blazhko Effect (period doubling)}}
-	 \label{fig:Blazhko}
-	\end{figure}
+Assuming the Gaussian statistics and Taylor expanding $\chi^2$ with respect to angular frequency, the estimated error model for angular frequency, $\delta \omega$, was constructed~\citep{gri} and expressed as;
 
-\iffalse
+\begin{equation}
+\label{AFEE}
+1 = \frac{\chi^2(\omega)}{\text{ndf}} - \frac{\chi^2(\omega_0)}{\text{ndf}} \simeq \frac{A^2}{2} \delta \omega^2 \sum_{i=1}^{\text{ndp}} \frac{(t_i - \bar{t})^2}{\delta m^2_i}
+\end{equation}
 
-	\subsection{Period Error Estimation}
+\noindent where $\omega_0$ is the calculated angular frequency by FLS, $A$ is the calculated amplitude by FSS, ndp is the number of data points, $\bar{t}$ is our mean observation Julian Date, and $\delta m$ is the uncertainty in magnitude. The choice of time origin was tricky since the model allows arbitrary time origin, so we used $\bar{t}$ as a reasonable choice. Then the period uncertainties were estimated as;
 
-	\begin{itemize}
-		\item{} explanation of period error estimation using Fourier series
-	\end{itemize}
 
-	\begin{figure}[H]
-	 \centering
-	 %\caption{prob(f)}
-	 	\includegraphics[width=3.35in]{figures/FSP1_g_LC_rrrtest_p5_grp19.png}
-	 \caption{\it \small{Type ab}}
-	 \label{fig:Typeab}
-	\end{figure}
-
-	\begin{figure}[H]
-	 \centering
-	 %\caption{prob(f)}
-	 	\includegraphics[width=3.35in]{figures/FSP1_g_LC_rrrtest_p5_grp7.png}
-	 \caption{\it \small{Type c}}
-	 \label{fig:Typec}
-	\end{figure}
-	
-	\begin{figure}[H]
-	 \centering
-	 %\caption{prob(f)}
-	 	\includegraphics[width=3.35in]{figures/rPLCneg45E_limit2_grp_109+01_09693.png}
-	 \caption{\it \small{Type $\?$}}
-	 \label{fig:Typeq}
-	\end{figure}
-
-	\begin{figure}[H]
-	 \centering
-	 %\caption{prob(f)}
-	 	\includegraphics[width=3.35in]{figures/rPLCneg45E_limit2_grp_116-11_03117.png}
-	 \caption{\it \small{Blazhko Effect (period doubling)}}
-	 \label{fig:Blazhko}
-	\end{figure}
-\fi
+\begin{equation}
+\label{PEE}
+\delta P = \frac{d}{d\omega} \left(\frac{2\pi}{\omega} \right) = \frac{2\pi}{\omega^2} \delta \omega \, .
+\end{equation}
 
 
 
@@ -411,6 +376,42 @@ To extract periods from light curves, the Fast Fourier Transform (FFT) is usuall
 \end{itemize}
 
 \subsection{Spatial Distribution}
+
+
+In order to determine the spatial distribution of RR Lyrae stars, we needed to classify RR Lyrae subtypes as shown in FIG. \ref{fig:Type}. However, there is currently only few systematic studies (calibrations) of the type classification using light curves (mainly on types ab and c), and they are complicated in general. To avoid the complications for the moment, we used the typical absolute RR Lyrae magnitude~\citep{PSdata}, $M_r \simeq M_v = 0.6$. To estimate the amount of dust reddening, we used the total to selective extinction~\citep{Rv}, $Rv=3.1$, and the number fraction weighted average color term~\citep{EBV}, $(B-V)_0 = 0.358$, of RRab and RRc stars. The number fraction weighted average $(B-V)_0$ was calculated by using the number statistics of known RR Lyrae stars ($\simeq91\%$ of RR Lyares are type ab and $\simeq9\%$ of RR Lyraes are type c assuming the numbers of Blazhko modulated and period doubling are negligible) as follows;
+
+\begin{equation}
+\label{BV}
+\text{(B-V)}_0 = 0.91\text{(B-V)}_{ab0} + 0.09\text{(B-V)}_{c0}
+\end{equation}
+
+\noindent where $\text{(B-V)}_{ab0} \simeq 0.372$ and $\text{(B-V)}_{c0} \simeq 0.211$. Then the color extinction was calculated as~\cite{Modern};
+
+\begin{equation}
+\label{EBV}
+E(B-V) = (B-V)_{observed} - (B-V)_0 \, ,
+\end{equation}
+
+\noindent and the extinction was calculated as~\cite{Modern};
+
+\begin{equation}
+\label{Av}
+A_v = R_v E(B-V) \,
+\end{equation}
+
+\noindent Finally, the distance was calculated by using the distance modulus;
+
+\begin{equation}
+\label{dist}
+d = 10^{1+(m_r - A_v - M_v)/5} \, .
+\end{equation}
+
+ 
+
+
+
+
+
 \iffalse
 	\begin{table}[H]
 	\begin{center}
