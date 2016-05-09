@@ -1,13 +1,14 @@
 # Fdb version 3
-["bibtex dhRRLyrae_final"] 1462676041 "dhRRLyrae_final.aux" "dhRRLyrae_final.bbl" "dhRRLyrae_final" 1462676042
+["bibtex dhRRLyrae_final"] 1462763127 "dhRRLyrae_final.aux" "dhRRLyrae_final.bbl" "dhRRLyrae_final" 1462763127
   "/usr/local/texlive/2015/texmf-dist/bibtex/bst/revtex4/apsrev.bst" 1261594643 44155 dc7233506a001aedcd59cfd90f9fe8d7 ""
-  "biblio.bib" 1462587534 3554 a42db27c5f08a4f0531d28e43525ac3e ""
-  "dhRRLyrae_final.aux" 1462676042 9097 fafb38707fdab6e8f205afefebd067bd ""
+  "biblio.bib" 1462762947 4266 8afacec779872c44ac781af8b1009ce8 ""
+  "dhRRLyrae_final.aux" 1462762947 9495 10b7e875d5801366919165a58e53a31b ""
   "dhRRLyrae_final.bcf" 0 -1 0 ""
   "dhRRLyrae_finalNotes.bib" 1462676041 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
+  "dhRRLyrae_final.blg"
   "dhRRLyrae_final.bbl"
-["pdflatex"] 1462676041 "dhRRLyrae_final.tex" "dhRRLyrae_final.pdf" "dhRRLyrae_final" 1462676042
+["pdflatex"] 1462763127 "dhRRLyrae_final.tex" "dhRRLyrae_final.pdf" "dhRRLyrae_final" 1462763127
   "./figures/FSP1_g_LC_rrrtest_p5_grp19.png" 1462587534 69520 aa84ad3fe819fbd74ca5f8a5694fb3a8 ""
   "./figures/FSP1_g_LC_rrrtest_p5_grp7.png" 1462587534 64693 9d15fb4ffb6ab0e1836b7be4b5cec81f ""
   "./figures/LC/star7_97_98_0_1.png" 1462587534 66642 effe68fa080a6259e63d4e06bf1caaae ""
@@ -26,6 +27,7 @@
   "/usr/local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm" 1246382020 908 2921f8a10601f252058503cc6570e581 ""
   "/usr/local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm" 1246382020 940 75ac932a52f80982a9f8ea75d03a34cf ""
   "/usr/local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm" 1246382020 940 228d6584342e91276bf566bcf9716b83 ""
+  "/usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmbx9.tfm" 1136768653 1328 5442e22a7072966dbaf88ca900acf3f0 ""
   "/usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1136768653 1512 f21f83efb36853c0b70002322c1ab3ad ""
@@ -39,6 +41,7 @@
   "/usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmti9.tfm" 1136768653 1476 cccc6cc4935c18ec3d5623b77ecb8b74 ""
   "/usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm" 1136768653 768 1321e9409b4137d6fb428ac9dc956269 ""
   "/usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmtt9.tfm" 1136768653 764 c98a2af25c99b73a368cf7336e255190 ""
+  "/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1248133631 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
   "/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb" 1248133631 32298 c6d25bb16d1eac01ebdc6d7084126a1e ""
   "/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1248133631 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
@@ -99,9 +102,9 @@
   "/usr/local/texlive/2015/texmf-var/web2c/pdftex/pdflatex.fmt" 1432479681 3849859 39a7d258195bde2394e244961601fbc5 ""
   "/usr/local/texlive/2015/texmf.cnf" 1432479636 577 0d611272082f3cdb8e80e09a3c69cf07 ""
   "acknowledgement.tex" 1462587534 67 34ac29554063e51e437dca09f0f305fd ""
-  "dhRRLyrae_final.aux" 1462676042 9097 fafb38707fdab6e8f205afefebd067bd ""
-  "dhRRLyrae_final.bbl" 1462676041 4003 078790f7a51d8614a8aea27ac7932a73 "bibtex dhRRLyrae_final"
-  "dhRRLyrae_final.tex" 1462598887 19311 8e56ec2b441239a944419e773498b9b8 ""
+  "dhRRLyrae_final.aux" 1462762947 9495 10b7e875d5801366919165a58e53a31b ""
+  "dhRRLyrae_final.bbl" 1462763127 5006 0903b3bd12e584ee5c0891b63872c4d2 "bibtex dhRRLyrae_final"
+  "dhRRLyrae_final.tex" 1462762947 20351 5940e9640fed2feea739920eefccebb6 ""
   "figures/FSP1_g_LC_rrrtest_p5_grp19.png" 1462587534 69520 aa84ad3fe819fbd74ca5f8a5694fb3a8 ""
   "figures/FSP1_g_LC_rrrtest_p5_grp7.png" 1462587534 64693 9d15fb4ffb6ab0e1836b7be4b5cec81f ""
   "figures/LC/star7_97_98_0_1.png" 1462587534 66642 effe68fa080a6259e63d4e06bf1caaae ""
@@ -114,5 +117,5 @@
   (generated)
   "dhRRLyrae_final.log"
   "dhRRLyrae_final.aux"
-  "dhRRLyrae_final.pdf"
   "dhRRLyrae_finalNotes.bib"
+  "dhRRLyrae_final.pdf"
