@@ -1,4 +1,4 @@
-\begin{thebibliography}{12}
+\begin{thebibliography}{13}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname bibnamefont\endcsname\relax
   \def\bibnamefont#1{#1}\fi
@@ -109,7 +109,19 @@
 
 \bibitem[{\citenamefont{{Nemec}}(2004)}]{EBV}
 \bibinfo{author}{\bibfnamefont{J.~M.} \bibnamefont{{Nemec}}},
-  \textbf{\bibinfo{volume}{127}}, \bibinfo{pages}{2185} (\bibinfo{year}{2004}).
+  \bibinfo{journal}{\ajype} \textbf{\bibinfo{volume}{127}},
+  \bibinfo{pages}{2185} (\bibinfo{year}{2004}).
+
+\bibitem[{\citenamefont{{Fukugita} et~al.}(1996)\citenamefont{{Fukugita},
+  {Ichikawa}, {Gunn}, {Doi}, {Shimasaku}, and {Schneider}}}]{SDSS}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{{Fukugita}}},
+  \bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{{Ichikawa}}},
+  \bibinfo{author}{\bibfnamefont{J.~E.} \bibnamefont{{Gunn}}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{{Doi}}},
+  \bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{{Shimasaku}}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{D.~P.}
+  \bibnamefont{{Schneider}}}, \bibinfo{journal}{\aj}
+  \textbf{\bibinfo{volume}{111}}, \bibinfo{pages}{1748} (\bibinfo{year}{1996}).
 
 \bibitem[{\citenamefont{{Wenger} et~al.}(2000)\citenamefont{{Wenger},
   {Ochsenbein}, {Egret}, {Dubois}, {Bonnarel}, {Borde}, {Genova}, {Jasniewicz},

@@ -396,6 +396,7 @@ A_v = R_v E(B-V) \,
 d = 10^{[1+(m_r - A_v - M_v)/5]} \, .
 \end{equation}
 
+\noindent To convert the gri magnitudes to the Johnson magnitudes, the conversions given by the Sloan Digital Sky Survey (SDSS)~\cite{SDSS} were used.
 
 \section{Results}
 \begin{itemize}
@@ -408,9 +409,48 @@ d = 10^{[1+(m_r - A_v - M_v)/5]} \, .
 
 
 
-\subsection{Spatial Distribution}
+\subsection{Spatial Distributions}
+
+From the calculated distances, the distance histogram of RR Lyrae stars is plotted and shown in FIG. \ref{fig:dhist}. The spatial distributions of RR Lyrae stars are shown in  FIG. \ref{fig:RRspace}.
+
+\begin{figure}[H]
+ \centering
+ 	\includegraphics[width=3.3in]{figures/PlotsSpace15/gdhist_limit15.png}
+ \caption{\it \small{Distance histograms of 1,239 RR Lyrae stars with a Gaussian fit. The Gaussian fit was used to aid for seeing the general radial distribution of RR Lyrae stars. }} 
+ \label{fig:dhist}
+\end{figure} 
 
 
+\begin{figure*}
+	\centering
+	\begin{subfigure}{.5\textwidth}
+	  \centering
+	  \includegraphics[width=3.35in]{figures/PlotsSpace15/dist_b_lp_limit15.png}
+		\caption{\it \small{$2.5 < b < 7.5$ }}
+		\label{fig:blp}
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+	  \centering
+			\includegraphics[width=3.35in]{figures/PlotsSpace15/dist_EBV_lp_limit15.png}
+		\caption{\it \small{$E(B-V)$ for $2.5 < b < 7.5$ }}
+		\label{fig:EBVlp}
+	\end{subfigure}%
+	
+	\begin{subfigure}{.5\textwidth}
+	  \centering
+			\includegraphics[width=3.35in]{figures/PlotsSpace15/dist_b_ln_limit15.png}
+		\caption{\it \small{$-7.5 < b < -2.5$ }}
+		\label{fig:bln}
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+	  \centering
+			\includegraphics[width=3.35in]{figures/PlotsSpace15/dist_EBV_ln_limit15.png}
+		\caption{\it \small{$E(B-V)$ for $-7.5 < b < -2.5$ }}
+		\label{fig:EBVln}
+	\end{subfigure}%
+	\caption{\it \small{Four major types of RR Lyrae phase light curves.}}
+	\label{fig:RRspace}
+\end{figure*}
 
 
  
