@@ -112,7 +112,7 @@ We used the $0.18$~m Asteroid Terrestrial-impact Last Alert System (ATLAS) Pathf
 To calculate an appropriate sampling frequency and SNR, typical RR Lyrae light curves~\cite{RRLyrae} were used with artificially introduced gaps and noise following the Gaussian distribution. To determine distances from the PL relations~\citep{PL} within $\simeq5\%$ accuracy assuming typical metalicity $Z=0.001$, we need periods within $\simeq1\%$ accuracy. The period range of RR Lyrae stars is $0.05$ to $1.2$ days ~\cite{Astro} which contrains the sampling frequency. By using the Lomb-Scargle analysis (discussed in \cref{sec:PA}), it was found that 15 nights with 10 observations/night is the lower limit sampling duration and rate to achieve the desired period accuracy. Since the magnitude fluctuations of RR Lyrae are typically in the range of $0.3$ to $2.0$ mags ~\cite{AAVSO}, the uncertainty in magnitude was taken to be $0.1$ mags, and the changes, $0.01$ to $0.1$ mags, in the uncertainty did not affect the period determinations significantly. Thus we only needed $10\%$ photometry. For $m_g = m_r = 16$ and $m_i = 15.7$, an exposure time of $20$~sec yields $10\%$ photometry for the ATLAS pathfinder telescope~\citep{fallingstar}.
 
 
-
+\iffalse
 \begin{itemize}
 	\item{} we used data from ATLAS
 	\item{} supplemented with ATLAS data [REF TONRY] (possibly make this s subsection)
@@ -123,15 +123,20 @@ To calculate an appropriate sampling frequency and SNR, typical RR Lyrae light c
 	\item{} `we recieved the reduced image data from the ATLAS pipeline; which gave us RA, Dec, mag, etc...'
 	\item{}\url{http://fallingstar.com/how_atlas_works.php}
 \end{itemize}
+\fi
 
-
-~[VERIFY CORRECT CITATIONS:\\% $http://rsta.royalsocietypublishing.org/content/371/1992/20120269$]\\
+%~[VERIFY CORRECT CITATIONS:\\% $http://rsta.royalsocietypublishing.org/content/371/1992/20120269$]\\
 %In determining the variability of stars in our FOV, data from the $gri Project$~\cite{gri} was used.\\
-Initially, determination of variability was going to be achieved using data collected by the $gri Project$~\cite{gri}.  The $gri Project$ is [EXPLAIN]...\\
+Initially, determination of variability was going to be achieved using data collected by the $gri Project$~\cite{gri}.  %The $gri Project$ is [EXPLAIN]...\\
 In order to reduce aliasing, extra observations needed to be made.  Observation procedures are discussed in~\cref{sec:data}.
-~[PATHFINDER USED FOR GRI DATA...the reduction process is discussed at length Tonry in...cite]\\
-We received the reduced image data from the ATLAS pipeline~\cite{PSpipe}~\cite{tonrypipe}
+%~[PATHFINDER USED FOR GRI DATA...the reduction process is discussed at length Tonry in...cite]\\
+We received the reduced image data from the ATLAS pipeline~\cite{gri}.
 %\cite{PSimgpipe,*tonrypipe}
+
+
+
+
+
 
 
 
@@ -202,22 +207,18 @@ cuts were applied, 1.5 Billion stars remained in our FOV.
 
 \begin{figure}[H]
  \centering
- 	\includegraphics[width=3.35in]{figures/scatter_gfilt_57452_57455.png}
+ 	\includegraphics[width=3.35in]{figures/NEW/scatter_gfilt_57452_57455.png}
  \caption{\it \small{Lower quartile variance as a function of magnitude.}}
  \label{fig:probrrHPS}
 \end{figure}
   In order to exploit the lower quartile variance, shown in Figure~\ref{fig:quart}, a factor of $0.2m$ was added to account for Poisson error.  
-The higher a star deviates from the average value, the more likely it is variable.  
+The higher a star deviates from the average value, the more likely it is variable.  This flagged 320,000, of the observed 1.5 Billion, for 
+further variability verification.
 
 
-%______________
-As a result of running FLS, the most variable candidates fell below $logPr(rnd)= -45$, shown in Figure~\ref{fig:logPr}.  
+As a result of running FLS, the most variable candidates fell below $logPr(rnd)\leq-45$, shown in Figure~\ref{fig:logPr}.  An in depth discussion how $logPr(rnd)$ works can be found in \textit{Numerical Recipes}~\cite{logPr, Numerical}.  Using $logPr(rnd)$ made it impossible 
+to miss any variable star with $0.05~\leq~Period~\leq~1.2$~\cite{AAVSO}.  It is statistically improbable that any observed variable star wasn't flagged.  If any variable stars were not identified, they must have lower period variations and are therefore not classified as RR Lyrae.
 
-%______________
-
-
-~[DESCRIBE logPr(rnd)...how some vars might have slipped past, but only ]\\
-~[CITE WHERE IT SAYS RRLYRAE HAVE 0.5 < PERIOD < 1.2 [DAYS]]\\
 
 
 
@@ -229,6 +230,11 @@ new grouping list that DH wanted (after removing aliased regions)\\
   - located: ${{{cd /home/rr_lyrae/alias_rm_grps}}}$\\
   - 776 stars\\
 \fi
+
+
+
+
+
 
 \section{Constructing Stellar Light Curves}
 
@@ -440,13 +446,14 @@ d = 10^{[1+(m_r - A_v - M_v)/5]} \, .
 
 
 \section{Results and Discussions}
+\iffalse
 \begin{itemize}
-	\item{} compare with PS~\cite{PSdata}
+	\item{} compare with HPS~\cite{PSdata}
 	\item{} density/distribution of variables in sky
 	\item{} (what LS gave us for our catalog)
 	\item{} put a table with ~5 stars, to show off part of catalog
 \end{itemize}
-
+\fi
 
 
 
@@ -539,7 +546,7 @@ From the calculated distances, the distance histogram of RR Lyrae stars is plott
 
 In order to evaluate the completeness of our results, comparisons needed to be made to other variable star catalogs.  Simbad~\cite{simbad} provided a list of variable stars within our FOV.  Pulsating sources encompasses all variable objects.  With 48 objects overlapping our FOV, shown in Figure~\ref{fig:simoverlap}, we achieved a completeness of $98\%$.
 
-~[possible put two light curves in as examples of objects that overlap our field]\\
+%~[possible put two light curves in as examples of objects that overlap our field]\\
 
 \begin{figure}[H]
  \centering
@@ -550,15 +557,10 @@ In order to evaluate the completeness of our results, comparisons needed to be m
  \label{fig:simoverlap}
 \end{figure}
 
-%\section{Evaluating the Pan-STARRS Variability Parameter}
-\subsection{Evaluating the HPS Variability Parameter}
-\begin{itemize}
-%	\item{} compare with HPS~\cite{PSdata}
-%	\item{} density/distribution of variables in sky
-%	\item{} (what FLS gave us for our catalog)
-	\item{} put a table with ~5 stars, to show off part of catalog
-\end{itemize}
 
+
+%\section{Evaluating the Pan-STARRS Variability Parameter}
+\section{Evaluating the HPS Variability Parameter}
 
 A paper, \textit{Finding, Characterizing and Classifying Variable Sources in Multi-Epoch Sky Surveys: QSOs and RR Lyrae in PS1 $3\pi$ Data}~\cite{PSdata} (HPS), quantifies the likelihood that a star is an RR Lyrae.  Using their variability statistic, $\rho_{RRLyrae}$, density and distribution of RR Lyrae and other variable candidates were determined.  Table~\ref{tab:HPSlim15} evaluates the validity of HPS's variability criteria.
 
@@ -569,31 +571,31 @@ A paper, \textit{Finding, Characterizing and Classifying Variable Sources in Mul
 	\begin{center}
 		\begin{tabular}{|c|c|c|c|c|c|c|c|}\hline
 			%HPS stat & nonvar15 & var15 \\ \hline
-HPS $\rho_{RRLyrae}$ & $HPS_{total}$ & $HPS_{matched}$ & RR Lyrae & Not RR Lyrae & Prob(RR) \\ \hline
-0.0-0.05 & 5029 & 138 & 46 		& 92 & 0.33 \\ \hline
-0.05-0.1 & 124 & 25 & 12 		& 13 & 0.48 \\ \hline
-0.1-0.2 & 154 & 38 & 19 		& 19 & 0.50 \\ \hline
-0.2-0.3 & 116 & 36 & 15 		& 21 & 0.42 \\ \hline
-0.3-0.4 & 82 & 36 & 22 			& 14 & 0.61 \\ \hline
-0.4-0.5 & 85 & 34 & 20			& 14 & 0.59 \\ \hline
-0.5-0.6 & 90 & 41 & 22			& 19 & 0.54 \\ \hline
-0.6-0.7 & 89 & 47 & 28			& 19 & 0.60 \\ \hline
-0.7-0.8 & 64 & 39 & 28 			& 11 & 0.72 \\ \hline
-0.8-0.9 & 46 & 28 & 23 			& 5 & 0.82 \\ \hline
-0.9-1.0 & 21 & 15 & 9			& 6 & 0.60 \\ \hline
+HPS $\rho_{RRLyrae}$ & $HPS_{total}$ & $HPS_{matched}$ & RR Lyrae & Not RR Lyrae & Prob(RR) & Prob(notRR) \\ \hline
+0.0-0.05 & 5029 & 138 & 46 		& 92 & 0.33 & -- \\ \hline
+0.05-0.1 & 124 & 25 & 12 		& 13 & 0.48 & -- \\ \hline
+0.1-0.2 & 154 & 38 & 19 		& 19 & 0.50 & -- \\ \hline
+0.2-0.3 & 116 & 36 & 15 		& 21 & 0.42 & -- \\ \hline
+0.3-0.4 & 82 & 36 & 22 			& 14 & 0.61 & -- \\ \hline
+0.4-0.5 & 85 & 34 & 20			& 14 & 0.59 & -- \\ \hline
+0.5-0.6 & 90 & 41 & 22			& 19 & 0.54 & -- \\ \hline
+0.6-0.7 & 89 & 47 & 28			& 19 & 0.60 & -- \\ \hline
+0.7-0.8 & 64 & 39 & 28 			& 11 & 0.72 & -- \\ \hline
+0.8-0.9 & 46 & 28 & 23 			& 5 & 0.82 & -- \\ \hline
+0.9-1.0 & 21 & 15 & 9			& 6 & 0.60 & -- \\ \hline
 \hline
-0.0-1.0 & 5900 & 477 & 244 & 233 & 0.51 \\ \hline
+0.0-1.0 & 5900 & 477 & 244 & 233 & 0.51 & -- \\ \hline
 		\end{tabular}
 	\end{center}
 \caption{ \small{A comparison of verified observations and HPS RR Lyrae candidates. \label{tab:HPSlim15}}}
 \end{table*}
 
 %[46, 12, 19, 15, 22, 20, 22, 28, 28, 23, 9, 0]
-
+%[92, 13, 19, 21, 14, 14, 19, 19, 11, 5, 6, 0]
 
 Figure~\ref{fig:probrrHPS} shows no correlation between the HPS criteria and candidates verified to be RR Lyrae stars.  Of the 1.5 Billion stars identified in our FOV, we isolated the 320,000 most variable, 
 %using the lower quartile variance, as described in~\cref{sec:cuts}.
-as described in~\cref{sec:cuts}.
+as described in~\cref{sec:cuts}.  Determination of variability class for these objects in discussed in~\cref{sec:PA}.
 
 
 %The further a star lands from a linear fit to this plot, the higher probability it is variable.  
@@ -611,22 +613,51 @@ variable classifications, those having lower amplitude variations, would have be
 undetected.  Masking out regions of high aliasing reduced the need to run a more rigorous analysis, % of variable candidates,  
 due to the statistically improbability of these sources being variable.  A total of 5,658 stars fell within 
 the masked region, shown in Figure~\ref{RlogPr.png}.  FLS and FSS analysis identified 1,239 variable stars in our FOV.  
-A defining characteristic of RR Lyrae is their variability periods, falling between 0.5 and 1.2 days.  Using this 
-restriction 279 stars were confirmed to be RR Lyrae.  Variability classification was confirmed by visually inspecting 
-the light curves of all 279 RR Lyrae and the remaining 960 unclassified variable stars.  Following this procedure gives us 
+A defining characteristic of RR Lyrae is their variability periods, falling between 0.05 and 1.2 days.  Using this 
+restriction, 244 confirmed to be RR Lyrae matched the HPS dataset.  Variability classification was confirmed by visually inspecting 
+the light curves of all 244 RR Lyrae candidates as well as the remaining 995 unclassified variable stars.  Following this procedure gives us 
 $100\%$ purity.
 
 \begin{figure}[H]
  \centering
- 	\includegraphics[width=3.35in]{figures/probrr_vs_HPS.png}
- \caption{\it \small{Evaluation of HPS RR Lyrae criteria.}}
+ 	\includegraphics[width=3.35in]{figures/NEW/probrr_vs_HPS.png}
+ \caption{\it \small{Evaluation of HPS RR Lyrae criteria, using matched RR Lyrae.}}
  \label{fig:probrrHPS}
 \end{figure}
 
-Using the same matching algorithm~\cite{gri} made comparing observations with other variable catalogs possible.  
-To evaluate the HPS RR Lyrae criteria, our observations were matched to stars flagged as potential RR Lyrae candidates by HPS.  
+The same matching algorithm~\cite{gri} made comparing observations with other variable catalogs possible.  
+To evaluate the HPS RR Lyrae criteria, our observations were matched to stars analyzed for variability, by HPS.  
 Shown in Table~\ref{tab:HPSlim15} and Figure~\ref{fig:probrrHPS}, there is no correlation between HPS criteria and 
-verified RR Lyrae stars.
+verified RR Lyrae stars.  HPS claims any star with an assigned $\rho_{RRLyrae} > 0.20$, is most likely an RR Lyrae.  Furthermore, 
+if $\rho_{RRLyrae} > 0.05$, the candidate is definitively an RR Lyrae.  Figure~\ref{fig:probrrHPS} shows the fractional 
+portion of observed RR Lyrae, that matched to stars that have been assigned $\rho_{RRLyrae}$, by HPS.
+There is a distinct correlation between confirmed RR Lyrae and assigned $\rho_{RRLyrae}$ values.  However, over $16\%$ of 
+all observed RR Lyrae, that matched to HPS stars, have $\rho_{RRLyrae} < 0.20$.  Similarly, $10\%$ of all matched RR Lyrae 
+fall below $\rho_{RRLyrae} < 0.05$.  Of all 244 matched RR Lyrae, only 9 have the highest RR Lyrae 
+probability assigned, $\rho_{RRLyrae} > 0.90$.
+
+
+\begin{figure}[H]
+ \centering
+ 	\includegraphics[width=3.35in]{figures/NEW/probnotrr_vs_HPS.png}
+ \caption{\it \small{Evaluation of HPS RR Lyrae criteria, using non-RR Lyrae matched objects.}}
+ \label{fig:probnotrrHPS}
+\end{figure}
+
+
+
+Shown in Figure~\ref{fig:probnotrrHPS}, there exists an inverse relationship, between non-RR Lyrae confirmed stars and HPS 
+assigned $\rho_{RRLyrae}$.   
+All stars confirmed as not begin RR Lyrae should have assigned $\rho_{RRLyrae} > 0.20$, according to HPS; yet $23\%$ of 
+all matched stars do not meet this criteria.  Complete validity of HPS's $\rho_{RRLyrae}$ would be indicated by 0 verified, 
+non-RR Lyrae stars, being matched with a $\rho_{RRLyrae} > 0.05$.  This is not the case, with $30\%$ of all matched stars begin 
+confirmed non-RR Lyrae and having an assigned $\rho_{RRLyrae} > 0.05$.  While HPS's $\rho_{RRLyrae}$ may indicate if a star is 
+an RR Lyrae, it is not sufficient for absolute determination.
+
+
+
+
+
 
 
 

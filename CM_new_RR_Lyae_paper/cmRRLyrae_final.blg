@@ -7,47 +7,50 @@ Database file #1: cmRRLyrae_finalNotes.bib
 Database file #2: biblio.bib
 Warning--string name "\mnras" is undefined
 --line 60 of file biblio.bib
+Warning--I didn't find a database entry for "logPr"
+Warning--I didn't find a database entry for "Numerical"
+Warning--I didn't find a database entry for "AAVSO"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 6 entries,
+You've used 5 entries,
             3411 wiz_defined-function locations,
-            1196 strings with 11700 characters,
-and the built_in function-call counts, 6489 in all, are:
-= -- 277
-> -- 359
-< -- 48
-+ -- 338
-- -- 90
-* -- 948
-:= -- 622
-add.period$ -- 6
-call.type$ -- 6
-change.case$ -- 24
-chr.to.int$ -- 6
-cite$ -- 6
-duplicate$ -- 573
-empty$ -- 481
-format.name$ -- 194
-if$ -- 1167
+            1195 strings with 11588 characters,
+and the built_in function-call counts, 5926 in all, are:
+= -- 242
+> -- 352
+< -- 45
++ -- 334
+- -- 88
+* -- 893
+:= -- 559
+add.period$ -- 5
+call.type$ -- 5
+change.case$ -- 20
+chr.to.int$ -- 5
+cite$ -- 5
+duplicate$ -- 512
+empty$ -- 424
+format.name$ -- 189
+if$ -- 1050
 int.to.chr$ -- 1
-int.to.str$ -- 7
-missing$ -- 85
-newline$ -- 33
-num.names$ -- 18
-pop$ -- 106
+int.to.str$ -- 6
+missing$ -- 75
+newline$ -- 30
+num.names$ -- 15
+pop$ -- 83
 preamble$ -- 1
-purify$ -- 24
+purify$ -- 20
 quote$ -- 0
-skip$ -- 288
+skip$ -- 262
 stack$ -- 0
-substring$ -- 98
-swap$ -- 509
-text.length$ -- 46
+substring$ -- 81
+swap$ -- 471
+text.length$ -- 44
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 36
+type$ -- 30
 warning$ -- 0
-while$ -- 16
+while$ -- 13
 width$ -- 0
-write$ -- 76
-(There was 1 warning)
+write$ -- 66
+(There were 4 warnings)

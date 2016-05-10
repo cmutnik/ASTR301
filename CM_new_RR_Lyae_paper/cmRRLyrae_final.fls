@@ -113,13 +113,14 @@ INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+OUTPUT cmRRLyrae_final.pdf
+INPUT /usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT figures/NEW/scatter_gfilt_57452_57455.png
 INPUT ./figures/NEW/scatter_gfilt_57452_57455.png
-OUTPUT cmRRLyrae_final.pdf
 INPUT ./figures/NEW/scatter_gfilt_57452_57455.png
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
-INPUT /usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmbx7.tfm
 INPUT figures/LC/star7_97_98_0_1.png
 INPUT ./figures/LC/star7_97_98_0_1.png
 INPUT ./figures/LC/star7_97_98_0_1.png
@@ -129,6 +130,9 @@ INPUT ./figures/LC/star7_97_98_0_1_restricted.png
 INPUT figures/NEW/probrr_vs_HPS.png
 INPUT ./figures/NEW/probrr_vs_HPS.png
 INPUT ./figures/NEW/probrr_vs_HPS.png
+INPUT figures/NEW/probnotrr_vs_HPS.png
+INPUT ./figures/NEW/probnotrr_vs_HPS.png
+INPUT ./figures/NEW/probnotrr_vs_HPS.png
 INPUT figures/simbadoverlap.png
 INPUT ./figures/simbadoverlap.png
 INPUT ./figures/simbadoverlap.png
@@ -139,6 +143,7 @@ INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmtt9.tfm
 INPUT cmRRLyrae_final.aux
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb
