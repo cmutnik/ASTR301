@@ -72,11 +72,16 @@ University of Hawai`i at M\={a}noa\\
 
 
 \begin{abstract}
-\textbf{By Thursday (4/18) we need:} well thought out section titles and plots that show all the points we wanna make\\
-
-remake prob(f) plot with all 300,000 stars (not only 80,000)\\
-
-LS analysis on ATLAS Pathfinder Telescope data, verified PS variability criteria
+A field of view (FOV) close to the galactic plane was chosen with the hopes of spatially mapping our galaxy's spiral arms.  
+Observations collected over approximately $340$~deg$^{2}$ resulted in the detection of roughly $1.5$~billion stars.  Photometric and astrometric solutions for each object were achieved using the ATLAS pipeline~\cite{gri}.  Next, stars were ranked in order of decreasing variability.  A subset, of the $315,992$ most variable candidates, was selected and more rigorously tested for RR Lyrae variability classification.  After masking out regions of high aliasing probability, $5,658$ candidates yielded a total of $1,239$ RR Lyrae stars.  RR Lyrae classification was achieve through implementation of FLS and other related analysis techniques.  
+%An approximately $340$~deg$^{2}$ filed of view (FOV) close to the galactic plane resulted in detections of $1.5$~billion stars.  Once stars were ranked in order of decreasing variability, a subset of $315,992$
+%Of these, 315Ranking observed stars by decreasing variability caused 
+FLS analysis of ATLAS Pathfinder data established a weak correlation between HPS assigned variability criteria, $\rho_{RRLyrae}$, and RR Lyrae classification.  Independently, $\rho_{RRLyrae}$ is not sufficient for identifying and classifying variable candidates.  
+%Implementation of FLS and related analysis techniques allowed for the classification of 
+%Establishing a relationship between the shapes of RR Lyrae light curves and their physical properties will allow for the determination of RR Lyrae physical properties, based solely on light curve measurements.
+Moving forward, we hope to establish a statistically significant correlation between the physical properties and light curves of RR Lyraes.  
+Establishing such a relationship will allow for the determination of inherent physical properties, based solely on light curve measurements of RR Lyrae stars.
+%light curve based measurement of physical properties intrinsic to RR Lyraes.
 \end{abstract}
 
 \maketitle    
@@ -105,11 +110,12 @@ In order to reduce aliasing, extra observations needed to be collected.  Desired
 be converted to right ascension (RA) and declination (Dec), before feeding observations to the Pathfinder telescope.
 Observation procedures are discussed in~\cref{sec:data}.
 %~[PATHFINDER USED FOR GRI DATA...the reduction process is discussed at length Tonry in...cite]\\
-Our field of view (FOV) spanned approximately $340$~deg$^{2}$ and contained 1.5 billion stars.  Once we received the reduced 
+Our FOV spanned approximately $340$~deg$^{2}$ and contained 1.5 billion stars.  Once we received the reduced 
 image data from the ATLAS pipeline~\cite{gri}, the $315,992$ most variable candidates were isolated and subjected to 
 more comprehensive variability classification.  Methods used to identify RR Lyrae stars are discussed in~\cref{sec:RRcrit}.
 
-\indent Verification of RR Lyrae candidates also allowed for comparison to external 
+\indent Using various classification techniques, discussed in~\cref{sec:RRcrit}, we classified over $1,000$ RR Lyraes in our FOV.  Once reddening was accounted for, a spatially distribution was determined.  
+Verification of RR Lyrae candidates also allowed for comparison to external 
 variable catalogs.  Completeness and evaluation of multiple RR Lyrae catalogs 
 is discussed in~\cref{sec:ResDis}.  Various models of RR Lyrae distributions 
 exist, with little to no verification.  In order to validate and refine such 
@@ -128,7 +134,7 @@ We used the $0.18$~m Asteroid Terrestrial-impact Last Alert System (ATLAS) Pathf
 
 \subsection{SNR Calculation}\label{sec:SNR}
 
-To calculate an appropriate sampling frequency and SNR, typical RR Lyrae light curves~\cite{RRLyrae} were used with artificially introduced gaps and noise following the Gaussian distribution. To determine distances from the PL relations~\citep{PL} within $\simeq5\%$ accuracy assuming typical metalicity $Z=0.001$, we need periods within $\simeq1\%$ accuracy. The period range of RR Lyrae stars is $0.05$ to $1.2$ days ~\cite{Astro} which contrains the sampling frequency. By using the Lomb-Scargle analysis (discussed in \cref{sec:PA}), it was found that 15 nights with 10 observations/night is the lower limit sampling duration and rate to achieve the desired period accuracy. Since the magnitude fluctuations of RR Lyrae are typically in the range of $0.3$ to $2.0$ mags ~\cite{AAVSO}, the uncertainty in magnitude was taken to be $0.1$ mags, and the changes, $0.01$ to $0.1$ mags, in the uncertainty did not affect the period determinations significantly. Thus we only needed $10\%$ photometry. For $m_g = m_r = 16$ and $m_i = 15.7$, an exposure time of $20$~sec yields $10\%$ photometry for the ATLAS pathfinder telescope~\citep{fallingstar}.
+To calculate an appropriate sampling frequency and SNR, typical RR Lyrae light curves~\cite{RRLyrae} were used with artificially introduced gaps and noise following the Gaussian distribution. To determine distances from the PL relations~\citep{PL} within $\simeq5\%$ accuracy assuming typical metalicity $Z=0.001$, we need periods within $\simeq1\%$ accuracy. The period range of RR Lyrae stars is $0.05$ to $1.2$~days~\cite{Astro} which contrains the sampling frequency. By using the Lomb-Scargle analysis (discussed in~\cref{sec:PA}), it was found that 15 nights with 10 observations/night is the lower limit sampling duration and rate to achieve the desired period accuracy. Since the magnitude fluctuations of RR Lyrae are typically in the range of $0.3$ to $2.0$ mags~\cite{AAVSO}, the uncertainty in magnitude was taken to be $0.1$~mags, and the changes, $0.01$ to $0.1$~mags, in the uncertainty did not affect the period determinations significantly. Thus we only needed $10\%$ photometry. For $m_g = m_r = 16$ and $m_i = 15.7$, an exposure time of $20$~sec yields $10\%$ photometry for the ATLAS pathfinder telescope~\citep{fallingstar}.
 
 
 \iffalse
@@ -603,9 +609,8 @@ HPS $\rho_{RRLyrae}$ & $HPS_{total}$ & $HPS_{matched}$ & $HPS_{completeness}$ & 
 0.0-1.0 & 5900 & 477 & 0.08 & 244 & 233 & 0.51 & 0.49  \\ \hline
 		\end{tabular}
 	\end{center}
-\caption{ \small{A comparison of verified observations and HPS RR Lyrae candidates. In this table, data is separated into various ranges of HPS's RR Lyrae variability criteria, $\rho_{RRLyrae}$.  Integer values represent the number of stars that lie within a particular range.  The three values given as decimals ($HPS_{completeness}$, Prob(RR), and Prob(notRR)) represent fractional percentages.  Calculation methods of each column is discussed in~\cref{sec:HPS}.\label{tab:HPSlim15}}}
-\end{table*}
-
+\caption{ \small{A comparison of verified observations and HPS RR Lyrae candidates. In this table, data is separated into various ranges of HPS's RR Lyrae variability criteria, $\rho_{RRLyrae}$.  Calculation methods of each column are discussed in~\cref{sec:HPS}.\label{tab:HPSlim15}}}
+\end{table*} 
 %[46, 12, 19, 15, 22, 20, 22, 28, 28, 23, 9, 0]
 %[92, 13, 19, 21, 14, 14, 19, 19, 11, 5, 6, 0]
 
@@ -620,7 +625,8 @@ To most accurately restrict obtained data, given RA and Dec values were converte
 stars residing in our observed FOV were isolated for comparison.  Due to detection limits of our instruments, the mean 
 magnitude in each bandpass was restricted ($m_{g}\leq16$, $m_{r}\leq16$, $m_{i}\leq16$).
 %~[TAPCAT DETERMINES MAG RANGE]
-Outlined in Table~\ref{tab:HPSlim15} are the results of comparing observations with HPS data.
+Outlined in Table~\ref{tab:HPSlim15} are the results of comparing observations with HPS data.  Integer values represent the number of stars that lie within a particular range.  
+%The three values given as decimals$HPS_{completeness}$, Prob(RR), and Prob(notRR)) represent fractional percentages. 
 %Comparisons are separated into $\rho_{RRLyrae}$ ranges.  
 $HPS_{total}$ is the total number of HPS stars in our FOV, $HPS_{matched}$ is the number of objects matched to observed stars, $HPS_{completeness}$ describes the fraction of HPS data that matched to our observations.  The columns $RR Lyrae$ and $Not RR Lyrae$ describe the 
 number of observed and verified stars that matched to HPS data.  To calculate $Prob(RR)$ and $Prob(notRR)$, the number of observed stars was 
@@ -641,12 +647,11 @@ stars from various nights of observations.
 Implementation of logPr(rnd) allowed for complete confirmation of RR Lyrae candidates.  Only stars with different 
 variable classifications, those having lower amplitude variations, would have been able to go
 undetected.  Masking out regions of high aliasing reduced the need to run a more rigorous analysis, % of variable candidates,  
-due to the statistically improbability of these sources being variable.  A total of 5,658 stars fell within 
-the masked region, shown in Figure~\ref{RlogPr.png}.  FLS and FSS analysis identified 1,239 variable stars in our FOV.  
-A defining characteristic of RR Lyrae is their variability periods, falling between 0.05 and 1.2 days.  Using this 
-restriction, 244 confirmed to be RR Lyrae matched the HPS dataset.  Variability classification was confirmed by visually inspecting 
-the light curves of all 244 RR Lyrae candidates as well as the remaining 995 unclassified variable stars.  Following this procedure gives us 
-$100\%$ purity.
+due to the statistically improbability of these sources being variable.  A total of $5,658$ stars fell within 
+the masked region, shown in Figure~\ref{RlogPr.png}.  FLS and FSS analysis identified $1,239$ variable stars in our FOV.  
+A defining characteristic of RR Lyrae is their variability periods, falling between $0.05$ and $1.2$~days.  Using this 
+restriction, $244$ confirmed to be RR Lyrae matched the HPS dataset.  Variability classification was confirmed by visually inspecting 
+the light curves of all $244$ RR Lyrae candidates as well as the remaining $995$ unclassified variable stars.  Following this procedure gives us $100\%$ purity.
 
 \begin{figure}[H]
  \centering
@@ -728,11 +733,13 @@ Apparently random spatial distribution of RR Lyraes, coupled with their old ages
 %and relatively old ages, of RR Lyraes, suggests quite complicated galactic dynamics.
 
 
-\indent Pan-STARRS objects were evaluated by HPS.  Each stellar candidate was assigned a $\rho_{RRLyrae}$ value, signifying the likelihood of it being a RR Lyrae.  With only a weak correlation shown
+\indent Pan-STARRS objects were evaluated by HPS.  Each stellar candidate was assigned a $\rho_{RRLyrae}$ value, signifying the likelihood of it being a RR Lyrae.  With only a weak correlation established, $\rho_{RRLyrae}$ is not independently sufficient in determining the variability of unverified sources.  Implementation of the over $1,000$, rigorously classified, RR Lyrae variables presented here may help refine the HPS model.  The accuracy of our classifications is much more reliable, due to the reduction in aliasing effects seen.  This was made possible by our abundant observations.
 
 
 % FUTURE OPPORTUNITIES
-\indent Now that we found more than $1,000$ RR Lyrae stars in our FOV, we can use these to construct statistics for RR Lyrae subtype classifications purely from their light curves (not only types ab and c, but also ones with the Blazhko effects). In order to do that, we need spectra of the RR Lyrae stars to calibrate the statistics. If there are any significant correlations between RR Lyrae light curve shapes and physical properties, then we can used the statistics to measure the physical properties of RR Lyrae stars from thier light curves.
+\indent Now that we found more than $1,000$ RR Lyrae stars in our FOV, we can use them in constructing statistics for RR Lyrae subtype classifications.  This will hopefully be achieved purely from light curve analysis (not only types ab and c, but also ones with the Blazhko effects). In order for this to be accomplished, RR Lyrae spectra must be collected; to calibrate the statistics.  
+%we need spectra of the RR Lyrae stars to calibrate the statistics. 
+If there are any significant correlations between RR Lyrae light curve shapes and physical properties, then we can used the statistics to measure the physical properties of RR Lyrae stars from their light curves.
 
 
 
