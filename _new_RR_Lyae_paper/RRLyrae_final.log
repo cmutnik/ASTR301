@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  9 MAY 2016 14:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  9 MAY 2016 14:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -366,40 +366,41 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 81.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 88.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 112.
+
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 88.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 112.
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--119
+Underfull \hbox (badness 10000) in paragraph at lines 118--121
  []\OT1/cmr/m/n/10 supplemented with AT-LAS data [REF
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--123
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
  []$\OT1/cmtt/m/n/10 http : / / fallingstar . com / how _ atlas _
  []
 
 
-Underfull \hbox (badness 1337) in paragraph at lines 126--133
+Underfull \hbox (badness 1337) in paragraph at lines 128--135
 \OT1/cmr/m/n/10 In or-der to re-duce alias-ing, ex-tra ob-ser-va-tions
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 161--166
+Underfull \hbox (badness 10000) in paragraph at lines 163--168
 
  []
 
 [1{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 175--184
+Underfull \hbox (badness 10000) in paragraph at lines 177--186
 \OT1/cmr/m/n/10 [EX-PLAINS EX-ACT OB-SER-VA-TIONAL
  []
 
 
-Underfull \hbox (badness 3209) in paragraph at lines 175--184
+Underfull \hbox (badness 3209) in paragraph at lines 177--186
 \OT1/cmr/m/n/10 Observations were traced out by mov-ing the
  []
 
@@ -407,7 +408,7 @@ Underfull \hbox (badness 3209) in paragraph at lines 175--184
 File: figures/LC/star7_97_98_0_1.png Graphic file (type png)
 
 <use figures/LC/star7_97_98_0_1.png>
-Package pdftex.def Info: figures/LC/star7_97_98_0_1.png used on input line 243.
+Package pdftex.def Info: figures/LC/star7_97_98_0_1.png used on input line 245.
 
 (pdftex.def)             Requested size: 234.87749pt x 176.15768pt.
 
@@ -416,16 +417,16 @@ File: figures/LC/star7_97_98_0_1_restricted.png Graphic file (type png)
 
 <use figures/LC/star7_97_98_0_1_restricted.png>
 Package pdftex.def Info: figures/LC/star7_97_98_0_1_restricted.png used on inpu
-t line 249.
+t line 251.
 (pdftex.def)             Requested size: 234.87749pt x 176.15768pt.
 
 <figures/RlogPr.png, id=21, 590.4459pt x 445.9059pt>
 File: figures/RlogPr.png Graphic file (type png)
  <use figures/RlogPr.png>
-Package pdftex.def Info: figures/RlogPr.png used on input line 292.
+Package pdftex.def Info: figures/RlogPr.png used on input line 294.
 (pdftex.def)             Requested size: 238.49121pt x 180.10782pt.
 
-Overfull \hbox (12.61372pt too wide) in paragraph at lines 292--293
+Overfull \hbox (12.61372pt too wide) in paragraph at lines 294--295
  [][] 
  []
 
@@ -435,10 +436,10 @@ File: figures/FSP1_g_LC_rrrtest_p5_grp19.png Graphic file (type png)
 
 <use figures/FSP1_g_LC_rrrtest_p5_grp19.png>
 Package pdftex.def Info: figures/FSP1_g_LC_rrrtest_p5_grp19.png used on input l
-ine 337.
+ine 339.
 (pdftex.def)             Requested size: 242.10493pt x 181.5766pt.
 
-Overfull \hbox (7.22745pt too wide) in paragraph at lines 337--338
+Overfull \hbox (7.22745pt too wide) in paragraph at lines 339--340
  [][] 
  []
 
@@ -447,10 +448,10 @@ File: figures/FSP1_g_LC_rrrtest_p5_grp7.png Graphic file (type png)
 
 <use figures/FSP1_g_LC_rrrtest_p5_grp7.png>
 Package pdftex.def Info: figures/FSP1_g_LC_rrrtest_p5_grp7.png used on input li
-ne 343.
+ne 345.
 (pdftex.def)             Requested size: 242.10493pt x 181.5766pt.
 
-Overfull \hbox (7.22745pt too wide) in paragraph at lines 343--344
+Overfull \hbox (7.22745pt too wide) in paragraph at lines 345--346
  [][] 
  []
 
@@ -459,10 +460,10 @@ File: figures/rPLCneg45E_limit2_grp_109+01_09693.png Graphic file (type png)
 
 <use figures/rPLCneg45E_limit2_grp_109+01_09693.png>
 Package pdftex.def Info: figures/rPLCneg45E_limit2_grp_109+01_09693.png used on
- input line 350.
+ input line 352.
 (pdftex.def)             Requested size: 242.10493pt x 181.5766pt.
 
-Overfull \hbox (7.22745pt too wide) in paragraph at lines 350--351
+Overfull \hbox (7.22745pt too wide) in paragraph at lines 352--353
  [][] 
  []
 
@@ -471,10 +472,10 @@ File: figures/rPLCneg45E_limit2_grp_116-11_03117.png Graphic file (type png)
 
 <use figures/rPLCneg45E_limit2_grp_116-11_03117.png>
 Package pdftex.def Info: figures/rPLCneg45E_limit2_grp_116-11_03117.png used on
- input line 356.
+ input line 358.
 (pdftex.def)             Requested size: 242.10493pt x 181.5766pt.
 
-Overfull \hbox (7.22745pt too wide) in paragraph at lines 356--357
+Overfull \hbox (7.22745pt too wide) in paragraph at lines 358--359
  [][] 
  []
 
@@ -484,10 +485,10 @@ File: figures/PlotsSpace15/gdhist_limit15.png Graphic file (type png)
 
 <use figures/PlotsSpace15/gdhist_limit15.png>
 Package pdftex.def Info: figures/PlotsSpace15/gdhist_limit15.png used on input 
-line 433.
+line 435.
 (pdftex.def)             Requested size: 238.49121pt x 178.86383pt.
 
-Overfull \hbox (12.61372pt too wide) in paragraph at lines 433--434
+Overfull \hbox (12.61372pt too wide) in paragraph at lines 435--436
  [][] 
  []
 
@@ -499,10 +500,10 @@ File: figures/PlotsSpace15/dist_b_lp_limit15.png Graphic file (type png)
 
 <use figures/PlotsSpace15/dist_b_lp_limit15.png>
 Package pdftex.def Info: figures/PlotsSpace15/dist_b_lp_limit15.png used on inp
-ut line 443.
+ut line 445.
 (pdftex.def)             Requested size: 242.10493pt x 181.5766pt.
 
-Overfull \hbox (7.22745pt too wide) in paragraph at lines 443--444
+Overfull \hbox (7.22745pt too wide) in paragraph at lines 445--446
  [][] 
  []
 
@@ -511,10 +512,10 @@ File: figures/PlotsSpace15/dist_EBV_lp_limit15.png Graphic file (type png)
 
 <use figures/PlotsSpace15/dist_EBV_lp_limit15.png>
 Package pdftex.def Info: figures/PlotsSpace15/dist_EBV_lp_limit15.png used on i
-nput line 449.
+nput line 451.
 (pdftex.def)             Requested size: 242.10493pt x 181.5766pt.
 
-Overfull \hbox (7.22745pt too wide) in paragraph at lines 449--450
+Overfull \hbox (7.22745pt too wide) in paragraph at lines 451--452
  [][] 
  []
 
@@ -523,10 +524,10 @@ File: figures/PlotsSpace15/dist_b_ln_limit15.png Graphic file (type png)
 
 <use figures/PlotsSpace15/dist_b_ln_limit15.png>
 Package pdftex.def Info: figures/PlotsSpace15/dist_b_ln_limit15.png used on inp
-ut line 456.
+ut line 458.
 (pdftex.def)             Requested size: 242.10493pt x 181.5766pt.
 
-Overfull \hbox (7.22745pt too wide) in paragraph at lines 456--457
+Overfull \hbox (7.22745pt too wide) in paragraph at lines 458--459
  [][] 
  []
 
@@ -535,10 +536,10 @@ File: figures/PlotsSpace15/dist_EBV_ln_limit15.png Graphic file (type png)
 
 <use figures/PlotsSpace15/dist_EBV_ln_limit15.png>
 Package pdftex.def Info: figures/PlotsSpace15/dist_EBV_ln_limit15.png used on i
-nput line 462.
+nput line 464.
 (pdftex.def)             Requested size: 242.10493pt x 181.5766pt.
 
-Overfull \hbox (7.22745pt too wide) in paragraph at lines 462--463
+Overfull \hbox (7.22745pt too wide) in paragraph at lines 464--465
  [][] 
  []
 
@@ -547,10 +548,10 @@ File: figures/PlotsSpace15/lphist_limit15.png Graphic file (type png)
 
 <use figures/PlotsSpace15/lphist_limit15.png>
 Package pdftex.def Info: figures/PlotsSpace15/lphist_limit15.png used on input 
-line 476.
+line 478.
 (pdftex.def)             Requested size: 242.10493pt x 181.5766pt.
 
-Overfull \hbox (7.22745pt too wide) in paragraph at lines 476--477
+Overfull \hbox (7.22745pt too wide) in paragraph at lines 478--479
  [][] 
  []
 
@@ -559,10 +560,10 @@ File: figures/PlotsSpace15/lnhist_limit15.png Graphic file (type png)
 
 <use figures/PlotsSpace15/lnhist_limit15.png>
 Package pdftex.def Info: figures/PlotsSpace15/lnhist_limit15.png used on input 
-line 482.
+line 484.
 (pdftex.def)             Requested size: 242.10493pt x 181.5766pt.
 
-Overfull \hbox (7.22745pt too wide) in paragraph at lines 482--483
+Overfull \hbox (7.22745pt too wide) in paragraph at lines 484--485
  [][] 
  []
 
@@ -571,10 +572,10 @@ File: figures/PlotsSpace15/bphist_limit15.png Graphic file (type png)
 
 <use figures/PlotsSpace15/bphist_limit15.png>
 Package pdftex.def Info: figures/PlotsSpace15/bphist_limit15.png used on input 
-line 489.
+line 491.
 (pdftex.def)             Requested size: 242.10493pt x 181.5766pt.
 
-Overfull \hbox (7.22745pt too wide) in paragraph at lines 489--490
+Overfull \hbox (7.22745pt too wide) in paragraph at lines 491--492
  [][] 
  []
 
@@ -583,23 +584,23 @@ File: figures/PlotsSpace15/bnhist_limit15.png Graphic file (type png)
 
 <use figures/PlotsSpace15/bnhist_limit15.png>
 Package pdftex.def Info: figures/PlotsSpace15/bnhist_limit15.png used on input 
-line 495.
+line 497.
 (pdftex.def)             Requested size: 242.10493pt x 181.5766pt.
 
-Overfull \hbox (7.22745pt too wide) in paragraph at lines 495--496
+Overfull \hbox (7.22745pt too wide) in paragraph at lines 497--498
  [][] 
  []
 
 
-Overfull \hbox (104.24353pt too wide) in paragraph at lines 545--562
+Overfull \hbox (104.24353pt too wide) in paragraph at lines 547--564
  []$ 
  []
 
 
-LaTeX Warning: Reference `RlogPr.png' on page 5 undefined on input line 577.
+LaTeX Warning: Reference `RlogPr.png' on page 5 undefined on input line 579.
 
 
-Underfull \hbox (badness 7151) in paragraph at lines 567--582
+Underfull \hbox (badness 7151) in paragraph at lines 569--584
 \OT1/cmr/m/n/10 [DE-SCRIBE LOWER QUAR-TILE METHOD]
  []
 
@@ -607,20 +608,20 @@ Underfull \hbox (badness 7151) in paragraph at lines 567--582
 File: figures/probrr_vs_HPS.png Graphic file (type png)
 
 <use figures/probrr_vs_HPS.png>
-Package pdftex.def Info: figures/probrr_vs_HPS.png used on input line 591.
+Package pdftex.def Info: figures/probrr_vs_HPS.png used on input line 593.
 (pdftex.def)             Requested size: 242.10493pt x 182.83621pt.
 
-Overfull \hbox (16.22745pt too wide) in paragraph at lines 591--592
+Overfull \hbox (16.22745pt too wide) in paragraph at lines 593--594
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 607--610
+Underfull \hbox (badness 10000) in paragraph at lines 609--612
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 612--621
+Underfull \hbox (badness 10000) in paragraph at lines 614--623
 
  []
 
@@ -628,10 +629,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 612--621
 File: figures/simbadoverlap.png Graphic file (type png)
 
 <use figures/simbadoverlap.png>
-Package pdftex.def Info: figures/simbadoverlap.png used on input line 628.
+Package pdftex.def Info: figures/simbadoverlap.png used on input line 630.
 (pdftex.def)             Requested size: 242.10493pt x 297.18097pt.
 
-Overfull \hbox (16.22745pt too wide) in paragraph at lines 628--629
+Overfull \hbox (16.22745pt too wide) in paragraph at lines 630--631
  [][] 
  []
 
@@ -641,7 +642,7 @@ EBV_lp_limit15.png> <./figures/PlotsSpace15/dist_b_ln_limit15.png> <./figures/P
 lotsSpace15/dist_EBV_ln_limit15.png>]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 632.
+ on input line 634.
 
 (./acknowledgement.tex) (./RRLyrae_final.bbl [7 <./figures/PlotsSpace15/lphist_
 limit15.png> <./figures/PlotsSpace15/lnhist_limit15.png> <./figures/PlotsSpace1
@@ -712,7 +713,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--98
 ! Undefined control sequence.
 <argument> \ajype 
                   
-l.130   \bibinfo{journal}{\ajype}
+l.123   \bibinfo{journal}{\ajype}
                                   \textbf{\bibinfo{volume}{127}},
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -751,13 +752,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6805 strings out of 493117
- 111655 string characters out of 6135433
+ 6804 strings out of 493117
+ 111647 string characters out of 6135433
  204158 words of memory out of 5000000
- 10176 multiletter control sequences out of 15000+600000
+ 10175 multiletter control sequences out of 15000+600000
  11037 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,10n,44p,1187b,652s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,10n,44p,1240b,652s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></
@@ -778,7 +779,7 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2014/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2014/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2014/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on RRLyrae_final.pdf (8 pages, 1329377 bytes).
+Output written on RRLyrae_final.pdf (8 pages, 1328755 bytes).
 PDF statistics:
  148 PDF objects out of 1000 (max. 8388607)
  81 compressed objects within 1 object stream

@@ -96,13 +96,6 @@
   Z}.}~\bibnamefont{{Ive{\acute}}}}, \textbf{\bibinfo{volume}{812}},
   \bibinfo{eid}{18} (\bibinfo{year}{2015}), \eprint{1502.01344}.
 
-\bibitem[{\citenamefont{{Carroll} and {Ostlie}}(2007)}]{Modern}
-\bibinfo{author}{\bibfnamefont{B.~W.} \bibnamefont{{Carroll}}}
-  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{D.~A.}
-  \bibnamefont{{Ostlie}}}, \emph{\bibinfo{title}{{An Introduction to Modern
-  Astrophysics}}} (\bibinfo{publisher}{San Francisco: Addison-Wesley},
-  \bibinfo{year}{2007}), \bibinfo{edition}{2nd} ed.
-
 \bibitem[{\citenamefont{{Hernitschek} et~al.}(2016)\citenamefont{{Hernitschek},
   {Schlafly}, {Sesar}, {Rix}, {Hogg}, {Ivezi{\'c}}, {Grebel}, {Bell}, {Martin},
   {Burgett} et~al.}}]{PSdata}
@@ -129,6 +122,13 @@
 \bibinfo{author}{\bibfnamefont{J.~M.} \bibnamefont{{Nemec}}},
   \bibinfo{journal}{\ajype} \textbf{\bibinfo{volume}{127}},
   \bibinfo{pages}{2185} (\bibinfo{year}{2004}).
+
+\bibitem[{\citenamefont{{Carroll} and {Ostlie}}(2007)}]{Modern}
+\bibinfo{author}{\bibfnamefont{B.~W.} \bibnamefont{{Carroll}}}
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{D.~A.}
+  \bibnamefont{{Ostlie}}}, \emph{\bibinfo{title}{{An Introduction to Modern
+  Astrophysics}}} (\bibinfo{publisher}{San Francisco: Addison-Wesley},
+  \bibinfo{year}{2007}), \bibinfo{edition}{2nd} ed.
 
 \bibitem[{\citenamefont{{Fukugita} et~al.}(1996)\citenamefont{{Fukugita},
   {Ichikawa}, {Gunn}, {Doi}, {Shimasaku}, and {Schneider}}}]{SDSS}

@@ -10,7 +10,7 @@ Warning--string name "\mnras" is undefined
 Warning--string name "\apjs" is undefined
 --line 86 of file biblio.bib
 Warning--string name "\apj" is undefined
---line 129 of file biblio.bib
+--line 128 of file biblio.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 You've used 16 entries,
