@@ -1,0 +1,142 @@
+\begin{thebibliography}{15}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname bibnamefont\endcsname\relax
+  \def\bibnamefont#1{#1}\fi
+\expandafter\ifx\csname bibfnamefont\endcsname\relax
+  \def\bibfnamefont#1{#1}\fi
+\expandafter\ifx\csname citenamefont\endcsname\relax
+  \def\citenamefont#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\providecommand{\bibinfo}[2]{#2}
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{\citenamefont{Tonry}(2016)}]{gri}
+\bibinfo{author}{\bibfnamefont{J.~L.} \bibnamefont{Tonry}},
+  \bibinfo{howpublished}{personal communication} (\bibinfo{year}{2016}).
+
+\bibitem[{fal(2016)}]{fallingstar}
+\emph{\bibinfo{title}{Asteroid terrestrial-impact last alert system}},
+  \bibinfo{howpublished}{http://fallingstar.com/specifications.php}
+  (\bibinfo{year}{2016}).
+
+\bibitem[{\citenamefont{{Moln{\'a}r} et~al.}(2015)\citenamefont{{Moln{\'a}r},
+  {Szab{\'o}}, {Moskalik}, {Nemec}, {Guggenberger}, {Smolec}, {Poleski},
+  {Plachy}, {Kolenberg}, and {Koll{\'a}th}}}]{RRLyrae}
+\bibinfo{author}{\bibfnamefont{L.}~\bibnamefont{{Moln{\'a}r}}},
+  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{{Szab{\'o}}}},
+  \bibinfo{author}{\bibfnamefont{P.~A.} \bibnamefont{{Moskalik}}},
+  \bibinfo{author}{\bibfnamefont{J.~M.} \bibnamefont{{Nemec}}},
+  \bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{{Guggenberger}}},
+  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{{Smolec}}},
+  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{{Poleski}}},
+  \bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{{Plachy}}},
+  \bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{{Kolenberg}}},
+  \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{Z.}~\bibnamefont{{Koll{\'a}th}}},
+  \textbf{\bibinfo{volume}{452}}, \bibinfo{pages}{4283} (\bibinfo{year}{2015}),
+  \eprint{1507.04714}.
+
+\bibitem[{\citenamefont{{C{\'a}ceres} and {Catelan}}(2008)}]{PL}
+\bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{{C{\'a}ceres}}}
+  \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{{Catelan}}},
+  \textbf{\bibinfo{volume}{179}}, \bibinfo{eid}{242-248}
+  (\bibinfo{year}{2008}), \eprint{0805.3704}.
+
+\bibitem[{\citenamefont{{Rayden} and {Peterson}}(2010)}]{Astro}
+\bibinfo{author}{\bibfnamefont{B.~S.} \bibnamefont{{Rayden}}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{B.~M.} \bibnamefont{{Peterson}}},
+  \emph{\bibinfo{title}{{Foundations of Astrophysics}}}
+  (\bibinfo{publisher}{San Francisco: Addison-Wesley}, \bibinfo{year}{2010}),
+  \bibinfo{edition}{1st} ed.
+
+\bibitem[{AAV(2012)}]{AAVSO}
+\emph{\bibinfo{title}{American association of varaible star observars}},
+  \bibinfo{howpublished}{https://www.aavso.org/types-variables}
+  (\bibinfo{year}{2012}).
+
+\bibitem[{\citenamefont{{Press} and {Rybicki}}(1989)}]{logPr}
+\bibinfo{author}{\bibfnamefont{W.~H.} \bibnamefont{{Press}}} \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{G.~B.} \bibnamefont{{Rybicki}}},
+  \bibinfo{journal}{\apj} \textbf{\bibinfo{volume}{338}}, \bibinfo{pages}{277}
+  (\bibinfo{year}{1989}).
+
+\bibitem[{\citenamefont{{Press} et~al.}(2007)\citenamefont{{Press},
+  {Teukolsky}, {Vetterling}, and {Flannery}}}]{Numerical}
+\bibinfo{author}{\bibfnamefont{W.~H.} \bibnamefont{{Press}}},
+  \bibinfo{author}{\bibfnamefont{S.~A.} \bibnamefont{{Teukolsky}}},
+  \bibinfo{author}{\bibfnamefont{W.~T.} \bibnamefont{{Vetterling}}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{B.~P.}
+  \bibnamefont{{Flannery}}}, \emph{\bibinfo{title}{{NUMERICAL RECIPES}}}
+  (\bibinfo{publisher}{Cambridge: Cambridge University Press},
+  \bibinfo{year}{2007}), \bibinfo{edition}{3rd} ed.
+
+\bibitem[{\citenamefont{{VanderPlas} and {Iveacute}}(2015)}]{Gats}
+\bibinfo{author}{\bibfnamefont{J.~T.} \bibnamefont{{VanderPlas}}}
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{{\v
+  Z}.}~\bibnamefont{{Iveacute}}}, \textbf{\bibinfo{volume}{812}},
+  \bibinfo{eid}{18} (\bibinfo{year}{2015}), \eprint{1502.01344}.
+
+\bibitem[{\citenamefont{{Hernitschek} et~al.}(2016)\citenamefont{{Hernitschek},
+  {Schlafly}, {Sesar}, {Rix}, {Hogg}, {Ivezi{\'c}}, {Grebel}, {Bell}, {Martin},
+  {Burgett} et~al.}}]{PSdata}
+\bibinfo{author}{\bibfnamefont{N.}~\bibnamefont{{Hernitschek}}},
+  \bibinfo{author}{\bibfnamefont{E.~F.} \bibnamefont{{Schlafly}}},
+  \bibinfo{author}{\bibfnamefont{B.}~\bibnamefont{{Sesar}}},
+  \bibinfo{author}{\bibfnamefont{H.-W.} \bibnamefont{{Rix}}},
+  \bibinfo{author}{\bibfnamefont{D.~W.} \bibnamefont{{Hogg}}},
+  \bibinfo{author}{\bibfnamefont{{\v Z}.}~\bibnamefont{{Ivezi{\'c}}}},
+  \bibinfo{author}{\bibfnamefont{E.~K.} \bibnamefont{{Grebel}}},
+  \bibinfo{author}{\bibfnamefont{E.~F.} \bibnamefont{{Bell}}},
+  \bibinfo{author}{\bibfnamefont{N.~F.} \bibnamefont{{Martin}}},
+  \bibinfo{author}{\bibfnamefont{W.~S.} \bibnamefont{{Burgett}}},
+  \bibnamefont{et~al.}, \bibinfo{journal}{\apj} \textbf{\bibinfo{volume}{817}},
+  \bibinfo{eid}{73} (\bibinfo{year}{2016}), \eprint{1511.05527}.
+
+\bibitem[{\citenamefont{Fitzpatrick}(1999)}]{Rv}
+\bibinfo{author}{\bibfnamefont{E.~L.} \bibnamefont{Fitzpatrick}},
+  \bibinfo{journal}{Publications of the Astronomical Society of the Pacific}
+  \textbf{\bibinfo{volume}{111}}, \bibinfo{pages}{63} (\bibinfo{year}{1999}),
+  \urlprefix\url{http://stacks.iop.org/1538-3873/111/i=755/a=63}.
+
+\bibitem[{\citenamefont{{Nemec}}(2004)}]{EBV}
+\bibinfo{author}{\bibfnamefont{J.~M.} \bibnamefont{{Nemec}}},
+  \textbf{\bibinfo{volume}{127}}, \bibinfo{pages}{2185} (\bibinfo{year}{2004}).
+
+\bibitem[{\citenamefont{{Carroll} and {Ostlie}}(2007)}]{Modern}
+\bibinfo{author}{\bibfnamefont{B.~W.} \bibnamefont{{Carroll}}}
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{D.~A.}
+  \bibnamefont{{Ostlie}}}, \emph{\bibinfo{title}{{An Introduction to Modern
+  Astrophysics}}} (\bibinfo{publisher}{San Francisco: Addison-Wesley},
+  \bibinfo{year}{2007}), \bibinfo{edition}{2nd} ed.
+
+\bibitem[{\citenamefont{{Fukugita} et~al.}(1996)\citenamefont{{Fukugita},
+  {Ichikawa}, {Gunn}, {Doi}, {Shimasaku}, and {Schneider}}}]{SDSS}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{{Fukugita}}},
+  \bibinfo{author}{\bibfnamefont{T.}~\bibnamefont{{Ichikawa}}},
+  \bibinfo{author}{\bibfnamefont{J.~E.} \bibnamefont{{Gunn}}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{{Doi}}},
+  \bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{{Shimasaku}}},
+  \bibnamefont{and} \bibinfo{author}{\bibfnamefont{D.~P.}
+  \bibnamefont{{Schneider}}}, \bibinfo{journal}{Astron. J.}
+  \textbf{\bibinfo{volume}{111}}, \bibinfo{pages}{1748} (\bibinfo{year}{1996}).
+
+\bibitem[{\citenamefont{{Wenger} et~al.}(2000)\citenamefont{{Wenger},
+  {Ochsenbein}, {Egret}, {Dubois}, {Bonnarel}, {Borde}, {Genova}, {Jasniewicz},
+  {Lalo{\"e}}, {Lesteven} et~al.}}]{simbad}
+\bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{{Wenger}}},
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{{Ochsenbein}}},
+  \bibinfo{author}{\bibfnamefont{D.}~\bibnamefont{{Egret}}},
+  \bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{{Dubois}}},
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{{Bonnarel}}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{{Borde}}},
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{{Genova}}},
+  \bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{{Jasniewicz}}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{{Lalo{\"e}}}},
+  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{{Lesteven}}},
+  \bibnamefont{et~al.}, \bibinfo{journal}{aaps} \textbf{\bibinfo{volume}{143}},
+  \bibinfo{pages}{9} (\bibinfo{year}{2000}), \eprint{astro-ph/0002110}.
+
+\end{thebibliography}
