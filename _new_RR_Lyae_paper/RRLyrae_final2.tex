@@ -85,7 +85,10 @@ LS analysis on ATLAS Pathfinder Telescope data, verified PS variability criteria
 
 \section{Introduction}
 
-
+International Celestial Reference System (ICRS)\\
+right ascension (RA) and declination (Dec)\\
+slanted greater than or equal to: $\geqslant$\\
+unslanted greater than or equal to: $\geq$\\
 \begin{itemize}
 	\item{} why we care
 	\item{} what made us care about this project
@@ -169,7 +172,7 @@ To calculate an appropriate sampling frequency and SNR, typical RR Lyrae light c
 
 
 Using the Pathfinder telescope, observations were made at two galactic latitudes ($b=\pm5^{\circ}$) and spanned a range of galactic longitudes ($202^{\circ} < l < 232^{\circ}$).  Observations discussed here indicated the center of each FOV.  
-Exposures were collected for 20~s and separated by $3^{\circ}$ longitudinally.  For implementation by the Pathfinder telescope, a conversion to RA and Dec was made; giving a range of roughly $90 < RA < 120^{\circ}$ and $-23^{\circ} < Dec < 18^{\circ}$, as shown by Figure~\ref{fig:simoverlap}.  To account for the 0.05~$^{\circ}$ gap between the detectors, a 0.1~$^{\circ}$ offset in RA was implemented on every other night.  
+Exposures were collected for 20~s and separated by $3^{\circ}$ longitudinally.  For implementation by the Pathfinder telescope, a conversion to RA and Dec was made; giving a range of roughly $90 < RA < 120^{\circ}$ and $-23^{\circ} < Dec < 18^{\circ}$, as shown by Figure~\ref{fig:simoverlap}.  In total, $340 deg^{2}$ was observed.  To account for the 0.05~$^{\circ}$ gap between the detectors, a 0.1~$^{\circ}$ offset in RA was implemented on every other night.  
 %Ten observations per night were collected for 20 nights, spanning 3/8/16-3/27/16.
 %Observations were collected between 3/8/16-3/27/16.  During this 20 day period, we collected 10 observations per night.  
 Spanning 20 nights (including 5 additional nights to the lower limit sampling duration of 15 nights), 10 observations a night were collected on 3/8/16-3/27/16.  Luckily, all of these nights had weather perfectly attuned for observations.  Half a night of observations were lost on 3/19/26, due to a crash of the server controlling the telescope.
@@ -211,15 +214,15 @@ cuts were applied, 1.5 Billion stars remained in our FOV.
 \begin{figure}[H]
  \centering
  	\includegraphics[width=3.2in]{figures/grpvar.png}
- \caption{\it \small{Lower quartile variance as a function of magnitude.}}
+ \caption{\it \small{Lower quartile variance as a function of $m_{r}$.}}
  \label{fig:quart}
 \end{figure}
   In order to exploit the lower quartile variance, shown in Figure~\ref{fig:quart}, a factor of $0.2m$ was added to account for Poisson error.  
-The higher a star deviates from the average value, the more likely it is variable.  This flagged 320,000, of the observed 1.5 Billion, for 
+The higher a star deviates from the average value, the more likely it is variable.  This flagged 315,992, of the observed 1.5 billion, for 
 further variability verification.
 
 
-As a result of running FLS, the most variable candidates fell below $logPr(rnd)\leq-45$, shown in Figure ~\ref{fig:logPr}.
+As a result of running FLS, the most variable candidates fell below $logPr(rnd)\leq-45$, shown in Figure~\ref{fig:logPr}.
 An in depth discussion how $logPr(rnd)$ works can be found in \textit{Numerical Recipes}~\cite{logPr, Numerical}.  Using $logPr(rnd)$ made it impossible 
 to miss any variable star with $0.05~\leq~Period~\leq~1.2$ ~\cite{AAVSO}.  It is statistically improbable that any observed variable star wasn't flagged.  If any variable stars were not identified, they must have lower period variations and are therefore not classified as RR Lyrae.
 
@@ -240,28 +243,26 @@ new grouping list that DH wanted (after removing aliased regions)\\
 
 \section{Constructing Stellar Light Curves}
 
-% check out resource:
-% https://www.aavso.org/lcg
-
-\begin{itemize}
-	\item{} how we selected stars (12+ obs, 1x1 deg$^2$, etc)
-\end{itemize}
-
-The selection process began
-
+Once observations were made, the data had to be sorted and grouped.  Resolving individual stars encompassed 
+matching the coordinates of each object with all other collected data, to within a tolerance of $0.001^{\circ}$.  
+The particular sorting algorithm, written by J. Tonry~\cite{gri}, is discussed in~\cref{sec:HPS}.  Grouping data 
+with such high precision eliminates the possibility that observations of a particular object overlap.  
+In doing so, we remove contamination and make each grouping as characteristic as possible, for its intended star.
+%This removes contamination and makes each grouping as characteristic as possible, for its intended star.
+%This makes the grouping of each star as characteristic of the object as possible, without any contamination.  
 
 % merged these figures into side by side (below)
-%\begin{figure}[H]
-% \centering
-% 	\includegraphics[width=3.35in]{figures/LC/star7_97_98_0_1.png}
-% \caption{\it \small{Light Curve of variable star, using all collected and ATLAS data.}}
-% \label{fig:LC7}
-%\end{figure}
-%\begin{figure}[H]
-% \centering
-% 	\includegraphics[width=3.35in]{figures/LC/star7_97_98_0_1_restricted.png}
-% \caption{\it \small{Light Curve of variable star, using only collected data (without incorporating extra ATLAS data).}}
-% \label{fig:restrictedLC7}
+	%\begin{figure}[H]
+	% \centering
+	% 	\includegraphics[width=3.35in]{figures/LC/star7_97_98_0_1.png}
+	% \caption{\it \small{Light Curve of variable star, using all collected and ATLAS data.}}
+	% \label{fig:LC7}
+	%\end{figure}
+	%\begin{figure}[H]
+	% \centering
+	% 	\includegraphics[width=3.35in]{figures/LC/star7_97_98_0_1_restricted.png}
+	% \caption{\it \small{Light Curve of variable star, using only collected data (without incorporating extra ATLAS data).}}
+	% \label{fig:restrictedLC7}
 %\end{figure}
 
 
@@ -290,30 +291,30 @@ The selection process began
 \section{Periodogram Analysis}\label{sec:PA}
 
 \iffalse
-%------------- KILL subsection and make periodgram the intro to LS
-%\subsection{Periodogram Analysis}
-%\section{Identifying Variable Stars Using Lomb-Scargle}
-~[INTRO TO WHAT IS PERIODOGRAM...WE CONSTRUCT PERGRAMS USING LS METHOD]
-\begin{itemize}
-	\item{} extract variability from LS
-	\item{} describe how it works and why we used LS
-	\item{} major aliasing at 1 day and 0.5 day periods
-	\item{} things that fall at at -50 (in Figure~\ref{fig:quartiles}) means that those are VERY probably variable stars
-	\item{} roughly \_\_\_\_\_ stars fell at -50 in Figure~\ref{fig:quartiles}
-	\item{} 315,992 stars tested for variability
-	\item{} other stars (outside of 315,992) are statistically unlikely to be variable
-\end{itemize}
-%-------------
+	%------------- KILL subsection and make periodgram the intro to LS
+	%\subsection{Periodogram Analysis}
+	%\section{Identifying Variable Stars Using Lomb-Scargle}
+	~[INTRO TO WHAT IS PERIODOGRAM...WE CONSTRUCT PERGRAMS USING LS METHOD]
+	\begin{itemize}
+		\item{} extract variability from LS
+		\item{} describe how it works and why we used LS
+		\item{} major aliasing at 1 day and 0.5 day periods
+		\item{} things that fall at at -50 (in Figure~\ref{fig:quartiles}) means that those are VERY probably variable stars
+		\item{} roughly \_\_\_\_\_ stars fell at -50 in Figure~\ref{fig:quartiles}
+		\item{} 315,992 stars tested for variability
+		\item{} other stars (outside of 315,992) are statistically unlikely to be variable
+	\end{itemize}
+	%-------------	
 
-\begin{itemize}
-	\item{} brief explanation of the fast LS
-	\item{} period search range to avoid aliasing
-	\item{} compute gri periods individually and compare each other. if period differences are less than 0.04 days, next step
-\end{itemize}
+	\begin{itemize}
+		\item{} brief explanation of the fast LS
+		\item{} period search range to avoid aliasing
+		\item{} compute gri periods individually and compare each other. if period differences are less than 0.04 days, next step
+	\end{itemize}
 \fi
 
 
-To extract periods from light curves, the Fast Fourier Transform (FFT) is usually used. For our data, however, FFT is not optimal due to the data gaps. To deal with the data gaps, the Fast Lomb-Scargle (FLS) periodogram analysis~\citep{Numerical} ~\citep{Gats} was used in this study because of its high computational efficiency. FLS extracts not only periods but also the significance levels of periods in the form of $\log{Pr(rnd)}$. The more negative the significance levels are, the more significant the periods are, so we can used the significance levels to statistically select periodic-variable candidates. The outputs, $\log{Pr(rnd)}$ and frequency, of FLS is shown in FIG. \ref{fig:logPr}. Since our observational period is roughly a day, there are major aliasings at the periods with integer multiple of a day. To avoid the aliasing and statistically select candidates, we masked a period range with high significance level ($\leq -12.5$) and used the masked range for the further analyses.
+To extract periods from light curves, the Fast Fourier Transform (FFT) is usually used. For our data, however, FFT is not optimal due to the data gaps. To deal with the data gaps, the Fast Lomb-Scargle (FLS) periodogram analysis~\citep{Numerical}~\citep{Gats} was used in this study because of its high computational efficiency. FLS extracts not only periods but also the significance levels of periods in the form of $\log{Pr(rnd)}$. The more negative the significance levels are, the more significant the periods are, so we can used the significance levels to statistically select periodic-variable candidates. The outputs, $\log{Pr(rnd)}$ and frequency, of FLS is shown in Figure~\ref{fig:logPr}. Since our observational period is roughly a day, there are major aliasings at the periods with integer multiple of a day. To avoid the aliasing and statistically select candidates, we masked a period range with high significance level ($\leq~-12.5$) and used the masked range for the further analyses.
 
 
 
@@ -357,7 +358,7 @@ The second criterion was $\chi^2/$ndf calculated using the Fourier Sine Series (
 \noindent where $P$ is the calculated period from FLS, $\phi_n$ is the phase, and $N$ of up to $6$ (for larger $N$, the computations were unstable; huge errors in the parameter estimations). We required the $\chi^2/$ndf be within sigma deviation of $3$, so $\chi^2/$ndf $\sim \sigma^2 < 9$. 
 
 \subsection{Fourier Sine Series amplitude}
-The third criterion was the amplitude of FSS. As mentioned before, the amplitude range of RR Lyrae stars is $0.3$ to $2.0$ mags, so we set the amplitude ranges of FSS to be $0.15$ to $2.15$ mags by taking $10\%$ photometry into account ($1.5\sigma$ limit). The four major types of RR Lyrae found by using out criteria are show in FIG. \ref{fig:Type}. The three criteria yielded $1,239$ RR Lyrae stars out of $5,658$ candidates in the masked region.
+The third criterion was the amplitude of FSS. As mentioned before, the amplitude range of RR Lyrae stars is $0.3$ to $2.0$ mags, so we set the amplitude ranges of FSS to be $0.15$ to $2.15$ mags by taking $10\%$ photometry into account ($1.5\sigma$ limit). The four major types of RR Lyrae found by using out criteria are show in Figure~\ref{fig:Type}. The three criteria yielded $1,239$ RR Lyrae stars out of $5,658$ candidates in the masked region.
 
 
 \begin{figure*}
@@ -415,7 +416,7 @@ Assuming the Gaussian statistics and Taylor expanding $\chi^2$ with respect to a
 
 \section{Distance Calculations}
 
-In order to calculate distances to RR Lyrae stars, we needed to classify RR Lyrae subtypes as shown in FIG. \ref{fig:Type}. However, there is currently only few systematic studies (calibrations) of the type classification using light curves only (mainly on types ab and c), and they are complicated in general. To avoid the complications for the moment, we used the typical absolute RR Lyrae magnitude~\citep{PSdata}, $M_r \simeq M_v = 0.6$. To estimate the amount of dust reddening, we used the total to selective extinction~\citep{Rv}, $Rv=3.1$, and the number fraction weighted average color term~\citep{EBV}, $(B-V)_0 = 0.358$, of RRab and RRc stars. The number fraction weighted average $(B-V)_0$ was calculated by using the number statistics of known RR Lyrae stars ($\simeq91\%$ of RR Lyares are type ab and $\simeq9\%$ of RR Lyraes are type c assuming that the numbers of Blazhko modulated and period doubling are negligible) as follows;
+In order to calculate distances to RR Lyrae stars, we needed to classify RR Lyrae subtypes as shown in Figure~\ref{fig:Type}. However, there is currently only few systematic studies (calibrations) of the type classification using light curves only (mainly on types ab and c), and they are complicated in general. To avoid the complications for the moment, we used the typical absolute RR Lyrae magnitude~\citep{PSdata}, $M_r \simeq M_v = 0.6$. To estimate the amount of dust reddening, we used the total to selective extinction~\citep{Rv}, $Rv=3.1$, and the number fraction weighted average color term~\citep{EBV}, $(B-V)_0 = 0.358$, of RRab and RRc stars. The number fraction weighted average $(B-V)_0$ was calculated by using the number statistics of known RR Lyrae stars ($\simeq91\%$ of RR Lyares are type ab and $\simeq9\%$ of RR Lyraes are type c assuming that the numbers of Blazhko modulated and period doubling are negligible) as follows;
 
 \begin{equation}
 \label{BV}
@@ -461,9 +462,9 @@ d = 10^{[1+(m_r - A_v - M_v)/5]} \, .
 
 \subsection{Spatial Distributions}
 
-From the calculated distances, the distance histogram of RR Lyrae stars is plotted and shown in FIG. \ref{fig:dhist}. It almost follows the Gaussian distribution, it might have been biased by the ATLAS Pathfinder telescope's sensitive magnitude range. The spatial distributions and histograms of RR Lyrae stars are shown in  FIG. \ref{fig:RRspace} and \ref{fig:blhist}, respectively. As in FIG. \ref{fig:blp} and \ref{fig:bln}, we observed less number of RR Lyrae stars for the galactic latitude, $b<0^{\circ}$. This may be because the $b<0^{\circ}$ band are lower in both RA and Dec, so it was near the horizon, and we could not observe as well as the $b>0^{\circ}$ band. Or it could be purely because of the lower number density at $b<0^{\circ}$ than that at $b>0^{\circ}$. In order to fully determine the cause, we need to observe the same region by using observatories at more south latitudes. As in FIG. \ref{fig:EBVlp} and \ref{fig:EBVln}, the color extinction is more noticeable at $b<0^{\circ}$ than at $b>0^{\circ}$, which tells that there are more sources of reddening at $b<0^{\circ}$.
+From the calculated distances, the distance histogram of RR Lyrae stars is plotted and shown in Figure~\ref{fig:dhist}. It almost follows the Gaussian distribution, it might have been biased by the ATLAS Pathfinder telescope's sensitive magnitude range. The spatial distributions and histograms of RR Lyrae stars are shown in  Figures~\ref{fig:RRspace}~and~\ref{fig:blhist}, respectively. As in Figures~\ref{fig:blp}~and~\ref{fig:bln}, we observed less number of RR Lyrae stars for the galactic latitude, $b<0^{\circ}$. This may be because the $b<0^{\circ}$ band are lower in both RA and Dec, so it was near the horizon, and we could not observe as well as the $b>0^{\circ}$ band. Or it could be purely because of the lower number density at $b<0^{\circ}$ than that at $b>0^{\circ}$. In order to fully determine the cause, we need to observe the same region by using observatories at more south latitudes. As in Figures~\ref{fig:EBVlp}~and~\ref{fig:EBVln}, the color extinction is more noticeable at $b<0^{\circ}$ than at $b>0^{\circ}$, which tells that there are more sources of reddening at $b<0^{\circ}$.
 
-\indent For the overall structure, we did not find clear spiral arm structures. As in FIG. \ref{fig:lphist} and \ref{fig:lnhist}, the galactic longitudinal distributions are patchy at both $b>0^{\circ}$ and $b<0^{\circ}$, but not conclusive enough.  As in FIG. \ref{fig:bphist} and \ref{fig:bnhist}, the galactic latitudinal distributions are almost flat at both $b>0^{\circ}$ and $b<0^{\circ}$, which shows that the RR Lyrae stars are not concentrated on the galactic plane. Since RR Lyrae stars are old~\cite{Astro} ($\simeq 10$~Gyr), they have had a lot of time to drift. No clear spiral arm from the RR Lyrae spatial distribution tells that the galactic dynamics are complicated.
+\indent For the overall structure, we did not find clear spiral arm structures. As in Figures~\ref{fig:lphist}~and~\ref{fig:lnhist}, the galactic longitudinal distributions are patchy at both $b>0^{\circ}$ and $b<0^{\circ}$, but not conclusive enough.  As in Figures~\ref{fig:bphist} and~\ref{fig:bnhist}, the galactic latitudinal distributions are almost flat at both $b>0^{\circ}$ and $b<0^{\circ}$, which shows that the RR Lyrae stars are not concentrated on the galactic plane. Since RR Lyrae stars are old~\cite{Astro} ($\simeq 10$~Gyr), they have had a lot of time to drift. No clear spiral arm from the RR Lyrae spatial distribution tells that the galactic dynamics are complicated.
 
 
 
@@ -541,28 +542,28 @@ From the calculated distances, the distance histogram of RR Lyrae stars is plott
 \end{figure*}
 
 
- 
+%\vfill\eject
 
 
 \subsection{SIMBAD completeness}
 
 In order to evaluate the completeness of our results, comparisons needed to be made to other variable star catalogs.  Simbad~\cite{simbad} provided a list of variable stars within our FOV.  Pulsating sources encompasses all variable objects.  With 48 objects overlapping our FOV, shown in Figure~\ref{fig:simoverlap}, we achieved a completeness of $98\%$.
 
-%~[possible put two light curves in as examples of objects that overlap our field]\\
-
 \begin{figure}[H]
  \centering
  %\caption{prob(f)}
  %\textbf{Simbad Completeness}\par\medskip
- 	\includegraphics[width=3.35in]{figures/simbadoverlap.png}
+ 	\includegraphics[width=2.35in]{figures/simbadoverlap.png}%\includegraphics[width=3.35in]{figures/simbadoverlap.png}
  \caption{\it \small{Observation path shown in red, with Simbad pulsators in blue and RR Lyrae in green.}}
  \label{fig:simoverlap}
 \end{figure}
 
+%~[possible put two light curves in as examples of objects that overlap our field]\\
+
 
 
 %\section{Evaluating the Pan-STARRS Variability Parameter}
-\subsection{Evaluating the HPS Variability Parameter}
+\subsection{Evaluating the HPS Variability Parameter}\label{sec:HPS}
 
 A paper, \textit{Finding, Characterizing and Classifying Variable Sources in Multi-Epoch Sky Surveys: QSOs and RR Lyrae in PS1 $3\pi$ Data}~\cite{PSdata} (HPS), quantifies the likelihood that a star is an RR Lyrae.  Using their variability statistic, $\rho_{RRLyrae}$, density and distribution of RR Lyrae and other variable candidates were determined.  Table~\ref{tab:HPSlim15} evaluates the validity of HPS's variability criteria.
 
@@ -573,32 +574,47 @@ A paper, \textit{Finding, Characterizing and Classifying Variable Sources in Mul
 	\begin{center}
 		\begin{tabular}{|c|c|c|c|c|c|c|c|}\hline
 			%HPS stat & nonvar15 & var15 \\ \hline
-HPS $\rho_{RRLyrae}$ & $HPS_{total}$ & $HPS_{matched}$ & RR Lyrae & Not RR Lyrae & Prob(RR) & Prob(notRR) \\ \hline
-0.0-0.05 & 5029 & 138 & 46 		& 92 & 0.33 & 0.67 \\ \hline
-0.05-0.1 & 124 & 25 & 12 		& 13 & 0.48 & 0.52 \\ \hline
-0.1-0.2 & 154 & 38 & 19 		& 19 & 0.50 & 0.50 \\ \hline
-0.2-0.3 & 116 & 36 & 15 		& 21 & 0.42 & 0.58 \\ \hline
-0.3-0.4 & 82 & 36 & 22 			& 14 & 0.61 & 0.39 \\ \hline
-0.4-0.5 & 85 & 34 & 20			& 14 & 0.59 & 0.41 \\ \hline
-0.5-0.6 & 90 & 41 & 22			& 19 & 0.54 & 0.46 \\ \hline
-0.6-0.7 & 89 & 47 & 28			& 19 & 0.60 & 0.40 \\ \hline
-0.7-0.8 & 64 & 39 & 28 			& 11 & 0.72 & 0.28 \\ \hline
-0.8-0.9 & 46 & 28 & 23 			& 5 & 0.82 & 0.18 \\ \hline
-0.9-1.0 & 21 & 15 & 9			& 6 & 0.60 & 0.40 \\ \hline
+HPS $\rho_{RRLyrae}$ & $HPS_{total}$ & $HPS_{matched}$ & $HPS_{completeness}$ & RR Lyrae & Not RR Lyrae & Prob(RR) & Prob(notRR) \\ \hline
+0.0-0.05 & 5029 & 138 	&	& 46 		& 92 & 0.33 & 0.67 \\ \hline
+0.05-0.1 & 124 	& 25 	&	& 12 		& 13 & 0.48 & 0.52 \\ \hline
+0.1-0.2 & 154 	& 38 	&	& 19 		& 19 & 0.50 & 0.50 \\ \hline
+0.2-0.3 & 116 	& 36 	&	& 15 		& 21 & 0.42 & 0.58 \\ \hline
+0.3-0.4 & 82 	& 36 	&	& 22 		& 14 & 0.61 & 0.39 \\ \hline
+0.4-0.5 & 85 	& 34 	&	& 20		& 14 & 0.59 & 0.41 \\ \hline
+0.5-0.6 & 90 	& 41 	&	& 22		& 19 & 0.54 & 0.46 \\ \hline
+0.6-0.7 & 89 	& 47 	&	& 28		& 19 & 0.60 & 0.40 \\ \hline
+0.7-0.8 & 64 	& 39 	&	& 28 		& 11 & 0.72 & 0.28 \\ \hline
+0.8-0.9 & 46 	& 28 	&	& 23 		& 5 & 0.82 & 0.18 \\ \hline
+0.9-1.0 & 21 	& 15 	&	& 9			& 6 & 0.60 & 0.40 \\ \hline
 \hline
-0.0-1.0 & 5900 & 477 & 244 & 233 & 0.51 & 0.49  \\ \hline
+0.0-1.0 & 5900 & 477 & & 244 & 233 & 0.51 & 0.49  \\ \hline
 		\end{tabular}
 	\end{center}
-\caption{ \small{A comparison of verified observations and HPS RR Lyrae candidates. \label{tab:HPSlim15}}}
+\caption{ \small{A comparison of verified observations and HPS RR Lyrae candidates. In this table, data is separated into various ranges of HPS's RR Lyrae variability criteria, $\rho_{RRLyrae}$.  Integer values represent the number of stars that lie within a particular range.  The three values given as decimals ($HPS_{completeness}$, Prob(RR), and Prob(notRR)) represent fractional percentages.  Calculation of each column is discussed in~\cref{sec:HPS}.\label{tab:HPSlim15}}}
 \end{table*}
+
 
 %[46, 12, 19, 15, 22, 20, 22, 28, 28, 23, 9, 0]
 %[92, 13, 19, 21, 14, 14, 19, 19, 11, 5, 6, 0]
 
-Figure~\ref{fig:probrrHPS} shows no correlation between the HPS criteria and candidates verified to be RR Lyrae stars.  Of the 1.5 Billion stars identified in our FOV, we isolated the 320,000 most variable, 
+%Figure~\ref{fig:probrrHPS} shows no correlation between the HPS criteria and candidates verified to be RR Lyrae stars.  
+Of the 1.5 Billion stars identified in our FOV, we isolated the $315,992$ most variable, 
 %using the lower quartile variance, as described in~\cref{sec:cuts}.
-as described in~\cref{sec:cuts}.  Determination of variability class for these objects in discussed in~\cref{sec:PA}.
-
+as described in~\cref{sec:cuts}.  
+A discussion on the determination of each objects variability classification is discussed in~\cref{sec:PA}.  Data acquired from external 
+variable star catalogs was immediately restricted by magnitude and FOV.  
+%To most accurately restrict obtained data, International Celestial Reference System (ICRS) coordinates were 
+To most accurately restrict obtained data, given RA and Dec values were converted to galactic coordinates.  Once converted, 
+stars residing in our observed FOV were isolated for comparison.  Due to detection limits of our instruments, the mean 
+magnitude in each bandpass was restricted ($m_{g}\leq16$, $m_{r}\leq16$, $m_{i}\leq16$).
+%~[TAPCAT DETERMINES MAG RANGE]
+Outlined in Table~\ref{tab:HPSlim15} are the results of comparing observations with HPS data.
+%Comparisons are separated into $\rho_{RRLyrae}$ ranges.  
+$HPS_{total}$ is the total number of HPS stars in our FOV, $HPS_{matched}$ is the number of objects matched to observed stars, $HPS_{completeness}$ describes the fraction of HPS data that matched to our observations.  The columns $RR Lyrae$ and $Not RR Lyrae$ describe the 
+number of observed and verified stars that matched to HPS data.  To calculate $Prob(RR)$ and $Prob(notRR)$, the number of observed stars was 
+divided by the number of HPS stars, for each $\rho_{RRLyrae}$ range.
+%Determination of variability class for these objects is discussed in~\cref{sec:PA}.
+%Table~\ref{tab:HPSlim15} breaks down the number of stars that were observed, classified, and matched to HPS.
 
 %The further a star lands from a linear fit to this plot, the higher probability it is variable.  
 %~[DESCRIBE LOWER QUARTILE METHOD]
@@ -630,7 +646,7 @@ $100\%$ purity.
 The same matching algorithm~\cite{gri} made comparing observations with other variable catalogs possible.  
 To evaluate the HPS RR Lyrae criteria, our observations were matched to stars analyzed for variability, by HPS.  
 Shown in Table~\ref{tab:HPSlim15} and Figure~\ref{fig:probrrHPS}, there is no correlation between HPS criteria and 
-verified RR Lyrae stars.  HPS claims any star with an assigned $\rho_{RRLyrae} > 0.20$, is most likely an RR Lyrae.  Furthermore, 
+verified RR Lyrae stars.  HPS claims any star with an assigned $\rho_{RRLyrae}~\geq~0.20$, is most likely an RR Lyrae.  Furthermore, 
 if $\rho_{RRLyrae} > 0.05$, the candidate is definitively an RR Lyrae.  Figure~\ref{fig:probrrHPS} shows the fractional 
 portion of observed RR Lyrae, that matched to stars that have been assigned $\rho_{RRLyrae}$, by HPS.
 There is a distinct correlation between confirmed RR Lyrae and assigned $\rho_{RRLyrae}$ values.  However, over $16\%$ of 
@@ -642,7 +658,7 @@ probability assigned, $\rho_{RRLyrae} > 0.90$.
 \begin{figure}[H]
  \centering
  	\includegraphics[width=3.35in]{figures/NEW/probnotrr_vs_HPS.png}
- \caption{\it \small{Evaluation of HPS RR Lyrae criteria, using non-RR Lyrae matched objects.}}
+ \caption{\it \small{Evaluation of HPS RR Lyrae criteria, using stars that have been matched and verified not to be RR Lyrae.}}
  \label{fig:probnotrrHPS}
 \end{figure}
 

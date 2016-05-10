@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2014)
+This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: RRLyrae_final2.aux
 The style file: apsrev.bst
@@ -11,41 +11,43 @@ Warning--string name "\apjs" is undefined
 --line 86 of file biblio.bib
 Warning--string name "\apj" is undefined
 --line 129 of file biblio.bib
+Warning--string name "ajype" is undefined
+--line 159 of file biblio.bib
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 You've used 15 entries,
             3411 wiz_defined-function locations,
-            1254 strings with 12651 characters,
-and the built_in function-call counts, 11104 in all, are:
-= -- 564
+            1252 strings with 12639 characters,
+and the built_in function-call counts, 11076 in all, are:
+= -- 561
 > -- 462
 < -- 70
 + -- 396
 - -- 114
-* -- 1542
-:= -- 1171
+* -- 1536
+:= -- 1167
 add.period$ -- 15
 call.type$ -- 15
 change.case$ -- 66
 chr.to.int$ -- 24
 cite$ -- 15
-duplicate$ -- 1008
-empty$ -- 907
+duplicate$ -- 1005
+empty$ -- 905
 format.name$ -- 273
-if$ -- 2042
+if$ -- 2036
 int.to.chr$ -- 1
 int.to.str$ -- 16
-missing$ -- 153
+missing$ -- 152
 newline$ -- 60
 num.names$ -- 45
-pop$ -- 254
+pop$ -- 256
 preamble$ -- 1
 purify$ -- 60
 quote$ -- 0
 skip$ -- 436
 stack$ -- 0
 substring$ -- 231
-swap$ -- 819
+swap$ -- 815
 text.length$ -- 57
 text.prefix$ -- 0
 top$ -- 0
@@ -53,5 +55,5 @@ type$ -- 84
 warning$ -- 0
 while$ -- 39
 width$ -- 0
-write$ -- 164
-(There were 3 warnings)
+write$ -- 163
+(There were 4 warnings)

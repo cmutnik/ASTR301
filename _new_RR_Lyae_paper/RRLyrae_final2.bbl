@@ -74,10 +74,10 @@
   (\bibinfo{publisher}{Cambridge: Cambridge University Press},
   \bibinfo{year}{2007}), \bibinfo{edition}{3rd} ed.
 
-\bibitem[{\citenamefont{{VanderPlas} and {Ive{\acute}}}(2015)}]{Gats}
+\bibitem[{\citenamefont{{VanderPlas} and {Iveacute}}(2015)}]{Gats}
 \bibinfo{author}{\bibfnamefont{J.~T.} \bibnamefont{{VanderPlas}}}
   \bibnamefont{and} \bibinfo{author}{\bibfnamefont{{\v
-  Z}.}~\bibnamefont{{Ive{\acute}}}}, \textbf{\bibinfo{volume}{812}},
+  Z}.}~\bibnamefont{{Iveacute}}}, \textbf{\bibinfo{volume}{812}},
   \bibinfo{eid}{18} (\bibinfo{year}{2015}), \eprint{1502.01344}.
 
 \bibitem[{\citenamefont{{Hernitschek} et~al.}(2016)\citenamefont{{Hernitschek},
@@ -104,8 +104,7 @@
 
 \bibitem[{\citenamefont{{Nemec}}(2004)}]{EBV}
 \bibinfo{author}{\bibfnamefont{J.~M.} \bibnamefont{{Nemec}}},
-  \bibinfo{journal}{\ajype} \textbf{\bibinfo{volume}{127}},
-  \bibinfo{pages}{2185} (\bibinfo{year}{2004}).
+  \textbf{\bibinfo{volume}{127}}, \bibinfo{pages}{2185} (\bibinfo{year}{2004}).
 
 \bibitem[{\citenamefont{{Carroll} and {Ostlie}}(2007)}]{Modern}
 \bibinfo{author}{\bibfnamefont{B.~W.} \bibnamefont{{Carroll}}}
@@ -122,7 +121,7 @@
   \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{{Doi}}},
   \bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{{Shimasaku}}},
   \bibnamefont{and} \bibinfo{author}{\bibfnamefont{D.~P.}
-  \bibnamefont{{Schneider}}}, \bibinfo{journal}{\aj}
+  \bibnamefont{{Schneider}}}, \bibinfo{journal}{Astron. J.}
   \textbf{\bibinfo{volume}{111}}, \bibinfo{pages}{1748} (\bibinfo{year}{1996}).
 
 \bibitem[{\citenamefont{{Wenger} et~al.}(2000)\citenamefont{{Wenger},

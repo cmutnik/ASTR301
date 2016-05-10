@@ -114,12 +114,10 @@ INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
 INPUT /usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
 OUTPUT RRLyrae_final2.pdf
 INPUT /usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map
-INPUT figures/NEW/scatter_gfilt_57452_57455.png
-INPUT ./figures/NEW/scatter_gfilt_57452_57455.png
-INPUT ./figures/NEW/scatter_gfilt_57452_57455.png
+INPUT figures/grpvar.png
+INPUT ./figures/grpvar.png
+INPUT ./figures/grpvar.png
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmbx7.tfm
 INPUT figures/LC/star7_97_98_0_1.png
 INPUT ./figures/LC/star7_97_98_0_1.png
 INPUT ./figures/LC/star7_97_98_0_1.png
@@ -172,6 +170,7 @@ INPUT ./figures/PlotsSpace15/bnhist_limit15.png
 INPUT figures/simbadoverlap.png
 INPUT ./figures/simbadoverlap.png
 INPUT ./figures/simbadoverlap.png
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT figures/NEW/probrr_vs_HPS.png
 INPUT ./figures/NEW/probrr_vs_HPS.png
 INPUT ./figures/NEW/probrr_vs_HPS.png
@@ -185,7 +184,6 @@ INPUT /usr/local/texlive/2015/texmf-dist/fonts/tfm/public/cm/cmtt9.tfm
 INPUT RRLyrae_final2.aux
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
@@ -204,3 +202,4 @@ INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pf
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb
 INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb
+INPUT /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb
