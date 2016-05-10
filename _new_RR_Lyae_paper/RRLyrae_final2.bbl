@@ -16,8 +16,8 @@
 \bibinfo{author}{\bibfnamefont{J.~L.} \bibnamefont{Tonry}},
   \bibinfo{howpublished}{personal communication} (\bibinfo{year}{2016}).
 
-\bibitem[{\citenamefont{impact Last Alert~System}(2016)}]{fallingstar}
-\bibinfo{author}{\bibfnamefont{A.~T.} \bibnamefont{impact Last Alert~System}},
+\bibitem[{fal(2016)}]{fallingstar}
+\emph{\bibinfo{title}{Asteroid terrestrial-impact last alert system}},
   \bibinfo{howpublished}{http://fallingstar.com/specifications.php}
   (\bibinfo{year}{2016}).
 
@@ -52,9 +52,8 @@
   (\bibinfo{publisher}{San Francisco: Addison-Wesley}, \bibinfo{year}{2010}),
   \bibinfo{edition}{1st} ed.
 
-\bibitem[{\citenamefont{of~Varaible Star~Observars}(2012)}]{AAVSO}
-\bibinfo{author}{\bibfnamefont{A.~A.} \bibnamefont{of~Varaible
-  Star~Observars}},
+\bibitem[{AAV(2012)}]{AAVSO}
+\emph{\bibinfo{title}{American association of varaible star observars}},
   \bibinfo{howpublished}{https://www.aavso.org/types-variables}
   (\bibinfo{year}{2012}).
 
