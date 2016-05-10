@@ -51,7 +51,7 @@
 
 
 
-\title{Evaluating the Pan-STARRS Variability Parameter}
+\title{Unbiased Wide Range Survey for RR Lyraes}
 
 
 %\input author_list.tex
@@ -98,6 +98,11 @@ LS analysis on ATLAS Pathfinder Telescope data, verified PS variability criteria
 	\item{} Mention what will be discussed: ``in section 2 we describe the observations we used...''
 \end{itemize}
 
+Initially, determination of variability was going to be achieved using data collected by the $gri Project$~\cite{gri}.  %The $gri Project$ is [EXPLAIN]...\\
+In order to reduce aliasing, extra observations needed to be made.  Observation procedures are discussed in~\cref{sec:data}.
+%~[PATHFINDER USED FOR GRI DATA...the reduction process is discussed at length Tonry in...cite]\\
+We received the reduced image data from the ATLAS pipeline~\cite{gri}.
+%\cite{PSimgpipe,*tonrypipe}
 
 
 \section{ATLAS Pathfinder Observations}
@@ -127,11 +132,6 @@ To calculate an appropriate sampling frequency and SNR, typical RR Lyrae light c
 
 %~[VERIFY CORRECT CITATIONS:\\% $http://rsta.royalsocietypublishing.org/content/371/1992/20120269$]\\
 %In determining the variability of stars in our FOV, data from the $gri Project$~\cite{gri} was used.\\
-Initially, determination of variability was going to be achieved using data collected by the $gri Project$~\cite{gri}.  %The $gri Project$ is [EXPLAIN]...\\
-In order to reduce aliasing, extra observations needed to be made.  Observation procedures are discussed in~\cref{sec:data}.
-%~[PATHFINDER USED FOR GRI DATA...the reduction process is discussed at length Tonry in...cite]\\
-We received the reduced image data from the ATLAS pipeline~\cite{gri}.
-%\cite{PSimgpipe,*tonrypipe}
 
 
 
@@ -163,19 +163,21 @@ We received the reduced image data from the ATLAS pipeline~\cite{gri}.
 	\end{itemize}
 \fi
 
-~[NEED TO CITE TONRY FOR OUR OBSERVATIONS]\\
-~[MENTION THAT OUR OBS NECESSARY TO REDUCE ALIASING]\\
 
-Using the Pathfinder telescope, observations were made at two galactic latitudes ($b^{II}=\pm5^{\circ}$) and spanned a range of galactic longitudes ($202^{\circ} < l^{II} < 232^{\circ}$).  Observations discussed here indicated the center of each FOV.  
-Exposures were collected for 20~s and separated by $3^{\circ}$ longitudinally.  For implementation by the Pathfinder telescope, a conversion to RA and Dec was made; giving a range of $93 < RA < 119^{\circ}$ and $-20^{\circ} < Dec < 13^{\circ}$, as shown by Figure~\ref{fig:simoverlap}.  To account for the 0.05~$^{\circ}$ gap between the detectors, a 0.1~$^{\circ}$ offset in RA was implemented on every other night.  
+%~[NEED TO CITE TONRY FOR OUR OBSERVATIONS]\\
+%~[MENTION THAT OUR OBS NECESSARY TO REDUCE ALIASING]\\
+
+
+Using the Pathfinder telescope, observations were made at two galactic latitudes ($b=\pm5^{\circ}$) and spanned a range of galactic longitudes ($202^{\circ} < l < 232^{\circ}$).  Observations discussed here indicated the center of each FOV.  
+Exposures were collected for 20~s and separated by $3^{\circ}$ longitudinally.  For implementation by the Pathfinder telescope, a conversion to RA and Dec was made; giving a range of roughly $90 < RA < 120^{\circ}$ and $-23^{\circ} < Dec < 18^{\circ}$, as shown by Figure~\ref{fig:simoverlap}.  To account for the 0.05~$^{\circ}$ gap between the detectors, a 0.1~$^{\circ}$ offset in RA was implemented on every other night.  
 %Ten observations per night were collected for 20 nights, spanning 3/8/16-3/27/16.
 %Observations were collected between 3/8/16-3/27/16.  During this 20 day period, we collected 10 observations per night.  
-Spanning 20 nights, 10 observations a night were collected on 3/8/16-3/27/16.  Luckily, all of these nights had weather perfectly attuned for observations.  Half a night of observations were lost on 3/19/26, due to a crash of the server controlling the telescope.
+Spanning 20 nights (including 5 additional nights to the lower limit sampling duration of 15 nights), 10 observations a night were collected on 3/8/16-3/27/16.  Luckily, all of these nights had weather perfectly attuned for observations.  Half a night of observations were lost on 3/19/26, due to a crash of the server controlling the telescope.
 
 
 %0.1 deg offset in RA, accounts for 0.05 deg gap between the two detectors.
 %~\\~[dRA = dangle / cos(Dec)]
-Observations were traced out by moving the FOV by $3^{\circ}$ longitudinally, starting at $b^{II}=-5^{\circ}$, $l^{II}=202^{\circ}$ and ending at $b^{II}=-5^{\circ}$, $l^{II}=232^{\circ}$.  Once observations at $b^{II}=-5^{\circ}$ were complete, the FOV was shifted to $b^{II}=+5^{\circ}$, $l^{II}=232^{\circ}$.
+Observations were traced out by moving the FOV by $3^{\circ}$ longitudinally, starting at $b=-5^{\circ}$, $l=202^{\circ}$ and ending at $b=-5^{\circ}$, $l=232^{\circ}$.  Once observations at $b=-5^{\circ}$ were complete, the FOV was shifted to $b=+5^{\circ}$, $l=232^{\circ}$. Then observations were collected in steps of $3^{\circ}$, longitudinally, until $l = 202 ^{\circ}$. 
 %Observations were traced out by taking the first exposure at $b^{II}=-5^{\circ}$ and $l^{II}=202^{\circ}$, moving the FOV longitudinally by $3^{\circ}$
 %Starting at $b^{II}=-5^{\circ}$ and $l^{II}=202^{\circ}$, exposures were collected for 20~s
 %Observations were made by starting at $b^{II}=-5^{\circ}$ and $l^{II}=202^{\circ}$, moving the ...Each exposure was collected for 20
@@ -197,8 +199,9 @@ Observations were traced out by moving the FOV by $3^{\circ}$ longitudinally, st
 
 \subsection{Object Cuts}\label{sec:cuts}
 
-Various data points, reduced by the ATLAS pipeline~\cite{gri}, were returned with magnitude errors of zero.  Such 
-values were not used determining variability of the source.  In order for an identified star to be considered for 
+Any stellar magnitudes that returned with zero error, after being reduced by the ATLAS pipeline~\cite{gri}, we not used in variability determination.  
+%Various data points, reduced by the ATLAS pipeline~\cite{gri}, were returned with magnitude errors of zero.  Such values were not used determining variability of the source.  
+In order for an identified star to be considered for 
 variability testing, we required a minimum of 12 ``good'' observations.  A ``good'' detection is meets the minimum 
 PSF, does not fall on the edge of each $1~deg^{2}$ FOV, and was observed with clear skies.  A minimum of 12 
 observations was deemed necessary, in order to eliminate aliasing, as discussed in~\cref{sec:PA}.  After observation 
@@ -207,19 +210,18 @@ cuts were applied, 1.5 Billion stars remained in our FOV.
 
 \begin{figure}[H]
  \centering
- 	\includegraphics[width=3.35in]{figures/NEW/scatter_gfilt_57452_57455.png}
+ 	\includegraphics[width=3.2in]{figures/grpvar.png}
  \caption{\it \small{Lower quartile variance as a function of magnitude.}}
- \label{fig:probrrHPS}
+ \label{fig:quart}
 \end{figure}
   In order to exploit the lower quartile variance, shown in Figure~\ref{fig:quart}, a factor of $0.2m$ was added to account for Poisson error.  
 The higher a star deviates from the average value, the more likely it is variable.  This flagged 320,000, of the observed 1.5 Billion, for 
 further variability verification.
 
 
-As a result of running FLS, the most variable candidates fell below $logPr(rnd)\leq-45$, shown in Figure~\ref{fig:logPr}.  An in depth discussion how $logPr(rnd)$ works can be found in \textit{Numerical Recipes}~\cite{logPr, Numerical}.  Using $logPr(rnd)$ made it impossible 
-to miss any variable star with $0.05~\leq~Period~\leq~1.2$~\cite{AAVSO}.  It is statistically improbable that any observed variable star wasn't flagged.  If any variable stars were not identified, they must have lower period variations and are therefore not classified as RR Lyrae.
-
-
+As a result of running FLS, the most variable candidates fell below $logPr(rnd)\leq-45$, shown in Figure ~\ref{fig:logPr}.
+An in depth discussion how $logPr(rnd)$ works can be found in \textit{Numerical Recipes}~\cite{logPr, Numerical}.  Using $logPr(rnd)$ made it impossible 
+to miss any variable star with $0.05~\leq~Period~\leq~1.2$ ~\cite{AAVSO}.  It is statistically improbable that any observed variable star wasn't flagged.  If any variable stars were not identified, they must have lower period variations and are therefore not classified as RR Lyrae.
 
 
 \iffalse
@@ -560,7 +562,7 @@ In order to evaluate the completeness of our results, comparisons needed to be m
 
 
 %\section{Evaluating the Pan-STARRS Variability Parameter}
-\section{Evaluating the HPS Variability Parameter}
+\subsection{Evaluating the HPS Variability Parameter}
 
 A paper, \textit{Finding, Characterizing and Classifying Variable Sources in Multi-Epoch Sky Surveys: QSOs and RR Lyrae in PS1 $3\pi$ Data}~\cite{PSdata} (HPS), quantifies the likelihood that a star is an RR Lyrae.  Using their variability statistic, $\rho_{RRLyrae}$, density and distribution of RR Lyrae and other variable candidates were determined.  Table~\ref{tab:HPSlim15} evaluates the validity of HPS's variability criteria.
 
@@ -572,19 +574,19 @@ A paper, \textit{Finding, Characterizing and Classifying Variable Sources in Mul
 		\begin{tabular}{|c|c|c|c|c|c|c|c|}\hline
 			%HPS stat & nonvar15 & var15 \\ \hline
 HPS $\rho_{RRLyrae}$ & $HPS_{total}$ & $HPS_{matched}$ & RR Lyrae & Not RR Lyrae & Prob(RR) & Prob(notRR) \\ \hline
-0.0-0.05 & 5029 & 138 & 46 		& 92 & 0.33 & -- \\ \hline
-0.05-0.1 & 124 & 25 & 12 		& 13 & 0.48 & -- \\ \hline
-0.1-0.2 & 154 & 38 & 19 		& 19 & 0.50 & -- \\ \hline
-0.2-0.3 & 116 & 36 & 15 		& 21 & 0.42 & -- \\ \hline
-0.3-0.4 & 82 & 36 & 22 			& 14 & 0.61 & -- \\ \hline
-0.4-0.5 & 85 & 34 & 20			& 14 & 0.59 & -- \\ \hline
-0.5-0.6 & 90 & 41 & 22			& 19 & 0.54 & -- \\ \hline
-0.6-0.7 & 89 & 47 & 28			& 19 & 0.60 & -- \\ \hline
-0.7-0.8 & 64 & 39 & 28 			& 11 & 0.72 & -- \\ \hline
-0.8-0.9 & 46 & 28 & 23 			& 5 & 0.82 & -- \\ \hline
-0.9-1.0 & 21 & 15 & 9			& 6 & 0.60 & -- \\ \hline
+0.0-0.05 & 5029 & 138 & 46 		& 92 & 0.33 & 0.67 \\ \hline
+0.05-0.1 & 124 & 25 & 12 		& 13 & 0.48 & 0.52 \\ \hline
+0.1-0.2 & 154 & 38 & 19 		& 19 & 0.50 & 0.50 \\ \hline
+0.2-0.3 & 116 & 36 & 15 		& 21 & 0.42 & 0.58 \\ \hline
+0.3-0.4 & 82 & 36 & 22 			& 14 & 0.61 & 0.39 \\ \hline
+0.4-0.5 & 85 & 34 & 20			& 14 & 0.59 & 0.41 \\ \hline
+0.5-0.6 & 90 & 41 & 22			& 19 & 0.54 & 0.46 \\ \hline
+0.6-0.7 & 89 & 47 & 28			& 19 & 0.60 & 0.40 \\ \hline
+0.7-0.8 & 64 & 39 & 28 			& 11 & 0.72 & 0.28 \\ \hline
+0.8-0.9 & 46 & 28 & 23 			& 5 & 0.82 & 0.18 \\ \hline
+0.9-1.0 & 21 & 15 & 9			& 6 & 0.60 & 0.40 \\ \hline
 \hline
-0.0-1.0 & 5900 & 477 & 244 & 233 & 0.51 & -- \\ \hline
+0.0-1.0 & 5900 & 477 & 244 & 233 & 0.51 & 0.49  \\ \hline
 		\end{tabular}
 	\end{center}
 \caption{ \small{A comparison of verified observations and HPS RR Lyrae candidates. \label{tab:HPSlim15}}}
