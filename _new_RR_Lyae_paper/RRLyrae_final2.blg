@@ -1,9 +1,9 @@
 This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: RRLyrae_final.aux
+The top-level auxiliary file: RRLyrae_final2.aux
 The style file: apsrev.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Database file #1: RRLyrae_finalNotes.bib
+Database file #1: RRLyrae_final2Notes.bib
 Database file #2: biblio.bib
 Warning--string name "\mnras" is undefined
 --line 69 of file biblio.bib
@@ -15,7 +15,7 @@ Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 You've used 16 entries,
             3411 wiz_defined-function locations,
-            1261 strings with 13030 characters,
+            1261 strings with 13033 characters,
 and the built_in function-call counts, 12446 in all, are:
 = -- 616
 > -- 540
