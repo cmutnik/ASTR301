@@ -103,7 +103,7 @@ LS analysis on ATLAS Pathfinder Telescope data, verified PS variability criteria
 \section{ATLAS Pathfinder Observations}
 
 
-We used the $0.18$~m Asteroid Terrestrial-impact Last Alert System (ATLAS) Pathfinder telescope~\citep{fallingstar} at the Mauna Loa. The field of view (FOV) of the telescope is $5.2^{\circ}$ with the angular resolution (effective PSF FWHM) of $5$". Thanks to its wide FOV, it is suitable for our project, wide field study. The spatial resolution, however, is not great. For this reason, we chose our field to be slightly off the galactic plane. 
+We used the $0.18$~m Asteroid Terrestrial-impact Last Alert System (ATLAS) Pathfinder telescope~\citep{fallingstar} at the Mauna Loa. The field of view (FOV) of the telescope is $5.2^{\circ}$ with the angular resolution (effective PSF FWHM) of $5$". Thanks to its wide FOV, it is suitable for our project, wide field study. The spatial resolution, however, is not great. For this reason, we chose our field to be slightly off the galactic plane.
 
 
 
@@ -402,6 +402,8 @@ Assuming the Gaussian statistics and Taylor expanding $\chi^2$ with respect to a
 \delta P = \frac{d}{d\omega} \left(\frac{2\pi}{\omega} \right) = \frac{2\pi}{\omega^2} \delta \omega \, .
 \end{equation}
 
+\indent The mean period uncertainty of $1,239$ RR Lyrae stars was calculated to be $\simeq 0.15 \%$, which shows the our SNR calculations for period uncertainty were underestimated; we can use a lower sampling frequency.
+
 
 \section{Distance Calculations}
 
@@ -433,9 +435,11 @@ A_v = R_v E(B-V) \,
 d = 10^{[1+(m_r - A_v - M_v)/5]} \, .
 \end{equation}
 
-\noindent To convert the gri magnitudes to the Johnson magnitudes, the conversions given by the Sloan Digital Sky Survey (SDSS)~\cite{SDSS} were used.
+\noindent To convert the gri magnitudes to the Johnson magnitudes, the conversions given by the Sloan Digital Sky Survey (SDSS)~\cite{SDSS} were used. The error in the distance calculations were calculated by propagating errors assuming no covariance. The mean uncertainty in the distance was calculated to be $\simeq 20 \%$, which disagrees with our SNR calculations for distance since we used the PL relation with a typical Z and did not take into account for the errors in the filter conversions and reddening. For better SNR calculations for distance, we need to consider better PL relations and the errors in the filter conversion and reddening.  
 
-\section{Results}
+
+
+\section{Results and Discussions}
 \begin{itemize}
 	\item{} compare with PS~\cite{PSdata}
 	\item{} density/distribution of variables in sky
@@ -448,7 +452,12 @@ d = 10^{[1+(m_r - A_v - M_v)/5]} \, .
 
 \subsection{Spatial Distributions}
 
-From the calculated distances, the distance histogram of RR Lyrae stars is plotted and shown in FIG. \ref{fig:dhist}. It almost follows the Gaussian distribution. The spatial distributions and histograms of RR Lyrae stars are shown in  FIG. \ref{fig:RRspace} and \ref{fig:blhist}, respectively. As in FIG. \ref{fig:RRspace}, 
+From the calculated distances, the distance histogram of RR Lyrae stars is plotted and shown in FIG. \ref{fig:dhist}. It almost follows the Gaussian distribution, it might have been biased by the ATLAS Pathfinder telescope's sensitive magnitude range. The spatial distributions and histograms of RR Lyrae stars are shown in  FIG. \ref{fig:RRspace} and \ref{fig:blhist}, respectively. As in FIG. \ref{fig:blp} and \ref{fig:bln}, we observed less number of RR Lyrae stars for the galactic latitude, $b<0^{\circ}$. This may be because the $b<0^{\circ}$ band are lower in both RA and Dec, so it was near the horizon, and we could not observe as well as the $b>0^{\circ}$ band. Or it could be purely because of the lower number density at $b<0^{\circ}$ than that at $b>0^{\circ}$. In order to fully determine the cause, we need to observe the same region by using observatories at more south latitudes. As in FIG. \ref{fig:EBVlp} and \ref{fig:EBVln}, the color extinction is more noticeable at $b<0^{\circ}$ than at $b>0^{\circ}$, which tells that there are more sources of reddening at $b<0^{\circ}$.
+
+\indent For the overall structure, we did not find clear spiral arm structures. As in FIG. \ref{fig:lphist} and \ref{fig:lnhist}, the galactic longitudinal distributions are patchy at both $b>0^{\circ}$ and $b<0^{\circ}$, but not conclusive enough.  As in FIG. \ref{fig:bphist} and \ref{fig:bnhist}, the galactic latitudinal distributions are almost flat at both $b>0^{\circ}$ and $b<0^{\circ}$, which shows that the RR Lyrae stars are not concentrated on the galactic plane. Since RR Lyrae stars are old~\cite{Astro} ($\simeq 10$~Gyr), they have had a lot of time to drift. No clear spiral arm from the RR Lyrae spatial distribution tells that the galactic dynamics are complicated.
+
+
+
 
 \begin{figure}[H]
  \centering
@@ -497,13 +506,13 @@ From the calculated distances, the distance histogram of RR Lyrae stars is plott
 	  \centering
 	  \includegraphics[width=3.35in]{figures/PlotsSpace15/lphist_limit15.png}
 		\caption{\it \small{Galactic longitudinal histogram for $2.5 < b < 7.5$}}
-		\label{fig:bphist}
+		\label{fig:lphist}
 	\end{subfigure}%
 	\begin{subfigure}{.5\textwidth}
 	  \centering
 			\includegraphics[width=3.35in]{figures/PlotsSpace15/lnhist_limit15.png}
 		\caption{\it \small{Galactic longitudinal histogram for $-7.5 < b < -2.5$ }}
-		\label{fig:bnhist}
+		\label{fig:lnhist}
 	\end{subfigure}%
 	
 	\begin{subfigure}{.5\textwidth}
@@ -522,14 +531,27 @@ From the calculated distances, the distance histogram of RR Lyrae stars is plott
 	\label{fig:blhist}
 \end{figure*}
 
+
  
 
 
+\subsection{SIMBAD completeness}
 
+In order to evaluate the completeness of our results, comparisons needed to be made to other variable star catalogs.  Simbad~\cite{simbad} provided a list of variable stars within our FOV.  Pulsating sources encompasses all variable objects.  With 48 objects overlapping our FOV, shown in Figure~\ref{fig:simoverlap}, we achieved a completeness of $98\%$.
 
+~[possible put two light curves in as examples of objects that overlap our field]\\
+
+\begin{figure}[H]
+ \centering
+ %\caption{prob(f)}
+ %\textbf{Simbad Completeness}\par\medskip
+ 	\includegraphics[width=3.35in]{figures/simbadoverlap.png}
+ \caption{\it \small{Observation path shown in red, with Simbad pulsators in blue and RR Lyrae in green.}}
+ \label{fig:simoverlap}
+\end{figure}
 
 %\section{Evaluating the Pan-STARRS Variability Parameter}
-\section{Evaluating the HPS Variability Parameter}
+\subsection{Evaluating the HPS Variability Parameter}
 \begin{itemize}
 %	\item{} compare with HPS~\cite{PSdata}
 %	\item{} density/distribution of variables in sky
@@ -611,34 +633,6 @@ verified RR Lyrae stars.
 
 
 
-
-
-
-\section{Discussion}
-\iffalse
-\begin{itemize}
-	\item{} Evaluation of PS criteria
-	\item{} what went wrong
-	\item{} what could have gone better
-	\item{} future outlook
-	\item{}~~~we could map spiral arms using x y and z
-\end{itemize}
-\fi
-
-In order to evaluate the completeness of our results, comparisons needed to be made to other variable star catalogs.  Simbad~\cite{simbad} provided a list of variable stars within our FOV.  Pulsating sources encompasses all variable objects.  With 48 objects overlapping our FOV, shown in Figure~\ref{fig:simoverlap}, we achieved a completeness of $98\%$.
-
-~[possible put two light curves in as examples of objects that overlap our field]\\
-
-\begin{figure}[H]
- \centering
- %\caption{prob(f)}
- %\textbf{Simbad Completeness}\par\medskip
- 	\includegraphics[width=3.35in]{figures/simbadoverlap.png}
- \caption{\it \small{Observation path shown in red, with Simbad pulsators in blue and RR Lyrae in green.}}
- \label{fig:simoverlap}
-\end{figure}
-
-
 %\begin{figure}[h!]
 %	\centering
 %	\begin{subfigure}{.5\textwidth}
@@ -658,8 +652,14 @@ In order to evaluate the completeness of our results, comparisons needed to be m
 %\end{figure}	
 
 
-\section{Summary and Conclusions}
-~[TALK ABOUT IT]
+\section{Conclusions and Future Opportunities}
+
+
+
+
+
+
+
 
 
 %\section{Resources from website (remove this section)}
