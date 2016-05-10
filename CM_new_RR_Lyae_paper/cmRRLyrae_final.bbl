@@ -1,4 +1,4 @@
-\begin{thebibliography}{5}
+\begin{thebibliography}{6}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname bibnamefont\endcsname\relax
   \def\bibnamefont#1{#1}\fi
@@ -11,6 +11,23 @@
 \expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
 \providecommand{\bibinfo}[2]{#2}
 \providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{\citenamefont{{Moln{\'a}r} et~al.}(2015)\citenamefont{{Moln{\'a}r},
+  {Szab{\'o}}, {Moskalik}, {Nemec}, {Guggenberger}, {Smolec}, {Poleski},
+  {Plachy}, {Kolenberg}, and {Koll{\'a}th}}}]{RRLyrae}
+\bibinfo{author}{\bibfnamefont{L.}~\bibnamefont{{Moln{\'a}r}}},
+  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{{Szab{\'o}}}},
+  \bibinfo{author}{\bibfnamefont{P.~A.} \bibnamefont{{Moskalik}}},
+  \bibinfo{author}{\bibfnamefont{J.~M.} \bibnamefont{{Nemec}}},
+  \bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{{Guggenberger}}},
+  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{{Smolec}}},
+  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{{Poleski}}},
+  \bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{{Plachy}}},
+  \bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{{Kolenberg}}},
+  \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{Z.}~\bibnamefont{{Koll{\'a}th}}},
+  \textbf{\bibinfo{volume}{452}}, \bibinfo{pages}{4283} (\bibinfo{year}{2015}),
+  \eprint{1507.04714}.
 
 \bibitem[{\citenamefont{Tonry}(2016)}]{gri}
 \bibinfo{author}{\bibfnamefont{J.~L.} \bibnamefont{Tonry}},

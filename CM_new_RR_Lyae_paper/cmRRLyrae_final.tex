@@ -73,7 +73,7 @@ University of Hawaii at Manoa}
 
 remake prob(f) plot with all 300,000 stars (not only 80,000)\\
 
-LS analysis on ATLAS Pathfinder Telescope data, verified PS variability criteria
+FLS analysis on ATLAS Pathfinder Telescope data, verified PS variability criteria
 \end{abstract}
 
 \maketitle    
@@ -82,7 +82,7 @@ LS analysis on ATLAS Pathfinder Telescope data, verified PS variability criteria
 
 
 \section{Introduction}
-
+Hello DH~\cite{RRLyrae}
 \begin{itemize}
 	\item{} why we care
 	\item{} what made us care about this project
@@ -91,7 +91,7 @@ LS analysis on ATLAS Pathfinder Telescope data, verified PS variability criteria
 	\item{} variability surveys (discuss other attempts to measure variables across the sky)
 	\item{} why are variables interesting
 	\item{} why do we want to find variables and care about where they are located
-	\item{} Summary: we ran LS, analyzed stars, why did we do it all
+	\item{} Summary: we ran FLS, analyzed stars, why did we do it all
 	\item{} Mention what will be discussed: ``in section 2 we describe the observations we used...''
 \end{itemize}
 
@@ -115,11 +115,11 @@ LS analysis on ATLAS Pathfinder Telescope data, verified PS variability criteria
 Initially, determination of variability was going to be achieved using data collected by the $gri Project$~\cite{gri}.  The $gri Project$ is [EXPLAIN]...\\
 In order to reduce aliasing, extra observations needed to be made.  Observation procedures are discussed in~\cref{sec:data}.
 ~[PATHFINDER USED FOR GRI DATA...the reduction process is discussed at length Tonry in...cite]\\
-We received the reduced image data from the ATLAS pipeline~\cite{PSpipe}~\cite{tonrypipe}
+We received the reduced image data from the ATLAS pipeline~\cite{gri}~\cite{tonrypipe}
 %\cite{PSimgpipe,*tonrypipe}
 
 
-\subsection{Data}\label{sec:data}
+\subsection{Data Collection}\label{sec:data}
 %\begin{itemize}
 %	\item{} how we got mags out of data...
 %	\item{} $l^{II}=202^{\circ}$
@@ -138,28 +138,22 @@ We received the reduced image data from the ATLAS pipeline~\cite{PSpipe}~\cite{t
 	 \item{} $--$ log(average(upper quartile)) - log(average(lower quartile))
 	 \item{} $--$ expect variation to go at .2* mag (from sqrt noise)...so subtract .2mag to get the logritmic statistic
 	 \item{} sorted biggest (most variable?) to smallest (least variable?)
-	 \item{} ran LS on 80,000 most variable stars, rather than full star groupings (over 1million)
+%	 \item{} ran FLS on 80,000 most variable stars, rather than full star groupings (over 1million)
 	\end{itemize}
 \fi
 
-
-
-Is it $b^{II}=+5^{\circ}$ or $b=+5^{\circ}$??\\
-~[NEED TO DEFINE FOV]\\
-~[VERIFY RA DEC RANGE (NOT WHAT WAS PUT INTO SIMBAD)]\\
 ~[NEED TO CITE TONRY FOR OUR OBSERVATIONS]\\
 ~[MENTION THAT OUR OBS NECESSARY TO REDUCE ALIASING]\\
 
-Using the Pathfinder telescope, observations were made at two galactic latitudes ($b^{II}=\pm5^{\circ}$) and spanned a range of galactic longitudes ($202^{\circ} < l^{II} < 232^{\circ}$).  
+Using the Pathfinder telescope, observations were made at two galactic latitudes ($b^{II}=\pm5^{\circ}$) and spanned a range of galactic longitudes ($202^{\circ} < l^{II} < 232^{\circ}$).  Observations discussed here indicated the center of each FOV.  
 Exposures were collected for 20~s and separated by $3^{\circ}$ longitudinally.  For implementation by the Pathfinder telescope, a conversion to RA and Dec was made; giving a range of $93 < RA < 119^{\circ}$ and $-20^{\circ} < Dec < 13^{\circ}$, as shown by Figure~\ref{fig:simoverlap}.  To account for the 0.05~$^{\circ}$ gap between the detectors, a 0.1~$^{\circ}$ offset in RA was implemented on every other night.  
 %Ten observations per night were collected for 20 nights, spanning 3/8/16-3/27/16.
 %Observations were collected between 3/8/16-3/27/16.  During this 20 day period, we collected 10 observations per night.  
-Spanning 20 nights, 10 observations a night were collected on 3/8/16-3/27/16.  Luckily all of these nights had weather perfectly attuned for observations.  Half a night of observations were lost on 3/19/26, due to a crash of the server controlling the telescope.
+Spanning 20 nights, 10 observations a night were collected on 3/8/16-3/27/16.  Luckily, all of these nights had weather perfectly attuned for observations.  Half a night of observations were lost on 3/19/26, due to a crash of the server controlling the telescope.
 
 
 %0.1 deg offset in RA, accounts for 0.05 deg gap between the two detectors.
-~\\~[dRA = dangle / cos(Dec)]
-~\\~[EXPLAINS EXACT OBSERVATIONAL PLAN...NECESSARY?]\\
+%~\\~[dRA = dangle / cos(Dec)]
 Observations were traced out by moving the FOV by $3^{\circ}$ longitudinally, starting at $b^{II}=-5^{\circ}$, $l^{II}=202^{\circ}$ and ending at $b^{II}=-5^{\circ}$, $l^{II}=232^{\circ}$.  Once observations at $b^{II}=-5^{\circ}$ were complete, the FOV was shifted to $b^{II}=+5^{\circ}$, $l^{II}=232^{\circ}$.
 %Observations were traced out by taking the first exposure at $b^{II}=-5^{\circ}$ and $l^{II}=202^{\circ}$, moving the FOV longitudinally by $3^{\circ}$
 %Starting at $b^{II}=-5^{\circ}$ and $l^{II}=202^{\circ}$, exposures were collected for 20~s
@@ -179,19 +173,46 @@ Observations were traced out by moving the FOV by $3^{\circ}$ longitudinally, st
 %\end{figure}
 
 
-\iffalse
-\subsection{Object Cuts}
-Threw away stars with magnitude error of 0.\\
-After isolating `good' observations we threw away any stars with less than 12 observations: could have fallen on the edge of each 1 $deg^{2}$ FOV, fallen on portion of detector with bad PSF, etc\\
-needed 12 observations to reduce / eliminate aliasing\\
- * of all 1.5 billion stars in our FOV we scanned the most variable (logPr(rnd)<=45)
-  - located: {{{cd /home/rr_lyrae/logprob_below_neg45_take2}}}
-  - 1558 stars
- * new grouping list that DH wanted (after removing aliased regions)
-  - located: {{{cd /home/rr_lyrae/alias_rm_grps}}}
-  - 776 stars
-\fi
 
+\subsection{Object Cuts}\label{sec:cuts}
+
+Various data points, reduced by the ATLAS pipeline~\cite{gri}, were returned with magnitude errors of zero.  Such 
+values were not used determining variability of the source.  In order for an identified star to be considered for 
+variability testing, we required a minimum of 12 ``good'' observations.  A ``good'' detection is meets the minimum 
+PSF, does not fall on the edge of each $1~deg^{2}$ FOV, and was observed with clear skies.  A minimum of 12 
+observations was deemed necessary, in order to eliminate aliasing, as discussed in~\cref{sec:PA}.  After observation 
+cuts were applied, 1.5 Billion stars remained in our FOV.  
+
+
+\begin{figure}[H]
+ \centering
+ 	\includegraphics[width=3.35in]{figures/NEW/scatter_gfilt_57452_57455.png}
+ \caption{\it \small{Lower quartile variance as a function of magnitude.}}
+ \label{fig:probrrHPS}
+\end{figure}
+  In order to exploit the lower quartile variance, shown in Figure~\ref{fig:quart}, a factor of $0.2m$ was added to account for Poisson error.  
+The higher a star deviates from the average value, the more likely it is variable.  
+
+
+%______________
+As a result of running FLS, the most variable candidates fell below $logPr(rnd)= -45$, shown in Figure~\ref{fig:logPr}.  
+
+%______________
+
+
+~[DESCRIBE logPr(rnd)...how some vars might have slipped past, but only ]\\
+~[CITE WHERE IT SAYS RRLYRAE HAVE 0.5 < PERIOD < 1.2 [DAYS]]\\
+
+
+
+\iffalse
+of all 1.5 billion stars in our FOV we scanned the most variable $(logPr(rnd)<=45)$\\
+  - located: ${{{cd /home/rr_lyrae/logprob_below_neg45_take2}}}$\\
+  - 1558 stars\\
+new grouping list that DH wanted (after removing aliased regions)\\
+  - located: ${{{cd /home/rr_lyrae/alias_rm_grps}}}$\\
+  - 776 stars\\
+\fi
 
 
 \section{Constructing Stellar Light Curves}
@@ -242,284 +263,188 @@ The selection process began
 
 
 
-% clean up section title
-\section{Fast Lomb-Scargle Periodogram}
 
-%------------- KILL subsection and make periodgram the intro to LS
-%\subsection{Periodogram Analysis}
-%\section{Identifying Variable Stars Using Lomb-Scargle}
-~[INTRO TO WHAT IS PERIODOGRAM...WE CONSTRUCT PERGRAMS USING LS METHOD]
+%\section{Evaluating the Pan-STARRS Variability Parameter}
+\section{Evaluating the HPS Variability Parameter}
 \begin{itemize}
-	\item{} extract variability from LS
-	\item{} describe how it works and why we used LS
-	\item{} major aliasing at 1 day and 0.5 day periods
-	\item{} things that fall at at -50 (in Figure~\ref{fig:quartiles}) means that those are VERY probably variable stars
-	\item{} roughly \_\_\_\_\_ stars fell at -50 in Figure~\ref{fig:quartiles}
-	\item{} 315,992 stars tested for variability
-	\item{} other stars (outside of 315,992) are statistically unlikely to be variable
-\end{itemize}
-%-------------
-
-\begin{itemize}
-	\item{} brief explanation of the fast LS
-	\item{} period search range to avoid aliasing
-	\item{} compute gri periods individually and compare each other. if period differences are less than 0.04 days, next step
-\end{itemize}
-
-
-
-\begin{figure}[H]
- \centering
- 	\includegraphics[width=3.35in]{figures/fromJT/probf.png}
- \caption{\it \small{prob(f) of 80,000, most variable, stars LS was run on}}
- \label{fig:quartiles}
-\end{figure}
-
-\begin{figure}[H]
- \centering
- %\caption{prob(f)}
- \textbf{prob(f)}\par\medskip
- 	\includegraphics[width=3.35in]{figures/log_period_diff-50.png}
- \caption{\it \small{prob(f) of 80,000, most variable, stars LS was run on}}
- \label{fig:quartpy}
-\end{figure}
-
-
-\subsection{Fourier Series}
-
-\begin{itemize}
-	\item{} Fourier series fit to extract variable types
-\end{itemize}
-
-\begin{itemize}
-	\item{} compute FS and calculate $\chi^2 / ndf$. if $\chi^2 / ndf < 10$, next step.
-	\item{} find abs(max/min(FS)). if abs(max/min(FS)) $> 0.2$, then we call it's a variable stars.
-	\item{} explanation of period error estimation using Fourier series.
-	\end{itemize}
-
-	\begin{figure}[!]
-	 \centering
-	 %\caption{prob(f)}
-	 	\includegraphics[width=3.35in]{figures/FSP1_g_LC_rrrtest_p5_grp19.png}
-	 \caption{\it \small{Type ab}}
-	 \label{fig:Typeab}
-	\end{figure}
-
-	\begin{figure}[!]
-	 \centering
-	 %\caption{prob(f)}
-	 	\includegraphics[width=3.35in]{figures/FSP1_g_LC_rrrtest_p5_grp7.png}
-	 \caption{\it \small{Type c}}
-	 \label{fig:Typec}
-	\end{figure}
-	
-	\begin{figure}[!]
-	 \centering
-	 %\caption{prob(f)}
-	 	\includegraphics[width=3.35in]{figures/rPLCneg45E_limit2_grp_109+01_09693.png}
-	 \caption{\it \small{Type ?}}
-	 \label{fig:Typeq}
-	\end{figure}
-
-	\begin{figure}[!]
-	 \centering
-	 %\caption{prob(f)}
-	 	\includegraphics[width=3.35in]{figures/rPLCneg45E_limit2_grp_116-11_03117.png}
-	 \caption{\it \small{Blazhko Effect (period doubling)}}
-	 \label{fig:Blazhko}
-	\end{figure}
-
-\iffalse
-
-	\subsection{Period Error Estimation}
-
-	\begin{itemize}
-		\item{} explanation of period error estimation using Fourier series
-	\end{itemize}
-
-	\begin{figure}[H]
-	 \centering
-	 %\caption{prob(f)}
-	 	\includegraphics[width=3.35in]{figures/FSP1_g_LC_rrrtest_p5_grp19.png}
-	 \caption{\it \small{Type ab}}
-	 \label{fig:Typeab}
-	\end{figure}
-
-	\begin{figure}[H]
-	 \centering
-	 %\caption{prob(f)}
-	 	\includegraphics[width=3.35in]{figures/FSP1_g_LC_rrrtest_p5_grp7.png}
-	 \caption{\it \small{Type c}}
-	 \label{fig:Typec}
-	\end{figure}
-	
-	\begin{figure}[H]
-	 \centering
-	 %\caption{prob(f)}
-	 	\includegraphics[width=3.35in]{figures/rPLCneg45E_limit2_grp_109+01_09693.png}
-	 \caption{\it \small{Type $\?$}}
-	 \label{fig:Typeq}
-	\end{figure}
-
-	\begin{figure}[H]
-	 \centering
-	 %\caption{prob(f)}
-	 	\includegraphics[width=3.35in]{figures/rPLCneg45E_limit2_grp_116-11_03117.png}
-	 \caption{\it \small{Blazhko Effect (period doubling)}}
-	 \label{fig:Blazhko}
-	\end{figure}
-\fi
-
-
-
-\section{Results}
-\begin{itemize}
-	\item{} compare with PS~\cite{PSdata}
-	\item{} density/distribution of variables in sky
-	\item{} (what LS gave us for our catalog)
+%	\item{} compare with HPS~\cite{PSdata}
+%	\item{} density/distribution of variables in sky
+%	\item{} (what FLS gave us for our catalog)
 	\item{} put a table with ~5 stars, to show off part of catalog
 \end{itemize}
 
+\iffalse
+	\begin{table}[H]
+		\begin{center}
+			\begin{tabular}{|c|c|c|c|c|}\hline
+				HPS $\rho_{RR}$	&	nonvar15	&	var15	&	nonvar20	&	var20 \\ \hline
+				0.0-0.05 	&	89 			&	41 		&	104 		&	26 \\ \hline
+				0.05-0.1 	&	13 			&	11 		&	18 			&	6 \\ \hline
+				0.1-0.2 	&	18 			&	16 		&	25 			&	9 \\ \hline
+				0.2-0.3 	&	20 			&	12 		&	23 			&	9 \\ \hline
+				0.3-0.4 	&	14 			&	21 		&	24 			&	11 \\ \hline
+				0.4-0.5 	&	13 			&	19 		&	21 			&	11 \\ \hline
+				0.5-0.6 	&	18 			&	21 		&	25 			&	14 \\ \hline
+				0.6-0.7 	&	17 			&	25 		&	23 			&	19 \\ \hline
+				0.7-0.8 	&	11 			&	27 		&	19 			&	19 \\ \hline
+				0.8-0.9 	&	3 			&	21 		&	8 			&	16 \\ \hline
+				0.9-1.0 	&	6 			&	7 		&	6 			&	7 \\ \hline
+			\end{tabular}
+		\end{center}
+	  \caption{ \small{ProbRR for each bin, for limit 0.15 and limit 0.2\label{tab:probbRRbin}}}
+	\end{table}	
 
-\begin{table}[H]
+	\begin{table}[H]
+		\begin{center}
+			\begin{tabular}{|c|c|c|}\hline
+			%HPS stat & nonvar20 & var20 \\ \hline
+			HPS stat & Not Variable & var20 \\ \hline
+			0.0-0.05 & 104 & 26 \\ \hline
+			0.05-0.1 & 18 & 6 \\ \hline
+			0.1-0.2 & 25 & 9 \\ \hline
+			0.2-0.3 & 23 & 9 \\ \hline
+			0.3-0.4 & 24 & 11 \\ \hline
+			0.4-0.5 & 21 & 11 \\ \hline
+			0.5-0.6 & 25 & 14 \\ \hline
+			0.6-0.7 & 23 & 19 \\ \hline
+			0.7-0.8 & 19 & 19 \\ \hline
+			0.8-0.9 & 8 & 16 \\ \hline
+			0.9-1.0 & 6 & 7 \\ \hline
+			\end{tabular}
+		\end{center}
+	\caption{ \small{RR Table 0.2 \label{tab:HPSlim20}}}
+	\end{table}
+
+	HPSinFOV = [5029, 124, 154, 116, 82, 85, 90, 89, 64, 46, 21]
+	% lim 0.20
+	RRlim15vals= [46, 12, 19, 15, 22, 20, 22, 28, 28, 23, 9, 0]
+	notvariable15 = [92, 13, 19, 21, 14, 14, 19, 19, 11, 5, 6, 0]
+	% lim 0.20
+	notvariable20=[110, 18, 27, 27, 25, 22, 27, 26, 20, 10, 7, 0]
+	RRlim20vals =  [28, 7, 11, 9, 11, 12, 14, 21, 19, 18, 8, 0]
+
+\fi
+
+A paper, \textit{Finding, Characterizing and Classifying Variable Sources in Multi-Epoch Sky Surveys: QSOs and RR Lyrae in PS1 $3\pi$ Data}~\cite{PSdata} (HPS), quantifies the likelihood that a star is an RR Lyrae.  Using their variability statistic, $\rho_{RRLyrae}$, density and distribution of RR Lyrae and other variable candidates were determined.  Table~\ref{tab:HPSlim15} evaluates the validity of HPS's variability criteria.
+\iffalse
+	% HPS.restrictFOV.m11.m16.chyea has 5900 stars in it --> 5900 HPS stars in our FOV
+	% THIS TABLE IS FOR LIMIT 0.15
+	\begin{table*}
+	%\begin{table}[H]
 	\begin{center}
-		\begin{tabular}{ | c | c | c | c | c | c | c | }\hline
-		$\rho_{RR}$ & \# HPS & \# RR & \# Other Variable Class & \# not var & Prob(var) & Prob(RR) \\ \hline
-		0-0.05 &&&&&& \\ \hline
-		0.05-0.2 &&&&&& \\ \hline
-		0.2-0.4 &&&&&& \\ \hline
-		0.4-0.6 &&&&&& \\ \hline
-		0.6-0.8 &&&&&& \\ \hline
-		0.8-1 &&&&&& \\ \hline
+		\begin{tabular}{|c|c|c|c|c|c|c|c|c|}\hline
+			%HPS stat & nonvar15 & var15 \\ \hline
+	HPS $\rho_{RRLyrae}$ & $HPS_{total}$ & $HPS_{matched}$ & RR & var (notRR) & $Not-Variable_{matched}$ &$notvar_{notmatched}$(outside mask)& Prob(var)&Prob(RR) \\ \hline
+	0.0-0.05 & 5029 & 138 & 9 & 37 & 92 	& 4891 & $46/138=0.33$ & $9/138=0.07$	\\ \hline
+	0.05-0.1 & 124 & 25 & 1 & 11 & 13 		& 99 & 12/25 & 1/25 \\ \hline
+	0.1-0.2 & 154 & 38 & 1 & 18 & 19 		& 116 & 19/38 & 1/38 \\ \hline
+	0.2-0.3 & 116 & 36 & 1 & 14 & 21 		& 80 & 15/36 & 1/36 \\ \hline
+	0.3-0.4 & 82 & 36 & 1 & 21 & 14 		& 46 & 22/36 & 1/36	\\ \hline
+	0.4-0.5 & 85 & 34 & 1 & 19 & 14 		& 51 & 20/34 & 1/34	\\ \hline
+	0.5-0.6 & 90 & 41 & 5 & 17 & 19 		& 49 & 19/41 & 5/41	\\ \hline
+	0.6-0.7 & 89 & 47 & 6 & 22 & 19 		& 42 & 28/47 & 6/47	\\ \hline
+	0.7-0.8 & 64 & 39 & 5 & 23 & 11 		& 25 & 28/39 & 5/39	\\ \hline
+	0.8-0.9 & 46 & 28 & 4 & 19 & 5 			& 18 & 23/28 & 4/28	\\ \hline
+	0.9-1.0 & 21 & 15 & 1 & 8 & 6 			& 6 & 9/15 & 1/15	\\ \hline
+	\hline
+	0.0-1.0 & 5900 & 477 & 35 & 209 & 233 	& 5423 & & \\ \hline
 		\end{tabular}
 	\end{center}
-\caption{ \small{RR Table 0.15 \label{tab:rrtab}}}
-\end{table}
-
-\begin{table}[H]
+	\caption{ \small{A comparison of observations to HPS RR Lyrae candidates. \label{tab:HPSlim15}}}
+	\end{table*}
+\fi
+% HPS.restrictFOV.m11.m16.chyea has 5900 stars in it --> 5900 HPS stars in our FOV
+% THIS TABLE IS FOR LIMIT 0.15
+\begin{table*}
+%\begin{table}[H]
 	\begin{center}
-		%\begin{tabular}{ | c | c | c | c | c | c | c | c | c | c | }\hline
-		\begin{tabular}{| c | c | c | c | c | c | c | c | c | c | c | c |}\hline
-			SourceFile & $0.0-0.05$ & $0.05-0.1$ & $0.1-0.2$ & $0.2-0.3$ & $0.3-0.4$ & $0.4-0.5$ & $0.5-0.6$ & $0.6-0.7$ & $0.7-0.8$ & $0.8-0.9$ & $0.9-1.0$ \\ \hline
-			nonvar15 & 89 & 13 & 18 & 20 & 14 & 13 & 18 & 17 & 11 & 3 & 6 \\ \hline
-			var15 & 41 & 11 & 16 & 12 & 21 & 19 & 21 & 25 & 27 & 21 & 7 \\ \hline
-			nonvar20 & 104 & 18 & 25 & 23 & 24 & 21 & 25 & 23 & 19 & 8 & 6 \\ \hline
-			var20 & 26 & 6 & 9 & 9 & 11 & 11 & 14 & 19 & 19 & 16 & 7 \\ \hline
+		\begin{tabular}{|c|c|c|c|c|c|c|c|}\hline
+			%HPS stat & nonvar15 & var15 \\ \hline
+HPS $\rho_{RRLyrae}$ & $HPS_{total}$ & $HPS_{matched}$ & RR Lyrae & Not RR Lyrae & Prob(RR) \\ \hline
+0.0-0.05 & 5029 & 138 & 46 		& 92 & 0.33 \\ \hline
+0.05-0.1 & 124 & 25 & 12 		& 13 & 0.48 \\ \hline
+0.1-0.2 & 154 & 38 & 19 		& 19 & 0.50 \\ \hline
+0.2-0.3 & 116 & 36 & 15 		& 21 & 0.42 \\ \hline
+0.3-0.4 & 82 & 36 & 22 			& 14 & 0.61 \\ \hline
+0.4-0.5 & 85 & 34 & 20			& 14 & 0.59 \\ \hline
+0.5-0.6 & 90 & 41 & 22			& 19 & 0.54 \\ \hline
+0.6-0.7 & 89 & 47 & 28			& 19 & 0.60 \\ \hline
+0.7-0.8 & 64 & 39 & 28 			& 11 & 0.72 \\ \hline
+0.8-0.9 & 46 & 28 & 23 			& 5 & 0.82 \\ \hline
+0.9-1.0 & 21 & 15 & 9			& 6 & 0.60 \\ \hline
+\hline
+0.0-1.0 & 5900 & 477 & 244 & 233 & 0.51 \\ \hline
 		\end{tabular}
 	\end{center}
-\caption{ \small{ProbRR for each bin\label{tab:probbRRbin}}}
-\end{table}
+\caption{ \small{A comparison of verified observations and HPS RR Lyrae candidates. \label{tab:HPSlim15}}}
+\end{table*}
 
-\begin{table}[H]
-	\begin{center}
-		\begin{tabular}{ | c | c | c | c | c | c | c | }\hline
-		$\rho_{RR}$ & \# HPS & \# RR & \# Other Variable Class & \# not var & Prob(var) & Prob(RR) \\ \hline
-		0-0.05 &&&&&& \\ \hline
-		0.05-0.2 &&&&&& \\ \hline
-		0.2-0.4 &&&&&& \\ \hline
-		0.4-0.6 &&&&&& \\ \hline
-		0.6-0.8 &&&&&& \\ \hline
-		0.8-1 &&&&&& \\ \hline
-		\end{tabular}
-	\end{center}
-\caption{ \small{RR Table 0.2 \label{tab:rrtab}}}
-\end{table}
-
-% From old paper
-\subsection{Simbad Completeness}
-	\begin{itemize}
-		\item{} Pull established RR list from Simbad
-		\item{} Pull other variable data from simbad, too
-		\item{} Compare list of observed RR to catalogs
-		\item{} Is anyone actually reading this outline, this bullet point serves no purpose
-		\item{} Wow, its sad how little Jeff did since class began (especially after JT gave him the code to do it a month ago) - 6 obs x 4 nights = January-April work period haha
-		\item{} Establish completeness with Simbad
-	\end{itemize}
-~[FIX SIMBAD CITATION]\\
-In order to evaluate the completeness of our results, comparisons needed to be made to other variable star catalogs.  Simbad~\cite{simbad} provided a list of variable stars within our FOV.  Pulsating sources encompasses all variable objects.  \\
-~[OF THESE WE MATCHED...RR LYRAE...REF FIGURE]\\
+%[46, 12, 19, 15, 22, 20, 22, 28, 28, 23, 9, 0]
 
 
-~[review what he did, but heres a summary:]\\
-~[48 simbad objects overlay our FOV]\\
-~[33 have an entry in lsum.dat]\\
-~[Of 15 that overlap w/o lsum entry]\\
-~[14 are defective]\\
-~[at least one filter has less than 10 detections]\\
-~[=> it's a survey problem, not an LC problem]\\
-~[P(rand) for the 33 that do occur in lsum]\\
-~[27/33 show up as high probability variables]\\
+Figure~\ref{fig:probrrHPS} shows no correlation between the HPS criteria and candidates verified to be RR Lyrae stars.  Of the 1.5 Billion stars identified in our FOV, we isolated the 320,000 most variable, 
+%using the lower quartile variance, as described in~\cref{sec:cuts}.
+as described in~\cref{sec:cuts}.
 
 
+%The further a star lands from a linear fit to this plot, the higher probability it is variable.  
+%~[DESCRIBE LOWER QUARTILE METHOD]
+%The star (group) histogram counts have a massive peak around 110 (g), 140 (r) and 125 (i), with low count peaks at N<50.
+%Picking N>100 doesn't look like it misses many real stars.
+%The plot of quartile variance in realstar.? (col 11-10 vs col 9) shows a 
+%flattening out at g<13, and then increase by Poisson as 0.2*m Sort these in order of decreasing variability
+
+
+A grouping and matching algorithm, written by J. Tonry~\cite{gri}, made it possible to isolate and group 
+stars from various nights of observations.  
+Implementation of logPr(rnd) allowed for complete confirmation of RR Lyrae candidates.  Only stars with different 
+variable classifications, those having lower amplitude variations, would have been able to go
+undetected.  Masking out regions of high aliasing reduced the need to run a more rigorous analysis, % of variable candidates,  
+due to the statistically improbability of these sources being variable.  A total of 5,658 stars fell within 
+the masked region, shown in Figure~\ref{RlogPr.png}.  FLS and FSS analysis identified 1,239 variable stars in our FOV.  
+A defining characteristic of RR Lyrae is their variability periods, falling between 0.5 and 1.2 days.  Using this 
+restriction 279 stars were confirmed to be RR Lyrae.  Variability classification was confirmed by visually inspecting 
+the light curves of all 279 RR Lyrae and the remaining 960 unclassified variable stars.  Following this procedure gives us 
+$100\%$ purity.
+
+\begin{figure}[H]
+ \centering
+ 	\includegraphics[width=3.35in]{figures/NEW/probrr_vs_HPS.png}
+ \caption{\it \small{Evaluation of HPS RR Lyrae criteria.}}
+ \label{fig:probrrHPS}
+\end{figure}
+
+Using the same matching algorithm~\cite{gri} made comparing observations with other variable catalogs possible.  
+To evaluate the HPS RR Lyrae criteria, our observations were matched to stars flagged as potential RR Lyrae candidates by HPS.  
+Shown in Table~\ref{tab:HPSlim15} and Figure~\ref{fig:probrrHPS}, there is no correlation between HPS criteria and 
+verified RR Lyrae stars.
+
+
+
+
+
+
+
+
+
+\section{Discussion}
+
+
+In order to evaluate the completeness of our results, comparisons needed to be made to other variable star catalogs.  Simbad~\cite{simbad} provided a list of variable stars within our FOV.  Pulsating sources encompasses all variable objects.  With 48 objects overlapping our FOV, shown in Figure~\ref{fig:simoverlap}, we achieved a completeness of $98\%$.
+
+~[possible put two light curves in as examples of objects that overlap our field]\\
 
 \begin{figure}[H]
  \centering
  %\caption{prob(f)}
  %\textbf{Simbad Completeness}\par\medskip
  	\includegraphics[width=3.35in]{figures/simbadoverlap.png}
- \caption{\it \small{Observation path with Simbad pulsators in blue and RR Lyrae in green.}}
+ \caption{\it \small{Observation path shown in red, with Simbad pulsators in blue and RR Lyrae in green.}}
  \label{fig:simoverlap}
 \end{figure}
 
 
 
-%\begin{figure}[H]
-%	\centering
-%		\includegraphics[width=3.35in]{figures/aitoff/Obs_PS_lsum_aitoff_map.png}
-%		\caption{\it \small{Aitoff projection of observed and PS RR Lyrae candidates.  Blue are candidates from PS that >= 0.05, green are PS candidates that >= 0.2., observed data in red.}}%
-%	\label{fig:aitoff_nosimbad}
-%\end{figure}
-
-
-\section{Discussion}
-\begin{itemize}
-	\item{} Evaluation of PS criteria
-	\item{} what went wrong
-	\item{} what could have gone better
-	\item{} future outlook
-	\item{}~~~we could map spiral arms using x y and z
-\end{itemize}
-
-	
-
-%\begin{figure}[h!]
-%	\centering
-%	\begin{subfigure}{.5\textwidth}
-%	  \centering
-%	  \includegraphics[width=1\linewidth]{figures/aitoff/simbad_alpha_is_1.png}
-%	  \caption{\it \small{Aitoff map.}}
-%	  \label{fig:aitoff_map_simbad}
-%	\end{subfigure}%
-%	\begin{subfigure}{.5\textwidth}
-%	  \centering
-%	  \includegraphics[width=1\linewidth]{figures/aitoff/Obs_PS_sim_lsum_aitoff_map.png}
-%	 \caption{\it \small{Aitoff projection}}%
-%	 \label{fig:aitoff_projection_simbad}
-%	\end{subfigure}
-%	\caption{\it \small{Aitoff projection of observed and PS RR Lyrae candidates.  Blue are candidates from PS that >= 0.05, yellow are PS candidates that >= 0.2., observed data in red, simbad in black.}}
-%	\label{fig:aitoff_simbad}
-%\end{figure}	
-
-
-\section{Summary and Conclusions}
-~[TALK ABOUT IT]
-
-
-\section{Resources from website (remove this section)}
-\begin{itemize}
-	\item{} $ay301.ifa.hawaii.edu$
-	\item{} $/ay301/atlas = location for all the gri Project data and programs$
-	\item{} $/ay301/script = transcripts from class computer activities$
-	\item{} $/ay301/tmp = generic temporary area$
-	\item{} $gri Project$
-	\item{} $/home/gri_project = location for manuscript and figures$
-	\item{} $Las Cumbres LCOGT (Faulkes 2m telescope on Haleakala)$
-	\item{} $ATLAS (fallingstar.com)$
-	\item{} $0.5m telescope with c,o,B,V,R,I,H-alpha filters$
-	\item{} $0.18m Pathfinder telescope with g,r,i filters$
-	\item{} $0.06m 35mm piggy-back camera with RGB$
-	\item{} $0.01m 35mm fisheye camera$
-\end{itemize}
 
 
 \section*{Acknowledgments}
