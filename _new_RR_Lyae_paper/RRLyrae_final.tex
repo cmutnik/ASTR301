@@ -7,6 +7,7 @@
 \usepackage{color}
 \usepackage{subcaption} % for subcaptions on side-by-side figures
 \usepackage{float}	% allows use of 'H' command
+\renewcommand{\thefootnote}{\roman{footnote}} %for footnotes in roman numerals
 
 % This allows you to use '\cref{}' to reference sections with the symbol
 \usepackage{cleveref}
@@ -44,6 +45,7 @@
 %\evensidemargin=0cm
 
 % this is where the actual document itself (rather than control statements) begins:
+
 
 \begin{document}
 
@@ -96,7 +98,19 @@ LS analysis on ATLAS Pathfinder Telescope data, verified PS variability criteria
 
 
 
-\section{ATLAS PathFinder 1 Observations}
+\section{ATLAS Pathfinder Observations}
+
+
+We used the $0.18$~m Asteroid Terrestrial-impact Last Alert System (ATLAS) Pathfinder telescope~\citep{fallingstar} at the Mauna Loa. The field of view (FOV) of the telescope is $5.2^{\circ}$ with the angular resolution (effective PSF FWHM) of $5$". Thanks to its wide FOV, it is suitable for our project, wide field study. The spatial resolution, however, is not great. For this reason, we chose our field to be slightly off the galactic plane. 
+
+
+
+\subsection{SNR Calculation}\label{sec:SNR}
+
+To calculate an appropriate sampling frequency and SNR, typical RR Lyrae light curves~\cite{RRLyrae} were used with artificially introduced gaps and noise following the Gaussian distribution. To determine distances from the PL relations~\citep{PL} within $\simeq5\%$ accuracy assuming typical metalicity $Z=0.001$, we need periods within $\simeq1\%$ accuracy. The period range of RR Lyrae stars is $0.05$ to $1.2$ days ~\cite{Astro} which contrains the sampling frequency. By using the Lomb-Scargle analysis (discussed in \cref{sec:PA}), it was found that 15 nights with 10 observations/night is the lower limit sampling duration and rate to achieve the desired period accuracy. Since the magnitude fluctuations of RR Lyrae are typically in the range of $0.3$ to $2.0$ mags ~\cite{AAVSO}, the uncertainty in magnitude was taken to be $0.1$ mags, and the changes, $0.01$ to $0.1$ mags, in the uncertainty did not affect the period determinations significantly. Thus we only needed $10\%$ photometry. For $m_g = m_r = 16$ and $m_i = 15.7$, an exposure time of $20$~sec yields $10\%$ photometry for the ATLAS pathfinder telescope~\citep{fallingstar}.
+
+
+
 \begin{itemize}
 	\item{} we used data from ATLAS
 	\item{} supplemented with ATLAS data [REF TONRY] (possibly make this s subsection)
@@ -117,10 +131,6 @@ In order to reduce aliasing, extra observations needed to be made.  Observation 
 We received the reduced image data from the ATLAS pipeline~\cite{PSpipe}~\cite{tonrypipe}
 %\cite{PSimgpipe,*tonrypipe}
 
-
-\subsection{SNR Calculation}\label{sec:data}
-
-To calculate an appropriate sampling frequency and SNR, typical RR Lyrae light curves~\cite{RRLyrae} were used with artificially introduced gaps and noise following the Gaussian distribution. To determine distances from the PL relations~\citep{PL} within $\simeq5\%$ accuracy assuming typical metalicity $Z=0.001$, we need periods within $\simeq1\%$ accuracy. By using the Lomb-Scargle analysis (discussed in section \ref{sec:PA}), it was found that 15 nights with 10 observations/night is the lower limit sampling rate to achieve the period accuracy. Since the magnitude fluctuations of RR Lyrae are typically in the range of $0.3$ to $2.0$ mags~\cite{Modern}, the uncertainty in magnitude was taken to be $0.1$ mags, and the changes, $0.01$ to $0.1$ mags, in the uncertainty did not affect the period determinations significantly. Thus we only needed $10\%$ photometry. For $m_g = m_r = 16$ and $m_i = 15.7$, an exposure time of $20$~sec yields $10\%$ photometry for the ATLAS pathfinder telescope.
 
 \subsection{Data}\label{sec:data}
 %\begin{itemize}
@@ -249,6 +259,7 @@ The selection process began
 % clean up section title
 \section{Periodogram Analysis}\label{sec:PA}
 
+\iffalse
 %------------- KILL subsection and make periodgram the intro to LS
 %\subsection{Periodogram Analysis}
 %\section{Identifying Variable Stars Using Lomb-Scargle}
@@ -269,15 +280,17 @@ The selection process began
 	\item{} period search range to avoid aliasing
 	\item{} compute gri periods individually and compare each other. if period differences are less than 0.04 days, next step
 \end{itemize}
+\fi
 
-To extract periods from light curves, the Fast Fourier Transform (FFT) is usually used. For our data, however, FFT is not optimal due to the data gaps. To deal with the data gaps, the Fast Lomb-Scargle (FLS) periodogram analysis~\citep{Numerical} ~\citep{Gats} was used in this study because of its high computational efficiency. FLS extracts not only periods but also the significance levels of periods in the form of $\log{Pr(rnd)}$. The more negative the significance levels are, the more significance the periods are. The outputs of FLS is shown in FIG. \ref{fig:logPr}. Since our observational period is roughly a day, there are major aliasings at the periods with integer multiple of a day. To avoid the aliasing, we masked a period range with high significance level and used the masked range for further analyses.
+
+To extract periods from light curves, the Fast Fourier Transform (FFT) is usually used. For our data, however, FFT is not optimal due to the data gaps. To deal with the data gaps, the Fast Lomb-Scargle (FLS) periodogram analysis~\citep{Numerical} ~\citep{Gats} was used in this study because of its high computational efficiency. FLS extracts not only periods but also the significance levels of periods in the form of $\log{Pr(rnd)}$. The more negative the significance levels are, the more significant the periods are, so we can used the significance levels to statistically select periodic-variable candidates. The outputs, $\log{Pr(rnd)}$ and frequency, of FLS is shown in FIG. \ref{fig:logPr}. Since our observational period is roughly a day, there are major aliasings at the periods with integer multiple of a day. To avoid the aliasing and statistically select candidates, we masked a period range with high significance level ($\leq -12.5$) and used the masked range for the further analyses.
 
 
 
 \begin{figure}[H]
  \centering
  	\includegraphics[width=3.3in]{figures/RlogPr.png}
- \caption{\it \small{$\log{Pr(rnd)}$ vs frequency (day$^{-1}$) of $315,992$ stars selected by the quartile criteria. The red lines define the masked regions with high significance level ($\log{Pr(rnd)} < -12.5$) and no aliasing ($0.02<$ frequency $<0.98$, $1.02<$ frequency $<1.98$, etc.). The masked region contains $5,658$ stars.}} 
+ \caption{\it \small{$\log{Pr(rnd)}$ vs frequency (day$^{-1}$) of $315,992$ stars selected by the quartile criteria. The region enclosed by the red lines define the masked regions with high significance level ($\log{Pr(rnd)} < -12.5$) and no aliasing ($0.02<$ frequency $<0.98$, $1.02<$ frequency $<1.98$, etc.). The masked region contains $5,658$ stars.}} 
  \label{fig:logPr}
 \end{figure}
 
@@ -286,6 +299,7 @@ To extract periods from light curves, the Fast Fourier Transform (FFT) is usuall
 
 \section{RR Lyrae Selection Criteria}
 
+\iffalse
 \begin{itemize}
 	\item{} Fourier series fit to extract variable types
 \end{itemize}
@@ -295,11 +309,12 @@ To extract periods from light curves, the Fast Fourier Transform (FFT) is usuall
 	\item{} find abs(max/min(FS)). if abs(max/min(FS)) $> 0.2$, then we call it's a variable stars.
 	\item{} explanation of period error estimation using Fourier series.
 	\end{itemize}
+\fi
 
 To identify RR Lyrae stars, we applied three criteria: gri period consistency, Fourier Sine Series $\chi^2/$ndf, and Fourier Sine Series amplitude. 
 
 \subsection{gri Period Consistency}
-The first criterion was the consistency of periods calculated by FLS from g, r, and i filters individually since RR Lyrae stars should have identically the same period in each filter. We checked whether each filter period agreed within $0.04$ days $\simeq 1$ hour with each other. 
+The first criterion was the consistency of periods calculated by FLS from g, r, and i filters individually since RR Lyrae stars should have identically the same period in each filter in the range of $0.05$ to $1.2$~days ~\citep{Astro}. We checked whether each filter period agreed within $0.04$ days $\simeq 1$ hour with each other. 
 
 \subsection{Fourier Sine Series $\chi^2/$ndf}
 The second criterion was $\chi^2/$ndf calculated using the Fourier Sine Series (FSS). Since the RR Lyrae light curves are more or less sinusoidal, FSS with a few terms should be able to represent the light curves for certain accuracy. We used FSS in the form;
@@ -411,7 +426,7 @@ d = 10^{[1+(m_r - A_v - M_v)/5]} \, .
 
 \subsection{Spatial Distributions}
 
-From the calculated distances, the distance histogram of RR Lyrae stars is plotted and shown in FIG. \ref{fig:dhist}. The spatial distributions of RR Lyrae stars are shown in  FIG. \ref{fig:RRspace}.
+From the calculated distances, the distance histogram of RR Lyrae stars is plotted and shown in FIG. \ref{fig:dhist}. It almost follows the Gaussian distribution. The spatial distributions and histograms of RR Lyrae stars are shown in  FIG. \ref{fig:RRspace} and \ref{fig:blhist}, respectively. As in FIG. \ref{fig:RRspace}, 
 
 \begin{figure}[H]
  \centering
@@ -458,18 +473,31 @@ From the calculated distances, the distance histogram of RR Lyrae stars is plott
 	\centering
 	\begin{subfigure}{.5\textwidth}
 	  \centering
+	  \includegraphics[width=3.35in]{figures/PlotsSpace15/lphist_limit15.png}
+		\caption{\it \small{Galactic longitudinal histogram for $2.5 < b < 7.5$}}
+		\label{fig:bphist}
+	\end{subfigure}%
+	\begin{subfigure}{.5\textwidth}
+	  \centering
+			\includegraphics[width=3.35in]{figures/PlotsSpace15/lnhist_limit15.png}
+		\caption{\it \small{Galactic longitudinal histogram for $-7.5 < b < -2.5$ }}
+		\label{fig:bnhist}
+	\end{subfigure}%
+	
+	\begin{subfigure}{.5\textwidth}
+	  \centering
 	  \includegraphics[width=3.35in]{figures/PlotsSpace15/bphist_limit15.png}
-		\caption{\it \small{$2.5 < b < 7.5$ }}
-		\label{fig:blp}
+		\caption{\it \small{Galactic latitudinal histogram for $2.5 < b < 7.5$}}
+		\label{fig:bphist}
 	\end{subfigure}%
 	\begin{subfigure}{.5\textwidth}
 	  \centering
 			\includegraphics[width=3.35in]{figures/PlotsSpace15/bnhist_limit15.png}
-		\caption{\it \small{$E(B-V)$ for $2.5 < b < 7.5$ }}
-		\label{fig:EBVlp}
+		\caption{\it \small{Galactic latitudinal histogram for $-7.5 < b < -2.5$}}
+		\label{fig:bnhist}
 	\end{subfigure}%
-	\caption{\it \small{Spatial distributions of 1,239 RR Lyrae stars. The galactic longitude and latitude range correspond to our FOV. The range of $E(B-V)$ corresponds to the mean $E(B-V)$ $\pm$ $1\sigma$.}}
-	\label{fig:RRspace}
+	\caption{\it \small{Spatial histograms of 1,239 RR Lyrae stars. The galactic longitude and latitude range correspond to our FOV.}}
+	\label{fig:blhist}
 \end{figure*}
 
  
