@@ -108,6 +108,13 @@ Observation procedures are discussed in~\cref{sec:data}.
 Our field of view (FOV) spanned $340~deg^{2}$ and contained 1.5 billion stars.  Once we received the reduced 
 image data from the ATLAS pipeline~\cite{gri}, the $315,992$ most variable candidates were isolated and subjected to 
 more comprehensive variability classification.  Methods used to identify RR Lyrae stars are discussed in~\cref{sec:RRcrit}.
+
+\indent Verification of RR Lyrae candidates also allowed for comparison to external 
+variable catalogs.  Completeness and evaluation of multiple RR Lyrae catalogs 
+is discussed in~\cref{sec:ResDis}.  Various models of RR Lyrae distributions 
+exist, with little to no verification.  In order to validate and refine such 
+models, classification of stars is required.   Such classifications are made 
+possible by collecting observations and performing rigorous analysis.
   
 %\cite{PSimgpipe,*tonrypipe}
 
@@ -115,7 +122,7 @@ more comprehensive variability classification.  Methods used to identify RR Lyra
 \section{ATLAS Pathfinder Observations}
 
 
-We used the $0.18$~m Asteroid Terrestrial-impact Last Alert System (ATLAS) Pathfinder telescope~\citep{fallingstar} at the Mauna Loa. The FOV of this telescope is $5.2^{\circ}$, with the angular resolution (effective PSF FWHM) of $5$". Thanks to its wide FOV, it is suitable for our project, wide field study. The spatial resolution, however, is not great. For this reason, we chose our field to be slightly off the galactic plane.
+We used the $0.18$~m Asteroid Terrestrial-impact Last Alert System (ATLAS) Pathfinder telescope~\citep{fallingstar} at the Mauna Loa. The FOV of this telescope is $5.2^{\circ}$, with the angular resolution (effective PSF FWHM) of $5$". Thanks to its wide FOV, it is suitable for our project, wide field study. The spatial resolution, however, is not great. For this reason, we chose our field to be slightly off the galactic plane. To estimate dust reddening and to determine periods of RR Lyrae stars accurately, we used the all three of g, r, and i filters.
 
 
 
@@ -320,7 +327,7 @@ Apparent magnitude is plotted against time, with $m_{g}$, $m_{r}$, and $m_{i}$ p
 \fi
 
 
-To extract periods from light curves, the Fast Fourier Transform (FFT) is usually used. For our data, however, FFT is not optimal due to the data gaps. To deal with the data gaps, the Fast Lomb-Scargle (FLS) periodogram analysis~\citep{Numerical}~\citep{Gats} was used in this study because of its high computational efficiency. FLS extracts not only periods but also the significance levels of periods in the form of $\log{Pr(rnd)}$. The more negative the significance levels are, the more significant the periods are, so we can used the significance levels to statistically select periodic-variable candidates. The outputs, $\log{Pr(rnd)}$ and frequency, of FLS is shown in Figure~\ref{fig:logPr}. Since our observational period is roughly a day, there are major aliasings at the periods with integer multiple of a day. To avoid the aliasing and statistically select candidates, we masked a period range with high significance level ($\leq~-12.5$) and used the masked range for the further analyses.
+To extract periods from light curves, the Fast Fourier Transform (FFT) is usually used. For our data, however, FFT is not optimal due to the data gaps. To deal with the data gaps, the Fast Lomb-Scargle (FLS) periodogram analysis~\citep{Numerical, Gats} was used in this study because of its high computational efficiency. FLS extracts not only periods but also the significance levels of periods in the form of $\log{Pr(rnd)}$. The more negative the significance levels are, the more significant the periods are, so we can used the significance levels to statistically select periodic-variable candidates. The outputs, $\log{Pr(rnd)}$ and frequency, of FLS is shown in Figure~\ref{fig:logPr}. Since our observational period is roughly a day, there are major aliasings at the periods with integer multiple of a day. To avoid the aliasing and statistically select candidates, we masked a period range with high significance level ($\leq~-12.5$) and used the masked range for the further analyses.
 
 
 
@@ -348,9 +355,9 @@ To extract periods from light curves, the Fast Fourier Transform (FFT) is usuall
 	\end{itemize}
 \fi
 
-To identify RR Lyrae stars, we applied three criteria: gri period consistency, Fourier Sine Series $\chi^2/$ndf, and Fourier Sine Series amplitude. 
+To identify RR Lyrae stars, we applied three criteria: period consistency among gri filters, Fourier Sine Series $\chi^2/$ndf, and Fourier Sine Series amplitude. 
 
-\subsection{gri Period Consistency}
+\subsection{Period Consistency Among gri filters}
 The first criterion was the consistency of periods calculated by FLS from g, r, and i filters individually since RR Lyrae stars should have identically the same period in each filter in the range of $0.05$ to $1.2$~days ~\citep{Astro}. We checked whether each filter period agreed within $0.04$ days $\simeq 1$ hour with each other. 
 
 \subsection{Fourier Sine Series $\chi^2/$ndf}
@@ -422,7 +429,7 @@ Assuming the Gaussian statistics and Taylor expanding $\chi^2$ with respect to a
 
 \section{Distance Calculations}
 
-In order to calculate distances to RR Lyrae stars, we needed to classify RR Lyrae subtypes as shown in Figure~\ref{fig:Type}. However, there is currently only few systematic studies (calibrations) of the type classification using light curves only (mainly on types ab and c), and they are complicated in general. To avoid the complications for the moment, we used the typical absolute RR Lyrae magnitude~\citep{PSdata}, $M_r \simeq M_v = 0.6$. To estimate the amount of dust reddening, we used the total to selective extinction~\citep{Rv}, $Rv=3.1$, and the number fraction weighted average color term~\citep{EBV}, $(B-V)_0 = 0.358$, of RRab and RRc stars. The number fraction weighted average $(B-V)_0$ was calculated by using the number statistics of known RR Lyrae stars ($\simeq91\%$ of RR Lyares are type ab and $\simeq9\%$ of RR Lyraes are type c assuming that the numbers of Blazhko modulated and period doubling are negligible) as follows;
+In order to calculate distances to RR Lyrae stars, we needed to classify RR Lyrae subtypes as shown in Figure~\ref{fig:Type}. However, there is currently only few systematic studies (calibrations) of the type classification using light curves only (mainly on types ab and c), and they are complicated in general. To avoid the complications for the moment, we used the typical absolute RR Lyrae magnitude~\citep{PSdata}, $M_r \simeq M_V = 0.6$. To estimate the amount of dust reddening, we used the total to selective extinction~\citep{Rv}, $R_V=3.1$, and the number fraction weighted average color term~\citep{EBV}, $(B-V)_0 = 0.358$, of RRab and RRc stars. The number fraction weighted average $(B-V)_0$ was calculated by using the number statistics of known RR Lyrae stars ($\simeq91\%$ of RR Lyares are type ab and $\simeq9\%$ of RR Lyraes are type c assuming that the numbers of Blazhko modulated and period doubling are negligible) as follows;
 
 \begin{equation}
 \label{BV}
@@ -440,21 +447,21 @@ E(B-V) = (B-V)_{observed} - (B-V)_0 \, ,
 
 \begin{equation}
 \label{Av}
-A_v = R_v E(B-V) \,
+A_V = R_V E(B-V) \,
 \end{equation}
 
 \noindent Finally, the distance was calculated by using the distance modulus;
 
 \begin{equation}
 \label{dist}
-d = 10^{[1+(m_r - A_v - M_v)/5]} \, .
+d = 10^{[1+(m_r - A_V - M_V)/5]} \, .
 \end{equation}
 
 \noindent To convert the gri magnitudes to the Johnson magnitudes, the conversions given by the Sloan Digital Sky Survey (SDSS)~\cite{SDSS} were used. The error in the distance calculations were calculated by propagating errors assuming no covariance. The mean uncertainty in the distance was calculated to be $\simeq 20 \%$, which disagrees with our SNR calculations for distance since we used the PL relation with a typical Z and did not take into account for the errors in the filter conversions and reddening. For better SNR calculations for distance, we need to consider better PL relations and the errors in the filter conversion and reddening.  
 
 
 
-\section{Results and Discussions}
+\section{Results and Discussions}\label{sec:ResDis}
 \iffalse
 \begin{itemize}
 	\item{} compare with HPS~\cite{PSdata}
@@ -708,8 +715,15 @@ an RR Lyrae, it is not sufficient for absolute determination.
 
 \section{Conclusions and Future Opportunities}
 
+We used the ATLAS Pathfinder telescope to survey RR Lyrae stars to study the galactic structure and to evaluate the HPS variability parameters in approximately $340$~deg$^2$ FOV. Due to the low angular resolution of the ATLAS Pathfinder and the observable sky at the time of our observations, we chose our FOV to be $202^{\circ} < l <232^{\circ}$ centered at $b=\pm5^{\circ}$, slightly above and below the galactic plane. Our observations spanned 20 nights with 10 observations each filter at each night to achieve the desired period accuracy of $\simeq 1\%$. The exposure time of $20$~sec was used to achieve $\simeq 10\%$ photometry. We obtained roughly $1.5$ billion light curves and applied the quartile criteria, FLS, and FSS to identify $1,239$ RR Lyrae variables with the mean period uncertainty of $0.15\%$.
+
+\indent To avoid complicated type classifiactions using only light curves, the mean RR Lyrae magnitude of $M_r \simeq M_V = 0.6$ was used for the distance calculations. The dust extinction was estimated by adopting the total to selective extinction, $R_V=3.1$, and the mean RR Lyrae color term, $(B-V)_0 = 0.358$. The mean uncertainty in the calculated distances was roughly $20\%$. With the calculated distances, the spatial distribution of RR Lyrae stars were analyzed. We observed less number of RR Lyrae stars at $b<0^{\circ}$, possibly due to the field close to horizon. We found that the higher dust extinction at $b<0^{\circ}$, suggesting that there are more sources for reddening at lower galactic latitude. The longitudinal distributions are patchy, and the latitudinal distributions are flat, which show no clear spiral arm structures. The almost random spatial distributions of RR Lyrae stars and their old ages suggest quite complicated galactic dynamics.
+
+\indent Corey, you put the summary of your work here (Simbad, HPS, etc.) 
 
 
+% FUTURE OPPORTUNITIES
+\indent Now that we found more than $1,000$ RR Lyrae stars in our FOV, we can use these to construct statistics for RR Lyrae subtype classifications purely from their light curves (not only types ab and c, but also ones with the Blazhko effects). In order to do that, we need spectra of the RR Lyrae stars to calibrate the statistics. If there are any significant correlations between RR Lyrae light curve shapes and physical properties, then we can used the statistics to measure the physical properties of RR Lyrae stars from thier light curves.
 
 
 
