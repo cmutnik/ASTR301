@@ -64,7 +64,8 @@
 \author{Corey Mutnik}
 \email{cmutnik@hawaii.edu}
 \affiliation{Department of Physics \& Astronomy, \\
-University of Hawai`i at M\={a}noa}
+University of Hawai`i at M\={a}noa\\
+2505 Correa Rd, Honolulu, HI, 96822, USA}
 %\affiliation{Department of Physics \& Astronomy, \\University of Hawaii at Manoa,\\2505 Correa Rd, Honolulu, HI, 96822, USA}
 %\altaffiliation{Observational Astronomy 301}
 
@@ -84,12 +85,8 @@ LS analysis on ATLAS Pathfinder Telescope data, verified PS variability criteria
 
 
 \section{Introduction}
-
-International Celestial Reference System (ICRS)\\
-right ascension (RA) and declination (Dec)\\
-slanted greater than or equal to: $\geqslant$\\
-unslanted greater than or equal to: $\geq$\\
-\begin{itemize}
+\iffalse
+	\begin{itemize}
 	\item{} why we care
 	\item{} what made us care about this project
 	\item{} NO structure $/$ distance stuff (maybe put it in looking forward section at end)
@@ -99,19 +96,26 @@ unslanted greater than or equal to: $\geq$\\
 	%\item{} why do we want to find variables and care about where they are located
 	\item{} Summary: we ran LS, analyzed stars, why did we do it all
 	\item{} Mention what will be discussed: ``in section 2 we describe the observations we used...''
-\end{itemize}
+	\end{itemize}
+\fi
 
-Initially, determination of variability was going to be achieved using data collected by the $gri Project$~\cite{gri}.  %The $gri Project$ is [EXPLAIN]...\\
-In order to reduce aliasing, extra observations needed to be made.  Observation procedures are discussed in~\cref{sec:data}.
+
+Initially, determination of variability was going to be achieved using data collected by the $gri~Project$~\cite{gri}.  %The $gri Project$ is [EXPLAIN]...\\
+In order to reduce aliasing, extra observations needed to be collected.  Desired galactic coordinates had to 
+be converted to right ascension (RA) and declination (Dec), before feeding observations to the Pathfinder telescope.
+Observation procedures are discussed in~\cref{sec:data}.
 %~[PATHFINDER USED FOR GRI DATA...the reduction process is discussed at length Tonry in...cite]\\
-We received the reduced image data from the ATLAS pipeline~\cite{gri}.
+Our field of view (FOV) spanned $340~deg^{2}$ and contained 1.5 billion stars.  Once we received the reduced 
+image data from the ATLAS pipeline~\cite{gri}, the $315,992$ most variable candidates were isolated and subjected to 
+more comprehensive variability classification.  Methods used to identify RR Lyrae stars are discussed in~\cref{sec:RRcrit}.
+  
 %\cite{PSimgpipe,*tonrypipe}
 
 
 \section{ATLAS Pathfinder Observations}
 
 
-We used the $0.18$~m Asteroid Terrestrial-impact Last Alert System (ATLAS) Pathfinder telescope~\citep{fallingstar} at the Mauna Loa. The field of view (FOV) of the telescope is $5.2^{\circ}$ with the angular resolution (effective PSF FWHM) of $5$". Thanks to its wide FOV, it is suitable for our project, wide field study. The spatial resolution, however, is not great. For this reason, we chose our field to be slightly off the galactic plane.
+We used the $0.18$~m Asteroid Terrestrial-impact Last Alert System (ATLAS) Pathfinder telescope~\citep{fallingstar} at the Mauna Loa. The FOV of this telescope is $5.2^{\circ}$, with the angular resolution (effective PSF FWHM) of $5$". Thanks to its wide FOV, it is suitable for our project, wide field study. The spatial resolution, however, is not great. For this reason, we chose our field to be slightly off the galactic plane.
 
 
 
@@ -171,8 +175,8 @@ To calculate an appropriate sampling frequency and SNR, typical RR Lyrae light c
 %~[MENTION THAT OUR OBS NECESSARY TO REDUCE ALIASING]\\
 
 
-Using the Pathfinder telescope, observations were made at two galactic latitudes ($b=\pm5^{\circ}$) and spanned a range of galactic longitudes ($202^{\circ} < l < 232^{\circ}$).  Observations discussed here indicated the center of each FOV.  
-Exposures were collected for 20~s and separated by $3^{\circ}$ longitudinally.  For implementation by the Pathfinder telescope, a conversion to RA and Dec was made; giving a range of roughly $90 < RA < 120^{\circ}$ and $-23^{\circ} < Dec < 18^{\circ}$, as shown by Figure~\ref{fig:simoverlap}.  In total, $340 deg^{2}$ was observed.  To account for the 0.05~$^{\circ}$ gap between the detectors, a 0.1~$^{\circ}$ offset in RA was implemented on every other night.  
+Using the Pathfinder telescope, observations were made at two galactic latitudes ($b~=~\pm5^{\circ}$) and spanned a range of galactic longitudes ($202^{\circ}~\leq~l~\leq~232^{\circ}$).  Observations discussed here indicated the center of each FOV.  
+Exposures were collected for 20~s and separated by $3^{\circ}$ longitudinally.  For implementation by the Pathfinder telescope, a conversion to RA and Dec was made; giving a range of roughly $90~\leq~RA~\leq~120^{\circ}$ and $-23^{\circ}~\leq~Dec~\leq~18^{\circ}$, as shown by Figure~\ref{fig:simoverlap}.  In total, $340~deg^{2}$ was observed.  To account for the 0.05~$^{\circ}$ gap between the detectors, a 0.1~$^{\circ}$ offset in RA was implemented on every other night.  
 %Ten observations per night were collected for 20 nights, spanning 3/8/16-3/27/16.
 %Observations were collected between 3/8/16-3/27/16.  During this 20 day period, we collected 10 observations per night.  
 Spanning 20 nights (including 5 additional nights to the lower limit sampling duration of 15 nights), 10 observations a night were collected on 3/8/16-3/27/16.  Luckily, all of these nights had weather perfectly attuned for observations.  Half a night of observations were lost on 3/19/26, due to a crash of the server controlling the telescope.
@@ -180,7 +184,7 @@ Spanning 20 nights (including 5 additional nights to the lower limit sampling du
 
 %0.1 deg offset in RA, accounts for 0.05 deg gap between the two detectors.
 %~\\~[dRA = dangle / cos(Dec)]
-Observations were traced out by moving the FOV by $3^{\circ}$ longitudinally, starting at $b=-5^{\circ}$, $l=202^{\circ}$ and ending at $b=-5^{\circ}$, $l=232^{\circ}$.  Once observations at $b=-5^{\circ}$ were complete, the FOV was shifted to $b=+5^{\circ}$, $l=232^{\circ}$. Then observations were collected in steps of $3^{\circ}$, longitudinally, until $l = 202 ^{\circ}$. 
+Observations were traced out by moving the FOV by $3^{\circ}$ longitudinally, starting at $b=-5^{\circ}$, $l=202^{\circ}$ and ending at $b=-5^{\circ}$, $l=232^{\circ}$.  Once observations at $b=-5^{\circ}$ were complete, the FOV was shifted to $b~=~+5^{\circ}$, $l=232^{\circ}$. Then observations were collected in steps of $3^{\circ}$, longitudinally, until $l=202^{\circ}$. 
 %Observations were traced out by taking the first exposure at $b^{II}=-5^{\circ}$ and $l^{II}=202^{\circ}$, moving the FOV longitudinally by $3^{\circ}$
 %Starting at $b^{II}=-5^{\circ}$ and $l^{II}=202^{\circ}$, exposures were collected for 20~s
 %Observations were made by starting at $b^{II}=-5^{\circ}$ and $l^{II}=202^{\circ}$, moving the ...Each exposure was collected for 20
@@ -247,7 +251,9 @@ Once observations were made, the data had to be sorted and grouped.  Resolving i
 matching the coordinates of each object with all other collected data, to within a tolerance of $0.001^{\circ}$.  
 The particular sorting algorithm, written by J. Tonry~\cite{gri}, is discussed in~\cref{sec:HPS}.  Grouping data 
 with such high precision eliminates the possibility that observations of a particular object overlap.  
-In doing so, we remove contamination and make each grouping as characteristic as possible, for its intended star.
+In doing so, we remove contamination and make each grouping as characteristic as possible, for its intended star.  
+Figure~\ref{fig:LC} shows an example light curve, constructed by grouping all observations of a single star.  
+Apparent magnitude is plotted against time, with $m_{g}$, $m_{r}$, and $m_{i}$ plotted in green, red, and blue, respectively.
 %This removes contamination and makes each grouping as characteristic as possible, for its intended star.
 %This makes the grouping of each star as characteristic of the object as possible, without any contamination.  
 
@@ -328,7 +334,7 @@ To extract periods from light curves, the Fast Fourier Transform (FFT) is usuall
 
 
 
-\section{RR Lyrae Selection Criteria}
+\section{RR Lyrae Selection Criteria}\label{sec:RRcrit}
 
 \iffalse
 \begin{itemize}
@@ -575,24 +581,23 @@ A paper, \textit{Finding, Characterizing and Classifying Variable Sources in Mul
 		\begin{tabular}{|c|c|c|c|c|c|c|c|}\hline
 			%HPS stat & nonvar15 & var15 \\ \hline
 HPS $\rho_{RRLyrae}$ & $HPS_{total}$ & $HPS_{matched}$ & $HPS_{completeness}$ & RR Lyrae & Not RR Lyrae & Prob(RR) & Prob(notRR) \\ \hline
-0.0-0.05 & 5029 & 138 	&	& 46 		& 92 & 0.33 & 0.67 \\ \hline
-0.05-0.1 & 124 	& 25 	&	& 12 		& 13 & 0.48 & 0.52 \\ \hline
-0.1-0.2 & 154 	& 38 	&	& 19 		& 19 & 0.50 & 0.50 \\ \hline
-0.2-0.3 & 116 	& 36 	&	& 15 		& 21 & 0.42 & 0.58 \\ \hline
-0.3-0.4 & 82 	& 36 	&	& 22 		& 14 & 0.61 & 0.39 \\ \hline
-0.4-0.5 & 85 	& 34 	&	& 20		& 14 & 0.59 & 0.41 \\ \hline
-0.5-0.6 & 90 	& 41 	&	& 22		& 19 & 0.54 & 0.46 \\ \hline
-0.6-0.7 & 89 	& 47 	&	& 28		& 19 & 0.60 & 0.40 \\ \hline
-0.7-0.8 & 64 	& 39 	&	& 28 		& 11 & 0.72 & 0.28 \\ \hline
-0.8-0.9 & 46 	& 28 	&	& 23 		& 5 & 0.82 & 0.18 \\ \hline
-0.9-1.0 & 21 	& 15 	&	& 9			& 6 & 0.60 & 0.40 \\ \hline
+0.0-0.05 & 5029 & 138 	& 0.27 & 46 		& 92 & 0.33 & 0.67 \\ \hline
+0.05-0.1 & 124 	& 25 	& 0.20 & 12 		& 13 & 0.48 & 0.52 \\ \hline
+0.1-0.2 & 154 	& 38 	& 0.25 & 19 		& 19 & 0.50 & 0.50 \\ \hline
+0.2-0.3 & 116 	& 36 	& 0.31 & 15 		& 21 & 0.42 & 0.58 \\ \hline
+0.3-0.4 & 82 	& 36 	& 0.44 & 22 		& 14 & 0.61 & 0.39 \\ \hline
+0.4-0.5 & 85 	& 34 	& 0.40 & 20		& 14 & 0.59 & 0.41 \\ \hline
+0.5-0.6 & 90 	& 41 	& 0.46 & 22		& 19 & 0.54 & 0.46 \\ \hline
+0.6-0.7 & 89 	& 47 	& 0.53 & 28		& 19 & 0.60 & 0.40 \\ \hline
+0.7-0.8 & 64 	& 39 	& 0.61 & 28 		& 11 & 0.72 & 0.28 \\ \hline
+0.8-0.9 & 46 	& 28 	& 0.61& 23 		& 5 & 0.82 & 0.18 \\ \hline
+0.9-1.0 & 21 	& 15 	& 0.71 & 9			& 6 & 0.60 & 0.40 \\ \hline
 \hline
-0.0-1.0 & 5900 & 477 & & 244 & 233 & 0.51 & 0.49  \\ \hline
+0.0-1.0 & 5900 & 477 & 0.08 & 244 & 233 & 0.51 & 0.49  \\ \hline
 		\end{tabular}
 	\end{center}
-\caption{ \small{A comparison of verified observations and HPS RR Lyrae candidates. In this table, data is separated into various ranges of HPS's RR Lyrae variability criteria, $\rho_{RRLyrae}$.  Integer values represent the number of stars that lie within a particular range.  The three values given as decimals ($HPS_{completeness}$, Prob(RR), and Prob(notRR)) represent fractional percentages.  Calculation of each column is discussed in~\cref{sec:HPS}.\label{tab:HPSlim15}}}
+\caption{ \small{A comparison of verified observations and HPS RR Lyrae candidates. In this table, data is separated into various ranges of HPS's RR Lyrae variability criteria, $\rho_{RRLyrae}$.  Integer values represent the number of stars that lie within a particular range.  The three values given as decimals ($HPS_{completeness}$, Prob(RR), and Prob(notRR)) represent fractional percentages.  Calculation methods of each column is discussed in~\cref{sec:HPS}.\label{tab:HPSlim15}}}
 \end{table*}
-
 
 %[46, 12, 19, 15, 22, 20, 22, 28, 28, 23, 9, 0]
 %[92, 13, 19, 21, 14, 14, 19, 19, 11, 5, 6, 0]
@@ -647,12 +652,12 @@ The same matching algorithm~\cite{gri} made comparing observations with other va
 To evaluate the HPS RR Lyrae criteria, our observations were matched to stars analyzed for variability, by HPS.  
 Shown in Table~\ref{tab:HPSlim15} and Figure~\ref{fig:probrrHPS}, there is no correlation between HPS criteria and 
 verified RR Lyrae stars.  HPS claims any star with an assigned $\rho_{RRLyrae}~\geq~0.20$, is most likely an RR Lyrae.  Furthermore, 
-if $\rho_{RRLyrae} > 0.05$, the candidate is definitively an RR Lyrae.  Figure~\ref{fig:probrrHPS} shows the fractional 
+if $\rho_{RRLyrae}~\geq~0.05$, the candidate is definitively an RR Lyrae.  Figure~\ref{fig:probrrHPS} shows the fractional 
 portion of observed RR Lyrae, that matched to stars that have been assigned $\rho_{RRLyrae}$, by HPS.
 There is a distinct correlation between confirmed RR Lyrae and assigned $\rho_{RRLyrae}$ values.  However, over $16\%$ of 
-all observed RR Lyrae, that matched to HPS stars, have $\rho_{RRLyrae} < 0.20$.  Similarly, $10\%$ of all matched RR Lyrae 
-fall below $\rho_{RRLyrae} < 0.05$.  Of all 244 matched RR Lyrae, only 9 have the highest RR Lyrae 
-probability assigned, $\rho_{RRLyrae} > 0.90$.
+all observed RR Lyrae, that matched to HPS stars, have $\rho_{RRLyrae}~\leq~0.20$.  Similarly, $10\%$ of all matched RR Lyrae 
+fall below $\rho_{RRLyrae}~\leq~0.05$.  Of all 244 matched RR Lyrae, only 9 have the highest RR Lyrae 
+probability assigned, $\rho_{RRLyrae}~\geq~0.90$.
 
 
 \begin{figure}[H]
@@ -666,10 +671,10 @@ probability assigned, $\rho_{RRLyrae} > 0.90$.
 
 Shown in Figure~\ref{fig:probnotrrHPS}, there exists an inverse relationship, between non-RR Lyrae confirmed stars and HPS 
 assigned $\rho_{RRLyrae}$.   
-All stars confirmed as not begin RR Lyrae should have assigned $\rho_{RRLyrae} > 0.20$, according to HPS; yet $23\%$ of 
-all matched stars do not meet this criteria.  Complete validity of HPS's $\rho_{RRLyrae}$ would be indicated by 0 verified, 
-non-RR Lyrae stars, being matched with a $\rho_{RRLyrae} > 0.05$.  This is not the case, with $30\%$ of all matched stars begin 
-confirmed non-RR Lyrae and having an assigned $\rho_{RRLyrae} > 0.05$.  While HPS's $\rho_{RRLyrae}$ may indicate if a star is 
+All stars confirmed as not begin RR Lyrae should have assigned $\rho_{RRLyrae}~\geq~0.20$, according to HPS; yet $23\%$ of 
+all matched stars do not meet this criteria.  Complete validity of HPS's $\rho_{RRLyrae}$ would be indicated by 0 verified,
+non-RR Lyrae, stars being matched with a $\rho_{RRLyrae}~\geq~0.05$.  This is not the case, with $30\%$ of all matched stars begin 
+confirmed non-RR Lyrae and having an assigned $\rho_{RRLyrae}~\geq~0.05$.  While HPS's $\rho_{RRLyrae}$ may indicate if a star is 
 an RR Lyrae, it is not sufficient for absolute determination.
 
 
