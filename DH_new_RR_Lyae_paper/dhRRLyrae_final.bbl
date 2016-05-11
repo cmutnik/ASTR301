@@ -52,8 +52,8 @@
   \bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{{Kolenberg}}},
   \bibnamefont{and}
   \bibinfo{author}{\bibfnamefont{Z.}~\bibnamefont{{Koll{\'a}th}}},
-  \bibinfo{journal}{\mnras} \textbf{\bibinfo{volume}{452}},
-  \bibinfo{pages}{4283} (\bibinfo{year}{2015}), \eprint{1507.04714}.
+  \textbf{\bibinfo{volume}{452}}, \bibinfo{pages}{4283} (\bibinfo{year}{2015}),
+  \eprint{1507.04714}.
 
 \bibitem[{\citenamefont{{Hernitschek} et~al.}(2016)\citenamefont{{Hernitschek},
   {Schlafly}, {Sesar}, {Rix}, {Hogg}, {Ivezi{\'c}}, {Grebel}, {Bell}, {Martin},
